@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "c761c4ad0ffcaf11",
+    "type": "split",
+    "children": [
+      {
+        "id": "e445f1915d63f017",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21d95e75065a53af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_platforms/wifi/01 Recon.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 Recon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f5d7803a753a4db",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c668f23abde99b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "934e2cbc2384afdc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8fc447678d0a1f4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a0f7bd1e16e8de56",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b11f7fb38e451789",
+    "type": "split",
+    "children": [
+      {
+        "id": "81765afc5a4803f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4bb984abcfef4286",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02_platforms/WiFi/01 Recon.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01 Recon"
+            }
+          },
+          {
+            "id": "890be79859e5fb84",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02_platforms/WiFi/01 Recon.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 01 Recon"
+            }
+          },
+          {
+            "id": "fea16f6b337ced72",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7fa87d1fa325aedb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0bdd402cbb634c6d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02_platforms/WiFi/01 Recon.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 01 Recon"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "21d95e75065a53af",
+  "lastOpenFiles": [
+    "02_platforms/wifi/assets/Pasted image 20260222230339.png",
+    "02_platforms/_index.md",
+    "02_platforms/wifi/01 Recon.md",
+    "02_platforms/wifi/01_recon.md",
+    "02_platforms/wifi/_index.md",
+    "02_platforms/wifi/01_recon",
+    "02_platforms/wifi/index.md",
+    "02_platforms/wifi/assets/Pasted image 20260222220611.png",
+    "02_platforms/wifi/assets/Pasted-image-20260222214944.png",
+    "02_platforms/wifi/attachments/Pasted image 20260222214944.png",
+    "02_platforms/wifi/assets/Pasted image 20260222214129.png",
+    "02_platforms/wifi/assets/Pasted image 20260222213927.png",
+    "02_platforms/wifi/assets/Pasted image 20260222213650.png",
+    "Pasted.md",
+    "02_platforms/wifi/assets/Pasted image 20260222211833.png",
+    "02_platforms/wifi/assets/Pasted image 20260222211651.png",
+    "02_platforms/wifi/assets/Pasted image 20260222210246.png",
+    "02_platforms/wifi/assets/Pasted image 20260222210017.png",
+    "02_platforms/wifi/assets",
+    "_index.md",
+    "02_platforms/Windows",
+    "02_platforms/wifi",
+    "02_platforms/Linux",
+    "02_platforms/Active-Directory",
+    "05_detection",
+    "04_playbooks",
+    "03_techniques",
+    "02_platforms"
+  ]
+}

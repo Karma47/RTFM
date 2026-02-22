@@ -1,0 +1,10 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "RTFM"
+theme = "hextra"
+
+enableRobotsTXT = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
