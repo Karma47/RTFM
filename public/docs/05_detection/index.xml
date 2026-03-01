@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Detection</title>
-    <link>http://localhost:1313/docs/05_detection/</link>
+    <link>https://docs.blankdash.com/docs/05_detection/</link>
     <description>Recent content in Detection on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/05_detection/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://docs.blankdash.com/docs/05_detection/index.xml" rel="self" type="application/rss+xml" />
     
     
       

@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Platforms</title>
-    <link>http://localhost:1313/docs/02_platforms/</link>
+    <link>https://docs.blankdash.com/docs/02_platforms/</link>
     <description>Recent content in Platforms on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	  <atom:link href="http://localhost:1313/docs/02_platforms/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://docs.blankdash.com/docs/02_platforms/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>WI-FU</title>
-      <link>http://localhost:1313/docs/02_platforms/wifi/</link>
+      <link>https://docs.blankdash.com/docs/02_platforms/wifi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/02_platforms/wifi/</guid>
+      <guid>https://docs.blankdash.com/docs/02_platforms/wifi/</guid>
       <description>
         
         

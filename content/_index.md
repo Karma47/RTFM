@@ -1,14 +1,36 @@
 ---
 title: "Home"
-description: "My personal knowledge base"
+description: "Portfolio and personal site"
 ---
 
-# Welcome 👋
+# Hello, I'm [Your Name]
 
-This is my digital garden.
+Welcome to my portfolio! I'm a Cyber Security <span id="role">Specialist</span> who specializes in:
 
-- 📚 Notes
-- 🧠 Thoughts
-- 🛠 Projects
+<script>
+// rotate the word in the #role element every 2 seconds
+(() => {
+  const words = ["Specialist","Analyst","Consultant","Engineer","Researcher","Expert","Evangelist"];
+  let i = 0;
+  const el = document.getElementById('role');
+  if (!el) return;
+  setInterval(() => {
+    i = (i + 1) % words.length;
+    el.textContent = words[i];
+  }, 2000);
+})();
+</script>
 
-Use the sidebar to explore. [Go to Docs](/docs/)
+- 🌐 Web development and design
+- 🔐 Cybersecurity research
+- 🧩 Open-source contributions
+
+## Featured Projects
+
+1. **Project Alpha** – A tool for ...
+2. **Project Beta** – An open-source library that ...
+3. **Project Gamma** – A blog detailing ...
+
+Feel free to browse through the links below or check out my [notes](/notes/) and [GitHub](https://github.com/yourusername).
+
+> "Crafting solutions, one line at a time."
