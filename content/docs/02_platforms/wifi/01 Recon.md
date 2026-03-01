@@ -10,9 +10,9 @@ $ airmon-ng --verbose
 ```bash
 airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 ```
-![[Pasted image 20260209180220.png]]
+
 - We can also see the output capture files are saved for the further analysis.
-![[Pasted image 20260209180336.png]]
+
 
 #### 02. What is the MAC of the wifi-IT client?
 - From the previous output we can see that the BSSID of the client wifi-IT is `F0:9F:C2:1A:CA:25`
@@ -20,14 +20,14 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 ```bash
 airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps
 ```
-![[Pasted image 20260209180816.png]]
+
 
 #### 03. What is the probe of 78:C1:A7:BF:72:46 ?
 - We can run `airodump-ng` again to check the probe of provided address.
 ```bash
 airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 ```
-![[Pasted image 20260209181120.png]]
+
 #### 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
 - Prepare a wordlist with the common patterns `wifi-$words`
 ```
@@ -50,7 +50,7 @@ wifi-nicole
 ```bash
 $ airodump-ng wlan0mon
 ```
-![[Pasted image 20260209182423.png]]
+
 - We can see that it's running in `channel 11`
 - The below explains the options set for the program (refer to mdk4 man page)
 	- `p` - SSID Probing and Bruteforcing
@@ -60,6 +60,5 @@ $ airodump-ng wlan0mon
 iwconfig wlan0mon channel 11
 mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
 ```
-![[Pasted image 20260209182631.png]]
 
-![](/docs//docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png)
+![](/docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png)

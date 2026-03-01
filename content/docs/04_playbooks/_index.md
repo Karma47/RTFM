@@ -1,5 +1,5 @@
 ---
-title: Platforms
+title: Playbooks
 description: All my notes
 ---
 This contains the notes for attacking various platforms. 

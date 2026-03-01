@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>RTFM</title>
-  <meta name="description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg![[Pasted image 20260209180220.png]]" /><link rel="canonical" href="http://localhost:1313/docs/02_platforms/wifi/01-recon/" itemprop="url" />
+  <meta name="description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist" /><link rel="canonical" href="http://localhost:1313/docs/02_platforms/wifi/01-recon/" itemprop="url" />
 
 <meta property="og:title" content="">
 <meta
@@ -43,7 +43,103 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   
 
 
-![[Pasted image 20260209180220.png]]
+
+We can also see the output capture files are saved for the further analysis.
+
+02. What is the MAC of the wifi-IT client?
+    
+From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25
+Using this information we can identify the MAC of the essid wifi-IT
+
+
+
+airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps
+  
+    
+
+  
+
+
+03. What is the probe of 78:C1:A7:BF:72:46 ?
+    
+We can run airodump-ng again to check the probe of provided address.
+
+
+
+airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
+  
+    
+
+  
+
+
+04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?
+    
+Prepare a wordlist with the common patterns wifi-$words
+
+
+
+cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlist
+  
+    
+
+  
+
+
+
+This wordlist will be use to brute force the wifi essids
+Verify the generated list, which looks like the below listed example.
+
+
+
+$ less wifi.wordlist
+wifi-123456
+wifi-12345
+wifi-123456789
+...
+wifi-12345678
+wifi-abc123
+wifi-nicole
+  
+    
+
+  
+
+
+
+We can now use mdk4 to bruteforce the essid of the provided address.
+First find the channel of the provided AP
+
+
+
+$ airodump-ng wlan0mon
+  
+    
+
+  
+
+
+
+We can see that it&rsquo;s running in channel 11
+The below explains the options set for the program (refer to mdk4 man page)
+
+p - SSID Probing and Bruteforcing
+-t - Set MAC address of target AP
+-f - Read SSIDs from file for bruteforcing hidden SSIDs
+
+
+
+
+
+iwconfig wlan0mon channel 11
+mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
+  
+    
+
+  
+
+
+
     
   ">
 <meta
@@ -57,11 +153,11 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 
 
   <meta itemprop="name" content="RTFM">
-  <meta itemprop="description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg![[Pasted image 20260209180220.png]]">
-  <meta itemprop="wordCount" content="298">
+  <meta itemprop="description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
+  <meta itemprop="wordCount" content="280">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="RTFM">
-  <meta name="twitter:description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg![[Pasted image 20260209180220.png]]">
+  <meta name="twitter:description" content="01. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -127,6 +223,28 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
 
     <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
         
+          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Detection</span>
+    </a>
+  </div></li>
+          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/01_methodology/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Methodology</span>
+    </a>
+  </div></li>
           <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
@@ -135,10 +253,23 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
       href="/docs/02_platforms/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Notes</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Platforms</span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/02_platforms/wifi/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">WI-FU</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
         <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
@@ -148,6 +279,45 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">01 Recon</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
+          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Playbooks</span>
+    </a>
+  </div></li>
+          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/03_techniques/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Techniques</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/03_techniques/01-using-certutil/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">01 Using Cert Util</span>
     </a>
   </div>
               
@@ -260,7 +430,10 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
           <a href="/docs/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Docs</a>
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
-          <a href="/docs/02_platforms/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Notes</a>
+          <a href="/docs/02_platforms/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Platforms</a>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
+          <a href="/docs/02_platforms/wifi/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">WI-FU</a>
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">01 Recon</div>
   </div>
 
@@ -303,10 +476,8 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   </button>
 </div>
 </div>
-<p>![[Pasted image 20260209180220.png]]</p>
 <ul>
-<li>We can also see the output capture files are saved for the further analysis.
-![[Pasted image 20260209180336.png]]</li>
+<li>We can also see the output capture files are saved for the further analysis.</li>
 </ul>
 <h4>02. What is the MAC of the wifi-IT client?<span class="hx:absolute hx:-mt-20" id="02-what-is-the-mac-of-the-wifi-it-client"></span>
     <a href="#02-what-is-the-mac-of-the-wifi-it-client" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
@@ -327,7 +498,6 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   </button>
 </div>
 </div>
-<p>![[Pasted image 20260209180816.png]]</p>
 <h4>03. What is the probe of 78:C1:A7:BF:72:46 ?<span class="hx:absolute hx:-mt-20" id="03-what-is-the-probe-of-78c1a7bf7246-"></span>
     <a href="#03-what-is-the-probe-of-78c1a7bf7246-" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
 <li>We can run <code>airodump-ng</code> again to check the probe of provided address.</li>
@@ -346,7 +516,6 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   </button>
 </div>
 </div>
-<p>![[Pasted image 20260209181120.png]]</p>
 <h4>04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?<span class="hx:absolute hx:-mt-20" id="04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826"></span>
     <a href="#04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><ul>
 <li>Prepare a wordlist with the common patterns <code>wifi-$words</code></li>
@@ -408,7 +577,6 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   </button>
 </div>
 </div>
-<p>![[Pasted image 20260209182423.png]]</p>
 <ul>
 <li>We can see that it&rsquo;s running in <code>channel 11</code></li>
 <li>The below explains the options set for the program (refer to mdk4 man page)
@@ -434,7 +602,6 @@ airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg
   </button>
 </div>
 </div>
-<p>![[Pasted image 20260209182631.png]]</p>
 <p><img src="/docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png" alt=""  loading="lazy" /></p>
 
         </div>

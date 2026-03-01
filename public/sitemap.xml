@@ -4,14 +4,26 @@
   <url>
     <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/02_platforms/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/02_platforms/wifi/</loc>
   </url>
 </urlset>
