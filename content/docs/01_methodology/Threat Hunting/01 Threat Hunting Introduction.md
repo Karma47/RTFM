@@ -19,7 +19,7 @@ The dwell time is computed based on the following categories.
 - Notify - Time to successfully notify appropriate contacts
 ##### Additional Metrics
 In addition to Dwell time, there are other metrics such as DRAIN CVR, Efficiency Metrics, Implementation Metrics, Impact Metrics and Proxy Metrics.
-#### 1.2Threat Hunting in Enterprises 
+#### 1.2 Threat Hunting in Enterprises 
 The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure. 
 
 The below image represents the complimentary threat hunting positioning in an enterprise infrastructure. 
