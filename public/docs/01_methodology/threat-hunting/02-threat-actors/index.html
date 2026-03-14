@@ -506,7 +506,7 @@ These threat actors are strategic and methodical in executing their attack chain
           <h4>2.1 Types of Threat Actors<span class="hx:absolute hx:-mt-20" id="21-types-of-threat-actors"></span>
     <a href="#21-types-of-threat-actors" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.</p>
 <p>These threat actors are strategic and methodical in executing their attack chain. According to <a href="https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle"target="_blank" rel="noopener">Mandiant Targeted attack life cycle</a>, these predictable sequence of event.<br>
-<img src="/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314145910.png" alt=""  loading="lazy" /></p>
+<img src="/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314145910.png" alt=""  loading="lazy" /></p>
 <h5>2.1.1 Different types of targets or motivations:<span class="hx:absolute hx:-mt-20" id="211-different-types-of-targets-or-motivations"></span>
     <a href="#211-different-types-of-targets-or-motivations" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><ol>
 <li>A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.</li>
@@ -577,8 +577,8 @@ These threat actors are strategic and methodical in executing their attack chain
     <a href="#22-ransomware-threat-actors" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Ransomware threat actors are individuals or groups that develop, distribute, or operate ransomware malware to extort money from victims by encrypting data or threatening to leak stolen information unless a ransom is paid.</p>
 <p>These actors are considered <strong>adversarial threat sources</strong> in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.</p>
 <p><a href="https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf"target="_blank" rel="noopener">DarkTrack Threat discovery</a> defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp; Recovery, The Cycle Repeats.<br>
-<img src="/docs/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314151116.png" alt=""  loading="lazy" />
-Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
+<img src="/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314151116.png" alt=""  loading="lazy" /></p>
+<p>Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&rsquo;t look at connections
 and events on a one-off basis.</p>
 <p>The paper <strong>“<a href="https://arxiv.org/pdf/2304.11681"target="_blank" rel="noopener">Money Over Morals: A Business Analysis of Conti Ransomware</a>”</strong> analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than <strong>168,000</strong> leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that <strong>over $80 million in ransom payments</strong> were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels <strong>666 Bitcoin addresses</strong> linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.</p>
@@ -658,7 +658,7 @@ and events on a one-off basis.</p>
       </tr>
   </tbody>
 </table>
-<p><img src="/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314153921.png" alt=""  loading="lazy" />
+<p><img src="/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314153921.png" alt=""  loading="lazy" />
 The threat actors within the same weather family are given an adjective to distinguish actor groups that that distinct TTPs, objectives or other patterns.</p>
 
         </div>

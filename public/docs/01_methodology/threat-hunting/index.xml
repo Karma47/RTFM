@@ -53,7 +53,7 @@ Cyber threat hunting is the process of proactively searching for undetected thre
 &lt;p&gt;The below image represents the complimentary threat hunting positioning in an enterprise infrastructure.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
-&lt;img src=&#34;http://localhost:1313/docs/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an &amp;ldquo;Incident&amp;rdquo; will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident.&lt;/p&gt;
 &lt;p&gt;More or less, threat hunting is like looking for &lt;strong&gt;smoke before a fire&lt;/strong&gt;. Due to this nature, a threat hint doesn&amp;rsquo;t wait for an alert signals, instructions, alarms or event indicators of compromise, but rather questions everything form a hypothesis, and try to prove or disprove the original hypothesis.&lt;/p&gt;
@@ -105,7 +105,7 @@ These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (t
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/docs/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -171,7 +171,7 @@ More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.threathunting.net/sqrrl-archive&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sqrrl Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/docs/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;1.5.2 Unstructured Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-unstructured-threat-hunting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#152-unstructured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
 &lt;h5&gt;1.5.3 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;153-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
@@ -193,7 +193,7 @@ More or less, the workflow looks as shown below&lt;/p&gt;
         &lt;h4&gt;2.1 Types of Threat Actors&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-types-of-threat-actors&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#21-types-of-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
 &lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/docs/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;2.1.1 Different types of targets or motivations:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-different-types-of-targets-or-motivations&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#211-different-types-of-targets-or-motivations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.&lt;/li&gt;
@@ -264,8 +264,8 @@ More or less, the workflow looks as shown below&lt;/p&gt;
     &lt;a href=&#34;#22-ransomware-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ransomware threat actors are individuals or groups that develop, distribute, or operate ransomware malware to extort money from victims by encrypting data or threatening to leak stolen information unless a ransom is paid.&lt;/p&gt;
 &lt;p&gt;These actors are considered &lt;strong&gt;adversarial threat sources&lt;/strong&gt; in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/docs/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
-Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&amp;rsquo;t look at connections
 and events on a one-off basis.&lt;/p&gt;
 &lt;p&gt;The paper &lt;strong&gt;“&lt;a href=&#34;https://arxiv.org/pdf/2304.11681&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Money Over Morals: A Business Analysis of Conti Ransomware&lt;/a&gt;”&lt;/strong&gt; analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than &lt;strong&gt;168,000&lt;/strong&gt; leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that &lt;strong&gt;over $80 million in ransom payments&lt;/strong&gt; were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels &lt;strong&gt;666 Bitcoin addresses&lt;/strong&gt; linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.&lt;/p&gt;
@@ -343,18 +343,10 @@ and events on a one-off basis.&lt;/p&gt;
           &lt;td&gt;Groups in development&lt;/td&gt;
           &lt;td&gt;Storm&lt;/td&gt;
       &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;The threat actors within the same weather family are given an adjective to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-          &lt;td&gt;&lt;/td&gt;
-      &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted%20image%2020260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+The threat actors within the same weather family are given an adjective to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;
 
       </description>
     </item>
