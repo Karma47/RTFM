@@ -2,7 +2,7 @@
 The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor. 
 
 These threat actors are strategic and methodical in executing their attack chain. According to [Mandiant Targeted attack life cycle](https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle), these predictable sequence of event.  
-![](/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314145910.png)
+![](/docs/01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260314145910.png)
 ##### 2.1.1 Different types of targets or motivations:
 1. A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.
 2. They may also target a group or organization to gain a business advantage, engage in corporate rivalry, steal intellectual property, or obtain financial benefits.
@@ -34,7 +34,8 @@ Ransomware threat actors are individuals or groups that develop, distribute, or 
 These actors are considered **adversarial threat sources** in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.
 
 [DarkTrack Threat discovery](https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf) defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold & Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up & Recovery, The Cycle Repeats.  
-![](/docs//docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314151116.png)
+![](/docs/01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260314151116.png)
+
 Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn't look at connections
 and events on a one-off basis.
@@ -65,5 +66,5 @@ In the [Microsoft threat actor taxonomy](https://www.microsoft.com/en-us/securit
 | Influence operations            | Influence Operations  | Flood       |
 | Groups in development           | Groups in development | Storm       |
 
-![](/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260314153921.png)
+![](/docs/01_methodology/Threat%20Hunting/assets/Pasted%20image%2020260314153921.png)
 The threat actors within the same weather family are given an adjective to distinguish actor groups that that distinct TTPs, objectives or other patterns. 

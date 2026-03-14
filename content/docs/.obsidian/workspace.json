@@ -11,6 +11,24 @@
             "id": "21d95e75065a53af",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "01_methodology/Threat Hunting/assets/Pasted image 20260314145910.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260314145910"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d4c9bcd9e25d5b4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14b262bc2cf7d13b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
@@ -94,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_platforms/WiFi/01 Recon.md",
+                "file": "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 01 Recon"
+              "title": "Backlinks for 01 Threat Hunting Introduction"
             }
           },
           {
@@ -183,14 +201,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "21d95e75065a53af",
+  "active": "14b262bc2cf7d13b",
   "lastOpenFiles": [
     "01_methodology/Threat Hunting/02 Threat Actors.md",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260314153921.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260314151116.png",
-    "01_methodology/Threat Hunting/assets/Pasted image 20260314151040.png",
-    "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260314145910.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314151040.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314151116.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314153921.png",
+    "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "_index.md",
     "06_tools/06.1_web/Whois.md",
     "02_platforms/web/Web Application Enumeration.md",
