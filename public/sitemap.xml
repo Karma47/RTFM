@@ -4,33 +4,33 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/03_techniques/01-using-certutil/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/04_playbooks/01-incident-response/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/draft/02-threat-actors/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/draft/03-threat-communication/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/draft/04-hunting-with-data/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/draft/05-custom-threat-hunting/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/draft/06-threat-hunting-in-cloud/</loc>
-  </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/wifi/01-recon/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/whois/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/draft/03-threat-communication/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/draft/04-hunting-with-data/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/draft/05-custom-threat-hunting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/draft/06-threat-hunting-in-cloud/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/05_detection/</loc>
+    <loc>http://localhost:1313/docs/05_detection/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
   </url><url>
@@ -40,11 +40,11 @@
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/04_playbooks/</loc>
+    <loc>http://localhost:1313/docs/04_playbooks/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/01_methodology/03_techniques/</loc>
+    <loc>http://localhost:1313/docs/03_techniques/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/</loc>
   </url><url>

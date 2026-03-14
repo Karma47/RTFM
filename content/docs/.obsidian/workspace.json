@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
+                "file": "01_methodology/Threat Hunting/02 Threat Actors.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 Threat Hunting Introduction"
+              "title": "02 Threat Actors"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b11f7fb38e451789",
@@ -185,9 +186,15 @@
   },
   "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314153921.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314151116.png",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314151040.png",
+    "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
+    "01_methodology/Threat Hunting/02 Threat Actors.md",
+    "01_methodology/Threat Hunting/assets/Pasted image 20260314145910.png",
+    "_index.md",
     "06_tools/06.1_web/Whois.md",
     "02_platforms/web/Web Application Enumeration.md",
-    "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "06_tools/06.1_web/_index.md",
     "06_tools/_index.md",
     "05_detection/_index.md",
@@ -195,7 +202,6 @@
     "04_playbooks/_index.md",
     "03_techniques/01 Using CertUTIL.md",
     "03_techniques/_index.md",
-    "Draft/02 Threat Actors.md",
     "Draft/06 Threat Hunting in Cloud.md",
     "Draft",
     "Draft/05 Custom Threat Hunting.md",
@@ -211,7 +217,6 @@
     "01_methodology/Threat Hunting",
     "06_tools/06.2_network/_index.md",
     "02_platforms/web/_index.md",
-    "_index.md",
     "01_methodology/web/web_tools/_index.md",
     "06_tools/06.2_network",
     "06_tools/06.1_web",
@@ -223,13 +228,9 @@
     "02_platforms/lab_tracker.md.html",
     "02_platforms/wifi/_index.md",
     "02_platforms/wifi/01 Recon.md",
-    "02_platforms/_index.md",
     "02_platforms/wifi/assets/Pasted image 20260222230339.png",
     "02_platforms/wifi/assets/Pasted image 20260222220611.png",
     "02_platforms/wifi/assets/Pasted-image-20260222214944.png",
-    "02_platforms/wifi/attachments/Pasted image 20260222214944.png",
-    "02_platforms/wifi/assets/Pasted image 20260222214129.png",
-    "02_platforms/wifi/assets/Pasted image 20260222213927.png",
-    "02_platforms/wifi/assets/Pasted image 20260222213650.png"
+    "02_platforms/wifi/attachments/Pasted image 20260222214944.png"
   ]
 }

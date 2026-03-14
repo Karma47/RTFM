@@ -46,7 +46,7 @@ These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (t
 |HMM3|Innovative|Hypothesis-driven hunting that analyzes behaviors and uncovers previously unknown threats.|
 |HMM4|Leading|Advanced hunting with automation, large telemetry analysis, and continuous detection engineering.|
 
-![](/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260312234325.png)
+![](/docs//docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260312234325.png)
 More or less, the workflow looks as shown below
 ```
 Alerts → IOC search → Structured hunts → Hypothesis hunting → Automated hunting
@@ -82,7 +82,7 @@ Threat Hunting Frameworks
 - [Sqrrl Threat Hunting Framework](https://www.threathunting.net/sqrrl-archive)
 - [MITRE ATT&CK Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
 
-![](/docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260313000913.png)
+![](/docs//docs/01_methodology/Threat-Hunting/assets/Pasted%20image%2020260313000913.png)
 ##### 1.5.2 Unstructured Threat Hunting
 An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
