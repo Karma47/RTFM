@@ -24,7 +24,7 @@ The threat hunting process itself is complimentary to the standard incident dete
 
 The below image represents the complimentary threat hunting positioning in an enterprise infrastructure. 
 - [Crowdstrike Threat Hunting Process](https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/)
-![](/docs/01_methodology/threat-hunting/assets/Pasted%20image%20260312231306.png)
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png)
 
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an "Incident" will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident. 
 
@@ -46,7 +46,7 @@ These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (t
 |HMM3|Innovative|Hypothesis-driven hunting that analyzes behaviors and uncovers previously unknown threats.|
 |HMM4|Leading|Advanced hunting with automation, large telemetry analysis, and continuous detection engineering.|
 
-![](/docs/01_methodology/threat-hunting/assets/Pasted%20image%20260312234325.png)
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png)
 More or less, the workflow looks as shown below
 ```
 Alerts → IOC search → Structured hunts → Hypothesis hunting → Automated hunting
@@ -82,7 +82,7 @@ Threat Hunting Frameworks
 - [Sqrrl Threat Hunting Framework](https://www.threathunting.net/sqrrl-archive)
 - [MITRE ATT&CK Based Hunting](https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf)
 
-![](/docs/01_methodology/threat-hunting/assets/Pasted%20image%20260313000913.png)
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png)
 ##### 1.5.2 Unstructured Threat Hunting
 An unstructured hunt is more reactive than a structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
