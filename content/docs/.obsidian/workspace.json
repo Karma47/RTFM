@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_methodology/Threat Hunting/03 Threat Communication.md",
+                "file": "Draft/03 Threat Communication.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,7 +183,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "21d95e75065a53af",
+  "active": "934e2cbc2384afdc",
   "lastOpenFiles": [
     "01_methodology/Threat Hunting/assets/Pasted image 20260317233457.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260317232616.png",
@@ -191,7 +191,7 @@
     "01_methodology/Threat Hunting/assets/Pasted image 20260317232149.png",
     "01_methodology/Threat Hunting/assets/Pasted image 20260317231522.png",
     "01_methodology/Threat Hunting/02 Threat Actors.md",
-    "01_methodology/Threat Hunting/03 Threat Communication.md",
+    "Draft/03 Threat Communication.md",
     "01_methodology/Threat Hunting/assets",
     "01_methodology/Threat Hunting/01 Threat Hunting Introduction.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260314153921.png",
