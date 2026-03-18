@@ -160,4 +160,5 @@ The creation of structured and actionable reports that communicate threat insigh
 
 There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.
 - [CTI Blueprint](https://center-for-threat-informed-defense.github.io/cti-blueprints/)
-![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319002702.png)
+
+![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png)
