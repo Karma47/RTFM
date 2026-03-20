@@ -34,12 +34,12 @@ The FIRST **Traffic Light Protocol (TLP)** is a standardized framework used to c
 TLP uses a set of color-coded designations to indicate how widely information can be shared, making it simple and effective for operational use across security teams.
 ###### TLP Classification Table
 
-|TLP Level|Color|Description|Sharing Scope|
-|---|---|---|---|
-|**TLP:RED**|🔴 Red|Highly sensitive information|Restricted to specific individuals only|
-|**TLP:AMBER**|🟠 Orange|Sensitive information with limited risk|Shared within the organization or trusted parties|
-|**TLP:GREEN**|🟢 Green|Information useful for awareness|Shared within the community but not public|
-|**TLP:CLEAR** _(formerly WHITE)_|⚪ White|Non-sensitive information|Can be shared publicly|
+| TLP Level                        | Color     | Description                             | Sharing Scope                                     |
+| -------------------------------- | --------- | --------------------------------------- | ------------------------------------------------- |
+| **TLP:RED**                      | 🔴 Red    | Highly sensitive information            | Restricted to specific individuals only           |
+| **TLP:AMBER**                    | 🟠 Orange | Sensitive information with limited risk | Shared within the organization or trusted parties |
+| **TLP:GREEN**                    | 🟢 Green  | Information useful for awareness        | Shared within the community but not public        |
+| **TLP:CLEAR** _(formerly WHITE)_ | ⚪ White   | Non-sensitive information               | Can be shared publicly                            |
 ##### 3.1.2 Intelligence feeds
 According to [TaHiTI ](https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process. 
 
