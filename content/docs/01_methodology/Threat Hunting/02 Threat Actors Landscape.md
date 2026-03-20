@@ -6,12 +6,12 @@ authors: ["Prasanna"]
 
 {{< meta >}}
 
-#### 2.1 Types of Threat Actors
+#### 2.1 Adversary Classification
 The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor. 
 
 These threat actors are strategic and methodical in executing their attack chain. According to [Mandiant Targeted attack life cycle](https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle), these predictable sequence of event.  
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png)
-##### 2.1.1 Different types of targets or motivations:
+##### 2.1.1 Threat Actor Motivations & Objectives
 1. A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.
 2. They may also target a group or organization to gain a business advantage, engage in corporate rivalry, steal intellectual property, or obtain financial benefits.
 3. In some cases, threat actors target nation-states, driven by political motives within a country, through cross-border cyberattacks or other forms of cyber operations.
@@ -75,4 +75,5 @@ In the [Microsoft threat actor taxonomy](https://www.microsoft.com/en-us/securit
 | Groups in development           | Groups in development | Storm       |
 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png)
-ve to distinguish actor groups that that distinct TTPs, objectives or other patterns. 
+
+Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns. 

@@ -1,7 +1,8 @@
 ---
-title: "[06] Threat Hunting in Cloud"
+title: "[05 Threat Hunting in Cloud"
 date: 2026-03-19
-authors: ["Prasanna"]
+authors:
+  - Prasanna
 draft: true
 ---
 

@@ -6,7 +6,7 @@ authors: ["Prasanna"]
 
 {{< meta >}}
 
-#### 3.1 Information collection - Inbound
+#### 3.1 Threat Feed Intake & Processing
 Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.
 
 Ideally, when information is collected, it is categorized into different forms based on its context and level of analysis. These classifications typically include:
@@ -40,7 +40,7 @@ TLP uses a set of color-coded designations to indicate how widely information ca
 | **TLP:AMBER**                    | 🟠 Orange | Sensitive information with limited risk | Shared within the organization or trusted parties |
 | **TLP:GREEN**                    | 🟢 Green  | Information useful for awareness        | Shared within the community but not public        |
 | **TLP:CLEAR** _(formerly WHITE)_ | ⚪ White   | Non-sensitive information               | Can be shared publicly                            |
-##### 3.1.2 Intelligence feeds
+##### 3.1.2 Intelligence feed Integration
 According to [TaHiTI ](https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf) Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process. 
 
 The goal of intelligence is to act as the following;
@@ -146,9 +146,9 @@ Below is an example STIX JSON object in which a threat actor Disco Team operates
 ```
 
 Either by collecting large pool of raw data or by aggregating a standardized STIX data and analyzing them would result in a reasonable threat intelligence coverage.  The coverage for intelligence will have to be evaluated periodically to enhance the threat intel capabilities and there really is no defined end game to it. 
-#### 3.2 Information Dissemination
+#### 3.2 Intelligence dissemination strategy
 The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.
-##### 3.2.1 Disclosure Protocols
+##### 3.2.1 Disclosure Guidelines & Methods
 Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
 Here’s a simple **list of disclosure types**:
 
@@ -163,7 +163,7 @@ Here’s a simple **list of disclosure types**:
 The [Automated Responsible Disclosure of Security Vulnerabilities](https://ieeexplore.ieee.org/document/9606687) is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency. 
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png)
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future. 
-##### 3.2.2 Threat Intelligence Reporting
+##### 3.2.2 Cyber Threat Reporting
 The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.
 
 There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.

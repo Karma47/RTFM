@@ -1,7 +1,8 @@
 ---
-title: "[03] Hunting with Data"
+title: "[04] Hunting with Data"
 date: 2026-03-19
-authors: ["Prasanna"]
+authors:
+  - Prasanna
 draft: true
 ---
 

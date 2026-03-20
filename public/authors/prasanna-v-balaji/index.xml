@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Prasanna V Balaji</title><link>https://docs.blankdash.com/authors/prasanna-v-balaji/</link><description>Recent content in Prasanna V Balaji on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.blankdash.com/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml"/><item><title>[03] Threat Communication</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-communication/</link><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-communication/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Prasanna V Balaji</title><link>https://docs.blankdash.com/authors/prasanna-v-balaji/</link><description>Recent content in Prasanna V Balaji on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.blankdash.com/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml"/><item><title>[03] Threat Communication</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</link><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</guid><description>
 &lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
 &lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
 By:
@@ -12,8 +12,8 @@ Prasanna
 &lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
 &lt;time style="font-style: italic;"&gt;March 19, 2026&lt;/time&gt;
 &lt;/div&gt;
-&lt;h4&gt;3.1 Information collection - Inbound&lt;span class="hx:absolute hx:-mt-20" id="31-information-collection---inbound"&gt;&lt;/span&gt;
-&lt;a href="#31-information-collection---inbound" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.&lt;/p&gt;
+&lt;h4&gt;3.1 Threat Feed Intake &amp;amp; Processing&lt;span class="hx:absolute hx:-mt-20" id="31-threat-feed-intake--processing"&gt;&lt;/span&gt;
+&lt;a href="#31-threat-feed-intake--processing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.&lt;/p&gt;
 &lt;p&gt;Ideally, when information is collected, it is categorized into different forms based on its context and level of analysis. These classifications typically include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Information&lt;/strong&gt; – Raw data (e.g., telemetry, logs)&lt;/li&gt;
@@ -69,8 +69,8 @@ Prasanna
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h5&gt;3.1.2 Intelligence feeds&lt;span class="hx:absolute hx:-mt-20" id="312-intelligence-feeds"&gt;&lt;/span&gt;
-&lt;a href="#312-intelligence-feeds" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a href="https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf"target="_blank" rel="noopener"&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
+&lt;h5&gt;3.1.2 Intelligence feed Integration&lt;span class="hx:absolute hx:-mt-20" id="312-intelligence-feed-integration"&gt;&lt;/span&gt;
+&lt;a href="#312-intelligence-feed-integration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a href="https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf"target="_blank" rel="noopener"&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
 &lt;p&gt;The goal of intelligence is to act as the following;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Starting point for hunting&lt;/li&gt;
@@ -235,10 +235,10 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Either by collecting large pool of raw data or by aggregating a standardized STIX data and analyzing them would result in a reasonable threat intelligence coverage. The coverage for intelligence will have to be evaluated periodically to enhance the threat intel capabilities and there really is no defined end game to it.&lt;/p&gt;
-&lt;h4&gt;3.2 Information Dissemination&lt;span class="hx:absolute hx:-mt-20" id="32-information-dissemination"&gt;&lt;/span&gt;
-&lt;a href="#32-information-dissemination" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.&lt;/p&gt;
-&lt;h5&gt;3.2.1 Disclosure Protocols&lt;span class="hx:absolute hx:-mt-20" id="321-disclosure-protocols"&gt;&lt;/span&gt;
-&lt;a href="#321-disclosure-protocols" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
+&lt;h4&gt;3.2 Intelligence dissemination strategy&lt;span class="hx:absolute hx:-mt-20" id="32-intelligence-dissemination-strategy"&gt;&lt;/span&gt;
+&lt;a href="#32-intelligence-dissemination-strategy" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.&lt;/p&gt;
+&lt;h5&gt;3.2.1 Disclosure Guidelines &amp;amp; Methods&lt;span class="hx:absolute hx:-mt-20" id="321-disclosure-guidelines--methods"&gt;&lt;/span&gt;
+&lt;a href="#321-disclosure-guidelines--methods" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
 Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -273,13 +273,13 @@ Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&g
 &lt;p&gt;The &lt;a href="https://ieeexplore.ieee.org/document/9606687"target="_blank" rel="noopener"&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
 &lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png" alt="" loading="lazy" /&gt;
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.&lt;/p&gt;
-&lt;h5&gt;3.2.2 Threat Intelligence Reporting&lt;span class="hx:absolute hx:-mt-20" id="322-threat-intelligence-reporting"&gt;&lt;/span&gt;
-&lt;a href="#322-threat-intelligence-reporting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
+&lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class="hx:absolute hx:-mt-20" id="322-cyber-threat-reporting"&gt;&lt;/span&gt;
+&lt;a href="#322-cyber-threat-reporting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
 &lt;p&gt;There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://center-for-threat-informed-defense.github.io/cti-blueprints/"target="_blank" rel="noopener"&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png" alt="" loading="lazy" /&gt;&lt;/p&gt;</description></item><item><title>[02] Threat Actors</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors/</guid><description>
+&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png" alt="" loading="lazy" /&gt;&lt;/p&gt;</description></item><item><title>[02] Threat Actors</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid><description>
 &lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
 &lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
 By:
@@ -293,12 +293,12 @@ Prasanna
 &lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
 &lt;time style="font-style: italic;"&gt;March 18, 2026&lt;/time&gt;
 &lt;/div&gt;
-&lt;h4&gt;2.1 Types of Threat Actors&lt;span class="hx:absolute hx:-mt-20" id="21-types-of-threat-actors"&gt;&lt;/span&gt;
-&lt;a href="#21-types-of-threat-actors" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have. Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
+&lt;h4&gt;2.1 Adversary Classification&lt;span class="hx:absolute hx:-mt-20" id="21-adversary-classification"&gt;&lt;/span&gt;
+&lt;a href="#21-adversary-classification" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have. Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
 &lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a href="https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle"target="_blank" rel="noopener"&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
 &lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
-&lt;h5&gt;2.1.1 Different types of targets or motivations:&lt;span class="hx:absolute hx:-mt-20" id="211-different-types-of-targets-or-motivations"&gt;&lt;/span&gt;
-&lt;a href="#211-different-types-of-targets-or-motivations" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
+&lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class="hx:absolute hx:-mt-20" id="211-threat-actor-motivations--objectives"&gt;&lt;/span&gt;
+&lt;a href="#211-threat-actor-motivations--objectives" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.&lt;/li&gt;
 &lt;li&gt;They may also target a group or organization to gain a business advantage, engage in corporate rivalry, steal intellectual property, or obtain financial benefits.&lt;/li&gt;
 &lt;li&gt;In some cases, threat actors target nation-states, driven by political motives within a country, through cross-border cyberattacks or other forms of cyber operations.&lt;/li&gt;
@@ -448,8 +448,8 @@ and events on a one-off basis.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png" alt="" loading="lazy" /&gt;
-ve to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;</description></item><item><title>[01] Threat Hunting Introduction</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</link><pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-introduction/</guid><description>
+&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;</description></item><item><title>[01] Threat Hunting Introduction</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link><pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid><description>
 &lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
 &lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
 By:
@@ -463,8 +463,8 @@ Prasanna
 &lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
 &lt;time style="font-style: italic;"&gt;March 14, 2026&lt;/time&gt;
 &lt;/div&gt;
-&lt;h4&gt;1.1 What is threat hunting ?&lt;span class="hx:absolute hx:-mt-20" id="11-what-is-threat-hunting-"&gt;&lt;/span&gt;
-&lt;a href="#11-what-is-threat-hunting-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a &lt;code&gt;hypotheses&lt;/code&gt; which provides context on what to look for. The below are some of the other definitions are accepted.&lt;/p&gt;
+&lt;h4&gt;1.1 Understanding Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="11-understanding-threat-hunting"&gt;&lt;/span&gt;
+&lt;a href="#11-understanding-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a &lt;code&gt;hypotheses&lt;/code&gt; which provides context on what to look for. The below are some of the other definitions are accepted.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Palo Alto Networks&lt;/strong&gt;&lt;br&gt;
 Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. &lt;a href="https://www.paloaltonetworks.sg/cyberpedia/threat-hunting"target="_blank" rel="noopener"&gt;Palo Alto Article&lt;/a&gt;&lt;/li&gt;
@@ -488,8 +488,8 @@ Cyber threat hunting is the process of proactively searching for undetected thre
 &lt;/ul&gt;
 &lt;h5&gt;Additional Metrics&lt;span class="hx:absolute hx:-mt-20" id="additional-metrics"&gt;&lt;/span&gt;
 &lt;a href="#additional-metrics" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;In addition to Dwell time, there are other metrics such as DRAIN CVR, Efficiency Metrics, Implementation Metrics, Impact Metrics and Proxy Metrics.&lt;/p&gt;
-&lt;h4&gt;1.2 Threat Hunting in Enterprises&lt;span class="hx:absolute hx:-mt-20" id="12-threat-hunting-in-enterprises"&gt;&lt;/span&gt;
-&lt;a href="#12-threat-hunting-in-enterprises" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure.&lt;/p&gt;
+&lt;h4&gt;1.2 Implementing Threat Hunting in Enterprises&lt;span class="hx:absolute hx:-mt-20" id="12-implementing-threat-hunting-in-enterprises"&gt;&lt;/span&gt;
+&lt;a href="#12-implementing-threat-hunting-in-enterprises" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure.&lt;/p&gt;
 &lt;p&gt;The below image represents the complimentary threat hunting positioning in an enterprise infrastructure.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/"target="_blank" rel="noopener"&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
@@ -598,8 +598,8 @@ data-copied-label="Copied!"
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4&gt;1.5 Threat Hunting Types&lt;span class="hx:absolute hx:-mt-20" id="15-threat-hunting-types"&gt;&lt;/span&gt;
-&lt;a href="#15-threat-hunting-types" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.5.1 Structured Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="151-structured-threat-hunting"&gt;&lt;/span&gt;
+&lt;h4&gt;1.5 Hunting Approaches &amp;amp; Strategies&lt;span class="hx:absolute hx:-mt-20" id="15-hunting-approaches--strategies"&gt;&lt;/span&gt;
+&lt;a href="#15-hunting-approaches--strategies" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.5.1 Structured Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="151-structured-threat-hunting"&gt;&lt;/span&gt;
 &lt;a href="#151-structured-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A structured threat hunting used formal frameworks, such as the &lt;a href="https://www.ibm.com/think/topics/mitre-attack"target="_blank" rel="noopener"&gt;MITRE Adversary Tactics Techniques and Common Knowledge (ATT&amp;amp;CK) framework&lt;/a&gt;, guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.&lt;/p&gt;
 &lt;p&gt;Threat Hunting Frameworks&lt;/p&gt;
 &lt;ul&gt;
@@ -612,6 +612,6 @@ data-copied-label="Copied!"
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png" alt="" loading="lazy" /&gt;
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
-&lt;h5&gt;1.5.3 Situational + Entity-Driven Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="153-situational--entity-driven-threat-hunting"&gt;&lt;/span&gt;
-&lt;a href="#153-situational--entity-driven-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href="https://www.ibm.com/topics/risk-management"target="_blank" rel="noopener"&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
+&lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="152-situational--entity-driven-threat-hunting"&gt;&lt;/span&gt;
+&lt;a href="#152-situational--entity-driven-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href="https://www.ibm.com/topics/risk-management"target="_blank" rel="noopener"&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
 &lt;p&gt;Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.&lt;/p&gt;</description></item></channel></rss>

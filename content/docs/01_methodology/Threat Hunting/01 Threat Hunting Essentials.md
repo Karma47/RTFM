@@ -6,7 +6,7 @@ authors: ["Prasanna"]
 
 {{< meta >}}
 
-#### 1.1 What is threat hunting ?
+#### 1.1 Understanding Threat Hunting
 Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a `hypotheses` which provides context on what to look for. The below are some of the other definitions are accepted.  
 - **Palo Alto Networks**  
     Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. [Palo Alto Article](https://www.paloaltonetworks.sg/cyberpedia/threat-hunting)
@@ -27,7 +27,7 @@ The dwell time is computed based on the following categories.
 - Notify - Time to successfully notify appropriate contacts
 ##### Additional Metrics
 In addition to Dwell time, there are other metrics such as DRAIN CVR, Efficiency Metrics, Implementation Metrics, Impact Metrics and Proxy Metrics.
-#### 1.2 Threat Hunting in Enterprises 
+#### 1.2 Implementing Threat Hunting in Enterprises 
 The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure. 
 
 The below image represents the complimentary threat hunting positioning in an enterprise infrastructure. 
@@ -76,7 +76,7 @@ In order to defend against such threats many leading security companies provide 
 |Intelligence-Driven Hunting|Hunts based on threat intelligence about specific attacker groups or campaigns.|
 |Hypothesis-Driven Hunting|Hunts based on attacker techniques and behaviors (often mapped to MITRE ATT&CK).|
 |Compromise Assessment|A deep investigation to determine whether attackers are already present.|
-#### 1.5 Threat Hunting Types
+#### 1.5 Hunting Approaches & Strategies
 
 ##### 1.5.1 Structured Threat Hunting
 A structured threat hunting used formal frameworks, such as the [MITRE Adversary Tactics Techniques and Common Knowledge (ATT&CK) framework](https://www.ibm.com/think/topics/mitre-attack), guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.
@@ -92,7 +92,7 @@ Threat Hunting Frameworks
 ![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png)
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.
 
-##### 1.5.3 Situational + Entity-Driven Threat Hunting
+##### 1.5.2 Situational + Entity-Driven Threat Hunting
 A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal [risk assessment](https://www.ibm.com/topics/risk-management) or a trends and vulnerabilities analysis of the IT environment.  
 
 Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.
