@@ -246,7 +246,7 @@ description: "Portfolio and personal site"
 
 ## 📺 Latest Videos
 
-<iframe width="900" height="315" src="https://www.youtube.com/embed/WGidtNRHpko?si=q1QoplpL_wkl2qug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/WGidtNRHpko?si=q1QoplpL_wkl2qug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Vulnhub - kioptrix 4](https://www.youtube.com/watch?v=LNsNu7bksE0)
 - [Vulnhub - Kioptrix 3](https://www.youtube.com/watch?v=ImiwQj6UGfM)
