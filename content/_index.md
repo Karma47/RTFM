@@ -178,10 +178,34 @@ description: "Portfolio and personal site"
     <div class="cert-name">CCSK</div>
   </a>
 
-  <!-- OSCP -->
+  <!-- CEI -->
+  <a class="cert-item" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=ZaHqVPs7HNncXxwRS25I1r998S1Vyc5Qcrw4dYPWzRU=" target="_blank">
+    <img src="/images/certs/CEI.webp">
+    <div class="cert-name">CEI</div>
+  </a>
+
+  <!-- HTB Xen -->
+  <a class="cert-item" href="" target="_blank">
+    <img src="/images/certs/xen.webp">
+    <div class="cert-name">XEN Pro Labs</div>
+  </a>
+
+  <!-- OSCP+ -->
   <a class="cert-item" href="" target="_blank">
     <img src="/images/certs/oscp.png">
-    <div class="cert-name">OSCP (In Progress)</div>
+    <div class="cert-name">OSCP+ (In Progress)</div>
+  </a>
+
+  <!-- OSDA -->
+  <a class="cert-item" href="" target="_blank">
+    <img src="/images/certs/OSDA.svg">
+    <div class="cert-name">OSDA (In Progress)</div>
+  </a>
+
+  <!-- CISSP -->
+  <a class="cert-item" href="" target="_blank">
+    <img src="/images/certs/cissp.png">
+    <div class="cert-name">CISSP (In Progress)</div>
   </a>
 
 </div>
