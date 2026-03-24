@@ -1,0 +1,18 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Security Analysis</title>
+    <link>https://docs.blankdash.com/docs/01_methodology/security-analysis/</link>
+    <description>Recent content in Security Analysis on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	  <atom:link href="https://docs.blankdash.com/docs/01_methodology/security-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+  </channel>
+</rss>

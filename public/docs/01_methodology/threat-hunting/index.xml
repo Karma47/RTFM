@@ -1,19 +1,62 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Threat Hunting</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/</link><description>Recent content in Threat Hunting on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.blankdash.com/docs/01_methodology/threat-hunting/index.xml" rel="self" type="application/rss+xml"/><item><title>[03] Threat Communication</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</link><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</guid><description>
-&lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
-&lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
-By:
-&lt;a href="https://www.linkedin.com/in/prasannavbalaji" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;" onmouseover="this.style.borderBottom='1px solid #0a66c2'" onmouseout="this.style.borderBottom='1px solid transparent'"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"&gt;
-&lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/&gt;
-&lt;/svg&gt;
-Prasanna
-&lt;/a&gt;
-&lt;/span&gt;
-&lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
-&lt;time style="font-style: italic;"&gt;March 19, 2026&lt;/time&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Threat Hunting</title>
+    <link>http://localhost:1313/docs/01_methodology/threat-hunting/</link>
+    <description>Recent content in Threat Hunting on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/01_methodology/threat-hunting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>[03] Threat Communication</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
 &lt;/div&gt;
-&lt;h4&gt;3.1 Threat Feed Intake &amp;amp; Processing&lt;span class="hx:absolute hx:-mt-20" id="31-threat-feed-intake--processing"&gt;&lt;/span&gt;
-&lt;a href="#31-threat-feed-intake--processing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.&lt;/p&gt;
+&lt;h4&gt;3.1 Threat Feed Intake &amp;amp; Processing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;31-threat-feed-intake--processing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#31-threat-feed-intake--processing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Continuous information collection is essential for enabling real-time threat monitoring within an organization. The data collected through this process feeds into threat intelligence feeds and the Threat Intelligence Platform (TIP). Once ingested into the TIP, the information is systematically classified and enriched, allowing it to be effectively leveraged for threat hunting activities.&lt;/p&gt;
 &lt;p&gt;Ideally, when information is collected, it is categorized into different forms based on its context and level of analysis. These classifications typically include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Information&lt;/strong&gt; – Raw data (e.g., telemetry, logs)&lt;/li&gt;
@@ -27,284 +70,469 @@ Prasanna
 &lt;p&gt;The primary focus in this context is &lt;strong&gt;intelligence&lt;/strong&gt;, which may encompass elements from multiple classifications listed above. For example, an intelligence report may describe a threat actor leveraging specific Tactics, Techniques, and Procedures (TTPs) to exploit identified weaknesses in target environments—weaknesses that may also exist within your organization’s network or products. In such a scenario, the intelligence contains a combination of information, threats, and weaknesses.&lt;/p&gt;
 &lt;p&gt;Based on this intelligence, the threat hunting team can proactively initiate investigations to identify potential indicators of compromise or ongoing attacks within the environment.&lt;/p&gt;
 &lt;p&gt;Effectively communicating threat intelligence requires adherence to standardized procedures and protocols to ensure proper handling and dissemination. One of the most widely adopted frameworks for this purpose is the Traffic Light Protocol (TLP), which provides a simple and intuitive mechanism for classifying and sharing sensitive information.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The above image is an example of how Threat Intelligence and Threat Hunting would fit into a cybersecurity operations process. The goal is to make sure that there is a strong feedback loop that flows back as a source into the pipeline.&lt;/p&gt;
-&lt;h5&gt;3.1.1 Traffic Light Protocol&lt;span class="hx:absolute hx:-mt-20" id="311-traffic-light-protocol"&gt;&lt;/span&gt;
-&lt;a href="#311-traffic-light-protocol" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The FIRST &lt;strong&gt;Traffic Light Protocol (TLP)&lt;/strong&gt; is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.&lt;/p&gt;
+&lt;h5&gt;3.1.1 Traffic Light Protocol&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;311-traffic-light-protocol&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#311-traffic-light-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The FIRST &lt;strong&gt;Traffic Light Protocol (TLP)&lt;/strong&gt; is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.&lt;/p&gt;
 &lt;p&gt;TLP uses a set of color-coded designations to indicate how widely information can be shared, making it simple and effective for operational use across security teams.&lt;/p&gt;
-&lt;h6&gt;TLP Classification Table&lt;span class="hx:absolute hx:-mt-20" id="tlp-classification-table"&gt;&lt;/span&gt;
-&lt;a href="#tlp-classification-table" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;TLP Level&lt;/th&gt;
-&lt;th&gt;Color&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;th&gt;Sharing Scope&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;TLP:RED&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;🔴 Red&lt;/td&gt;
-&lt;td&gt;Highly sensitive information&lt;/td&gt;
-&lt;td&gt;Restricted to specific individuals only&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;TLP:AMBER&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;🟠 Orange&lt;/td&gt;
-&lt;td&gt;Sensitive information with limited risk&lt;/td&gt;
-&lt;td&gt;Shared within the organization or trusted parties&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;TLP:GREEN&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;🟢 Green&lt;/td&gt;
-&lt;td&gt;Information useful for awareness&lt;/td&gt;
-&lt;td&gt;Shared within the community but not public&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;TLP:CLEAR&lt;/strong&gt; &lt;em&gt;(formerly WHITE)&lt;/em&gt;&lt;/td&gt;
-&lt;td&gt;⚪ White&lt;/td&gt;
-&lt;td&gt;Non-sensitive information&lt;/td&gt;
-&lt;td&gt;Can be shared publicly&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+&lt;h6&gt;TLP Classification Table&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;tlp-classification-table&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#tlp-classification-table&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h6&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;TLP Level&lt;/th&gt;
+          &lt;th&gt;Color&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+          &lt;th&gt;Sharing Scope&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;TLP:RED&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🔴 Red&lt;/td&gt;
+          &lt;td&gt;Highly sensitive information&lt;/td&gt;
+          &lt;td&gt;Restricted to specific individuals only&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;TLP:AMBER&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🟠 Orange&lt;/td&gt;
+          &lt;td&gt;Sensitive information with limited risk&lt;/td&gt;
+          &lt;td&gt;Shared within the organization or trusted parties&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;TLP:GREEN&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;🟢 Green&lt;/td&gt;
+          &lt;td&gt;Information useful for awareness&lt;/td&gt;
+          &lt;td&gt;Shared within the community but not public&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;TLP:CLEAR&lt;/strong&gt; &lt;em&gt;(formerly WHITE)&lt;/em&gt;&lt;/td&gt;
+          &lt;td&gt;⚪ White&lt;/td&gt;
+          &lt;td&gt;Non-sensitive information&lt;/td&gt;
+          &lt;td&gt;Can be shared publicly&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h5&gt;3.1.2 Intelligence feed Integration&lt;span class="hx:absolute hx:-mt-20" id="312-intelligence-feed-integration"&gt;&lt;/span&gt;
-&lt;a href="#312-intelligence-feed-integration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a href="https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf"target="_blank" rel="noopener"&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
+&lt;h5&gt;3.1.2 Intelligence feed Integration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;312-intelligence-feed-integration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#312-intelligence-feed-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a href=&#34;https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
 &lt;p&gt;The goal of intelligence is to act as the following;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Starting point for hunting&lt;/li&gt;
 &lt;li&gt;Contextualizing and driving the hunt&lt;/li&gt;
 &lt;li&gt;Hunting to generate intelligence&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a href="https://www.splunk.com/"target="_blank" rel="noopener"&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png" alt="" loading="lazy" /&gt;
+&lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a href=&#34;https://www.splunk.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example of the Pain to attacker, Value to defender outlined.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Level&lt;/th&gt;
-&lt;th&gt;Example&lt;/th&gt;
-&lt;th&gt;Pain to Attacker&lt;/th&gt;
-&lt;th&gt;Value to Defender&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Hashes&lt;/td&gt;
-&lt;td&gt;File hash&lt;/td&gt;
-&lt;td&gt;Very low&lt;/td&gt;
-&lt;td&gt;Low&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;IPs/Domains&lt;/td&gt;
-&lt;td&gt;C2 server&lt;/td&gt;
-&lt;td&gt;Low&lt;/td&gt;
-&lt;td&gt;Low&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Tools&lt;/td&gt;
-&lt;td&gt;Mimikatz&lt;/td&gt;
-&lt;td&gt;Medium&lt;/td&gt;
-&lt;td&gt;Medium&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;TTPs&lt;/td&gt;
-&lt;td&gt;Credential dumping behavior&lt;/td&gt;
-&lt;td&gt;High&lt;/td&gt;
-&lt;td&gt;High&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Level&lt;/th&gt;
+          &lt;th&gt;Example&lt;/th&gt;
+          &lt;th&gt;Pain to Attacker&lt;/th&gt;
+          &lt;th&gt;Value to Defender&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hashes&lt;/td&gt;
+          &lt;td&gt;File hash&lt;/td&gt;
+          &lt;td&gt;Very low&lt;/td&gt;
+          &lt;td&gt;Low&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;IPs/Domains&lt;/td&gt;
+          &lt;td&gt;C2 server&lt;/td&gt;
+          &lt;td&gt;Low&lt;/td&gt;
+          &lt;td&gt;Low&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tools&lt;/td&gt;
+          &lt;td&gt;Mimikatz&lt;/td&gt;
+          &lt;td&gt;Medium&lt;/td&gt;
+          &lt;td&gt;Medium&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;TTPs&lt;/td&gt;
+          &lt;td&gt;Credential dumping behavior&lt;/td&gt;
+          &lt;td&gt;High&lt;/td&gt;
+          &lt;td&gt;High&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Hence, The Pyramid of Pain is important because it shifts threat intelligence from &lt;strong&gt;reactive blocking&lt;/strong&gt; to &lt;strong&gt;strategic disruption&lt;/strong&gt; which is exactly what mature threat hunting and intelligence programs aim for.&lt;/p&gt;
 &lt;p&gt;Based on the value to the defenders, the threat intelligence feeds can be classified into the four categories, each targeting different sets of audiences.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Level&lt;/th&gt;
-&lt;th&gt;Focus&lt;/th&gt;
-&lt;th&gt;Audience&lt;/th&gt;
-&lt;th&gt;Example&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Strategic&lt;/td&gt;
-&lt;td&gt;Why&lt;/td&gt;
-&lt;td&gt;Executives&lt;/td&gt;
-&lt;td&gt;Industry targeted by APT&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Operational&lt;/td&gt;
-&lt;td&gt;How (campaigns)&lt;/td&gt;
-&lt;td&gt;Managers&lt;/td&gt;
-&lt;td&gt;Ransomware campaign flow&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Tactical&lt;/td&gt;
-&lt;td&gt;Techniques (TTPs)&lt;/td&gt;
-&lt;td&gt;Analysts&lt;/td&gt;
-&lt;td&gt;Credential dumping method&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Technical&lt;/td&gt;
-&lt;td&gt;Indicators (IOCs)&lt;/td&gt;
-&lt;td&gt;Tools/SOC&lt;/td&gt;
-&lt;td&gt;Malicious IP/hash&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Level&lt;/th&gt;
+          &lt;th&gt;Focus&lt;/th&gt;
+          &lt;th&gt;Audience&lt;/th&gt;
+          &lt;th&gt;Example&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Strategic&lt;/td&gt;
+          &lt;td&gt;Why&lt;/td&gt;
+          &lt;td&gt;Executives&lt;/td&gt;
+          &lt;td&gt;Industry targeted by APT&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Operational&lt;/td&gt;
+          &lt;td&gt;How (campaigns)&lt;/td&gt;
+          &lt;td&gt;Managers&lt;/td&gt;
+          &lt;td&gt;Ransomware campaign flow&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Tactical&lt;/td&gt;
+          &lt;td&gt;Techniques (TTPs)&lt;/td&gt;
+          &lt;td&gt;Analysts&lt;/td&gt;
+          &lt;td&gt;Credential dumping method&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Technical&lt;/td&gt;
+          &lt;td&gt;Indicators (IOCs)&lt;/td&gt;
+          &lt;td&gt;Tools/SOC&lt;/td&gt;
+          &lt;td&gt;Malicious IP/hash&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;These structured threat intelligence can be obtained form various sources either public or private. There are threat intelligence providers and communities that share intelligence data such as&lt;/p&gt;
+&lt;p&gt;These structured threat intelligence can be obtained form various sources either public or private.  There are threat intelligence providers and communities that share intelligence data such as&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ISAC (IT-ISAC, OT-ISAC, AUTO-ISAC, A-ISAC, E-ISAC, etc.. )&lt;/li&gt;
 &lt;li&gt;Cyware, Recorded Future, Feedly etc..&lt;/li&gt;
 &lt;li&gt;MISP, OpenCTI etc..
-A number of these intelligence providers support structured threat intelligence in a standardized format called &lt;a href="https://oasis-open.github.io/cti-documentation/stix/intro.html"target="_blank" rel="noopener"&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a href="https://oasis-open.github.io/cti-documentation/taxii/intro.html"target="_blank" rel="noopener"&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
+A number of these intelligence providers support structured threat intelligence in a standardized format called &lt;a href=&#34;https://oasis-open.github.io/cti-documentation/stix/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a href=&#34;https://oasis-open.github.io/cti-documentation/taxii/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;TAXII requires two primary services to support intel sharing&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Collection - Interface to logical repository of CTI objects&lt;/li&gt;
 &lt;li&gt;Channel - Allows producers to push data to many consumers.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json"target="_blank" rel="noopener"&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&#34;https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.&lt;/p&gt;
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bundle&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;bundle--601cee35-6b16-4e68-a3e7-9ec7d755b4c3&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;objects&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;threat-actor&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2014-11-19T23:39:03.893Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2014-11-19T23:39:03.893Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Disco Team Threat Actor Group&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;This organized threat actor group operates to create profit from all types of crime.&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;threat_actor_types&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;crime-syndicate&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;aliases&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;Equipo del Discoteca&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;roles&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;agent&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;goals&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;Steal Credit Card Information&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;],&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;sophistication&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;expert&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;resource_level&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;organization&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;primary_motivation&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;personal-gain&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2016-08-23T18:05:49.307Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2016-08-23T18:05:49.307Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Disco Team&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;Disco Team is the name of an organized threat actor crime-syndicate.&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;identity_class&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;organization&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;contact_information&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;disco-team@stealthemail.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;},&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;relationship&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;relationship--a2e3efb5-351d-4d46-97a0-6897ee7c77a0&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2020-02-29T18:01:28.577Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;2020-02-29T18:01:28.577Z&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;relationship_type&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;attributed-to&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;source_ref&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nt"&gt;&amp;#34;target_ref&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
-&gt;
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;/button&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bundle&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bundle--601cee35-6b16-4e68-a3e7-9ec7d755b4c3&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;objects&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;threat-actor&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2014-11-19T23:39:03.893Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2014-11-19T23:39:03.893Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Disco Team Threat Actor Group&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;This organized threat actor group operates to create profit from all types of crime.&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;threat_actor_types&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;s2&#34;&gt;&amp;#34;crime-syndicate&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;aliases&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;s2&#34;&gt;&amp;#34;Equipo del Discoteca&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;roles&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;s2&#34;&gt;&amp;#34;agent&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;goals&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                &lt;span class=&#34;s2&#34;&gt;&amp;#34;Steal Credit Card Information&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;sophistication&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;expert&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;resource_level&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;organization&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;primary_motivation&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;personal-gain&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2016-08-23T18:05:49.307Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2016-08-23T18:05:49.307Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Disco Team&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;description&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Disco Team is the name of an organized threat actor crime-syndicate.&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;identity_class&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;organization&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;contact_information&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;disco-team@stealthemail.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;relationship&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;spec_version&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2.1&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;relationship--a2e3efb5-351d-4d46-97a0-6897ee7c77a0&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;created&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2020-02-29T18:01:28.577Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;modified&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;2020-02-29T18:01:28.577Z&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;relationship_type&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;attributed-to&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;source_ref&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;threat-actor--dfaa8d77-07e2-4e28-b2c8-92e9f7b04428&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;            &lt;span class=&#34;nt&#34;&gt;&amp;#34;target_ref&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity--733c5838-34d9-4fbf-949c-62aba761184c&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Either by collecting large pool of raw data or by aggregating a standardized STIX data and analyzing them would result in a reasonable threat intelligence coverage. The coverage for intelligence will have to be evaluated periodically to enhance the threat intel capabilities and there really is no defined end game to it.&lt;/p&gt;
-&lt;h4&gt;3.2 Intelligence dissemination strategy&lt;span class="hx:absolute hx:-mt-20" id="32-intelligence-dissemination-strategy"&gt;&lt;/span&gt;
-&lt;a href="#32-intelligence-dissemination-strategy" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.&lt;/p&gt;
-&lt;h5&gt;3.2.1 Disclosure Guidelines &amp;amp; Methods&lt;span class="hx:absolute hx:-mt-20" id="321-disclosure-guidelines--methods"&gt;&lt;/span&gt;
-&lt;a href="#321-disclosure-guidelines--methods" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
+&lt;p&gt;Either by collecting large pool of raw data or by aggregating a standardized STIX data and analyzing them would result in a reasonable threat intelligence coverage.  The coverage for intelligence will have to be evaluated periodically to enhance the threat intel capabilities and there really is no defined end game to it.&lt;/p&gt;
+&lt;h4&gt;3.2 Intelligence dissemination strategy&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;32-intelligence-dissemination-strategy&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#32-intelligence-dissemination-strategy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The process of sharing threat intelligence with the right stakeholders in a timely and structured manner to support decision making and defensive actions.&lt;/p&gt;
+&lt;h5&gt;3.2.1 Disclosure Guidelines &amp;amp; Methods&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;321-disclosure-guidelines--methods&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#321-disclosure-guidelines--methods&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;Guidelines and standards that control how and with whom information is shared, ensuring sensitive data is distributed securely commonly using frameworks like Traffic Light Protocol.
 Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Disclosure Type&lt;/th&gt;
-&lt;th&gt;Definition&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Full Disclosure&lt;/td&gt;
-&lt;td&gt;Release all details publicly immediately.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Coordinated Disclosure&lt;/td&gt;
-&lt;td&gt;Share with the vendor first, then publicize after a fix.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Responsible Disclosure&lt;/td&gt;
-&lt;td&gt;Ethical variant of coordinated disclosure prioritizing user safety.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Discretionary Disclosure&lt;/td&gt;
-&lt;td&gt;Researcher decides what, when, and with whom to share.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;No Disclosure&lt;/td&gt;
-&lt;td&gt;Keep the vulnerability entirely private.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Disclosure Type&lt;/th&gt;
+          &lt;th&gt;Definition&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Full Disclosure&lt;/td&gt;
+          &lt;td&gt;Release all details publicly immediately.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Coordinated Disclosure&lt;/td&gt;
+          &lt;td&gt;Share with the vendor first, then publicize after a fix.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Responsible Disclosure&lt;/td&gt;
+          &lt;td&gt;Ethical variant of coordinated disclosure prioritizing user safety.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Discretionary Disclosure&lt;/td&gt;
+          &lt;td&gt;Researcher decides what, when, and with whom to share.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;No Disclosure&lt;/td&gt;
+          &lt;td&gt;Keep the vulnerability entirely private.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;The &lt;a href="https://ieeexplore.ieee.org/document/9606687"target="_blank" rel="noopener"&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
-&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png" alt="" loading="lazy" /&gt;
+&lt;p&gt;The &lt;a href=&#34;https://ieeexplore.ieee.org/document/9606687&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.&lt;/p&gt;
-&lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class="hx:absolute hx:-mt-20" id="322-cyber-threat-reporting"&gt;&lt;/span&gt;
-&lt;a href="#322-cyber-threat-reporting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
+&lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;322-cyber-threat-reporting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#322-cyber-threat-reporting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
 &lt;p&gt;There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://center-for-threat-informed-defense.github.io/cti-blueprints/"target="_blank" rel="noopener"&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://center-for-threat-informed-defense.github.io/cti-blueprints/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png" alt="" loading="lazy" /&gt;&lt;/p&gt;</description></item><item><title>[02] Threat Actors</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid><description>
-&lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
-&lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
-By:
-&lt;a href="https://www.linkedin.com/in/prasannavbalaji" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;" onmouseover="this.style.borderBottom='1px solid #0a66c2'" onmouseout="this.style.borderBottom='1px solid transparent'"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"&gt;
-&lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/&gt;
-&lt;/svg&gt;
-Prasanna
-&lt;/a&gt;
-&lt;/span&gt;
-&lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
-&lt;time style="font-style: italic;"&gt;March 18, 2026&lt;/time&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[04] Hunting with Data</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
 &lt;/div&gt;
-&lt;h4&gt;2.1 Adversary Classification&lt;span class="hx:absolute hx:-mt-20" id="21-adversary-classification"&gt;&lt;/span&gt;
-&lt;a href="#21-adversary-classification" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have. Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
-&lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a href="https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle"target="_blank" rel="noopener"&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
-&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
-&lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class="hx:absolute hx:-mt-20" id="211-threat-actor-motivations--objectives"&gt;&lt;/span&gt;
-&lt;a href="#211-threat-actor-motivations--objectives" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
+&lt;h4&gt;4.1 Data types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;41-data-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#41-data-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.2 Network Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;42-network-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#42-network-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.3 Endpoint /Host Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;43-endpoint-host-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#43-endpoint-host-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.4 Authentication &amp;amp; Identity Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;44-authentication--identity-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#44-authentication--identity-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.5 File and Storage Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;45-file-and-storage-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#45-file-and-storage-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.6 Email Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;46-email-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#46-email-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.7 Cloud &amp;amp; SaaS Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;47-cloud--saas-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#47-cloud--saas-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.8 Application Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;48-application-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#48-application-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.9 Security Tool Telemetry&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;49-security-tool-telemetry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#49-security-tool-telemetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.10 Threat Intelligence Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;410-threat-intelligence-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#410-threat-intelligence-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.11 Memory Artifacts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;411-memory-artifacts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#411-memory-artifacts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>[05 Threat Hunting in Cloud</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[06] Threat Hunting in Cloud</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;7.1 What is a trust boundary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;71-what-is-a-trust-boundary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#71-what-is-a-trust-boundary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.2 Humans in parallel to Kernel Privilege Rings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;72-humans-in-parallel-to-kernel-privilege-rings&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#72-humans-in-parallel-to-kernel-privilege-rings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.3 Penetrating human trust boundary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;73-penetrating-human-trust-boundary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#73-penetrating-human-trust-boundary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.4 Anomalies of a social threat actor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;74-anomalies-of-a-social-threat-actor&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#74-anomalies-of-a-social-threat-actor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.5 Action on objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;75-action-on-objective&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#75-action-on-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.6 Defending against social engineering threats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;76-defending-against-social-engineering-threats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#76-defending-against-social-engineering-threats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.7 The Stockholm syndrome&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;77-the-stockholm-syndrome&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#77-the-stockholm-syndrome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.8 Breaking the pattern - Invisible chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;78-breaking-the-pattern---invisible-chain&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#78-breaking-the-pattern---invisible-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.9 Identifying and mitigate a compromise&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;79-identifying-and-mitigate-a-compromise&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#79-identifying-and-mitigate-a-compromise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.10 Face the truth, Conclusion&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;710-face-the-truth-conclusion&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#710-face-the-truth-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>[02] Threat Actors</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 18, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;2.1 Adversary Classification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-adversary-classification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-adversary-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
+&lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-threat-actor-motivations--objectives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#211-threat-actor-motivations--objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.&lt;/li&gt;
 &lt;li&gt;They may also target a group or organization to gain a business advantage, engage in corporate rivalry, steal intellectual property, or obtain financial benefits.&lt;/li&gt;
 &lt;li&gt;In some cases, threat actors target nation-states, driven by political motives within a country, through cross-border cyberattacks or other forms of cyber operations.&lt;/li&gt;
 &lt;li&gt;Finally, threat actors may target groups or communities to advance political or social causes.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The taxonomy of threat sources from &lt;strong&gt;&lt;a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf"target="_blank" rel="noopener"&gt;NIST 800-30&lt;/a&gt;&lt;/strong&gt; outlines the following types;&lt;/p&gt;
+&lt;p&gt;The taxonomy of threat sources from &lt;strong&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST 800-30&lt;/a&gt;&lt;/strong&gt; outlines the following types;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Adversarial:&lt;/strong&gt; Individuals, groups, organizations, or states that seek to exploit the organization’s dependence on cyber resources&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Accidental:&lt;/strong&gt; Erroneous actions taken by individuals in the course of executing their everyday responsibilities&lt;/li&gt;
@@ -313,170 +541,201 @@ Prasanna
 &lt;/ul&gt;
 &lt;p&gt;When combining the motivation of a threat actor and the sources of threat, the following types of threat actors can be drawn, but not limited to.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Common Threat Actor Type&lt;/th&gt;
-&lt;th&gt;NIST 800-30 Threat Source Category&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation-state actors (APT groups)&lt;/td&gt;
-&lt;td&gt;Adversarial – Nation-State&lt;/td&gt;
-&lt;td&gt;Government-sponsored attackers conducting espionage, cyberwarfare, or strategic attacks.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Organized cybercriminal groups&lt;/td&gt;
-&lt;td&gt;Adversarial – Criminal Organization&lt;/td&gt;
-&lt;td&gt;Professional groups performing ransomware, fraud, and data theft for financial gain.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Hacktivists&lt;/td&gt;
-&lt;td&gt;Adversarial – Ideological Group&lt;/td&gt;
-&lt;td&gt;Politically or socially motivated attackers targeting organizations or governments.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Insider threats (employees, contractors)&lt;/td&gt;
-&lt;td&gt;Adversarial – Insider&lt;/td&gt;
-&lt;td&gt;Authorized users who misuse privileges intentionally or maliciously.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Competitors / corporate spies&lt;/td&gt;
-&lt;td&gt;Adversarial – Organization&lt;/td&gt;
-&lt;td&gt;Companies or agents performing industrial espionage to gain competitive advantage.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Script kiddies / amateur hackers&lt;/td&gt;
-&lt;td&gt;Adversarial – Individual&lt;/td&gt;
-&lt;td&gt;Individuals with limited skills using publicly available tools or exploits.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Cyber terrorists&lt;/td&gt;
-&lt;td&gt;Adversarial – Ideological or Terrorist Organization&lt;/td&gt;
-&lt;td&gt;Groups using cyberattacks to create fear or disrupt national infrastructure.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Negligent employees&lt;/td&gt;
-&lt;td&gt;Accidental Threat Source&lt;/td&gt;
-&lt;td&gt;Human error leading to data leaks, misconfigurations, or accidental system damage.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Common Threat Actor Type&lt;/th&gt;
+          &lt;th&gt;NIST 800-30 Threat Source Category&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation-state actors (APT groups)&lt;/td&gt;
+          &lt;td&gt;Adversarial – Nation-State&lt;/td&gt;
+          &lt;td&gt;Government-sponsored attackers conducting espionage, cyberwarfare, or strategic attacks.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Organized cybercriminal groups&lt;/td&gt;
+          &lt;td&gt;Adversarial – Criminal Organization&lt;/td&gt;
+          &lt;td&gt;Professional groups performing ransomware, fraud, and data theft for financial gain.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hacktivists&lt;/td&gt;
+          &lt;td&gt;Adversarial – Ideological Group&lt;/td&gt;
+          &lt;td&gt;Politically or socially motivated attackers targeting organizations or governments.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Insider threats (employees, contractors)&lt;/td&gt;
+          &lt;td&gt;Adversarial – Insider&lt;/td&gt;
+          &lt;td&gt;Authorized users who misuse privileges intentionally or maliciously.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Competitors / corporate spies&lt;/td&gt;
+          &lt;td&gt;Adversarial – Organization&lt;/td&gt;
+          &lt;td&gt;Companies or agents performing industrial espionage to gain competitive advantage.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Script kiddies / amateur hackers&lt;/td&gt;
+          &lt;td&gt;Adversarial – Individual&lt;/td&gt;
+          &lt;td&gt;Individuals with limited skills using publicly available tools or exploits.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Cyber terrorists&lt;/td&gt;
+          &lt;td&gt;Adversarial – Ideological or Terrorist Organization&lt;/td&gt;
+          &lt;td&gt;Groups using cyberattacks to create fear or disrupt national infrastructure.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Negligent employees&lt;/td&gt;
+          &lt;td&gt;Accidental Threat Source&lt;/td&gt;
+          &lt;td&gt;Human error leading to data leaks, misconfigurations, or accidental system damage.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4&gt;2.2 Ransomware Threat Actors&lt;span class="hx:absolute hx:-mt-20" id="22-ransomware-threat-actors"&gt;&lt;/span&gt;
-&lt;a href="#22-ransomware-threat-actors" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ransomware threat actors are individuals or groups that develop, distribute, or operate ransomware malware to extort money from victims by encrypting data or threatening to leak stolen information unless a ransom is paid.&lt;/p&gt;
+&lt;h4&gt;2.2 Ransomware Threat Actors&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ransomware-threat-actors&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-ransomware-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ransomware threat actors are individuals or groups that develop, distribute, or operate ransomware malware to extort money from victims by encrypting data or threatening to leak stolen information unless a ransom is paid.&lt;/p&gt;
 &lt;p&gt;These actors are considered &lt;strong&gt;adversarial threat sources&lt;/strong&gt; in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf"target="_blank" rel="noopener"&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
-&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&amp;rsquo;t look at connections
 and events on a one-off basis.&lt;/p&gt;
-&lt;p&gt;The paper &lt;strong&gt;“&lt;a href="https://arxiv.org/pdf/2304.11681"target="_blank" rel="noopener"&gt;Money Over Morals: A Business Analysis of Conti Ransomware&lt;/a&gt;”&lt;/strong&gt; analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than &lt;strong&gt;168,000&lt;/strong&gt; leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that &lt;strong&gt;over $80 million in ransom payments&lt;/strong&gt; were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels &lt;strong&gt;666 Bitcoin addresses&lt;/strong&gt; linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.&lt;/p&gt;
-&lt;h4&gt;2.3 Advanced Persistent Threats&lt;span class="hx:absolute hx:-mt-20" id="23-advanced-persistent-threats"&gt;&lt;/span&gt;
-&lt;a href="#23-advanced-persistent-threats" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;APT (Advanced Persistent Threats) refers to a sophisticated, continuous cyberattack campaign conducted by a well-resourced and organized threat actor. These APT groups can be a nation-state or a highly skilled criminal group with a fundings and backings. Unlike opportunistic attacks, the APTs are strategic, stealthy and objective. They rarely aim for short term goals, but rather aim for the most valuable crown jewels with maximum impact over time.&lt;/p&gt;
+&lt;p&gt;The paper &lt;strong&gt;“&lt;a href=&#34;https://arxiv.org/pdf/2304.11681&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Money Over Morals: A Business Analysis of Conti Ransomware&lt;/a&gt;”&lt;/strong&gt; analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than &lt;strong&gt;168,000&lt;/strong&gt; leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that &lt;strong&gt;over $80 million in ransom payments&lt;/strong&gt; were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels &lt;strong&gt;666 Bitcoin addresses&lt;/strong&gt; linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.&lt;/p&gt;
+&lt;h4&gt;2.3 Advanced Persistent Threats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-advanced-persistent-threats&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-advanced-persistent-threats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;APT (Advanced Persistent Threats) refers to a sophisticated, continuous cyberattack campaign conducted by a well-resourced and organized threat actor. These APT groups can be a nation-state or a highly skilled criminal group with a fundings and backings. Unlike opportunistic attacks, the APTs are strategic, stealthy and objective. They rarely aim for short term goals, but rather aim for the most valuable crown jewels with maximum impact over time.&lt;/p&gt;
 &lt;p&gt;For instance, an APT group might identify a new government program responsible for managing digital identities, which is expected to become critical for the nation over the next two decades. Instead of attacking the system during its early development, the group could &lt;strong&gt;infiltrate the system early and maintain long-term persistence&lt;/strong&gt;, waiting years before actively pursuing their objectives. By doing so, they &lt;strong&gt;maximize potential impact over time&lt;/strong&gt;, integrating themselves into the system and continuously monitoring its developments and operations.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.crowdstrike.com/en-us/adversaries/"target="_blank" rel="noopener"&gt;Crowdstrike&lt;/a&gt; has featured multiple adversaries that are worth studying. They include &lt;a href="https://www.crowdstrike.com/en-us/adversaries/operator-panda/"target="_blank" rel="noopener"&gt;Operator Panda&lt;/a&gt;, &lt;a href="https://www.crowdstrike.com/en-us/adversaries/punk-spider/"target="_blank" rel="noopener"&gt;Punk Spider&lt;/a&gt;, &lt;a href="https://www.crowdstrike.com/en-us/adversaries/famous-chollima/"target="_blank" rel="noopener"&gt;Famous Chollima&lt;/a&gt;. For instance, since at least November 2024, China-nexus targeted intrusion adversary OPERATOR PANDA has conducted operations against the telecom and professional services sectors. OPERATOR PANDA relies heavily on exploiting internet-facing appliances such as Cisco switches for initial access.&lt;/p&gt;
-&lt;p&gt;In the &lt;a href="https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/"target="_blank" rel="noopener"&gt;Microsoft threat actor taxonomy&lt;/a&gt;, the threat actor group is named after weather events. A weather event or &amp;ldquo;Family name&amp;rdquo; represents either a nation-state actor attribution or a motivation. The below table shows the threat group Microsoft tracks and their assigned weather events in the naming convention (As of 14th March 2026)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike&lt;/a&gt; has featured multiple adversaries that are worth studying. They include &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/operator-panda/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Operator Panda&lt;/a&gt;, &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/punk-spider/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Punk Spider&lt;/a&gt;, &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/famous-chollima/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Famous Chollima&lt;/a&gt;. For instance, since at least November 2024, China-nexus targeted intrusion adversary OPERATOR PANDA has conducted operations against the telecom and professional services sectors. OPERATOR PANDA relies heavily on exploiting internet-facing appliances such as Cisco switches for initial access.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&#34;https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft threat actor taxonomy&lt;/a&gt;, the threat actor group is named after weather events. A weather event or &amp;ldquo;Family name&amp;rdquo; represents either a nation-state actor attribution or a motivation. The below table shows the threat group Microsoft tracks and their assigned weather events in the naming convention (As of 14th March 2026)&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Actor Category&lt;/th&gt;
-&lt;th&gt;Type&lt;/th&gt;
-&lt;th&gt;Family Name&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;China&lt;/td&gt;
-&lt;td&gt;Typhoon&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;Iran&lt;/td&gt;
-&lt;td&gt;Sandsotrm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;Lebanon&lt;/td&gt;
-&lt;td&gt;Rain&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;North Korea&lt;/td&gt;
-&lt;td&gt;Sleet&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;Russia&lt;/td&gt;
-&lt;td&gt;Blizzard&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;South Korea&lt;/td&gt;
-&lt;td&gt;Hail&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;Turkey&lt;/td&gt;
-&lt;td&gt;Dust&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nation State&lt;/td&gt;
-&lt;td&gt;Vietnam&lt;/td&gt;
-&lt;td&gt;Cyclone&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Financially Motivated&lt;/td&gt;
-&lt;td&gt;Financially Motivated&lt;/td&gt;
-&lt;td&gt;Tempest&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Private sector offensive actors&lt;/td&gt;
-&lt;td&gt;PSOAs&lt;/td&gt;
-&lt;td&gt;Tsunami&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Influence operations&lt;/td&gt;
-&lt;td&gt;Influence Operations&lt;/td&gt;
-&lt;td&gt;Flood&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Groups in development&lt;/td&gt;
-&lt;td&gt;Groups in development&lt;/td&gt;
-&lt;td&gt;Storm&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Actor Category&lt;/th&gt;
+          &lt;th&gt;Type&lt;/th&gt;
+          &lt;th&gt;Family Name&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;China&lt;/td&gt;
+          &lt;td&gt;Typhoon&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;Iran&lt;/td&gt;
+          &lt;td&gt;Sandsotrm&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;Lebanon&lt;/td&gt;
+          &lt;td&gt;Rain&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;North Korea&lt;/td&gt;
+          &lt;td&gt;Sleet&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;Russia&lt;/td&gt;
+          &lt;td&gt;Blizzard&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;South Korea&lt;/td&gt;
+          &lt;td&gt;Hail&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;Turkey&lt;/td&gt;
+          &lt;td&gt;Dust&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nation State&lt;/td&gt;
+          &lt;td&gt;Vietnam&lt;/td&gt;
+          &lt;td&gt;Cyclone&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Financially Motivated&lt;/td&gt;
+          &lt;td&gt;Financially Motivated&lt;/td&gt;
+          &lt;td&gt;Tempest&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Private sector offensive actors&lt;/td&gt;
+          &lt;td&gt;PSOAs&lt;/td&gt;
+          &lt;td&gt;Tsunami&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Influence operations&lt;/td&gt;
+          &lt;td&gt;Influence Operations&lt;/td&gt;
+          &lt;td&gt;Flood&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Groups in development&lt;/td&gt;
+          &lt;td&gt;Groups in development&lt;/td&gt;
+          &lt;td&gt;Storm&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
-&lt;p&gt;Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;</description></item><item><title>[01] Threat Hunting Introduction</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link><pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid><description>
-&lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
-&lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
-By:
-&lt;a href="https://www.linkedin.com/in/prasannavbalaji" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;" onmouseover="this.style.borderBottom='1px solid #0a66c2'" onmouseout="this.style.borderBottom='1px solid transparent'"&gt;
-&lt;svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"&gt;
-&lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/&gt;
-&lt;/svg&gt;
-Prasanna
-&lt;/a&gt;
-&lt;/span&gt;
-&lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
-&lt;time style="font-style: italic;"&gt;March 14, 2026&lt;/time&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[01] Threat Hunting Introduction</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 14, 2026&lt;/time&gt;
+  
 &lt;/div&gt;
-&lt;h4&gt;1.1 Understanding Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="11-understanding-threat-hunting"&gt;&lt;/span&gt;
-&lt;a href="#11-understanding-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a &lt;code&gt;hypotheses&lt;/code&gt; which provides context on what to look for. The below are some of the other definitions are accepted.&lt;/p&gt;
+&lt;h4&gt;1.1 Understanding Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-understanding-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#11-understanding-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a &lt;code&gt;hypotheses&lt;/code&gt; which provides context on what to look for. The below are some of the other definitions are accepted.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Palo Alto Networks&lt;/strong&gt;&lt;br&gt;
-Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. &lt;a href="https://www.paloaltonetworks.sg/cyberpedia/threat-hunting"target="_blank" rel="noopener"&gt;Palo Alto Article&lt;/a&gt;&lt;/li&gt;
+Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. &lt;a href=&#34;https://www.paloaltonetworks.sg/cyberpedia/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palo Alto Article&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;IBM&lt;/strong&gt;&lt;br&gt;
-Threat hunting is a proactive approach to identifying unknown or ongoing cyber threats within an organization’s network before they cause damage. &lt;a href="https://www.ibm.com/think/topics/threat-hunting"target="_blank" rel="noopener"&gt;IBM Article&lt;/a&gt;&lt;/li&gt;
+Threat hunting is a proactive approach to identifying unknown or ongoing cyber threats within an organization’s network before they cause damage. &lt;a href=&#34;https://www.ibm.com/think/topics/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Article&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Microsoft&lt;/strong&gt;&lt;br&gt;
-Cyber threat hunting is the process of proactively searching for undetected threats across networks, endpoints, and data to detect attacks that automated security controls might miss. &lt;a href="https://www.microsoft.com/en-sg/security/business/security-101/what-is-cyber-threat-hunting"target="_blank" rel="noopener"&gt;Microsoft Article&lt;/a&gt;&lt;/li&gt;
+Cyber threat hunting is the process of proactively searching for undetected threats across networks, endpoints, and data to detect attacks that automated security controls might miss. &lt;a href=&#34;https://www.microsoft.com/en-sg/security/business/security-101/what-is-cyber-threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Article&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;Dwell time&lt;span class="hx:absolute hx:-mt-20" id="dwell-time"&gt;&lt;/span&gt;
-&lt;a href="#dwell-time" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The Dwell Time refers to the length of time from the initial compromise through the point of notifying affected stakeholders. These metrics are used to measure incident response capabilities.&lt;/p&gt;
+&lt;h5&gt;Dwell time&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dwell-time&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#dwell-time&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The Dwell Time refers to the length of time from the initial compromise through the point of notifying affected stakeholders. These metrics are used to measure incident response capabilities.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.nist.gov/system/files/documents/2016/09/16/mandiant_rfi_response.pdf"target="_blank" rel="noopener"&gt;NIST Using Metrics to Mature Incident Response Capabilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nist.gov/system/files/documents/2016/09/16/mandiant_rfi_response.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST Using Metrics to Mature Incident Response Capabilities&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The dwell time is computed based on the following categories.&lt;/p&gt;
 &lt;ul&gt;
@@ -486,19 +745,19 @@ Cyber threat hunting is the process of proactively searching for undetected thre
 &lt;li&gt;Identify - Time to identify the affected assets, location and owner&lt;/li&gt;
 &lt;li&gt;Notify - Time to successfully notify appropriate contacts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h5&gt;Additional Metrics&lt;span class="hx:absolute hx:-mt-20" id="additional-metrics"&gt;&lt;/span&gt;
-&lt;a href="#additional-metrics" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;In addition to Dwell time, there are other metrics such as DRAIN CVR, Efficiency Metrics, Implementation Metrics, Impact Metrics and Proxy Metrics.&lt;/p&gt;
-&lt;h4&gt;1.2 Implementing Threat Hunting in Enterprises&lt;span class="hx:absolute hx:-mt-20" id="12-implementing-threat-hunting-in-enterprises"&gt;&lt;/span&gt;
-&lt;a href="#12-implementing-threat-hunting-in-enterprises" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure.&lt;/p&gt;
+&lt;h5&gt;Additional Metrics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;additional-metrics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#additional-metrics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;In addition to Dwell time, there are other metrics such as DRAIN CVR, Efficiency Metrics, Implementation Metrics, Impact Metrics and Proxy Metrics.&lt;/p&gt;
+&lt;h4&gt;1.2 Implementing Threat Hunting in Enterprises&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12-implementing-threat-hunting-in-enterprises&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#12-implementing-threat-hunting-in-enterprises&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure.&lt;/p&gt;
 &lt;p&gt;The below image represents the complimentary threat hunting positioning in an enterprise infrastructure.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/"target="_blank" rel="noopener"&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
-&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png" alt="" loading="lazy" /&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an &amp;ldquo;Incident&amp;rdquo; will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More or less, threat hunting is like looking for &lt;strong&gt;smoke before a fire&lt;/strong&gt;. Due to this nature, a threat hint doesn&amp;rsquo;t wait for an alert signals, instructions, alarms or event indicators of compromise, but rather questions everything form a hypothesis, and try to prove or disprove the original hypothesis.&lt;/p&gt;
-&lt;h4&gt;1.3 Threat Hunting Maturity Model&lt;span class="hx:absolute hx:-mt-20" id="13-threat-hunting-maturity-model"&gt;&lt;/span&gt;
-&lt;a href="#13-threat-hunting-maturity-model" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The maturity of a threat hunting program depends on 3 major factors&lt;/p&gt;
+&lt;h4&gt;1.3 Threat Hunting Maturity Model&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;13-threat-hunting-maturity-model&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#13-threat-hunting-maturity-model&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The maturity of a threat hunting program depends on 3 major factors&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Quality of the data collected&lt;/li&gt;
 &lt;li&gt;Tools provided to access and analyze&lt;/li&gt;
@@ -506,112 +765,119 @@ In a nutshell, the SOC Infrastructure will monitor for alters, triage informatio
 These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (the least) to HMM4 (the most)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html"target="_blank" rel="noopener"&gt;SANS Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.trellix.com/security-awareness/threat-intelligence/what-is-cyber-threat-hunting/"target="_blank" rel="noopener"&gt;Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.trellix.com/security-awareness/threat-intelligence/what-is-cyber-threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Level&lt;/th&gt;
-&lt;th&gt;Maturity Stage&lt;/th&gt;
-&lt;th&gt;One-Line Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;HMM0&lt;/td&gt;
-&lt;td&gt;Initial&lt;/td&gt;
-&lt;td&gt;No proactive hunting; security teams rely entirely on automated alerts and reactive incident response.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;HMM1&lt;/td&gt;
-&lt;td&gt;Minimal&lt;/td&gt;
-&lt;td&gt;Analysts perform basic manual searches using known indicators of compromise (IOCs).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;HMM2&lt;/td&gt;
-&lt;td&gt;Procedural&lt;/td&gt;
-&lt;td&gt;Structured and repeatable threat hunts based on known attacker techniques and predefined procedures.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;HMM3&lt;/td&gt;
-&lt;td&gt;Innovative&lt;/td&gt;
-&lt;td&gt;Hypothesis-driven hunting that analyzes behaviors and uncovers previously unknown threats.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;HMM4&lt;/td&gt;
-&lt;td&gt;Leading&lt;/td&gt;
-&lt;td&gt;Advanced hunting with automation, large telemetry analysis, and continuous detection engineering.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Level&lt;/th&gt;
+          &lt;th&gt;Maturity Stage&lt;/th&gt;
+          &lt;th&gt;One-Line Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HMM0&lt;/td&gt;
+          &lt;td&gt;Initial&lt;/td&gt;
+          &lt;td&gt;No proactive hunting; security teams rely entirely on automated alerts and reactive incident response.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HMM1&lt;/td&gt;
+          &lt;td&gt;Minimal&lt;/td&gt;
+          &lt;td&gt;Analysts perform basic manual searches using known indicators of compromise (IOCs).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HMM2&lt;/td&gt;
+          &lt;td&gt;Procedural&lt;/td&gt;
+          &lt;td&gt;Structured and repeatable threat hunts based on known attacker techniques and predefined procedures.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HMM3&lt;/td&gt;
+          &lt;td&gt;Innovative&lt;/td&gt;
+          &lt;td&gt;Hypothesis-driven hunting that analyzes behaviors and uncovers previously unknown threats.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;HMM4&lt;/td&gt;
+          &lt;td&gt;Leading&lt;/td&gt;
+          &lt;td&gt;Advanced hunting with automation, large telemetry analysis, and continuous detection engineering.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png" alt="" loading="lazy" /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 More or less, the workflow looks as shown below&lt;/p&gt;
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;Alerts → IOC search → Structured hunts → Hypothesis hunting → Automated hunting&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
-&gt;
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;/button&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Alerts → IOC search → Structured hunts → Hypothesis hunting → Automated hunting&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h4&gt;1.4 Threat Hunting services&lt;span class="hx:absolute hx:-mt-20" id="14-threat-hunting-services"&gt;&lt;/span&gt;
-&lt;a href="#14-threat-hunting-services" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Threat Hunting Services&lt;/strong&gt; are services provided by cybersecurity companies to &lt;strong&gt;proactively search for hidden attackers inside an organization’s environment&lt;/strong&gt;, often using specialized analysts, threat intelligence, and advanced telemetry.&lt;/p&gt;
+&lt;h4&gt;1.4 Threat Hunting services&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;14-threat-hunting-services&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#14-threat-hunting-services&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Threat Hunting Services&lt;/strong&gt; are services provided by cybersecurity companies to &lt;strong&gt;proactively search for hidden attackers inside an organization’s environment&lt;/strong&gt;, often using specialized analysts, threat intelligence, and advanced telemetry.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nsarchive.gwu.edu/document/21484-document-83"target="_blank" rel="noopener"&gt;Mandiant APT 1 report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nsarchive.gwu.edu/document/21484-document-83&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant APT 1 report&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In 2014 Mandiant released a report on APT 1, which highlighted a massive cyber espionage campaign by nation state threat actors. The group named &amp;ldquo;Unit 61398&amp;rdquo; which involved in this operation has compromised multiple targets across the world leading to a total compromise of 141 companies, spanning 20 major industries&lt;/p&gt;
-&lt;p&gt;APT1 has a well-defined attack methodology, honed over years and designed to steal large volumes of valuable intellectual property. They maintained persistence over several months or years and steal broad categories of intellectual property, including technology blueprints, proprietary manufacturing process, test results, business plans, pricing documents, partnership agreements and emails and contact lists from victims.&lt;/p&gt;
+&lt;p&gt;APT1 has a well-defined attack methodology, honed over years and designed to steal large volumes of valuable intellectual property.  They maintained persistence over several months or years and steal broad categories of intellectual property, including technology blueprints, proprietary manufacturing process, test results, business plans, pricing documents, partnership agreements and emails and contact lists from victims.&lt;/p&gt;
 &lt;p&gt;In order to defend against such threats many leading security companies provide these services, including Mandiant, CrowdStrike, Microsoft, Palo Alto Networks, and Secureworks.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Service Type&lt;/th&gt;
-&lt;th&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Managed Threat Hunting&lt;/td&gt;
-&lt;td&gt;External experts continuously hunt for threats across your environment.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Incident-Driven Hunting&lt;/td&gt;
-&lt;td&gt;Proactive hunts performed after a security incident to identify additional compromise.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Intelligence-Driven Hunting&lt;/td&gt;
-&lt;td&gt;Hunts based on threat intelligence about specific attacker groups or campaigns.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Hypothesis-Driven Hunting&lt;/td&gt;
-&lt;td&gt;Hunts based on attacker techniques and behaviors (often mapped to MITRE ATT&amp;amp;CK).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Compromise Assessment&lt;/td&gt;
-&lt;td&gt;A deep investigation to determine whether attackers are already present.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Service Type&lt;/th&gt;
+          &lt;th&gt;Description&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Managed Threat Hunting&lt;/td&gt;
+          &lt;td&gt;External experts continuously hunt for threats across your environment.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Incident-Driven Hunting&lt;/td&gt;
+          &lt;td&gt;Proactive hunts performed after a security incident to identify additional compromise.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Intelligence-Driven Hunting&lt;/td&gt;
+          &lt;td&gt;Hunts based on threat intelligence about specific attacker groups or campaigns.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Hypothesis-Driven Hunting&lt;/td&gt;
+          &lt;td&gt;Hunts based on attacker techniques and behaviors (often mapped to MITRE ATT&amp;amp;CK).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Compromise Assessment&lt;/td&gt;
+          &lt;td&gt;A deep investigation to determine whether attackers are already present.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4&gt;1.5 Hunting Approaches &amp;amp; Strategies&lt;span class="hx:absolute hx:-mt-20" id="15-hunting-approaches--strategies"&gt;&lt;/span&gt;
-&lt;a href="#15-hunting-approaches--strategies" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.5.1 Structured Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="151-structured-threat-hunting"&gt;&lt;/span&gt;
-&lt;a href="#151-structured-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A structured threat hunting used formal frameworks, such as the &lt;a href="https://www.ibm.com/think/topics/mitre-attack"target="_blank" rel="noopener"&gt;MITRE Adversary Tactics Techniques and Common Knowledge (ATT&amp;amp;CK) framework&lt;/a&gt;, guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.&lt;/p&gt;
+&lt;h4&gt;1.5 Hunting Approaches &amp;amp; Strategies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;15-hunting-approaches--strategies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#15-hunting-approaches--strategies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.5.1 Structured Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;151-structured-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#151-structured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A structured threat hunting used formal frameworks, such as the &lt;a href=&#34;https://www.ibm.com/think/topics/mitre-attack&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE Adversary Tactics Techniques and Common Knowledge (ATT&amp;amp;CK) framework&lt;/a&gt;, guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.&lt;/p&gt;
 &lt;p&gt;Threat Hunting Frameworks&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.intel471.com/resources/whitepapers/threat-hunting-framework"target="_blank" rel="noopener"&gt;Intel 471 Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html"target="_blank" rel="noopener"&gt;PEAK Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://go.group-ib.com/hubfs/leaflet/group-ib-thf-huntpoint-mxdr-datasheet-2020-en.pdf"target="_blank" rel="noopener"&gt;Group IB Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://huntbook.predefender.com/part-1/frameworks/threathunting/tahiti/index.html"target="_blank" rel="noopener"&gt;TaHITI Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.threathunting.net/sqrrl-archive"target="_blank" rel="noopener"&gt;Sqrrl Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf"target="_blank" rel="noopener"&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.intel471.com/resources/whitepapers/threat-hunting-framework&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intel 471 Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PEAK Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go.group-ib.com/hubfs/leaflet/group-ib-thf-huntpoint-mxdr-datasheet-2020-en.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Group IB Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://huntbook.predefender.com/part-1/frameworks/threathunting/tahiti/index.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHITI Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.threathunting.net/sqrrl-archive&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sqrrl Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png" alt="" loading="lazy" /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
-&lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class="hx:absolute hx:-mt-20" id="152-situational--entity-driven-threat-hunting"&gt;&lt;/span&gt;
-&lt;a href="#152-situational--entity-driven-threat-hunting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href="https://www.ibm.com/topics/risk-management"target="_blank" rel="noopener"&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
-&lt;p&gt;Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.&lt;/p&gt;</description></item></channel></rss>
+&lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href=&#34;https://www.ibm.com/topics/risk-management&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
+&lt;p&gt;Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -31,4 +31,4 @@ Other interesting resources
 #### Service Discovery
 - Apart from the above mentioned, there are methods to discover running services. 
 - The most common toolkit used for that is `Nmap`, that is used to discover open ports and services on a host or across entire networks. 
-![](02_platforms/web/assets/Pasted%20image%2020260320153345.png)
+![](/docs/02_platforms/web/assets/Pasted_image_20260320153345.png)
