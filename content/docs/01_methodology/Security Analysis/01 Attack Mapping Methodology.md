@@ -38,15 +38,24 @@ it also helps build detection rules such as mapping logs or alerts to the kill c
 
 Here is an example Kill chain Mapping for an attack,
 
+```HTML
 Our investigation revealed the following high-level path the threat actor took to compromise the environment:
 
 1. The threat actor initiated reconnaissance activities by performing system fingerprinting and network enumeration to identify active hosts, services, and potential vulnerabilities within the environment.
+   
 2. Following reconnaissance, the threat actor moved into the weaponization phase by preparing exploit code tailored to the identified weaknesses and testing various parameters to ensure successful execution.
+   
 3. The threat actor then delivered the exploit payload through multiple identified vulnerabilities, attempting to gain an initial foothold within the environment.
+   
 4. Successful exploitation was achieved through multiple techniques, including remote code execution (RCE) via a vulnerable file upload mechanism, as well as the use of known exploits such as EternalBlue and buffer overflow vulnerabilities.
+   
 5. After gaining access, the threat actor established persistence by installing malicious scripts on compromised systems and configuring a stealthy reverse connection to maintain remote access.
+   
 6. The threat actor implemented command and control (C2) mechanisms by creating scheduled tasks to maintain persistent communication with compromised hosts and began exfiltrating sensitive data from the environment.
+   
 7. Finally, the threat actor carried out actions on objectives, including disabling antivirus protections, executing additional malicious scripts, and compromising critical systems such as the domain controller to expand control over the environment.
+```
+
 
 ![](/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png)
 
@@ -70,4 +79,4 @@ Here is an example MITRE ATT&CK Mapping for an attack scenario we've mentioned e
 | Command & Control         | Scheduled Jobs, Persistent Connection            | Application Layer Protocol (T1071), Remote Access Software                         |
 | Exfiltration              | Data Theft                                       | Exfiltration Over C2 Channel (T1041)                                               |
 | Actions on Objectives     | Disable AV, Further Execution, Domain Compromise | Impair Defenses (T1562), Lateral Movement (T1021), Domain Accounts (T1078)         |
-|                           |                                                  |                                                                                    |
+

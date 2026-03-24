@@ -70,16 +70,33 @@ Prasanna
 &lt;p&gt;In addition, it makes more complex attacks easier to analyze, communicate to different security stakeholders in a easily digestible way. An example would be a clean kill chain mapping into a threat intelligence report or a post incident analysis report.&lt;/p&gt;
 &lt;p&gt;it also helps build detection rules such as mapping logs or alerts to the kill chain or even a PowerShell execution. Finally, it improves the IR process since it&amp;rsquo;s quite intuitive to determine at what stage of the attack the Incident response is functioning at.&lt;/p&gt;
 &lt;p&gt;Here is an example Kill chain Mapping for an attack,&lt;/p&gt;
-&lt;p&gt;Our investigation revealed the following high-level path the threat actor took to compromise the environment:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The threat actor initiated reconnaissance activities by performing system fingerprinting and network enumeration to identify active hosts, services, and potential vulnerabilities within the environment.&lt;/li&gt;
-&lt;li&gt;Following reconnaissance, the threat actor moved into the weaponization phase by preparing exploit code tailored to the identified weaknesses and testing various parameters to ensure successful execution.&lt;/li&gt;
-&lt;li&gt;The threat actor then delivered the exploit payload through multiple identified vulnerabilities, attempting to gain an initial foothold within the environment.&lt;/li&gt;
-&lt;li&gt;Successful exploitation was achieved through multiple techniques, including remote code execution (RCE) via a vulnerable file upload mechanism, as well as the use of known exploits such as EternalBlue and buffer overflow vulnerabilities.&lt;/li&gt;
-&lt;li&gt;After gaining access, the threat actor established persistence by installing malicious scripts on compromised systems and configuring a stealthy reverse connection to maintain remote access.&lt;/li&gt;
-&lt;li&gt;The threat actor implemented command and control (C2) mechanisms by creating scheduled tasks to maintain persistent communication with compromised hosts and began exfiltrating sensitive data from the environment.&lt;/li&gt;
-&lt;li&gt;Finally, the threat actor carried out actions on objectives, including disabling antivirus protections, executing additional malicious scripts, and compromising critical systems such as the domain controller to expand control over the environment.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-HTML" data-lang="HTML"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Our investigation revealed the following high-level path the threat actor took to compromise the environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. The threat actor initiated reconnaissance activities by performing system fingerprinting and network enumeration to identify active hosts, services, and potential vulnerabilities within the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. Following reconnaissance, the threat actor moved into the weaponization phase by preparing exploit code tailored to the identified weaknesses and testing various parameters to ensure successful execution.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. The threat actor then delivered the exploit payload through multiple identified vulnerabilities, attempting to gain an initial foothold within the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. Successful exploitation was achieved through multiple techniques, including remote code execution (RCE) via a vulnerable file upload mechanism, as well as the use of known exploits such as EternalBlue and buffer overflow vulnerabilities.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. After gaining access, the threat actor established persistence by installing malicious scripts on compromised systems and configuring a stealthy reverse connection to maintain remote access.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. The threat actor implemented command and control (C2) mechanisms by creating scheduled tasks to maintain persistent communication with compromised hosts and began exfiltrating sensitive data from the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. Finally, the threat actor carried out actions on objectives, including disabling antivirus protections, executing additional malicious scripts, and compromising critical systems such as the domain controller to expand control over the environment.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class="hx:absolute hx:-mt-20" id="2-mitre-attck"&gt;&lt;/span&gt;
 &lt;a href="#2-mitre-attck" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class="hx:absolute hx:-mt-20" id="21-mitre-attck-framework"&gt;&lt;/span&gt;
@@ -136,11 +153,6 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 &lt;td&gt;Actions on Objectives&lt;/td&gt;
 &lt;td&gt;Disable AV, Further Execution, Domain Compromise&lt;/td&gt;
 &lt;td&gt;Impair Defenses (T1562), Lateral Movement (T1021), Domain Accounts (T1078)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>[03] Threat Communication</title><link>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</link><pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/threat-hunting/03-threat-information-management/</guid><description>
