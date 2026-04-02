@@ -8,10 +8,10 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>[06] Threat Hunting in Cloud – RTFM</title>
-  <meta name="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion" /><link rel="canonical" href="http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/" itemprop="url" />
+<title>[06] Psychology of Trust Boundaries – RTFM</title>
+  <meta name="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundaryIn the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel." /><link rel="canonical" href="http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/" itemprop="url" />
 
-<meta property="og:title" content="[06] Threat Hunting in Cloud">
+<meta property="og:title" content="[06] Psychology of Trust Boundaries">
 <meta
   property="og:description"
   content="
@@ -48,16 +48,7 @@
   
 
 7.1 What is a trust boundary
-    7.2 Humans in parallel to Kernel Privilege Rings
-    7.3 Penetrating human trust boundary
-    7.4 Anomalies of a social threat actor
-    7.5 Action on objective
-    7.6 Defending against social engineering threats
-    7.7 The Stockholm syndrome
-    7.8 Breaking the pattern - Invisible chain
-    7.9 Identifying and mitigate a compromise
-    7.10 Face the truth, Conclusion
-    
+    In the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel.
     
   ">
 <meta
@@ -78,15 +69,15 @@
 
 
 
-  <meta itemprop="name" content="[06] Threat Hunting in Cloud">
-  <meta itemprop="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion">
+  <meta itemprop="name" content="[06] Psychology of Trust Boundaries">
+  <meta itemprop="description" content="By:Prasanna|March 19, 20267.1 What is a trust boundaryIn the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel.">
   <meta itemprop="datePublished" content="2026-03-19T00:00:00+00:00">
   <meta itemprop="dateModified" content="2026-03-19T00:00:00+00:00">
-  <meta itemprop="wordCount" content="64">
+  <meta itemprop="wordCount" content="692">
   <meta itemprop="keywords" content="Prasanna V Balaji">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="[06] Threat Hunting in Cloud">
-  <meta name="twitter:description" content="By:Prasanna|March 19, 20267.1 What is a trust boundary7.2 Humans in parallel to Kernel Privilege Rings7.3 Penetrating human trust boundary7.4 Anomalies of a social threat actor7.5 Action on objective7.6 Defending against social engineering threats7.7 The Stockholm syndrome7.8 Breaking the pattern - Invisible chain7.9 Identifying and mitigate a compromise7.10 Face the truth, Conclusion">
+  <meta name="twitter:title" content="[06] Psychology of Trust Boundaries">
+  <meta name="twitter:description" content="By:Prasanna|March 19, 20267.1 What is a trust boundaryIn the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel.">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -248,7 +239,7 @@
       href="/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">[06] Threat Hunting in Cloud</span>
+      <span class="hx:min-w-0 [word-break:break-word]">[06] Psychology of Trust Boundaries</span>
     </a>
   </div>
               
@@ -572,6 +563,22 @@
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#ring-0-core-trust">Ring 0: Core Trust
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#ring-1-strong-trust">Ring 1: Strong Trust
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#ring-2-partial-trust">Ring 2: Partial Trust
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#ring-3-untrusted">Ring 3: Untrusted
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#73-penetrating-human-trust-boundary">7.3 Penetrating human trust boundary
         </a>
       </li>
@@ -626,13 +633,13 @@
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
           <a href="/docs/01_methodology/threat-hunting/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Threat Hunting</a>
-        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">[06] Threat Hunting in Cloud</div>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">[06] Psychology of Trust Boundaries</div>
   </div>
 
         <div class="content">
           
           <div class="hx:flex hx:flex-col hx:sm:flex-row hx:items-start hx:sm:items-center hx:sm:justify-between hx:gap-4 hx:mb-4">
-            <h1 class="hx:mb-0">[06] Threat Hunting in Cloud</h1>
+            <h1 class="hx:mb-0">[06] Psychology of Trust Boundaries</h1>
             
           </div>
           
@@ -668,8 +675,37 @@
   
 </div>
 <h4>7.1 What is a trust boundary<span class="hx:absolute hx:-mt-20" id="71-what-is-a-trust-boundary"></span>
-    <a href="#71-what-is-a-trust-boundary" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.2 Humans in parallel to Kernel Privilege Rings<span class="hx:absolute hx:-mt-20" id="72-humans-in-parallel-to-kernel-privilege-rings"></span>
-    <a href="#72-humans-in-parallel-to-kernel-privilege-rings" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.3 Penetrating human trust boundary<span class="hx:absolute hx:-mt-20" id="73-penetrating-human-trust-boundary"></span>
+    <a href="#71-what-is-a-trust-boundary" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>In the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel.</p>
+<p>The likely hood of someone being targeted by a threat actors increases as the in regions with less trust. The below equation explains the Probability of being targeted.</p>
+<p>$$
+P(\text{attack}) \propto \frac{1}{T}
+$$
+<strong>Where:</strong></p>
+<ul>
+<li>P(attack) = probability of being targeted</li>
+<li>TTT = level of trust (higher = more secure/trusted)
+In an operating system, kernel rings define levels of privilege based on the established trusted zones.  The <a href="https://en.wikipedia.org/wiki/Protection_ring"target="_blank" rel="noopener">Protection rings</a> defined a hierarchical protection domains to protect data and functionality from malicious behaviors.
+<img src="/docs/01_methodology/threat-hunting/assets/Pasted_image_20260331221525.png" alt=""  loading="lazy" /></li>
+<li><strong>Ring 0</strong> → Most privileged (highest trust)</li>
+<li><strong>Ring 3</strong> → Least privileged (lowest trust)</li>
+</ul>
+<h4>7.2 Humans in parallel to Kernel Privilege Rings<span class="hx:absolute hx:-mt-20" id="72-humans-in-parallel-to-kernel-privilege-rings"></span>
+    <a href="#72-humans-in-parallel-to-kernel-privilege-rings" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>Based on the Protection rings, and trust zones from the operating systems it&rsquo;s feasible to define a psychological trust zones for humans. The closer something to a person&rsquo;s &ldquo;inner ring&rdquo; the more trust it has and the less scrutiny it faces.</p>
+<p>If we put that in a diagram, we could map the Psychological trust zones to 4 layers as well.
+<img src="/docs/01_methodology/threat-hunting/assets/trust_zones.webp" alt=""  loading="lazy" /></p>
+<h5>Ring 0: Core Trust<span class="hx:absolute hx:-mt-20" id="ring-0-core-trust"></span>
+    <a href="#ring-0-core-trust" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>This is the region that an individuals would trust with almost anything including life decisions. This could be family, intimate partners, lifelong friends but not limited. Sometimes, there are some core beliefs systems that can make a being trust with blind faith.</p>
+<p><em>Gaining access to Ring 0, could be devastating to an individual, Often time in espionage, social engineering, Treason, advanced persistent threat vectors and even terrorism the adversaries often gain access to this trust zone before taking control of the individual.</em></p>
+<h5>Ring 1: Strong Trust<span class="hx:absolute hx:-mt-20" id="ring-1-strong-trust"></span>
+    <a href="#ring-1-strong-trust" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>This region comprises of those individuals that we have regular interaction with such as Close colleagues, Managers, Authority figures. Those belonging to this zone is often trusted but with slight skepticism and a reasonable doubt of action.</p>
+<p><em>Getting into this region of trust  by an adversary could still do a substantial damage to individuals. Adversaries that treat an individual as a <code>subject of interest</code> could potentially leverage these established privilege to gain insights about personal, professional life and links to environments such as market trends, insider information, customer details and intellectual property or even use this as an opportunity to identify new potential hosts to compromise (lateral movement).</em></p>
+<h5>Ring 2: Partial Trust<span class="hx:absolute hx:-mt-20" id="ring-2-partial-trust"></span>
+    <a href="#ring-2-partial-trust" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>This region contains acquaintances, coworkers and others that an individual barely knows. The could also include brands, ambassadors, marketing agents, social media networks, external agents etc. They might appear and claim to be legitimate with a familiar presence.</p>
+<p><em>A adversary that gains access to this region actively tries to either gain higher trust or find low hanging quick objectives on a targeted individual. An example would be an acquaintance that used double negative to identify your salary range or requesting you a quick bill payment for a dinner what never gets returned or even use you for their entertainment.</em></p>
+<h5>Ring 3: Untrusted<span class="hx:absolute hx:-mt-20" id="ring-3-untrusted"></span>
+    <a href="#ring-3-untrusted" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>These are public zones, that are often interpreted as untrusted. Depending on the society that you live in the level of trust in a public source can widely differ. For instance, Trusting public in a country with high moral, civil sense and code of conduct has more trust than regions of the world that lack moral on an average in general.</p>
+<p><em>Strangers, unknown contacts, random calls, internet and social media should be treated with highest skepticism. For an adversary, this is often the entry point where they would try and identify an weakness in a human to either gain higher trust or exploit it to manipulate an individual for an action on objectives.</em></p>
+<h4>7.3 Penetrating human trust boundary<span class="hx:absolute hx:-mt-20" id="73-penetrating-human-trust-boundary"></span>
     <a href="#73-penetrating-human-trust-boundary" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.4 Anomalies of a social threat actor<span class="hx:absolute hx:-mt-20" id="74-anomalies-of-a-social-threat-actor"></span>
     <a href="#74-anomalies-of-a-social-threat-actor" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.5 Action on objective<span class="hx:absolute hx:-mt-20" id="75-action-on-objective"></span>
     <a href="#75-action-on-objective" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><h4>7.6 Defending against social engineering threats<span class="hx:absolute hx:-mt-20" id="76-defending-against-social-engineering-threats"></span>

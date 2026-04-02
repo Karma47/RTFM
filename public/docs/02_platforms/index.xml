@@ -1,5 +1,49 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Platforms</title><link>https://docs.blankdash.com/docs/02_platforms/</link><description>Recent content in Platforms on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://docs.blankdash.com/docs/02_platforms/index.xml" rel="self" type="application/rss+xml"/><item><title>web</title><link>https://docs.blankdash.com/docs/02_platforms/web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/02_platforms/web/</guid><description>
-&lt;p&gt;This contains the notes for attacking various platforms.&lt;/p&gt;
-&lt;p&gt;Welcome to my notes section.&lt;/p&gt;</description></item><item><title>WI-FU</title><link>https://docs.blankdash.com/docs/02_platforms/wifi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/02_platforms/wifi/</guid><description>
-&lt;p&gt;This contains the notes for attacking various platforms.&lt;/p&gt;
-&lt;p&gt;Welcome to my notes section.&lt;/p&gt;</description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Platforms</title>
+    <link>http://localhost:1313/docs/02_platforms/</link>
+    <description>Recent content in Platforms on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/02_platforms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>web</title>
+      <link>http://localhost:1313/docs/02_platforms/web/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/02_platforms/web/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This contains the notes for attacking various platforms.&lt;/p&gt;
+&lt;p&gt;Welcome to my notes section.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>WI-FU</title>
+      <link>http://localhost:1313/docs/02_platforms/wifi/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/02_platforms/wifi/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This contains the notes for attacking various platforms.&lt;/p&gt;
+&lt;p&gt;Welcome to my notes section.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
