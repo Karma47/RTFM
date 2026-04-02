@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_methodology/Threat Hunting/06 Psychology of trust boundary.md",
+                "file": "02_platforms/web/Web Application Recon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 Psychology of trust boundary"
+              "title": "Web Application Recon"
             }
           }
         ]
@@ -185,9 +185,13 @@
   },
   "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "02_platforms/web/assets/Pasted image 20260402095802.png",
+    "02_platforms/web/assets",
+    "02_platforms/web/Web Application Enumeration.md",
+    "02_platforms/web/Web Application Recon.md",
+    "01_methodology/Threat Hunting/06 Psychology of trust boundary.md",
     "01_methodology/Threat Hunting/02 Threat Actors Landscape.md",
     "01_methodology/Threat Hunting/04 Hunting with Data.md",
-    "01_methodology/Threat Hunting/06 Psychology of trust boundary.md",
     "01_methodology/Threat Hunting/assets/trust_zones.webp",
     "01_methodology/Threat Hunting/assets/Pasted image 20260331221525.png",
     "01_methodology/Threat Hunting/05 Threat Hunting in Cloud.md",
@@ -209,9 +213,7 @@
     "01_methodology/Security Analysis",
     "05_detection/XY Notes Template.md",
     "01_methodology/Threat Hunting/07 Psychology of trust boundary.md",
-    "02_platforms/web/Web Application Enumeration.md",
     "02_platforms/web/assets/Pasted image 20260320153345.png",
-    "02_platforms/web/assets",
     "01_methodology/Threat Hunting/assets/Pasted image 20260320153003.png",
     "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
     "06_tools/06.3_Training/Untitled.md",
@@ -224,7 +226,6 @@
     "05_detection/_index.md",
     "04_playbooks/01 Incident Response.md",
     "04_playbooks/_index.md",
-    "03_techniques/01 Using CertUTIL.md",
     "01_methodology/Threat Hunting/assets/Draft",
     "01_methodology/Threat Hunting",
     "06_tools/06.2_network",
