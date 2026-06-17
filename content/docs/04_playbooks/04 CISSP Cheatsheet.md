@@ -8,125 +8,352 @@ draft: false
 
 {{< meta >}}
 
-#### 2.1 Topic 1
+## 2.1 Social Engineering Attacks
 
-Shoulder Surfing - watching behind them.
-tailgating
-impersonation
-dumpster diving.
-#### 2.2 Topic 2
+**Description:**  
+Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information.
 
-Who to report if you are working for a healthcare company as info sec officer. 
-CEO -  
-Legal - don't care about network workstations.  
-CIO - we should report to infosec officer. 
-Internal audit deportment - Probably not. Cause they should act independant under all circumstances. 
-#### 2.2 Topic 2
-You are examining network traffic in yorui company DMZ, you can download and install wireshark on your laptop and have attached the l;aptop ditectly to switch port that resides in the same vlam as dmz server. your laotop will not generate any network traffic. which of the follpwim traffic can yuou expect to see in this scanarion. 
+**Concepts:**  
+- Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data  
+- Tailgating → Following an authorized person into a restricted area  
+- Impersonation → Pretending to be someone else (e.g., IT support)  
+- Dumpster Diving → Retrieving sensitive info from discarded materials  
 
-Only broadcast and unicast traffic destined to your laptop network interfact card. 
+**CISSP Insight:**  
+These attacks bypass technical controls → focus on **human vulnerability**.  
+Mitigation = **Security Awareness + Physical Security Controls**
 
-#### 2.2 Topic 3
-which is not a phase of security incident respose.
-backup, detectyion, reproting, response. 
+**Explanation:**  
+Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes **people as the weakest link**.
 
-#### 2.2 Topic 4
-You want to create multiple broadcast domains on yoru neteokr, ewhich devide should you install ?
-a bridge, a router, a hub, a layer 2 switch. 
- A router is capable of creating multiple broadcast domains on companys network. 
- collition domain read about it.  
+**Q/A:**  
+Q: Which attack exploits physical proximity without hacking systems?  
+A: Shoulder Surfing  
 
-#### 2.5 "HOTEL ECHO LIMA OSCAR"
-code words, not cryopto, not stego, not watermarks 
+**References:**  
+- https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks  
 
-#### 2.6 Security architecture models enable subject to assign rigths
-Chinese model
-Take Grant
-Noninterference
-Information flow
+---
 
-#### 2.7 Split brain DNS
-You need to prevent public exposure of the names and netwotk address of your company internal serves. 
-Split brain DNS
-Not DNS zone transfer
+## 2.2 Reporting Structure (InfoSec Governance)
 
-#### 2.8 DR, BCM
-Hot, Cold, Warm sites. 
+**Description:**  
+Defines organizational placement of information security.
 
-#### 2.9 Brute force
-which is the best defence against brute force
-- Strong password policies
+**Explanation:**  
+InfoSec should report to **CIO or CISO** for operational alignment.  
+Internal Audit must remain **independent** to objectively assess controls.
 
-#### 2.10 OCSP status
-certification revocation status
+**CISSP Insight:**  
+This tests **governance and independence principles**, not technical knowledge.
 
-#### 2.11 Patent
-which is example of patent - IP protection for an invention. 
+**Q/A:**  
+Q: Why is reporting to Internal Audit incorrect?  
+A: It violates independence  
 
-#### 2.12 Access issue
-FTP can access, but cannot access DNS. 
+**References:**  
+- https://www.isaca.org/resources/isaca-journal  
 
-#### 2.13 Audit
-many employees in your company have excessive acces permission in contrast to their jo. your copnaies users groups no longer closelyu resemble your compny structu . you want toenfirce least privilege principle. what to do ?
+---
 
-define the roles that represent job duties.
+## 2.3 DMZ Traffic Capture
 
-### 2.14 SSL 
-which do not require a unique internal IP address ?
-a clintless device, a think client, an ipsec client, a thick client
+**Description:**  
+Monitoring network traffic in a switched environment.
 
-#### 2.15 NIST 
-for testing and certification digital forensics CFTT, CFCE, ICMDE, CAWFE
+**Explanation:**  
+Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:
+- Broadcast traffic  
+- Traffic destined to your NIC  
 
-#### 2.16 Independant consultant
-your employer did not require a sgn a noncompete agreement as a condition of employment. 
-Accept the offfer. 
+**CISSP Insight:**  
+Understand **network architecture behavior**, not just tools.
 
-#### 2.17 Fire supression system
-least likely used in server room data center.
-preaction system, clean-agent system, gas-based system, deluge system
+**Q/A:**  
+Q: Why can't you see all traffic on a switch?  
+A: MAC-based forwarding  
 
-#### 2.18 during pentest
-what you should not do ?
-do not erase traces you took to exploit known vulns. 
+**References:**  
+- https://www.wireshark.org/docs/  
 
-#### 2.19 system logs
-what type of info  most likely to be contained within systme logs ?
-service modificaitons
-not auth logs, not ntwrotk taffic, not database object access.
+---
 
-#### 2.20 Blockchain
-a tech for creating distributed immutable databases
+## 2.4 Incident Response Lifecycle
 
-#### 2.21 Passowr hashing
-Turingna cleattext passweod into a practically uniqie strings of characters wioth a fixed length.
+**Description:**  
+Structured process for handling incidents.
 
-#### 2.22 Difficult to manage
-OTP is most difficult to manage, passphrases, static apssword and dynamic password is easy to manage. 
+**Phases:**  
+- Preparation  
+- Detection  
+- Response  
+- Recovery  
 
-#### 2.23 Shared responsibiltu model
-obligation of the provider in IAAS
-Storage, data, people, applicaitons
+**Explanation:**  
+Backup is a **supporting control**, not a phase.
 
-#### 2.24 involve reviews of web server logs ?
-media analysis, network analysis***, hardware analysis, software analysis. 
+**CISSP Insight:**  
+Focus on **process lifecycle thinking**
 
-#### 2.25 Risk assessment
-evaluating assets to ascertain the amount of vuln they represent to a copany. 
+**Q/A:**  
+Q: Which is not part of IR lifecycle?  
+A: Backup  
 
-#### 2.26 BGP
-WAN useS bgp, NOT LAN OR PAN, SAN
+**References:**  
+- https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf  
 
-#### 2.27 unwanted credit card charges
-API no 2 step authenticqiton needed. 
+---
 
-#### 2.28 IP attack
-typosquaytting, cyberswuatting
+## 2.5 Network Segmentation
 
-#### 2.29 replay attack mitigation
-nonce values ***
-a hash, a salt, kerberos
+**Description:**  
+Dividing networks to improve performance and security.
 
-#### 2.30 Which SAML messages known assertion
-which of the following is a SAML entity that sends XML messages known as assertions
-federation, principal, the service provider, identity provider. 
+**Explanation:**  
+- Router → separates broadcast domains  
+- Switch → separates collision domains  
+
+**CISSP Insight:**  
+Segmentation reduces **attack surface and lateral movement**
+
+**Q/A:**  
+Q: Which device reduces broadcast traffic?  
+A: Router  
+
+---
+
+## 2.6 NATO Phonetic Alphabet
+
+**Description:**  
+Standardized word system (Alpha, Bravo, Charlie) for communication clarity.
+
+**Explanation:**  
+Used in aviation/military to avoid misunderstanding. Not encryption.
+
+**CISSP Insight:**  
+Tests ability to **differentiate communication vs security controls**
+
+**Q/A:**  
+Q: Is this a confidentiality control?  
+A: No  
+
+---
+
+## 2.7 Security Models
+
+**Description:**  
+Formal frameworks for enforcing access control.
+
+**Explanation:**  
+- Chinese Wall → prevents conflict of interest  
+- Take-Grant → models permission transfer  
+- Noninterference → prevents information leakage  
+- Information Flow → restricts data movement  
+
+**CISSP Insight:**  
+Know **purpose of models**, not math
+
+**Q/A:**  
+Q: Which model stops insider conflict misuse?  
+A: Chinese Wall  
+
+---
+
+## 2.8 Split-Brain DNS
+
+**Description:**  
+Using separate DNS views for internal vs external users.
+
+**Explanation:**  
+Internal users see private IPs; external users see public IPs.
+
+**CISSP Insight:**  
+Protects **information disclosure (confidentiality)**
+
+**Q/A:**  
+Q: Why use split DNS?  
+A: Hide internal infrastructure  
+
+---
+
+## 2.9 Disaster Recovery Sites
+
+**Description:**  
+Alternate locations for business continuity.
+
+**Explanation:**  
+- Hot → fully operational  
+- Warm → partially configured  
+- Cold → basic infrastructure  
+
+**CISSP Insight:**  
+Trade-off between **cost vs recovery time (RTO)**
+
+**Q/A:**  
+Q: Which has lowest RTO?  
+A: Hot site  
+
+---
+
+## 2.10 Brute Force Defense
+
+**Description:**  
+Attack that tries all possible passwords.
+
+**Explanation:**  
+Defenses:
+- Strong passwords  
+- Account lockout  
+- MFA  
+
+**CISSP Insight:**  
+Focus on **preventive + detective controls**
+
+**Q/A:**  
+Q: Best mitigation for online brute force?  
+A: Account lockout  
+
+---
+
+## 2.11 OCSP
+
+**Description:**  
+Online Certificate Status Protocol.
+
+**Explanation:**  
+Checks certificate validity in real time instead of downloading CRLs.
+
+**CISSP Insight:**  
+Improves **availability and timeliness** of revocation checks
+
+**Q/A:**  
+Q: Why use OCSP over CRL?  
+A: Real-time validation  
+
+---
+
+## 2.21 Blockchain
+
+**Description:**  
+A distributed ledger that records transactions across multiple nodes.
+
+**Explanation:**  
+- Immutable → cannot be altered  
+- Decentralized → no central authority  
+- Transparent → all participants can verify  
+
+**CISSP Insight:**  
+Supports **integrity and non-repudiation**
+
+**Q/A:**  
+Q: What security property does blockchain strongly provide?  
+A: Integrity  
+
+---
+
+## 2.22 Password Hashing
+
+**Description:**  
+Converting plaintext passwords into fixed-length hashed values.
+
+**Explanation:**  
+- One-way function  
+- Same input → same output  
+- Uses salt to prevent rainbow table attacks  
+
+**CISSP Insight:**  
+Supports **confidentiality of stored credentials**
+
+**Q/A:**  
+Q: Why add salt to hashes?  
+A: Prevent precomputed attacks  
+
+---
+
+## 2.23 Shared Responsibility Model (IaaS)
+
+**Description:**  
+Defines security responsibilities between cloud provider and customer.
+
+**Explanation:**  
+Customer manages:
+- OS  
+- Applications  
+- Data  
+
+Provider manages:
+- Hardware  
+- Physical security  
+
+**CISSP Insight:**  
+Very commonly tested → **“who is responsible?”**
+
+**Q/A:**  
+Q: Who secures the OS in IaaS?  
+A: Customer  
+
+**References:**  
+- https://aws.amazon.com/compliance/shared-responsibility-model/  
+
+---
+
+## 2.26 BGP (Border Gateway Protocol)
+
+**Description:**  
+BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.
+
+**Explanation:**  
+- Operates at WAN/Internet level  
+- Determines best path between networks  
+- Uses path attributes, not just shortest distance  
+
+**CISSP Insight:**  
+Critical to understand for:
+- Internet routing  
+- Risks like **BGP hijacking**  
+
+**Q/A:**  
+Q: Where is BGP primarily used?  
+A: Internet (WAN)  
+
+**References:**  
+- https://datatracker.ietf.org/doc/html/rfc4271  
+
+---
+
+## 2.29 Replay Attack Mitigation
+
+**Description:**  
+Replay attacks reuse captured communication to gain unauthorized access.
+
+**Explanation:**  
+Nonce = random number used once → ensures freshness of request  
+
+**CISSP Insight:**  
+Protects **authentication integrity**
+
+**Q/A:**  
+Q: Why use a nonce?  
+A: Prevent reuse of captured messages  
+
+---
+
+## 2.30 SAML
+
+**Description:**  
+Security Assertion Markup Language used for federated authentication.
+
+**Explanation:**  
+- Identity Provider (IdP) → authenticates user  
+- Service Provider (SP) → provides service  
+- Assertions → authentication statements  
+
+**CISSP Insight:**  
+Core concept in **SSO and federation**
+
+**Q/A:**  
+Q: Who sends SAML assertions?  
+A: Identity Provider  
+
+**References:**  
+- https://docs.oasis-open.org/security/saml/  
