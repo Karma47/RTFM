@@ -28,9 +28,9 @@
 
   <meta itemprop="name" content="RTFM">
   <meta itemprop="description" content="Portfolio and personal site">
-  <meta itemprop="datePublished" content="2026-03-19T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2026-03-19T00:00:00+00:00">
-  <meta itemprop="wordCount" content="252">
+  <meta itemprop="datePublished" content="2026-04-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-04-02T00:00:00+00:00">
+  <meta itemprop="wordCount" content="249">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="RTFM">
   <meta name="twitter:description" content="Portfolio and personal site">
@@ -190,10 +190,6 @@
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#-explore-more">🔗 Explore More
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#-latest-videos">📺 Latest Videos
         </a>
       </li>
@@ -271,14 +267,21 @@
 </style>
 <div class="hero">
   <h1>Hello, I'm Prasanna V Balaji 👋</h1>
-  <p>
+  <p class="subtitle">
     Cyber Security <span id="role" class="highlight">Specialist</span>
-      <p style="font-size:0.95rem; color:#aaa;">
-    🛡 800+ Professionals Trained • 🐞 CVEs Reserved • 🧪 Multiple Vulnerability Disclosures
-    <p>
-    Threat Hunting • SIEM • Incident Response • Red Teaming • Vulnerability Management • TTX
-    </p>
   </p>
+  <p class="stats">
+    🛡 800+ Professionals Trained • 🐞 CVEs Reserved • 🧪 Multiple Vulnerability Disclosures
+  </p>
+  <p class="skills">
+    Threat Hunting • SIEM • Incident Response • Red Teaming • Vulnerability Management • TTX
+  </p>
+  <!-- CTA Buttons INSIDE hero -->
+  <div class="links">
+    <a href="/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/">📘 Notes</a>
+    <a href="/docs/02_platforms/lab_tracker.html">🧪 Labs</a>
+    <a href="https://github.com/Karma47" target="_blank">💻 GitHub</a>
+  </div>
 </div>
 <script>
 (() => {
@@ -440,12 +443,39 @@
   Building custom arch linux configuration and desktop.
 </div>
 <hr>
-<h2>🔗 Explore More<span class="hx:absolute hx:-mt-20" id="-explore-more"></span>
-    <a href="#-explore-more" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="links">
-  <a href="/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/">📘 Notes</a>
-  <a href="/docs/02_platforms/lab_tracker.html">🧪 Labs</a>
-  <a href="https://github.com/Karma47">💻 GitHub</a>
-</div>
+<style>
+.links {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 14px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.links a:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.links a:active {
+  transform: scale(0.98);
+}
+</style>
 <h2>📺 Latest Videos<span class="hx:absolute hx:-mt-20" id="-latest-videos"></span>
     <a href="#-latest-videos" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><iframe width="580" height="315" src="https://www.youtube.com/embed/WGidtNRHpko?si=q1QoplpL_wkl2qug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <ul>

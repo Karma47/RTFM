@@ -1,11 +1,50 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Cybersecurity Tools</title><link>https://docs.blankdash.com/docs/06_tools/</link><description>Recent content in Cybersecurity Tools on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://docs.blankdash.com/docs/06_tools/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://docs.blankdash.com/docs/06_tools/06.3_training/untitled/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/06_tools/06.3_training/untitled/</guid><description>
-&lt;p&gt;LOBBY → ROLE_SELECTION → IN_PROGRESS → STAGE_1 → STAGE_2 → STAGE_3 → COMPLETED&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Cybersecurity Tools</title>
+    <link>http://localhost:1313/docs/06_tools/</link>
+    <description>Recent content in Cybersecurity Tools on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Mar 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/06_tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Web Tools</title>
+      <link>http://localhost:1313/docs/06_tools/06.1_web/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/06_tools/06.1_web/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Documentation&lt;/h1&gt;&lt;p&gt;Browse my notes below.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/06_tools/06.3_training/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/06_tools/06.3_training/untitled/</guid>
+      <description>
+        
+        
+        &lt;p&gt;LOBBY → ROLE_SELECTION → IN_PROGRESS → STAGE_1 → STAGE_2 → STAGE_3 → COMPLETED&lt;/p&gt;
 &lt;p&gt;Stage → Modules → Scenarios → Player Responses → AI Injection → Consensus → Next&lt;/p&gt;
-&lt;h1&gt;Conversational Game Project Plan&lt;/h1&gt;&lt;h2&gt;Overview&lt;span class="hx:absolute hx:-mt-20" id="overview"&gt;&lt;/span&gt;
-&lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This project aims to create a web-based, AI-assisted multiplayer conversational game with executive and technical tracks. Users can host or join games, assume roles, interact with AI agents, and progress through multiple stages. A final report evaluates performance and collaboration.&lt;/p&gt;
+&lt;h1&gt;Conversational Game Project Plan&lt;/h1&gt;&lt;h2&gt;Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This project aims to create a web-based, AI-assisted multiplayer conversational game with executive and technical tracks. Users can host or join games, assume roles, interact with AI agents, and progress through multiple stages. A final report evaluates performance and collaboration.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;1. User Workflow&lt;span class="hx:absolute hx:-mt-20" id="1-user-workflow"&gt;&lt;/span&gt;
-&lt;a href="#1-user-workflow" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h2&gt;1. User Workflow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-user-workflow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-user-workflow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Sign Up / Login&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -47,8 +86,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2&gt;2. Game Flow&lt;span class="hx:absolute hx:-mt-20" id="2-game-flow"&gt;&lt;/span&gt;
-&lt;a href="#2-game-flow" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h2&gt;2. Game Flow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-game-flow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-game-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Stages and Modules&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -75,8 +114,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2&gt;3. AI Integration&lt;span class="hx:absolute hx:-mt-20" id="3-ai-integration"&gt;&lt;/span&gt;
-&lt;a href="#3-ai-integration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;h2&gt;3. AI Integration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-ai-integration&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-ai-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Facilitator AI&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -107,8 +146,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h2&gt;4. Technical Architecture (MVP)&lt;span class="hx:absolute hx:-mt-20" id="4-technical-architecture-mvp"&gt;&lt;/span&gt;
-&lt;a href="#4-technical-architecture-mvp" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;h2&gt;4. Technical Architecture (MVP)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-technical-architecture-mvp&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-technical-architecture-mvp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Bubble / Glide / Adalo (No-Code)&lt;/p&gt;
 &lt;ul&gt;
@@ -137,42 +176,42 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;5. Project Phases &amp;amp; Milestones&lt;span class="hx:absolute hx:-mt-20" id="5-project-phases--milestones"&gt;&lt;/span&gt;
-&lt;a href="#5-project-phases--milestones" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Phase 1: MVP Setup&lt;span class="hx:absolute hx:-mt-20" id="phase-1-mvp-setup"&gt;&lt;/span&gt;
-&lt;a href="#phase-1-mvp-setup" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h2&gt;5. Project Phases &amp;amp; Milestones&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-project-phases--milestones&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#5-project-phases--milestones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Phase 1: MVP Setup&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-1-mvp-setup&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-1-mvp-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Setup user authentication and accounts&lt;/li&gt;
 &lt;li&gt;Host/Join game flow&lt;/li&gt;
 &lt;li&gt;Role selection (human + AI)&lt;/li&gt;
 &lt;li&gt;Basic stage/module navigation&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Phase 2: Core Gameplay&lt;span class="hx:absolute hx:-mt-20" id="phase-2-core-gameplay"&gt;&lt;/span&gt;
-&lt;a href="#phase-2-core-gameplay" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Phase 2: Core Gameplay&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-2-core-gameplay&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-2-core-gameplay&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Module scenarios implemented&lt;/li&gt;
 &lt;li&gt;Facilitator and role AI integration&lt;/li&gt;
 &lt;li&gt;Turn-based player interactions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Phase 3: AI Complexity&lt;span class="hx:absolute hx:-mt-20" id="phase-3-ai-complexity"&gt;&lt;/span&gt;
-&lt;a href="#phase-3-ai-complexity" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Phase 3: AI Complexity&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-3-ai-complexity&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-3-ai-complexity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Saboteur AI (optional)&lt;/li&gt;
 &lt;li&gt;Dynamic facilitator injections&lt;/li&gt;
 &lt;li&gt;Conditional scenario branching&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Phase 4: Reporting &amp;amp; Analytics&lt;span class="hx:absolute hx:-mt-20" id="phase-4-reporting--analytics"&gt;&lt;/span&gt;
-&lt;a href="#phase-4-reporting--analytics" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Phase 4: Reporting &amp;amp; Analytics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-4-reporting--analytics&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-4-reporting--analytics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Post-game evaluation&lt;/li&gt;
 &lt;li&gt;Individual and team performance scoring&lt;/li&gt;
 &lt;li&gt;Recommendations generated by AI&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Phase 5: Polish &amp;amp; Deployment&lt;span class="hx:absolute hx:-mt-20" id="phase-5-polish--deployment"&gt;&lt;/span&gt;
-&lt;a href="#phase-5-polish--deployment" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;Phase 5: Polish &amp;amp; Deployment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-5-polish--deployment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#phase-5-polish--deployment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;UI enhancements&lt;/li&gt;
 &lt;li&gt;Multi-device support&lt;/li&gt;
 &lt;li&gt;Beta testing with users&lt;/li&gt;
 &lt;li&gt;Optional: Real-time multiplayer upgrade&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;6. Notes&lt;span class="hx:absolute hx:-mt-20" id="6-notes"&gt;&lt;/span&gt;
-&lt;a href="#6-notes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;h2&gt;6. Notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-notes&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#6-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Keep MVP simple to launch quickly.&lt;/li&gt;
 &lt;li&gt;Focus on &lt;strong&gt;game flow, role dynamics, and AI responses&lt;/strong&gt;.&lt;/li&gt;
 &lt;li&gt;Real-time multiplayer can be added later.&lt;/li&gt;
@@ -180,35 +219,35 @@
 &lt;/ul&gt;
 &lt;h1&gt;&lt;strong&gt;Step 1: Pick No-Code Platforms&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;You need platforms for &lt;strong&gt;frontend, backend, and AI&lt;/strong&gt;:&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Function&lt;/th&gt;
-&lt;th&gt;No-Code Tool&lt;/th&gt;
-&lt;th&gt;Notes&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Web interface &amp;amp; pages&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Bubble&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Most flexible for logic, databases, and user accounts&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Database / storage&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Bubble DB&lt;/strong&gt; or &lt;strong&gt;Airtable&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Store users, games, roles, actions&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;AI integration&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Make.com&lt;/strong&gt; or &lt;strong&gt;Zapier&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;Connects Bubble or Airtable to OpenAI API&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Multiplayer logic (simple turn-based)&lt;/td&gt;
-&lt;td&gt;Bubble workflows&lt;/td&gt;
-&lt;td&gt;Real-time not required for MVP&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Function&lt;/th&gt;
+          &lt;th&gt;No-Code Tool&lt;/th&gt;
+          &lt;th&gt;Notes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Web interface &amp;amp; pages&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Bubble&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Most flexible for logic, databases, and user accounts&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Database / storage&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Bubble DB&lt;/strong&gt; or &lt;strong&gt;Airtable&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Store users, games, roles, actions&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;AI integration&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Make.com&lt;/strong&gt; or &lt;strong&gt;Zapier&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Connects Bubble or Airtable to OpenAI API&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Multiplayer logic (simple turn-based)&lt;/td&gt;
+          &lt;td&gt;Bubble workflows&lt;/td&gt;
+          &lt;td&gt;Real-time not required for MVP&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;✅ &lt;strong&gt;Why Bubble:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -419,8 +458,8 @@
 &lt;p&gt;i also want to make it modular, like i can create more scenarios etc&lt;/p&gt;
 &lt;p&gt;Perfect! Making it &lt;strong&gt;modular&lt;/strong&gt; is smart—it lets you &lt;strong&gt;add new scenarios, stages, or roles&lt;/strong&gt; without touching the core game logic. Since you’re using a no-code approach like Bubble, modularity mostly comes from &lt;strong&gt;database design + workflows&lt;/strong&gt;. Here’s how to do it:&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;1️⃣ Database Design for Modular Gameplay&lt;/strong&gt;&lt;/h1&gt;&lt;h3&gt;&lt;strong&gt;Games&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="games"&gt;&lt;/span&gt;
-&lt;a href="#games" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h1&gt;&lt;strong&gt;1️⃣ Database Design for Modular Gameplay&lt;/strong&gt;&lt;/h1&gt;&lt;h3&gt;&lt;strong&gt;Games&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;games&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#games&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;id (unique)&lt;/p&gt;
 &lt;/li&gt;
@@ -437,8 +476,8 @@
 &lt;p&gt;status (waiting / in_progress / completed)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Stages&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="stages"&gt;&lt;/span&gt;
-&lt;a href="#stages" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;Stages&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stages&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;id&lt;/p&gt;
 &lt;/li&gt;
@@ -455,8 +494,8 @@
 &lt;p&gt;status (pending / in_progress / completed)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Modules (Scenarios)&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="modules-scenarios"&gt;&lt;/span&gt;
-&lt;a href="#modules-scenarios" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;Modules (Scenarios)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modules-scenarios&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#modules-scenarios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;id&lt;/li&gt;
 &lt;li&gt;stage_id (link to stage)&lt;/li&gt;
 &lt;li&gt;module_number&lt;/li&gt;
@@ -465,23 +504,23 @@
 &lt;li&gt;status (pending / completed)&lt;/li&gt;
 &lt;li&gt;optional: facilitator_injection_text&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Roles&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="roles"&gt;&lt;/span&gt;
-&lt;a href="#roles" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;Roles&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;roles&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#roles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;id&lt;/li&gt;
 &lt;li&gt;name (CEO, CISO, Legal…)&lt;/li&gt;
 &lt;li&gt;objectives (JSON/text)&lt;/li&gt;
 &lt;li&gt;AI_agent_prompt (for AI to simulate this role)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Players&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="players"&gt;&lt;/span&gt;
-&lt;a href="#players" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;Players&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;players&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#players&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;id&lt;/li&gt;
 &lt;li&gt;game_id&lt;/li&gt;
 &lt;li&gt;user_id (nullable if AI)&lt;/li&gt;
 &lt;li&gt;role_id&lt;/li&gt;
 &lt;li&gt;is_ai&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Actions&lt;/strong&gt;&lt;span class="hx:absolute hx:-mt-20" id="actions"&gt;&lt;/span&gt;
-&lt;a href="#actions" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;h3&gt;&lt;strong&gt;Actions&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;actions&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;id&lt;/li&gt;
 &lt;li&gt;module_id&lt;/li&gt;
 &lt;li&gt;player_id&lt;/li&gt;
@@ -563,6 +602,24 @@
 &lt;li&gt;Modular AI integration flow&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;It will literally be a &lt;strong&gt;step-by-step guide you can follow without coding&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Do you want me to create that next?&lt;/p&gt;</description></item><item><title>Network Tools</title><link>https://docs.blankdash.com/docs/06_tools/06.2_network/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/06_tools/06.2_network/</guid><description>
-&lt;h1&gt;Documentation&lt;/h1&gt;&lt;p&gt;Browse my notes below.&lt;/p&gt;</description></item><item><title>Web Tools</title><link>https://docs.blankdash.com/docs/06_tools/06.1_web/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/06_tools/06.1_web/</guid><description>
-&lt;h1&gt;Documentation&lt;/h1&gt;&lt;p&gt;Browse my notes below.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Do you want me to create that next?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Network Tools</title>
+      <link>http://localhost:1313/docs/06_tools/06.2_network/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/06_tools/06.2_network/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Documentation&lt;/h1&gt;&lt;p&gt;Browse my notes below.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

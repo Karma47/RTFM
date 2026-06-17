@@ -12,4 +12,4 @@ draft: false
 - Web app recon is the process of mapping an application’s endpoints, parameters, and behavior to understand its attack surface. 
 - Strong recon focuses on logic and hidden functionality, not just running automated tools.
 
-![](02_platforms/web/assets/Pasted%20image%2020260402095802.png)
+![](/docs/02_platforms/web/assets/Pasted_image_20260402095802.png)
