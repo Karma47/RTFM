@@ -11,7 +11,7 @@ draft: false
 ## 2.1 Social Engineering Attacks
 
 **Description:**  
-Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information.
+Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information
 
 **Concepts:**  
 - Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data  
