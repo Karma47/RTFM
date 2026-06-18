@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_playbooks/04 CISSP Cheatsheet.md",
+                "file": "04_playbooks/02 CISSP Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 CISSP Cheatsheet"
+              "title": "02 CISSP Cheatsheet"
             }
           }
         ]
@@ -183,13 +183,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "21d95e75065a53af",
+  "active": "934e2cbc2384afdc",
   "lastOpenFiles": [
     "01_methodology/Threat Hunting/04 Hunting with Data.md",
     "01_methodology/Threat Hunting/03 Threat Information Management.md",
     "01_methodology/Threat Hunting/02 Threat Actors Landscape.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Essentials.md",
-    "04_playbooks/04 CISSP Cheatsheet.md",
+    "04_playbooks/02 CISSP Cheatsheet.md",
     "04_playbooks/02 CISSP Cheatsheet.md",
     "04_playbooks/01 Incident Response.md",
     "01_methodology/Threat Hunting/05 Threat Hunting in Cloud.md",
