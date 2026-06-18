@@ -1,212 +1,162 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>RTFM – Security Analysis</title>
-    <link>http://localhost:1313/docs/01_methodology/security-analysis/</link>
-    <description>Recent content in Security Analysis on RTFM</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/docs/01_methodology/security-analysis/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>[1] Attack Mapping Methodology</title>
-      <link>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 23, 2026&lt;/time&gt;
-  
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RTFM – Security Analysis</title><link>https://docs.blankdash.com/docs/01_methodology/security-analysis/</link><description>Recent content in Security Analysis on RTFM</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.blankdash.com/docs/01_methodology/security-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>[1] Attack Mapping Methodology</title><link>https://docs.blankdash.com/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link><pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate><guid>https://docs.blankdash.com/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid><description>
+&lt;div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;"&gt;
+&lt;span style="display: flex; align-items: center; gap: 6px;"&gt;
+By:
+&lt;a href="https://www.linkedin.com/in/prasannavbalaji" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;" onmouseover="this.style.borderBottom='1px solid #0a66c2'" onmouseout="this.style.borderBottom='1px solid transparent'"&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"&gt;
+&lt;path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/&gt;
+&lt;/svg&gt;
+Prasanna
+&lt;/a&gt;
+&lt;/span&gt;
+&lt;span style="color: #d1d5db;"&gt;|&lt;/span&gt;
+&lt;time style="font-style: italic;"&gt;March 23, 2026&lt;/time&gt;
 &lt;/div&gt;
-&lt;h3&gt;1. Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-cyber-kill-chain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1.1 What is the Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-what-is-the-cyber-kill-chain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#11-what-is-the-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a href=&#34;https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
+&lt;h3&gt;1. Cyber Kill Chain&lt;span class="hx:absolute hx:-mt-20" id="1-cyber-kill-chain"&gt;&lt;/span&gt;
+&lt;a href="#1-cyber-kill-chain" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1.1 What is the Cyber Kill Chain&lt;span class="hx:absolute hx:-mt-20" id="11-what-is-the-cyber-kill-chain"&gt;&lt;/span&gt;
+&lt;a href="#11-what-is-the-cyber-kill-chain" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a href="https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html"target="_blank" rel="noopener"&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
 &lt;p&gt;It emphasizes that a cyber attack progresses through a chain like sequentially, where the threat actor will have to move to the next part of the chain until the end to achieve their goals.&lt;/p&gt;
 &lt;p&gt;In simple terms for a cyber defender it&amp;rsquo;s important to know where exactly in the chain that a threat actor is and take necessary actions to break the chain thereby disrupting the threat actor to achieve their goals.&lt;/p&gt;
-&lt;p&gt;The below image from &lt;a href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The below image from &lt;a href="https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html"target="_blank" rel="noopener"&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
+&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;#&lt;/th&gt;
-          &lt;th&gt;Stage&lt;/th&gt;
-          &lt;th&gt;Description&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;1&lt;/td&gt;
-          &lt;td&gt;Reconnaissance&lt;/td&gt;
-          &lt;td&gt;Attackers gather information about the target, such as systems, users, and vulnerabilities.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;2&lt;/td&gt;
-          &lt;td&gt;Weaponization&lt;/td&gt;
-          &lt;td&gt;They create a malicious payload by combining exploits with malware.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;3&lt;/td&gt;
-          &lt;td&gt;Delivery&lt;/td&gt;
-          &lt;td&gt;The payload is transmitted to the victim via methods like phishing or malicious links.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;4&lt;/td&gt;
-          &lt;td&gt;Exploitation&lt;/td&gt;
-          &lt;td&gt;The payload is executed by exploiting a vulnerability on the target system.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;5&lt;/td&gt;
-          &lt;td&gt;Installation&lt;/td&gt;
-          &lt;td&gt;Malware is installed to maintain persistence on the compromised system.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;6&lt;/td&gt;
-          &lt;td&gt;Command and Control (C2)&lt;/td&gt;
-          &lt;td&gt;The attacker establishes a communication channel to remotely control the infected system.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;7&lt;/td&gt;
-          &lt;td&gt;Actions on Objectives&lt;/td&gt;
-          &lt;td&gt;The attacker achieves their goal, such as data exfiltration, lateral movement, or disruption.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;#&lt;/th&gt;
+&lt;th&gt;Stage&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Reconnaissance&lt;/td&gt;
+&lt;td&gt;Attackers gather information about the target, such as systems, users, and vulnerabilities.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Weaponization&lt;/td&gt;
+&lt;td&gt;They create a malicious payload by combining exploits with malware.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Delivery&lt;/td&gt;
+&lt;td&gt;The payload is transmitted to the victim via methods like phishing or malicious links.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Exploitation&lt;/td&gt;
+&lt;td&gt;The payload is executed by exploiting a vulnerability on the target system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Installation&lt;/td&gt;
+&lt;td&gt;Malware is installed to maintain persistence on the compromised system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Command and Control (C2)&lt;/td&gt;
+&lt;td&gt;The attacker establishes a communication channel to remotely control the infected system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Actions on Objectives&lt;/td&gt;
+&lt;td&gt;The attacker achieves their goal, such as data exfiltration, lateral movement, or disruption.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4&gt;1.2 Why it is important ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;12-why-it-is-important-&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#12-why-it-is-important-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The kill chain itself helps in mapping an ongoing cyber attack into a sequential events grouped to stages. This helps build a proactive approach in cyber defense to detect early stages and stop an attack before it inflicts major damage.&lt;/p&gt;
+&lt;h4&gt;1.2 Why it is important ?&lt;span class="hx:absolute hx:-mt-20" id="12-why-it-is-important-"&gt;&lt;/span&gt;
+&lt;a href="#12-why-it-is-important-" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The kill chain itself helps in mapping an ongoing cyber attack into a sequential events grouped to stages. This helps build a proactive approach in cyber defense to detect early stages and stop an attack before it inflicts major damage.&lt;/p&gt;
 &lt;p&gt;In addition, it makes more complex attacks easier to analyze, communicate to different security stakeholders in a easily digestible way. An example would be a clean kill chain mapping into a threat intelligence report or a post incident analysis report.&lt;/p&gt;
-&lt;p&gt;it also helps build detection rules such as mapping logs or alerts to the kill chain or even a PowerShell execution.  Finally, it improves the IR process since it&amp;rsquo;s quite intuitive to determine at what stage of the attack the Incident response is functioning at.&lt;/p&gt;
+&lt;p&gt;it also helps build detection rules such as mapping logs or alerts to the kill chain or even a PowerShell execution. Finally, it improves the IR process since it&amp;rsquo;s quite intuitive to determine at what stage of the attack the Incident response is functioning at.&lt;/p&gt;
 &lt;p&gt;Here is an example Kill chain Mapping for an attack,&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-HTML&#34; data-lang=&#34;HTML&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Our investigation revealed the following high-level path the threat actor took to compromise the environment:
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1. The threat actor initiated reconnaissance activities by performing system fingerprinting and network enumeration to identify active hosts, services, and potential vulnerabilities within the environment.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2. Following reconnaissance, the threat actor moved into the weaponization phase by preparing exploit code tailored to the identified weaknesses and testing various parameters to ensure successful execution.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3. The threat actor then delivered the exploit payload through multiple identified vulnerabilities, attempting to gain an initial foothold within the environment.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;4. Successful exploitation was achieved through multiple techniques, including remote code execution (RCE) via a vulnerable file upload mechanism, as well as the use of known exploits such as EternalBlue and buffer overflow vulnerabilities.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;5. After gaining access, the threat actor established persistence by installing malicious scripts on compromised systems and configuring a stealthy reverse connection to maintain remote access.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;6. The threat actor implemented command and control (C2) mechanisms by creating scheduled tasks to maintain persistent communication with compromised hosts and began exfiltrating sensitive data from the environment.
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;7. Finally, the threat actor carried out actions on objectives, including disabling antivirus protections, executing additional malicious scripts, and compromising critical systems such as the domain controller to expand control over the environment.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-HTML" data-lang="HTML"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Our investigation revealed the following high-level path the threat actor took to compromise the environment:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;1. The threat actor initiated reconnaissance activities by performing system fingerprinting and network enumeration to identify active hosts, services, and potential vulnerabilities within the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;2. Following reconnaissance, the threat actor moved into the weaponization phase by preparing exploit code tailored to the identified weaknesses and testing various parameters to ensure successful execution.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;3. The threat actor then delivered the exploit payload through multiple identified vulnerabilities, attempting to gain an initial foothold within the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;4. Successful exploitation was achieved through multiple techniques, including remote code execution (RCE) via a vulnerable file upload mechanism, as well as the use of known exploits such as EternalBlue and buffer overflow vulnerabilities.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;5. After gaining access, the threat actor established persistence by installing malicious scripts on compromised systems and configuring a stealthy reverse connection to maintain remote access.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;6. The threat actor implemented command and control (C2) mechanisms by creating scheduled tasks to maintain persistent communication with compromised hosts and began exfiltrating sensitive data from the environment.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;7. Finally, the threat actor carried out actions on objectives, including disabling antivirus protections, executing additional malicious scripts, and compromising critical systems such as the domain controller to expand control over the environment.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mitre-attck&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-mitre-attck-framework&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class="hx:absolute hx:-mt-20" id="2-mitre-attck"&gt;&lt;/span&gt;
+&lt;a href="#2-mitre-attck" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class="hx:absolute hx:-mt-20" id="21-mitre-attck-framework"&gt;&lt;/span&gt;
+&lt;a href="#21-mitre-attck-framework" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a href="https://attack.mitre.org/"target="_blank" rel="noopener"&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;p&gt;In addition to MITRE ATT&amp;amp;CK, the D3FEND framework helps by providing a complementary, defense focused taxonomy that maps concrete countermeasures, techniques, and controls to attacker behaviors making it easier for security teams to design, validate, and communicate mitigations (detection rules, system hardening, isolation mechanisms, and response playbooks) that directly correspond to adversary tactics and techniques.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png" alt="697" loading="lazy" /&gt;
 Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rsquo;ve mentioned earlier in section 1.2.&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Phase&lt;/th&gt;
-          &lt;th&gt;Activity&lt;/th&gt;
-          &lt;th&gt;MITRE Technique&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Reconnaissance&lt;/td&gt;
-          &lt;td&gt;Fingerprinting, Network Enumeration&lt;/td&gt;
-          &lt;td&gt;Active Scanning (T1595), Network Service Discovery (T1046)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Weaponization&lt;/td&gt;
-          &lt;td&gt;Exploit Development &amp;amp; Testing&lt;/td&gt;
-          &lt;td&gt;Develop Capabilities (T1587)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Initial Access / Delivery&lt;/td&gt;
-          &lt;td&gt;Exploit Delivery via Vulnerabilities&lt;/td&gt;
-          &lt;td&gt;Exploit Public-Facing Application (T1190)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Exploitation&lt;/td&gt;
-          &lt;td&gt;RCE, EternalBlue, Buffer Overflow&lt;/td&gt;
-          &lt;td&gt;Exploitation for Client Execution (T1203), Exploitation of Remote Services (T1210)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Persistence&lt;/td&gt;
-          &lt;td&gt;Malicious Scripts, Reverse Connection&lt;/td&gt;
-          &lt;td&gt;Persistence via Scheduled Task/Job (T1053), Remote Access Tools (T1219)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Command &amp;amp; Control&lt;/td&gt;
-          &lt;td&gt;Scheduled Jobs, Persistent Connection&lt;/td&gt;
-          &lt;td&gt;Application Layer Protocol (T1071), Remote Access Software&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Exfiltration&lt;/td&gt;
-          &lt;td&gt;Data Theft&lt;/td&gt;
-          &lt;td&gt;Exfiltration Over C2 Channel (T1041)&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Actions on Objectives&lt;/td&gt;
-          &lt;td&gt;Disable AV, Further Execution, Domain Compromise&lt;/td&gt;
-          &lt;td&gt;Impair Defenses (T1562), Lateral Movement (T1021), Domain Accounts (T1078)&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Phase&lt;/th&gt;
+&lt;th&gt;Activity&lt;/th&gt;
+&lt;th&gt;MITRE Technique&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Reconnaissance&lt;/td&gt;
+&lt;td&gt;Fingerprinting, Network Enumeration&lt;/td&gt;
+&lt;td&gt;Active Scanning (T1595), Network Service Discovery (T1046)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Weaponization&lt;/td&gt;
+&lt;td&gt;Exploit Development &amp;amp; Testing&lt;/td&gt;
+&lt;td&gt;Develop Capabilities (T1587)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Initial Access / Delivery&lt;/td&gt;
+&lt;td&gt;Exploit Delivery via Vulnerabilities&lt;/td&gt;
+&lt;td&gt;Exploit Public-Facing Application (T1190)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exploitation&lt;/td&gt;
+&lt;td&gt;RCE, EternalBlue, Buffer Overflow&lt;/td&gt;
+&lt;td&gt;Exploitation for Client Execution (T1203), Exploitation of Remote Services (T1210)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Persistence&lt;/td&gt;
+&lt;td&gt;Malicious Scripts, Reverse Connection&lt;/td&gt;
+&lt;td&gt;Persistence via Scheduled Task/Job (T1053), Remote Access Tools (T1219)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Command &amp;amp; Control&lt;/td&gt;
+&lt;td&gt;Scheduled Jobs, Persistent Connection&lt;/td&gt;
+&lt;td&gt;Application Layer Protocol (T1071), Remote Access Software&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exfiltration&lt;/td&gt;
+&lt;td&gt;Data Theft&lt;/td&gt;
+&lt;td&gt;Exfiltration Over C2 Channel (T1041)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Actions on Objectives&lt;/td&gt;
+&lt;td&gt;Disable AV, Further Execution, Domain Compromise&lt;/td&gt;
+&lt;td&gt;Impair Defenses (T1562), Lateral Movement (T1021), Domain Accounts (T1078)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4&gt;2.2 ICS Cyber Attack - Kill Chain Mapping&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ics-cyber-attack---kill-chain-mapping&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-ics-cyber-attack---kill-chain-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
-&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;h4&gt;2.2 ICS Cyber Attack - Kill Chain Mapping&lt;span class="hx:absolute hx:-mt-20" id="22-ics-cyber-attack---kill-chain-mapping"&gt;&lt;/span&gt;
+&lt;a href="#22-ics-cyber-attack---kill-chain-mapping" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a href="https://sansorg.egnyte.com/dl/k7gJ2gVBj5"target="_blank" rel="noopener"&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
+&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a href="https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security"target="_blank" rel="noopener"&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://docs.blankdash.com/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png" alt="" loading="lazy" /&gt;&lt;/p&gt;</description></item></channel></rss>
