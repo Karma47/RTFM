@@ -23,8 +23,11 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Build the Hugo site
+      - name: Build Hugo site
         run: hugo --minify
+
+      - name: Check output
+        run: ls -la public
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v4
