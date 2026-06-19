@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_playbooks/02 CISSP Cheatsheet.md",
+                "file": "06_tools/06.3_Training/Ideation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 CISSP Cheatsheet"
+              "title": "Ideation"
             }
           }
         ]
@@ -183,15 +183,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "934e2cbc2384afdc",
+  "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "06_tools/_index.md",
+    "06_tools/06.3_Training/Untitled.md",
+    "06_tools/06.3_Training/Ideation.md",
+    "02_platforms/web/Web Application Enumeration.md",
+    "04_playbooks/01 Incident Response.md",
+    "04_playbooks/02 CISSP Cheatsheet.md",
+    "06_tools/06.1_web/Whois.md",
+    "06_tools/06.2_network/_index.md",
     "01_methodology/Threat Hunting/04 Hunting with Data.md",
     "01_methodology/Threat Hunting/03 Threat Information Management.md",
     "01_methodology/Threat Hunting/02 Threat Actors Landscape.md",
     "01_methodology/Threat Hunting/01 Threat Hunting Essentials.md",
-    "04_playbooks/02 CISSP Cheatsheet.md",
-    "04_playbooks/02 CISSP Cheatsheet.md",
-    "04_playbooks/01 Incident Response.md",
     "01_methodology/Threat Hunting/05 Threat Hunting in Cloud.md",
     "01_methodology/Threat Hunting/assets/Pasted image 20260404203335.png",
     "01_methodology/Threat Hunting/06 Psychology of trust boundary.md",
@@ -215,17 +220,12 @@
     "01_methodology/Security Analysis",
     "05_detection/XY Notes Template.md",
     "01_methodology/Threat Hunting/07 Psychology of trust boundary.md",
-    "02_platforms/web/Web Application Enumeration.md",
     "02_platforms/web/assets",
     "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
-    "06_tools/06.3_Training/Untitled.md",
     "06_tools/06.3_Training",
     "{{.md",
     "01_methodology/Threat Hunting/assets",
-    "06_tools/06.1_web/Whois.md",
     "06_tools/06.1_web/_index.md",
-    "06_tools/_index.md",
-    "05_detection/_index.md",
     "01_methodology/Threat Hunting/assets/Draft",
     "01_methodology/Threat Hunting",
     "06_tools/06.2_network",

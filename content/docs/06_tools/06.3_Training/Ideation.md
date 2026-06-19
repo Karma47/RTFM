@@ -1,3 +1,13 @@
+---
+title: "[06] TTX Ideation"
+date: 2026-06-19
+authors:
+  - Prasanna
+draft: true
+---
+
+{{< meta >}}
+
 LOBBY → ROLE_SELECTION → IN_PROGRESS → STAGE_1 → STAGE_2 → STAGE_3 → COMPLETED
 
 Stage → Modules → Scenarios → Player Responses → AI Injection → Consensus → Next
