@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_tools/06.3_Training/Ideation.md",
+                "file": "04_playbooks/03 CISSP Cheatsheet 1.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ideation"
+              "title": "03 CISSP Cheatsheet 1.2"
             }
           }
         ]
@@ -185,12 +185,15 @@
   },
   "active": "21d95e75065a53af",
   "lastOpenFiles": [
+    "04_playbooks/assets/Pasted image 20260626195953.png",
+    "04_playbooks/assets",
+    "04_playbooks/02 CISSP Cheatsheet.md",
+    "04_playbooks/03 CISSP Cheatsheet 1.2.md",
+    "06_tools/06.3_Training/Ideation.md",
     "06_tools/_index.md",
     "06_tools/06.3_Training/Untitled.md",
-    "06_tools/06.3_Training/Ideation.md",
     "02_platforms/web/Web Application Enumeration.md",
     "04_playbooks/01 Incident Response.md",
-    "04_playbooks/02 CISSP Cheatsheet.md",
     "06_tools/06.1_web/Whois.md",
     "06_tools/06.2_network/_index.md",
     "01_methodology/Threat Hunting/04 Hunting with Data.md",
@@ -223,13 +226,10 @@
     "02_platforms/web/assets",
     "01_methodology/Threat Hunting/06 Threat Hunting in Cloud.md",
     "06_tools/06.3_Training",
-    "{{.md",
     "01_methodology/Threat Hunting/assets",
-    "06_tools/06.1_web/_index.md",
     "01_methodology/Threat Hunting/assets/Draft",
     "01_methodology/Threat Hunting",
     "06_tools/06.2_network",
-    "06_tools/06.1_web",
-    "06_tools"
+    "06_tools/06.1_web"
   ]
 }
