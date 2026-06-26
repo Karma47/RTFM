@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "0ea4e1c46e83e26c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b6e0aad783073c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37c46f3a79f1c879",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4197494394391ffa",
+    "type": "split",
+    "children": [
+      {
+        "id": "065f41ee970470f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a007f77aedf7cfe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "048fb7d1b70e2154",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a3a8e4c26d7b70fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3078f5b1510ae4d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "acb51090ac086784",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2dc84cbd85fe14b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d0662e44a2cc767b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "22bf0f0412fc8be8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6989923c6224ee54",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "22e22c855cf0101c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "37c46f3a79f1c879",
+  "lastOpenFiles": [
+    "KeyVS.pub",
+    "KeyVS",
+    "public/docs/04_playbooks/assets/Pasted_image_20260626195953.png",
+    "public/docs/04_playbooks/assets",
+    "static/docs/04_playbooks/assets/Pasted_image_20260626195953.png",
+    "static/docs/04_playbooks/assets",
+    "static/docs/04_playbooks",
+    "content/docs/04_playbooks/assets/Pasted image 20260626195953.png",
+    "content/docs/04_playbooks/assets",
+    "public/docs/04_playbooks/03-cissp-cheatsheet-1.2/index.html",
+    "public/docs/04_playbooks/03-cissp-cheatsheet-1.2",
+    "content/docs/04_playbooks/03 CISSP Cheatsheet 1.2.md",
+    "public/docs/04_playbooks/02-cissp-cheatsheet-1.2/index.html",
+    "public/docs/04_playbooks/02-cissp-cheatsheet-1.2",
+    "content/docs/04_playbooks/02 CISSP Cheatsheet 1.2.md",
+    "public/docs/04_playbooks/02-cissp-cheatsheet-1/index.html",
+    "content/docs/04_playbooks/02 CISSP Cheatsheet 1.md",
+    "content/authors/Keren/_index.md",
+    "content/authors/Keren/Prasanna/_index.md"
+  ]
+}
