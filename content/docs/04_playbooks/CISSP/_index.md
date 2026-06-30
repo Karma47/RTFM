@@ -1,5 +1,5 @@
 ---
-title: Playbooks
+title: CISSP
 description: All my notes
 ---
 This contains the notes for CISSP Preperation. 
