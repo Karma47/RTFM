@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>[06] Threat Hunting in Cloud – RTFM</title>
-  <meta name="description" content="By:Prasanna|March 19, 202601. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist" /><link rel="canonical" href="http://localhost:1313/docs/02_platforms/wifi/01-recon/" itemprop="url" />
+  <meta name="description" content=" By: Prasanna | March 19, 2026 01. What is the channel that the wifi-global Access Point is currently using? Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verbose Start airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg We can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client? From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps 03. What is the probe of 78:C1:A7:BF:72:46 ? We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)? Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlist This wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicole We can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0mon We can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist " /><link rel="canonical" href="http://localhost:1313/docs/02_platforms/wifi/01-recon/" itemprop="url" />
 
 <meta property="og:title" content="[06] Threat Hunting in Cloud">
 <meta
@@ -192,14 +192,14 @@ mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
 
 
 	<meta itemprop="name" content="[06] Threat Hunting in Cloud">
-	<meta itemprop="description" content="By:Prasanna|March 19, 202601. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
+	<meta itemprop="description" content="By: Prasanna | March 19, 2026 01. What is the channel that the wifi-global Access Point is currently using? Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verbose Start airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg We can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client? From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps 03. What is the probe of 78:C1:A7:BF:72:46 ? We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)? Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlist This wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicole We can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0mon We can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
 	<meta itemprop="datePublished" content="2026-03-19T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-03-19T00:00:00+00:00">
 	<meta itemprop="wordCount" content="286">
 	<meta itemprop="keywords" content="Prasanna V Balaji">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="[06] Threat Hunting in Cloud">
-	<meta name="twitter:description" content="By:Prasanna|March 19, 202601. What is the channel that the wifi-global Access Point is currently using?Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verboseStart airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abgWe can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client?From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps03. What is the probe of 78:C1:A7:BF:72:46 ?We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlistThis wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicoleWe can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0monWe can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
+	<meta name="twitter:description" content="By: Prasanna | March 19, 2026 01. What is the channel that the wifi-global Access Point is currently using? Setup the wifi adapter in monitor mode and verify the setup $ airmon-ng check kill $ airmon-ng start wlan0 $ airmon-ng --verbose Start airodump-ng and look for the results airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg We can also see the output capture files are saved for the further analysis. 02. What is the MAC of the wifi-IT client? From the previous output we can see that the BSSID of the client wifi-IT is F0:9F:C2:1A:CA:25 Using this information we can identify the MAC of the essid wifi-IT airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c 11 --manufacturer --wps 03. What is the probe of 78:C1:A7:BF:72:46 ? We can run airodump-ng again to check the probe of provided address. airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg 04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)? Prepare a wordlist with the common patterns wifi-$words cat /root/rockyou-top100000.txt | awk &#39;{print &#34;wifi-&#34;$1}&#39; &gt; wifi.wordlist This wordlist will be use to brute force the wifi essids Verify the generated list, which looks like the below listed example. $ less wifi.wordlist wifi-123456 wifi-12345 wifi-123456789 ... wifi-12345678 wifi-abc123 wifi-nicole We can now use mdk4 to bruteforce the essid of the provided address. First find the channel of the provided AP $ airodump-ng wlan0mon We can see that it’s running in channel 11 The below explains the options set for the program (refer to mdk4 man page) p - SSID Probing and Bruteforcing -t - Set MAC address of target AP -f - Read SSIDs from file for bruteforcing hidden SSIDs iwconfig wlan0mon channel 11 mdk4 wlan0mon p -t F0:9F:C2:6A:88:26 -f ./wifi.wordlist">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -265,6 +265,308 @@ mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
 
     <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
         
+          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Playbooks</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/04-oasis-1/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/04-oasis/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/05-account-termination/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/06-soc-1-2/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/07-cfb/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/07-storage-space/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/08-pentesting/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/09-patient/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/10-cpted/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/11-colocation/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/12-bcp/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/13-org-security-policy/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/13-rfc-1918/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/15-crypto-key-exhange/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/16-change-managemenr-process-config-mgmt-process/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/16-disaster-recivery/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/16-first-responder/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/16-hierarchical-model/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/18-people-usifn-waek-passwords/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/19-fire-supresssion-system/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[04] CISSP Topic</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/02-cissp-cheatsheet-1/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[02] CISSP Cheatsheet</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/02-cissp-cheatsheet/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[02] CISSP Cheatsheet</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/03-cissp-cheatsheet-1.2/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[03] CISSP Cheatsheet</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/04_playbooks/01-incident-response/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">[06] Threat Hunting in Cloud</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div></li>
           <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
@@ -559,56 +861,6 @@ mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
       
     >
       <span class="hx:min-w-0 [word-break:break-word]">[04] Custom Threat Hunting</span>
-    </a>
-  </div>
-              
-            </li></ul>
-      </div></li>
-          <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:ltr:pr-8 hx:rtl:pl-8
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/04_playbooks/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Playbooks</span>
-    </a>
-      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
-  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/04_playbooks/02-cissp-cheatsheet/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">[02] CISSP Cheatsheet</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/04_playbooks/03-cissp-cheatsheet-1.2/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">[03] CISSP Cheatsheet</span>
-    </a>
-  </div>
-              
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
-      hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/04_playbooks/01-incident-response/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">[06] Threat Hunting in Cloud</span>
     </a>
   </div>
               
