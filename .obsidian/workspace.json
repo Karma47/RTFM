@@ -11,10 +11,14 @@
             "id": "37c46f3a79f1c879",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/docs/04_playbooks/04 TOPIC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "04 TOPIC"
             }
           }
         ]
@@ -178,6 +182,9 @@
   },
   "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
+    "content/docs/04_playbooks/03 CISSP Cheatsheet 1.2.md",
+    "content/docs/04_playbooks/04 TOPIC.md",
+    "content/docs/04_playbooks/02 CISSP Cheatsheet.md",
     "KeyVS.pub",
     "KeyVS",
     "public/docs/04_playbooks/assets/Pasted_image_20260626195953.png",
@@ -189,11 +196,9 @@
     "content/docs/04_playbooks/assets",
     "public/docs/04_playbooks/03-cissp-cheatsheet-1.2/index.html",
     "public/docs/04_playbooks/03-cissp-cheatsheet-1.2",
-    "content/docs/04_playbooks/03 CISSP Cheatsheet 1.2.md",
     "public/docs/04_playbooks/02-cissp-cheatsheet-1.2/index.html",
     "public/docs/04_playbooks/02-cissp-cheatsheet-1.2",
     "content/docs/04_playbooks/02 CISSP Cheatsheet 1.2.md",
-    "public/docs/04_playbooks/02-cissp-cheatsheet-1/index.html",
     "content/docs/04_playbooks/02 CISSP Cheatsheet 1.md",
     "content/authors/Keren/_index.md",
     "content/authors/Keren/Prasanna/_index.md"

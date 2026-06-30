@@ -1,19 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>RTFM – Authors</title>
-    <link>http://localhost:1313/authors/</link>
-    <description>Recent content in Authors on RTFM</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-  </channel>
+	<channel>
+		<title>Authors on RTFM</title>
+		<link>http://localhost:1313/authors/</link>
+		<description>Recent content in Authors on RTFM</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Prasanna V Balaji</title>
+				<link>http://localhost:1313/authors/prasanna-v-balaji/</link>
+				<pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/authors/prasanna-v-balaji/</guid>
+				<description>&lt;p&gt;John is a Threat Hunter and Security Researcher.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Manojh Kumar</title>
+				<link>http://localhost:1313/authors/manojh-kumar/</link>
+				<pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/authors/manojh-kumar/</guid>
+				<description>&lt;p&gt;Manojh is a Threat Hunter and Security Researcher.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Aswin Balaji</title>
+				<link>http://localhost:1313/authors/aswin-balaji/</link>
+				<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/authors/aswin-balaji/</guid>
+				<description>&lt;p&gt;John is a Threat Hunter and Security Researcher.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Keren Priyanka</title>
+				<link>http://localhost:1313/authors/keren-priyanka/</link>
+				<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/authors/keren-priyanka/</guid>
+				<description>&lt;p&gt;John is a Threat Hunter and Security Researcher.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
