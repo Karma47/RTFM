@@ -1,0 +1,301 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – D6 Security Assessment and Testing</title>
+    <link>http://localhost:1313/docs/04_playbooks/cissp/d6/</link>
+    <description>Recent content in D6 Security Assessment and Testing on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/04_playbooks/cissp/d6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>[07] Cipher Feedback (CFB) Mode</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/07-cfb/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/07-cfb/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Cipher Feedback (CFB) Mode&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cipher Feedback Mode is a block cipher mode of operation that turns a block cipher into a self-synchronizing stream-like mechanism. It uses previous ciphertext to produce the next keystream block.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CFB is a block cipher mode used for encryption.&lt;/li&gt;
+&lt;li&gt;It can operate like a stream cipher and is useful for real-time data.&lt;/li&gt;
+&lt;li&gt;It propagates errors from earlier ciphertext blocks.&lt;/li&gt;
+&lt;li&gt;It is a legacy mode; modern systems usually prefer AEAD modes such as GCM or ChaCha20-Poly1305.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP candidates should understand that encryption mode choice affects security properties, performance, and error behavior.&lt;/li&gt;
+&lt;li&gt;Modern design should prefer authenticated encryption over legacy modes where possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CFB vs ECB&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;ECB encrypts identical plaintext blocks to identical ciphertext blocks&lt;/li&gt;
+&lt;li&gt;CFB avoids that pattern by chaining previous ciphertext&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CFB vs CTR&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;CFB is feedback-based&lt;/li&gt;
+&lt;li&gt;CTR uses a counter value for keystream generation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CFB may be used in legacy protocols where a block cipher is required in a stream-like fashion, but modern implementations usually prefer authenticated encryption.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-38A, Recommendation for Block Cipher Modes of Operation&lt;/li&gt;
+&lt;li&gt;NIST SP 800-57, Recommendation for Key Management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CFB = Feedback-based block cipher mode&lt;/li&gt;
+&lt;li&gt;Modern choice = AEAD&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[13] RFC 1918 Private Address Space</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/13-rfc-1918/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/13-rfc-1918/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: RFC 1918 Private Address Space&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;RFC 1918 defines the private IPv4 address ranges that are intended for internal networks and are not globally routable over the Internet. These ranges are commonly used inside organizations and behind NAT.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Private IPv4 ranges are 10.0.0.0/8, 172.16.0.0/12, and 192.168.0.0/16.&lt;/li&gt;
+&lt;li&gt;RFC 5737 defines documentation ranges that should not be used for production.&lt;/li&gt;
+&lt;li&gt;Private addresses require NAT or firewalling for Internet access.&lt;/li&gt;
+&lt;li&gt;Network segmentation and filtering should prevent accidental exposure of private ranges.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Private addressing is a basic network design concept, but it must be carefully controlled to prevent leakage and misconfiguration.&lt;/li&gt;
+&lt;li&gt;Not every non-public address is automatically secure; proper filtering and routing still matter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;RFC 1918 vs public IPs&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;RFC 1918 = private and non-routable on the public Internet&lt;/li&gt;
+&lt;li&gt;Public IPs = globally routable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Private does not mean protected&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Internal networks still need access control and monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An internal office network uses 192.168.1.0/24 for employee devices, while the Internet-facing firewall translates the traffic to a public IP address.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 1918, Address Allocation for Private Internets&lt;/li&gt;
+&lt;li&gt;RFC 5737, IPv4 Address Blocks Reserved for Documentation&lt;/li&gt;
+&lt;li&gt;RFC 2663, IP Network Address Translation (NAT) Terminology&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 1918 = private IPv4 space&lt;/li&gt;
+&lt;li&gt;10/8, 172.16/12, 192.168/16 = common private ranges&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[15] Secure Cryptographic Key Exchange</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/15-crypto-key-exhange/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/15-crypto-key-exhange/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Secure Cryptographic Key Exchange&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Secure key exchange is the process of establishing cryptographic keys between parties without exposing them to interception or tampering. Strong key exchange is essential because the confidentiality of the whole cryptographic system depends on it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Prefer authenticated key exchange methods such as Diffie-Hellman or ECDHE.&lt;/li&gt;
+&lt;li&gt;Use approved algorithms and appropriate key sizes.&lt;/li&gt;
+&lt;li&gt;Authenticate endpoints to prevent man-in-the-middle attacks.&lt;/li&gt;
+&lt;li&gt;Protect keys with strong key management practices, including rotation and storage in approved mechanisms.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Encryption alone is not enough; key distribution and authentication are equally important.&lt;/li&gt;
+&lt;li&gt;Modern protocols typically use ephemeral key exchange and authenticated encryption.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Key exchange vs encryption&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key exchange establishes shared secret material&lt;/li&gt;
+&lt;li&gt;Encryption uses that material to protect data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AES alone does not solve key distribution&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Secure key exchange is still required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;TLS 1.3 uses ephemeral ECDHE key exchange and server authentication to establish a secure session key for encrypted communication.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-56A and 800-56B, Recommendation for Pair-Wise Key Establishment Schemes&lt;/li&gt;
+&lt;li&gt;NIST SP 800-57, Recommendation for Key Management&lt;/li&gt;
+&lt;li&gt;RFC 8446, TLS 1.3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Secure key exchange = establish secret safely&lt;/li&gt;
+&lt;li&gt;Authenticate + rotate + use approved methods&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

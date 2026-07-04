@@ -1,0 +1,573 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – D7 Security Operations</title>
+    <link>http://localhost:1313/docs/04_playbooks/cissp/d7/</link>
+    <description>Recent content in D7 Security Operations on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/04_playbooks/cissp/d7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>[08] Penetration Testing</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/08-pentesting/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/08-pentesting/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Penetration Testing&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penetration testing is an authorized simulation of attacks against an organization’s systems, applications, or networks to identify exploitable weaknesses and validate defenses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Testing must be scoped and approved under clear rules of engagement.&lt;/li&gt;
+&lt;li&gt;The test should identify vulnerabilities, validate exploitability, and support remediation.&lt;/li&gt;
+&lt;li&gt;It differs from routine vulnerability scanning because it actively attempts to exploit weaknesses.&lt;/li&gt;
+&lt;li&gt;Findings should be documented, prioritized, and retested after remediation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Security testing should be controlled, documented, and aligned with business risk and legal requirements.&lt;/li&gt;
+&lt;li&gt;Penetration testing is useful for validating the effectiveness of controls, not just listing defects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Penetration test vs vulnerability scan&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Vulnerability scan = identifies issues&lt;/li&gt;
+&lt;li&gt;Penetration test = attempts real exploitation under controlled conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Red team vs pentest&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Red team may have broader objectives and may not be limited to a single technical scope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A security team hires an external tester to assess a web application and tries to exploit weak authentication controls within the agreed scope.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-115, Technical Guide to Information Security Testing and Assessment&lt;/li&gt;
+&lt;li&gt;NIST SP 800-53, CA-8 and RA-5&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022, Annex A 8.8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Pentest = controlled attack simulation&lt;/li&gt;
+&lt;li&gt;Goal = validate real exploitable weaknesses&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[12] Business Continuity Planning (BCP)</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/12-bcp/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/12-bcp/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Business Continuity Planning (BCP)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Business Continuity Planning defines how critical business functions continue during and after a disruptive event. It extends beyond IT to include people, processes, communications, and facilities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;BCP starts with a business impact analysis and identification of critical services.&lt;/li&gt;
+&lt;li&gt;Recovery objectives such as RTO and RPO guide planning decisions.&lt;/li&gt;
+&lt;li&gt;Continuity strategies should cover alternate sites, communications, staffing, and supplier dependencies.&lt;/li&gt;
+&lt;li&gt;Testing, training, and maintenance are essential for effectiveness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP candidates should understand that continuity planning is a business governance activity, not just a technical recovery exercise.&lt;/li&gt;
+&lt;li&gt;Preparation should focus on protecting essential operations and customer impact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BCP vs DRP&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;BCP = business-wide continuity of operations&lt;/li&gt;
+&lt;li&gt;DRP = technical restoration of systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plans that are not tested are not reliable&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Exercises expose gaps and assumptions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A company uses alternate work locations, backup communications, and recovery procedures to continue payroll processing after a major outage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-34, Contingency Planning Guide for Federal Information Systems&lt;/li&gt;
+&lt;li&gt;ISO 22301, Security and resilience — Business continuity management systems&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;BCP = keep business running&lt;/li&gt;
+&lt;li&gt;DRP = restore systems&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[16] hange Management and Configuration Management</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/16-change-managemenr-process-config-mgmt-process/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/16-change-managemenr-process-config-mgmt-process/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Change Management and Configuration Management&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Change management controls how changes are proposed, approved, tested, implemented, and reviewed. Configuration management maintains an authoritative record of system components and their approved baselines.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Changes should be documented, approved, and tested before deployment.&lt;/li&gt;
+&lt;li&gt;Rollback plans reduce the impact of failed changes.&lt;/li&gt;
+&lt;li&gt;Configuration baselines help detect unauthorized drift.&lt;/li&gt;
+&lt;li&gt;Standard changes and emergency changes should follow defined procedures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Poorly managed changes are a common source of incidents and security weaknesses.&lt;/li&gt;
+&lt;li&gt;Governance around change is essential for maintaining integrity and reducing operational risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Change management vs configuration management&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Change management = process for approving and implementing change&lt;/li&gt;
+&lt;li&gt;Configuration management = tracking and maintaining the approved state of systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;“Works in dev” does not mean it is safe in prod&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A patch is submitted through change management, reviewed by a change advisory board, tested in a staging environment, and then deployed with rollback procedures.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;ITIL 4, Change Enablement&lt;/li&gt;
+&lt;li&gt;NIST SP 800-128, Guide for Security-Focused Configuration Management of Information Systems&lt;/li&gt;
+&lt;li&gt;NIST SP 800-53, CM family&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Change management = controlled change&lt;/li&gt;
+&lt;li&gt;Configuration management = approved baseline tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[17] Disaster Recovery Planning</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/17-disaster-recivery/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/17-disaster-recivery/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Disaster Recovery Planning&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Disaster Recovery Planning focuses on restoring critical systems and services after a disruptive event. It defines how an organization recovers data, applications, and operations within defined recovery objectives.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;DRP typically uses recovery objectives such as RTO and RPO.&lt;/li&gt;
+&lt;li&gt;Backups, alternate processing sites, failover mechanisms, and restore procedures are core components.&lt;/li&gt;
+&lt;li&gt;Testing is essential to validate recovery capability.&lt;/li&gt;
+&lt;li&gt;Recovery priorities should be based on critical business functions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Backup alone is not recovery; the organization must be able to restore services quickly and safely.&lt;/li&gt;
+&lt;li&gt;CISSP professionals should connect recovery planning to business impact and resilience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;DRP vs BCP&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;DRP = restore IT systems and data&lt;/li&gt;
+&lt;li&gt;BCP = maintain business operations more broadly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recovery plan without testing is only a document&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A company uses an off-site backup repository and warm standby servers to restore customer-facing applications after a data center outage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-34, Contingency Planning Guide for Federal Information Systems&lt;/li&gt;
+&lt;li&gt;ISO 22301, Business Continuity Management Systems&lt;/li&gt;
+&lt;li&gt;NIST SP 800-53, CP family&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;DRP = restore IT services&lt;/li&gt;
+&lt;li&gt;RTO/RPO = recovery targets&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[21] First Response to Security Incidents</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/21-first-responder/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/21-first-responder/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: First Response to Security Incidents&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;First responders act quickly to contain impact, preserve evidence, and support incident handling during a security event. Their actions can strongly affect the quality of the investigation and the severity of operational damage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Initial steps include triage, containment, and communication.&lt;/li&gt;
+&lt;li&gt;Preserve evidence and avoid making changes that destroy forensic value unless containment requires it.&lt;/li&gt;
+&lt;li&gt;Follow established incident response procedures and escalate appropriately.&lt;/li&gt;
+&lt;li&gt;Document actions, timelines, and affected systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;The first minutes of an incident are critical; rushed actions can worsen the situation or create legal issues.&lt;/li&gt;
+&lt;li&gt;Response must balance containment, evidence preservation, and business continuity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Containment vs eradication&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Containment limits spread and impact&lt;/li&gt;
+&lt;li&gt;Eradication removes the root cause&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shutting down a host immediately is not always the right first step&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Evidence preservation may be more important in some cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A suspicious endpoint is isolated from the network, screenshots and logs are captured, and the incident handler is notified for deeper analysis.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-61, Computer Security Incident Handling Guide&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27035&lt;/li&gt;
+&lt;li&gt;NIST SP 800-86, Guide to Integrating Forensic Techniques into Incident Response&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;First response = contain + preserve + escalate&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[23] Storage Capacity and Availability</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/23-storage-space/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/23-storage-space/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Storage Capacity and Availability&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Storage space issues can threaten logging, backup, recovery, and overall system availability. Capacity planning is therefore a security and operational control, not just an infrastructure concern.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Monitor disk utilization and define thresholds for warnings and alarms.&lt;/li&gt;
+&lt;li&gt;Ensure logs, backups, and snapshots have sufficient capacity.&lt;/li&gt;
+&lt;li&gt;Retention policies should balance business needs with storage cost and compliance.&lt;/li&gt;
+&lt;li&gt;Storage exhaustion can cause log loss, failed backups, and blind spots during incidents.&lt;/li&gt;
+&lt;li&gt;Scale-out storage or archival solutions may be needed for long-term growth.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Availability can be impacted by simple capacity failures, especially when monitoring or backup systems stop functioning.&lt;/li&gt;
+&lt;li&gt;Security teams must treat storage growth as a resilience issue.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Adding storage is not always the real fix&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;The real issue may be poor retention, missing monitoring, or oversized logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backups must be tested&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Capacity alone does not guarantee recoverability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A SIEM server begins to run out of disk space. If logging stops, security detection and investigation quality decline, so the team must add capacity and review retention settings.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-53, CP family and AU family&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022, Annex A 8.15 and 8.16&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Full disk = risk to logging and recovery&lt;/li&gt;
+&lt;li&gt;Capacity planning = availability control&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

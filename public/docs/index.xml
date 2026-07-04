@@ -101,10 +101,10 @@
     
     <item>
       <title>[04] Access Control Models</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/04-oasis/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/04-oasis/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/04-oasis/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/04-oasis/</guid>
       <description>
         
         
@@ -211,10 +211,10 @@
     
     <item>
       <title>[05] Account Termination and Deprovisioning</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/05-account-termination/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/05-account-termination/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/05-account-termination/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/05-account-termination/</guid>
       <description>
         
         
@@ -308,10 +308,10 @@
     
     <item>
       <title>[06] SOC 1 and SOC 2 Reports</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/06-soc-1-2/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/06-soc-1-2/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/06-soc-1-2/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/06-soc-1-2/</guid>
       <description>
         
         
@@ -402,10 +402,10 @@
     
     <item>
       <title>[07] Cipher Feedback (CFB) Mode</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/07-cfb/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/07-cfb/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/07-cfb/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/07-cfb/</guid>
       <description>
         
         
@@ -496,10 +496,10 @@
     
     <item>
       <title>[08] Penetration Testing</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/08-pentesting/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/08-pentesting/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/08-pentesting/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/08-pentesting/</guid>
       <description>
         
         
@@ -590,10 +590,10 @@
     
     <item>
       <title>[09] Intellectual Property, Copyright, and Confidentiality</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/09-patient/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/09-patient/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/09-patient/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/09-patient/</guid>
       <description>
         
         
@@ -686,10 +686,10 @@
     
     <item>
       <title>[10] Crime Prevention Through Environmental Design (CPTED)</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/10-cpted/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/10-cpted/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/10-cpted/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/10-cpted/</guid>
       <description>
         
         
@@ -778,10 +778,10 @@
     
     <item>
       <title>[11] Colocation Data Center Services</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/11-colocation/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/11-colocation/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/11-colocation/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/11-colocation/</guid>
       <description>
         
         
@@ -872,10 +872,10 @@
     
     <item>
       <title>[12] Business Continuity Planning (BCP)</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/12-bcp/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/12-bcp/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/12-bcp/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/12-bcp/</guid>
       <description>
         
         
@@ -966,10 +966,10 @@
     
     <item>
       <title>[13] RFC 1918 Private Address Space</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/13-rfc-1918/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/13-rfc-1918/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/13-rfc-1918/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/13-rfc-1918/</guid>
       <description>
         
         
@@ -1060,10 +1060,10 @@
     
     <item>
       <title>[14] Organizational Security Policy</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/14-org-security-policy/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/14-org-security-policy/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/14-org-security-policy/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/14-org-security-policy/</guid>
       <description>
         
         
@@ -1152,10 +1152,10 @@
     
     <item>
       <title>[15] Secure Cryptographic Key Exchange</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/15-crypto-key-exhange/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/15-crypto-key-exhange/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/15-crypto-key-exhange/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/15-crypto-key-exhange/</guid>
       <description>
         
         
@@ -1246,10 +1246,10 @@
     
     <item>
       <title>[16] hange Management and Configuration Management</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/16-change-managemenr-process-config-mgmt-process/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/16-change-managemenr-process-config-mgmt-process/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/16-change-managemenr-process-config-mgmt-process/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/16-change-managemenr-process-config-mgmt-process/</guid>
       <description>
         
         
@@ -1336,10 +1336,10 @@
     
     <item>
       <title>[17] Disaster Recovery Planning</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/17-disaster-recivery/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/17-disaster-recivery/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/17-disaster-recivery/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/17-disaster-recivery/</guid>
       <description>
         
         
@@ -1426,10 +1426,10 @@
     
     <item>
       <title>[18] Hierarchical Security Model</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/18-hierarchical-model/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/18-hierarchical-model/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/18-hierarchical-model/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/18-hierarchical-model/</guid>
       <description>
         
         
@@ -1516,10 +1516,10 @@
     
     <item>
       <title>[20] Weak Passwords and Password Hygiene</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/20-people-usifn-waek-passwords/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/20-people-usifn-waek-passwords/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/20-people-usifn-waek-passwords/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/20-people-usifn-waek-passwords/</guid>
       <description>
         
         
@@ -1609,10 +1609,10 @@
     
     <item>
       <title>[21] First Response to Security Incidents</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/21-first-responder/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/21-first-responder/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/21-first-responder/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/21-first-responder/</guid>
       <description>
         
         
@@ -1702,10 +1702,10 @@
     
     <item>
       <title>[22] Fire Suppression Systems</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/22-fire-supresssion-system/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/22-fire-supresssion-system/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/22-fire-supresssion-system/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/22-fire-supresssion-system/</guid>
       <description>
         
         
@@ -1792,10 +1792,10 @@
     
     <item>
       <title>[23] Storage Capacity and Availability</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/23-storage-space/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/23-storage-space/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/23-storage-space/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/23-storage-space/</guid>
       <description>
         
         
@@ -2737,10 +2737,10 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
     
     <item>
       <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/02-cissp-cheatsheet-1/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet-1/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/02-cissp-cheatsheet-1/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet-1/</guid>
       <description>
         
         
@@ -3080,10 +3080,10 @@ A: Identity Provider&lt;/p&gt;
     
     <item>
       <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/02-cissp-cheatsheet/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/02-cissp-cheatsheet/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet/</guid>
       <description>
         
         
@@ -3423,10 +3423,10 @@ A: Identity Provider&lt;/p&gt;
     
     <item>
       <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/03-cissp-cheatsheet-1.2/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/03-cissp-cheatsheet-1.2/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/03-cissp-cheatsheet-1.2/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/03-cissp-cheatsheet-1.2/</guid>
       <description>
         
         

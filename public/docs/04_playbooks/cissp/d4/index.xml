@@ -1,0 +1,295 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – D4 Communication and Network Security</title>
+    <link>http://localhost:1313/docs/04_playbooks/cissp/d4/</link>
+    <description>Recent content in D4 Communication and Network Security on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/04_playbooks/cissp/d4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>[10] Crime Prevention Through Environmental Design (CPTED)</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/10-cpted/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/10-cpted/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Crime Prevention Through Environmental Design (CPTED)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D4 – Physical and Environmental Security&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;CPTED applies physical design principles to discourage criminal activity and improve natural surveillance, access control, and territorial reinforcement.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Natural surveillance improves visibility and deters unauthorized activity.&lt;/li&gt;
+&lt;li&gt;Access control uses design elements such as barriers, fencing, and controlled entry points.&lt;/li&gt;
+&lt;li&gt;Territorial reinforcement helps define ownership and boundaries.&lt;/li&gt;
+&lt;li&gt;Maintenance and lighting reduce hiding places and improve detection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Physical security is strongest when it is layered and designed into the environment rather than relying on cameras alone.&lt;/li&gt;
+&lt;li&gt;The goal is to reduce opportunities for intrusion and improve the effectiveness of response.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;CPTED is not just security hardware&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;It includes layout, lighting, visibility, and landscaping&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Security cameras alone are not a complete physical strategy&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Design and deterrence matter as much as detection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A building uses lighting, clear sightlines, controlled entrances, and visible signage to reduce the chance of unauthorized access and improve monitoring.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-53, PE family&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022, Annex A 7.5 and 7.6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CPTED = design-based deterrence&lt;/li&gt;
+&lt;li&gt;Visibility + control + maintenance = stronger security&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[11] Colocation Data Center Services</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/11-colocation/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/11-colocation/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Colocation Data Center Services&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D4 – Physical and Environmental Security&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Colocation means renting space in a third-party data center to host an organization’s servers and networking equipment. It shifts some physical infrastructure responsibilities to the provider while leaving security and operations responsibilities with the customer.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Shared responsibility applies to power, cooling, physical access, and connectivity.&lt;/li&gt;
+&lt;li&gt;The provider typically manages facility controls, while the customer manages equipment and application security.&lt;/li&gt;
+&lt;li&gt;Contracts should define uptime commitments, access procedures, incident response, and audit rights.&lt;/li&gt;
+&lt;li&gt;Physical security controls include guards, badges, cameras, and environmental monitoring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Colocation reduces infrastructure burden but does not reduce the need for strong governance and control oversight.&lt;/li&gt;
+&lt;li&gt;Organizations should verify that the provider’s controls align with their regulatory and business requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Colocation vs cloud&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Colocation = you still manage the equipment in a provider’s facility&lt;/li&gt;
+&lt;li&gt;Cloud = provider usually manages more of the underlying infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provider controls are not automatically your controls&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Contract and assurance evidence matter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization moves its servers into a colocated data center and retains responsibility for patching, monitoring, and access management while relying on the provider for power and facility security.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-53, PE family&lt;/li&gt;
+&lt;li&gt;TIA-942, Data Center Standards&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Colocation = rented facility space&lt;/li&gt;
+&lt;li&gt;Shared responsibility = still your security responsibility&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[22] Fire Suppression Systems</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/22-fire-supresssion-system/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/22-fire-supresssion-system/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Fire Suppression Systems&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D4 – Physical and Environmental Security&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Fire suppression systems detect and control fire to protect people, facilities, and sensitive equipment. The right system depends on the environment, the asset type, and the level of risk.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Wet pipe systems are common but may cause water damage to electronics.&lt;/li&gt;
+&lt;li&gt;Dry pipe and pre-action systems are used where accidental discharge is a concern.&lt;/li&gt;
+&lt;li&gt;Deluge systems are used for rapid, broad-area suppression.&lt;/li&gt;
+&lt;li&gt;Clean-agent systems are often chosen for data centers and server rooms because they reduce water damage.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Physical security controls must consider both life safety and asset protection.&lt;/li&gt;
+&lt;li&gt;The best suppression method depends on whether the environment contains electronics, flammable materials, or people.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Water-based vs clean-agent systems&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Water-based systems are effective for many facilities but may damage equipment&lt;/li&gt;
+&lt;li&gt;Clean-agent systems are often preferred for IT environments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sprinklers are not always the best choice for data centers&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A server room may use a clean-agent suppression system rather than a standard sprinkler system to protect equipment from both fire and water damage.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NFPA 13, Standard for the Installation of Sprinkler Systems&lt;/li&gt;
+&lt;li&gt;NFPA 2001, Clean Agent Fire Extinguishing Systems&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022, Annex A 7.11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Fire suppression = protect life and assets&lt;/li&gt;
+&lt;li&gt;Match the system to the environment&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
