@@ -1,5 +1,5 @@
 baseURL = "https://docs.blankdash.com/"
-languageCode = "en-us"
+locale = "en-US"
 title = "RTFM"
 theme = "hextra"
 

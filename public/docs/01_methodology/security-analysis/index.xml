@@ -4,7 +4,7 @@
     <link>http://localhost:1313/docs/01_methodology/security-analysis/</link>
     <description>Recent content in Security Analysis on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/01_methodology/security-analysis/index.xml" rel="self" type="application/rss+xml" />
@@ -57,10 +57,12 @@
 &lt;/div&gt;
 &lt;h3&gt;1. Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-cyber-kill-chain&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1.1 What is the Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-what-is-the-cyber-kill-chain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#11-what-is-the-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a href=&#34;https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
+    &lt;a href=&#34;#11-what-is-the-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a
+    href=&#34;https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
 &lt;p&gt;It emphasizes that a cyber attack progresses through a chain like sequentially, where the threat actor will have to move to the next part of the chain until the end to achieve their goals.&lt;/p&gt;
 &lt;p&gt;In simple terms for a cyber defender it&amp;rsquo;s important to know where exactly in the chain that a threat actor is and take necessary actions to break the chain thereby disrupting the threat actor to achieve their goals.&lt;/p&gt;
-&lt;p&gt;The below image from &lt;a href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
+&lt;p&gt;The below image from &lt;a
+    href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -144,7 +146,8 @@
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mitre-attck&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-mitre-attck-framework&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
+    &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a
+    href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In addition to MITRE ATT&amp;amp;CK, the D3FEND framework helps by providing a complementary, defense focused taxonomy that maps concrete countermeasures, techniques, and controls to attacker behaviors making it easier for security teams to design, validate, and communicate mitigations (detection rules, system hardening, isolation mechanisms, and response playbooks) that directly correspond to adversary tactics and techniques.
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
@@ -201,8 +204,10 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h4&gt;2.2 ICS Cyber Attack - Kill Chain Mapping&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ics-cyber-attack---kill-chain-mapping&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-ics-cyber-attack---kill-chain-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
-&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
+    &lt;a href=&#34;#22-ics-cyber-attack---kill-chain-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a
+    href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
+&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a
+    href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>

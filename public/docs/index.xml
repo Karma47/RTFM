@@ -4,7 +4,7 @@
     <link>http://localhost:1313/docs/</link>
     <description>Recent content in Docs on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
@@ -2394,56 +2394,6 @@ authors:&lt;/p&gt;
     </item>
     
     <item>
-      <title>[02] Web Application Recon</title>
-      <link>http://localhost:1313/docs/02_platforms/web/web-application-recon/</link>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/02_platforms/web/web-application-recon/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/manojh-kumar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            manojh
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;April 2, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h4&gt;Passive Information gathering&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#passive-information-gathering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Web app recon is the process of mapping an application’s endpoints, parameters, and behavior to understand its attack surface.&lt;/li&gt;
-&lt;li&gt;Strong recon focuses on logic and hidden functionality, not just running automated tools.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/02_platforms/web/assets/Pasted_image_20260402095802.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>[1] Attack Mapping Methodology</title>
       <link>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
@@ -2485,10 +2435,12 @@ authors:&lt;/p&gt;
 &lt;/div&gt;
 &lt;h3&gt;1. Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-cyber-kill-chain&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#1-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;1.1 What is the Cyber Kill Chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;11-what-is-the-cyber-kill-chain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#11-what-is-the-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a href=&#34;https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
+    &lt;a href=&#34;#11-what-is-the-cyber-kill-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The Cyber Kill Chain is a model developed by &lt;a
+    href=&#34;https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lockheed Martin&lt;/a&gt; that describes different stages of a cyber attack end to end. It helps security analysts and to understand and map the standard operating procedures in a sequential way so that they can detect and stop attackers.&lt;/p&gt;
 &lt;p&gt;It emphasizes that a cyber attack progresses through a chain like sequentially, where the threat actor will have to move to the next part of the chain until the end to achieve their goals.&lt;/p&gt;
 &lt;p&gt;In simple terms for a cyber defender it&amp;rsquo;s important to know where exactly in the chain that a threat actor is and take necessary actions to break the chain thereby disrupting the threat actor to achieve their goals.&lt;/p&gt;
-&lt;p&gt;The below image from &lt;a href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
+&lt;p&gt;The below image from &lt;a
+    href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -2572,7 +2524,8 @@ authors:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mitre-attck&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-mitre-attck-framework&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
+    &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a
+    href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In addition to MITRE ATT&amp;amp;CK, the D3FEND framework helps by providing a complementary, defense focused taxonomy that maps concrete countermeasures, techniques, and controls to attacker behaviors making it easier for security teams to design, validate, and communicate mitigations (detection rules, system hardening, isolation mechanisms, and response playbooks) that directly correspond to adversary tactics and techniques.
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
@@ -2629,1022 +2582,11 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h4&gt;2.2 ICS Cyber Attack - Kill Chain Mapping&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ics-cyber-attack---kill-chain-mapping&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-ics-cyber-attack---kill-chain-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
-&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
+    &lt;a href=&#34;#22-ics-cyber-attack---kill-chain-mapping&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;According to the &lt;a
+    href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
+&lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a
+    href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d2/02-cissp-cheatsheet/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2/02-cissp-cheatsheet/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/keren-samson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Keren
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data&lt;/li&gt;
-&lt;li&gt;Tailgating → Following an authorized person into a restricted area&lt;/li&gt;
-&lt;li&gt;Impersonation → Pretending to be someone else (e.g., IT support)&lt;/li&gt;
-&lt;li&gt;Dumpster Diving → Retrieving sensitive info from discarded materials&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-These attacks bypass technical controls → focus on &lt;strong&gt;human vulnerability&lt;/strong&gt;.&lt;br&gt;
-Mitigation = &lt;strong&gt;Security Awareness + Physical Security Controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes &lt;strong&gt;people as the weakest link&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which attack exploits physical proximity without hacking systems?&lt;br&gt;
-A: Shoulder Surfing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.2 Reporting Structure (InfoSec Governance)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-reporting-structure-infosec-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-reporting-structure-infosec-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines organizational placement of information security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-InfoSec should report to &lt;strong&gt;CIO or CISO&lt;/strong&gt; for operational alignment.&lt;br&gt;
-Internal Audit must remain &lt;strong&gt;independent&lt;/strong&gt; to objectively assess controls.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-This tests &lt;strong&gt;governance and independence principles&lt;/strong&gt;, not technical knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why is reporting to Internal Audit incorrect?&lt;br&gt;
-A: It violates independence&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.isaca.org/resources/isaca-journal&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isaca.org/resources/isaca-journal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.3 DMZ Traffic Capture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-dmz-traffic-capture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#23-dmz-traffic-capture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Monitoring network traffic in a switched environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Broadcast traffic&lt;/li&gt;
-&lt;li&gt;Traffic destined to your NIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Understand &lt;strong&gt;network architecture behavior&lt;/strong&gt;, not just tools.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why can&amp;rsquo;t you see all traffic on a switch?&lt;br&gt;
-A: MAC-based forwarding&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wireshark.org/docs/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.4 Incident Response Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-incident-response-lifecycle&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#24-incident-response-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Structured process for handling incidents.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Phases:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Preparation&lt;/li&gt;
-&lt;li&gt;Detection&lt;/li&gt;
-&lt;li&gt;Response&lt;/li&gt;
-&lt;li&gt;Recovery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Backup is a &lt;strong&gt;supporting control&lt;/strong&gt;, not a phase.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;process lifecycle thinking&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which is not part of IR lifecycle?&lt;br&gt;
-A: Backup&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.5 Network Segmentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-network-segmentation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#25-network-segmentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Dividing networks to improve performance and security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Router → separates broadcast domains&lt;/li&gt;
-&lt;li&gt;Switch → separates collision domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Segmentation reduces &lt;strong&gt;attack surface and lateral movement&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which device reduces broadcast traffic?&lt;br&gt;
-A: Router&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.6 NATO Phonetic Alphabet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-nato-phonetic-alphabet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#26-nato-phonetic-alphabet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Standardized word system (Alpha, Bravo, Charlie) for communication clarity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Used in aviation/military to avoid misunderstanding. Not encryption.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Tests ability to &lt;strong&gt;differentiate communication vs security controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Is this a confidentiality control?&lt;br&gt;
-A: No&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.7 Security Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-security-models&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#27-security-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Formal frameworks for enforcing access control.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chinese Wall → prevents conflict of interest&lt;/li&gt;
-&lt;li&gt;Take-Grant → models permission transfer&lt;/li&gt;
-&lt;li&gt;Noninterference → prevents information leakage&lt;/li&gt;
-&lt;li&gt;Information Flow → restricts data movement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Know &lt;strong&gt;purpose of models&lt;/strong&gt;, not math&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which model stops insider conflict misuse?&lt;br&gt;
-A: Chinese Wall&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.8 Split-Brain DNS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;28-split-brain-dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#28-split-brain-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Using separate DNS views for internal vs external users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Internal users see private IPs; external users see public IPs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;information disclosure (confidentiality)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use split DNS?&lt;br&gt;
-A: Hide internal infrastructure&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.9 Disaster Recovery Sites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;29-disaster-recovery-sites&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#29-disaster-recovery-sites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Alternate locations for business continuity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hot → fully operational&lt;/li&gt;
-&lt;li&gt;Warm → partially configured&lt;/li&gt;
-&lt;li&gt;Cold → basic infrastructure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Trade-off between &lt;strong&gt;cost vs recovery time (RTO)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which has lowest RTO?&lt;br&gt;
-A: Hot site&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.10 Brute Force Defense&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;210-brute-force-defense&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#210-brute-force-defense&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Attack that tries all possible passwords.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Defenses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Strong passwords&lt;/li&gt;
-&lt;li&gt;Account lockout&lt;/li&gt;
-&lt;li&gt;MFA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;preventive + detective controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Best mitigation for online brute force?&lt;br&gt;
-A: Account lockout&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.11 OCSP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-ocsp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#211-ocsp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Online Certificate Status Protocol.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Checks certificate validity in real time instead of downloading CRLs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Improves &lt;strong&gt;availability and timeliness&lt;/strong&gt; of revocation checks&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use OCSP over CRL?&lt;br&gt;
-A: Real-time validation&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.21 Blockchain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;221-blockchain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#221-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-A distributed ledger that records transactions across multiple nodes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Immutable → cannot be altered&lt;/li&gt;
-&lt;li&gt;Decentralized → no central authority&lt;/li&gt;
-&lt;li&gt;Transparent → all participants can verify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;integrity and non-repudiation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: What security property does blockchain strongly provide?&lt;br&gt;
-A: Integrity&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.22 Password Hashing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;222-password-hashing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#222-password-hashing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Converting plaintext passwords into fixed-length hashed values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One-way function&lt;/li&gt;
-&lt;li&gt;Same input → same output&lt;/li&gt;
-&lt;li&gt;Uses salt to prevent rainbow table attacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;confidentiality of stored credentials&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why add salt to hashes?&lt;br&gt;
-A: Prevent precomputed attacks&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.23 Shared Responsibility Model (IaaS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;223-shared-responsibility-model-iaas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#223-shared-responsibility-model-iaas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines security responsibilities between cloud provider and customer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Customer manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OS&lt;/li&gt;
-&lt;li&gt;Applications&lt;/li&gt;
-&lt;li&gt;Data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Provider manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware&lt;/li&gt;
-&lt;li&gt;Physical security&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Very commonly tested → &lt;strong&gt;“who is responsible?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who secures the OS in IaaS?&lt;br&gt;
-A: Customer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/compliance/shared-responsibility-model/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/compliance/shared-responsibility-model/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.26 BGP (Border Gateway Protocol)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;226-bgp-border-gateway-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#226-bgp-border-gateway-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Operates at WAN/Internet level&lt;/li&gt;
-&lt;li&gt;Determines best path between networks&lt;/li&gt;
-&lt;li&gt;Uses path attributes, not just shortest distance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Critical to understand for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Internet routing&lt;/li&gt;
-&lt;li&gt;Risks like &lt;strong&gt;BGP hijacking&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Where is BGP primarily used?&lt;br&gt;
-A: Internet (WAN)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc4271&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datatracker.ietf.org/doc/html/rfc4271&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.29 Replay Attack Mitigation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;229-replay-attack-mitigation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#229-replay-attack-mitigation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Replay attacks reuse captured communication to gain unauthorized access.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Nonce = random number used once → ensures freshness of request&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;authentication integrity&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use a nonce?&lt;br&gt;
-A: Prevent reuse of captured messages&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.30 SAML&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;230-saml&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#230-saml&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Security Assertion Markup Language used for federated authentication.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identity Provider (IdP) → authenticates user&lt;/li&gt;
-&lt;li&gt;Service Provider (SP) → provides service&lt;/li&gt;
-&lt;li&gt;Assertions → authentication statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Core concept in &lt;strong&gt;SSO and federation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who sends SAML assertions?&lt;br&gt;
-A: Identity Provider&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.oasis-open.org/security/saml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.oasis-open.org/security/saml/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d3/03-cissp-cheatsheet-1.2/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d3/03-cissp-cheatsheet-1.2/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/keren-samson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Keren
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;p&gt;This is test&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/assets/Pasted_image_20260626195953.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data&lt;/li&gt;
-&lt;li&gt;Tailgating → Following an authorized person into a restricted area&lt;/li&gt;
-&lt;li&gt;Impersonation → Pretending to be someone else (e.g., IT support)&lt;/li&gt;
-&lt;li&gt;Dumpster Diving → Retrieving sensitive info from discarded materials&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-These attacks bypass technical controls → focus on &lt;strong&gt;human vulnerability&lt;/strong&gt;.&lt;br&gt;
-Mitigation = &lt;strong&gt;Security Awareness + Physical Security Controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes &lt;strong&gt;people as the weakest link&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which attack exploits physical proximity without hacking systems?&lt;br&gt;
-A: Shoulder Surfing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.2 Reporting Structure (InfoSec Governance)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-reporting-structure-infosec-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-reporting-structure-infosec-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines organizational placement of information security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-InfoSec should report to &lt;strong&gt;CIO or CISO&lt;/strong&gt; for operational alignment.&lt;br&gt;
-Internal Audit must remain &lt;strong&gt;independent&lt;/strong&gt; to objectively assess controls.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-This tests &lt;strong&gt;governance and independence principles&lt;/strong&gt;, not technical knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why is reporting to Internal Audit incorrect?&lt;br&gt;
-A: It violates independence&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.isaca.org/resources/isaca-journal&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isaca.org/resources/isaca-journal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.3 DMZ Traffic Capture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-dmz-traffic-capture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#23-dmz-traffic-capture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Monitoring network traffic in a switched environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Broadcast traffic&lt;/li&gt;
-&lt;li&gt;Traffic destined to your NIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Understand &lt;strong&gt;network architecture behavior&lt;/strong&gt;, not just tools.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why can&amp;rsquo;t you see all traffic on a switch?&lt;br&gt;
-A: MAC-based forwarding&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wireshark.org/docs/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.4 Incident Response Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-incident-response-lifecycle&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#24-incident-response-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Structured process for handling incidents.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Phases:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Preparation&lt;/li&gt;
-&lt;li&gt;Detection&lt;/li&gt;
-&lt;li&gt;Response&lt;/li&gt;
-&lt;li&gt;Recovery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Backup is a &lt;strong&gt;supporting control&lt;/strong&gt;, not a phase.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;process lifecycle thinking&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which is not part of IR lifecycle?&lt;br&gt;
-A: Backup&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.5 Network Segmentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-network-segmentation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#25-network-segmentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Dividing networks to improve performance and security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Router → separates broadcast domains&lt;/li&gt;
-&lt;li&gt;Switch → separates collision domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Segmentation reduces &lt;strong&gt;attack surface and lateral movement&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which device reduces broadcast traffic?&lt;br&gt;
-A: Router&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.6 NATO Phonetic Alphabet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-nato-phonetic-alphabet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#26-nato-phonetic-alphabet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Standardized word system (Alpha, Bravo, Charlie) for communication clarity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Used in aviation/military to avoid misunderstanding. Not encryption.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Tests ability to &lt;strong&gt;differentiate communication vs security controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Is this a confidentiality control?&lt;br&gt;
-A: No&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.7 Security Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-security-models&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#27-security-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Formal frameworks for enforcing access control.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chinese Wall → prevents conflict of interest&lt;/li&gt;
-&lt;li&gt;Take-Grant → models permission transfer&lt;/li&gt;
-&lt;li&gt;Noninterference → prevents information leakage&lt;/li&gt;
-&lt;li&gt;Information Flow → restricts data movement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Know &lt;strong&gt;purpose of models&lt;/strong&gt;, not math&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which model stops insider conflict misuse?&lt;br&gt;
-A: Chinese Wall&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.8 Split-Brain DNS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;28-split-brain-dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#28-split-brain-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Using separate DNS views for internal vs external users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Internal users see private IPs; external users see public IPs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;information disclosure (confidentiality)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use split DNS?&lt;br&gt;
-A: Hide internal infrastructure&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.9 Disaster Recovery Sites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;29-disaster-recovery-sites&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#29-disaster-recovery-sites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Alternate locations for business continuity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hot → fully operational&lt;/li&gt;
-&lt;li&gt;Warm → partially configured&lt;/li&gt;
-&lt;li&gt;Cold → basic infrastructure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Trade-off between &lt;strong&gt;cost vs recovery time (RTO)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which has lowest RTO?&lt;br&gt;
-A: Hot site&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.10 Brute Force Defense&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;210-brute-force-defense&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#210-brute-force-defense&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Attack that tries all possible passwords.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Defenses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Strong passwords&lt;/li&gt;
-&lt;li&gt;Account lockout&lt;/li&gt;
-&lt;li&gt;MFA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;preventive + detective controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Best mitigation for online brute force?&lt;br&gt;
-A: Account lockout&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.11 OCSP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-ocsp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#211-ocsp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Online Certificate Status Protocol.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Checks certificate validity in real time instead of downloading CRLs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Improves &lt;strong&gt;availability and timeliness&lt;/strong&gt; of revocation checks&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use OCSP over CRL?&lt;br&gt;
-A: Real-time validation&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.21 Blockchain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;221-blockchain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#221-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-A distributed ledger that records transactions across multiple nodes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Immutable → cannot be altered&lt;/li&gt;
-&lt;li&gt;Decentralized → no central authority&lt;/li&gt;
-&lt;li&gt;Transparent → all participants can verify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;integrity and non-repudiation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: What security property does blockchain strongly provide?&lt;br&gt;
-A: Integrity&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.22 Password Hashing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;222-password-hashing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#222-password-hashing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Converting plaintext passwords into fixed-length hashed values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One-way function&lt;/li&gt;
-&lt;li&gt;Same input → same output&lt;/li&gt;
-&lt;li&gt;Uses salt to prevent rainbow table attacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;confidentiality of stored credentials&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why add salt to hashes?&lt;br&gt;
-A: Prevent precomputed attacks&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.23 Shared Responsibility Model (IaaS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;223-shared-responsibility-model-iaas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#223-shared-responsibility-model-iaas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines security responsibilities between cloud provider and customer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Customer manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OS&lt;/li&gt;
-&lt;li&gt;Applications&lt;/li&gt;
-&lt;li&gt;Data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Provider manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware&lt;/li&gt;
-&lt;li&gt;Physical security&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Very commonly tested → &lt;strong&gt;“who is responsible?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who secures the OS in IaaS?&lt;br&gt;
-A: Customer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/compliance/shared-responsibility-model/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/compliance/shared-responsibility-model/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.26 BGP (Border Gateway Protocol)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;226-bgp-border-gateway-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#226-bgp-border-gateway-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Operates at WAN/Internet level&lt;/li&gt;
-&lt;li&gt;Determines best path between networks&lt;/li&gt;
-&lt;li&gt;Uses path attributes, not just shortest distance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Critical to understand for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Internet routing&lt;/li&gt;
-&lt;li&gt;Risks like &lt;strong&gt;BGP hijacking&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Where is BGP primarily used?&lt;br&gt;
-A: Internet (WAN)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc4271&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datatracker.ietf.org/doc/html/rfc4271&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.29 Replay Attack Mitigation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;229-replay-attack-mitigation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#229-replay-attack-mitigation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Replay attacks reuse captured communication to gain unauthorized access.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Nonce = random number used once → ensures freshness of request&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;authentication integrity&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use a nonce?&lt;br&gt;
-A: Prevent reuse of captured messages&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.30 SAML&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;230-saml&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#230-saml&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Security Assertion Markup Language used for federated authentication.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identity Provider (IdP) → authenticates user&lt;/li&gt;
-&lt;li&gt;Service Provider (SP) → provides service&lt;/li&gt;
-&lt;li&gt;Assertions → authentication statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Core concept in &lt;strong&gt;SSO and federation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who sends SAML assertions?&lt;br&gt;
-A: Identity Provider&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.oasis-open.org/security/saml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.oasis-open.org/security/saml/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d8/02-cissp-cheatsheet-1/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d8/02-cissp-cheatsheet-1/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/keren-samson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Keren
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data&lt;/li&gt;
-&lt;li&gt;Tailgating → Following an authorized person into a restricted area&lt;/li&gt;
-&lt;li&gt;Impersonation → Pretending to be someone else (e.g., IT support)&lt;/li&gt;
-&lt;li&gt;Dumpster Diving → Retrieving sensitive info from discarded materials&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-These attacks bypass technical controls → focus on &lt;strong&gt;human vulnerability&lt;/strong&gt;.&lt;br&gt;
-Mitigation = &lt;strong&gt;Security Awareness + Physical Security Controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes &lt;strong&gt;people as the weakest link&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which attack exploits physical proximity without hacking systems?&lt;br&gt;
-A: Shoulder Surfing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.2 Reporting Structure (InfoSec Governance)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-reporting-structure-infosec-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-reporting-structure-infosec-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines organizational placement of information security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-InfoSec should report to &lt;strong&gt;CIO or CISO&lt;/strong&gt; for operational alignment.&lt;br&gt;
-Internal Audit must remain &lt;strong&gt;independent&lt;/strong&gt; to objectively assess controls.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-This tests &lt;strong&gt;governance and independence principles&lt;/strong&gt;, not technical knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why is reporting to Internal Audit incorrect?&lt;br&gt;
-A: It violates independence&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.isaca.org/resources/isaca-journal&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isaca.org/resources/isaca-journal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.3 DMZ Traffic Capture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-dmz-traffic-capture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#23-dmz-traffic-capture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Monitoring network traffic in a switched environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Broadcast traffic&lt;/li&gt;
-&lt;li&gt;Traffic destined to your NIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Understand &lt;strong&gt;network architecture behavior&lt;/strong&gt;, not just tools.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why can&amp;rsquo;t you see all traffic on a switch?&lt;br&gt;
-A: MAC-based forwarding&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wireshark.org/docs/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.4 Incident Response Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-incident-response-lifecycle&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#24-incident-response-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Structured process for handling incidents.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Phases:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Preparation&lt;/li&gt;
-&lt;li&gt;Detection&lt;/li&gt;
-&lt;li&gt;Response&lt;/li&gt;
-&lt;li&gt;Recovery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Backup is a &lt;strong&gt;supporting control&lt;/strong&gt;, not a phase.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;process lifecycle thinking&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which is not part of IR lifecycle?&lt;br&gt;
-A: Backup&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.5 Network Segmentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-network-segmentation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#25-network-segmentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Dividing networks to improve performance and security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Router → separates broadcast domains&lt;/li&gt;
-&lt;li&gt;Switch → separates collision domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Segmentation reduces &lt;strong&gt;attack surface and lateral movement&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which device reduces broadcast traffic?&lt;br&gt;
-A: Router&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.6 NATO Phonetic Alphabet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-nato-phonetic-alphabet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#26-nato-phonetic-alphabet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Standardized word system (Alpha, Bravo, Charlie) for communication clarity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Used in aviation/military to avoid misunderstanding. Not encryption.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Tests ability to &lt;strong&gt;differentiate communication vs security controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Is this a confidentiality control?&lt;br&gt;
-A: No&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.7 Security Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-security-models&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#27-security-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Formal frameworks for enforcing access control.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chinese Wall → prevents conflict of interest&lt;/li&gt;
-&lt;li&gt;Take-Grant → models permission transfer&lt;/li&gt;
-&lt;li&gt;Noninterference → prevents information leakage&lt;/li&gt;
-&lt;li&gt;Information Flow → restricts data movement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Know &lt;strong&gt;purpose of models&lt;/strong&gt;, not math&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which model stops insider conflict misuse?&lt;br&gt;
-A: Chinese Wall&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.8 Split-Brain DNS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;28-split-brain-dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#28-split-brain-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Using separate DNS views for internal vs external users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Internal users see private IPs; external users see public IPs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;information disclosure (confidentiality)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use split DNS?&lt;br&gt;
-A: Hide internal infrastructure&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.9 Disaster Recovery Sites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;29-disaster-recovery-sites&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#29-disaster-recovery-sites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Alternate locations for business continuity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hot → fully operational&lt;/li&gt;
-&lt;li&gt;Warm → partially configured&lt;/li&gt;
-&lt;li&gt;Cold → basic infrastructure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Trade-off between &lt;strong&gt;cost vs recovery time (RTO)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which has lowest RTO?&lt;br&gt;
-A: Hot site&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.10 Brute Force Defense&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;210-brute-force-defense&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#210-brute-force-defense&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Attack that tries all possible passwords.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Defenses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Strong passwords&lt;/li&gt;
-&lt;li&gt;Account lockout&lt;/li&gt;
-&lt;li&gt;MFA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;preventive + detective controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Best mitigation for online brute force?&lt;br&gt;
-A: Account lockout&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.11 OCSP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-ocsp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#211-ocsp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Online Certificate Status Protocol.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Checks certificate validity in real time instead of downloading CRLs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Improves &lt;strong&gt;availability and timeliness&lt;/strong&gt; of revocation checks&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use OCSP over CRL?&lt;br&gt;
-A: Real-time validation&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.21 Blockchain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;221-blockchain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#221-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-A distributed ledger that records transactions across multiple nodes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Immutable → cannot be altered&lt;/li&gt;
-&lt;li&gt;Decentralized → no central authority&lt;/li&gt;
-&lt;li&gt;Transparent → all participants can verify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;integrity and non-repudiation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: What security property does blockchain strongly provide?&lt;br&gt;
-A: Integrity&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.22 Password Hashing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;222-password-hashing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#222-password-hashing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Converting plaintext passwords into fixed-length hashed values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One-way function&lt;/li&gt;
-&lt;li&gt;Same input → same output&lt;/li&gt;
-&lt;li&gt;Uses salt to prevent rainbow table attacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;confidentiality of stored credentials&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why add salt to hashes?&lt;br&gt;
-A: Prevent precomputed attacks&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.23 Shared Responsibility Model (IaaS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;223-shared-responsibility-model-iaas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#223-shared-responsibility-model-iaas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines security responsibilities between cloud provider and customer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Customer manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OS&lt;/li&gt;
-&lt;li&gt;Applications&lt;/li&gt;
-&lt;li&gt;Data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Provider manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware&lt;/li&gt;
-&lt;li&gt;Physical security&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Very commonly tested → &lt;strong&gt;“who is responsible?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who secures the OS in IaaS?&lt;br&gt;
-A: Customer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/compliance/shared-responsibility-model/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/compliance/shared-responsibility-model/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.26 BGP (Border Gateway Protocol)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;226-bgp-border-gateway-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#226-bgp-border-gateway-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Operates at WAN/Internet level&lt;/li&gt;
-&lt;li&gt;Determines best path between networks&lt;/li&gt;
-&lt;li&gt;Uses path attributes, not just shortest distance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Critical to understand for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Internet routing&lt;/li&gt;
-&lt;li&gt;Risks like &lt;strong&gt;BGP hijacking&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Where is BGP primarily used?&lt;br&gt;
-A: Internet (WAN)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc4271&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datatracker.ietf.org/doc/html/rfc4271&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.29 Replay Attack Mitigation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;229-replay-attack-mitigation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#229-replay-attack-mitigation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Replay attacks reuse captured communication to gain unauthorized access.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Nonce = random number used once → ensures freshness of request&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;authentication integrity&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use a nonce?&lt;br&gt;
-A: Prevent reuse of captured messages&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.30 SAML&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;230-saml&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#230-saml&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Security Assertion Markup Language used for federated authentication.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identity Provider (IdP) → authenticates user&lt;/li&gt;
-&lt;li&gt;Service Provider (SP) → provides service&lt;/li&gt;
-&lt;li&gt;Assertions → authentication statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Core concept in &lt;strong&gt;SSO and federation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who sends SAML assertions?&lt;br&gt;
-A: Identity Provider&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.oasis-open.org/security/saml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.oasis-open.org/security/saml/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
       </description>
     </item>
@@ -3747,14 +2689,16 @@ A: Identity Provider&lt;/p&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h5&gt;3.1.2 Intelligence feed Integration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;312-intelligence-feed-integration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#312-intelligence-feed-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a href=&#34;https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
+    &lt;a href=&#34;#312-intelligence-feed-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;According to &lt;a
+    href=&#34;https://www.betaalvereniging.nl/wp-content/uploads/2026/03/TaHiTI-Threat-Hunting-Methodology-whitepaper.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHiTI &lt;/a&gt; Threat intelligence is the process of gathering, processing and dissemination of information about threats and attackers. The goal of threat intelligence is to contextualize the information and to deliver actionable information that can be used int he decision-making process.&lt;/p&gt;
 &lt;p&gt;The goal of intelligence is to act as the following;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Starting point for hunting&lt;/li&gt;
 &lt;li&gt;Contextualizing and driving the hunt&lt;/li&gt;
 &lt;li&gt;Hunting to generate intelligence&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a href=&#34;https://www.splunk.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
+&lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a
+    href=&#34;https://www.splunk.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example of the Pain to attacker, Value to defender outlined.&lt;/p&gt;
 &lt;table&gt;
@@ -3836,7 +2780,9 @@ Here is an example of the Pain to attacker, Value to defender outlined.&lt;/p&gt
 &lt;li&gt;ISAC (IT-ISAC, OT-ISAC, AUTO-ISAC, A-ISAC, E-ISAC, etc.. )&lt;/li&gt;
 &lt;li&gt;Cyware, Recorded Future, Feedly etc..&lt;/li&gt;
 &lt;li&gt;MISP, OpenCTI etc..
-A number of these intelligence providers support structured threat intelligence in a standardized format called &lt;a href=&#34;https://oasis-open.github.io/cti-documentation/stix/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a href=&#34;https://oasis-open.github.io/cti-documentation/taxii/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
+A number of these intelligence providers support structured threat intelligence in a standardized format called &lt;a
+    href=&#34;https://oasis-open.github.io/cti-documentation/stix/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a
+    href=&#34;https://oasis-open.github.io/cti-documentation/taxii/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;TAXII requires two primary services to support intel sharing&lt;/p&gt;
@@ -3845,7 +2791,8 @@ A number of these intelligence providers support structured threat intelligence 
 &lt;li&gt;Channel - Allows producers to push data to many consumers.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.&lt;/p&gt;
-&lt;p&gt;The &lt;a href=&#34;https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
+&lt;p&gt;The &lt;a
+    href=&#34;https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
@@ -3948,92 +2895,18 @@ Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&g
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;The &lt;a href=&#34;https://ieeexplore.ieee.org/document/9606687&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
+&lt;p&gt;The &lt;a
+    href=&#34;https://ieeexplore.ieee.org/document/9606687&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.&lt;/p&gt;
 &lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;322-cyber-threat-reporting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#322-cyber-threat-reporting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
 &lt;p&gt;There are a number of blueprints available to created automated threat intelligence reports, some of them are mentioned below.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://center-for-threat-informed-defense.github.io/cti-blueprints/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://center-for-threat-informed-defense.github.io/cti-blueprints/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[04] Custom Threat Hunting</title>
-      <link>http://localhost:1313/docs/05_detection/xy-notes-template/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/xy-notes-template/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/aswin-balaji-6aba56147/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            aswin
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h3&gt;New article&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;new-article&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#new-article&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is my notes related to cyber security.&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Sample&lt;/th&gt;
-					&lt;th&gt;Table&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Item 1&lt;/td&gt;
-					&lt;td&gt;Description&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;$ powershell sample code snippet&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;This is a live document.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260320153003.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
@@ -4133,10 +3006,10 @@ The ARD solution presented in the above mentioned paper tackles all the problems
     &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
   
 &lt;/div&gt;
-&lt;p&gt;This is a test article jfnwdjkf wek feiwnwoendf
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260404203335.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Notes
-this is a test&lt;/p&gt;
+&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
+&lt;p&gt;Please check back later.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
 
       </description>
     </item>
@@ -4181,46 +3054,11 @@ this is a test&lt;/p&gt;
     &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
   
 &lt;/div&gt;
-&lt;h4&gt;7.1 What is a trust boundary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;71-what-is-a-trust-boundary&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#71-what-is-a-trust-boundary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In the cyber space, a trust boundary is a concept that describes the points in a system where the level of trust changes. Imagine being in a house, where being in your own room feels safer while, moving out to the streets, different city and location might lower the level of safeness that one might feel.&lt;/p&gt;
-&lt;p&gt;The likely hood of someone being targeted by a threat actors increases as the in regions with less trust. The below equation explains the Probability of being targeted.&lt;/p&gt;
-&lt;p&gt;$$
-P(\text{attack}) \propto \frac{1}{T}
-$$
-&lt;strong&gt;Where:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;P(attack) = probability of being targeted&lt;/li&gt;
-&lt;li&gt;TTT = level of trust (higher = more secure/trusted)
-In an operating system, kernel rings define levels of privilege based on the established trusted zones.  The &lt;a href=&#34;https://en.wikipedia.org/wiki/Protection_ring&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Protection rings&lt;/a&gt; defined a hierarchical protection domains to protect data and functionality from malicious behaviors.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260331221525.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ring 0&lt;/strong&gt; → Most privileged (highest trust)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ring 3&lt;/strong&gt; → Least privileged (lowest trust)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;7.2 Humans in parallel to Kernel Privilege Rings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;72-humans-in-parallel-to-kernel-privilege-rings&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#72-humans-in-parallel-to-kernel-privilege-rings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Based on the Protection rings, and trust zones from the operating systems it&amp;rsquo;s feasible to define a psychological trust zones for humans. The closer something to a person&amp;rsquo;s &amp;ldquo;inner ring&amp;rdquo; the more trust it has and the less scrutiny it faces.&lt;/p&gt;
-&lt;p&gt;If we put that in a diagram, we could map the Psychological trust zones to 4 layers as well.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/trust_zones.webp&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;h5&gt;Ring 0: Core Trust&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ring-0-core-trust&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ring-0-core-trust&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;This is the region that an individuals would trust with almost anything including life decisions. This could be family, intimate partners, lifelong friends but not limited. Sometimes, there are some core beliefs systems that can make a being trust with blind faith.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Gaining access to Ring 0, could be devastating to an individual, Often time in espionage, social engineering, Treason, advanced persistent threat vectors and even terrorism the adversaries often gain access to this trust zone before taking control of the individual.&lt;/em&gt;&lt;/p&gt;
-&lt;h5&gt;Ring 1: Strong Trust&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ring-1-strong-trust&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ring-1-strong-trust&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;This region comprises of those individuals that we have regular interaction with such as Close colleagues, Managers, Authority figures. Those belonging to this zone is often trusted but with slight skepticism and a reasonable doubt of action.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Getting into this region of trust  by an adversary could still do a substantial damage to individuals. Adversaries that treat an individual as a &lt;code&gt;subject of interest&lt;/code&gt; could potentially leverage these established privilege to gain insights about personal, professional life and links to environments such as market trends, insider information, customer details and intellectual property or even use this as an opportunity to identify new potential hosts to compromise (lateral movement).&lt;/em&gt;&lt;/p&gt;
-&lt;h5&gt;Ring 2: Partial Trust&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ring-2-partial-trust&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ring-2-partial-trust&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;This region contains acquaintances, coworkers and others that an individual barely knows. The could also include brands, ambassadors, marketing agents, social media networks, external agents etc. They might appear and claim to be legitimate with a familiar presence.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;A adversary that gains access to this region actively tries to either gain higher trust or find low hanging quick objectives on a targeted individual. An example would be an acquaintance that used double negative to identify your salary range or requesting you a quick bill payment for a dinner what never gets returned or even use you for their entertainment.&lt;/em&gt;&lt;/p&gt;
-&lt;h5&gt;Ring 3: Untrusted&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ring-3-untrusted&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#ring-3-untrusted&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;These are public zones, that are often interpreted as untrusted. Depending on the society that you live in the level of trust in a public source can widely differ. For instance, Trusting public in a country with high moral, civil sense and code of conduct has more trust than regions of the world that lack moral on an average in general.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Strangers, unknown contacts, random calls, internet and social media should be treated with highest skepticism. For an adversary, this is often the entry point where they would try and identify an weakness in a human to either gain higher trust or exploit it to manipulate an individual for an action on objectives.&lt;/em&gt;&lt;/p&gt;
-&lt;h4&gt;7.3 Penetrating human trust boundary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;73-penetrating-human-trust-boundary&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#73-penetrating-human-trust-boundary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.4 Anomalies of a social threat actor&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;74-anomalies-of-a-social-threat-actor&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#74-anomalies-of-a-social-threat-actor&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.5 Action on objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;75-action-on-objective&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#75-action-on-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.6 Defending against social engineering threats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;76-defending-against-social-engineering-threats&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#76-defending-against-social-engineering-threats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.7 The Stockholm syndrome&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;77-the-stockholm-syndrome&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#77-the-stockholm-syndrome&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.8 Breaking the pattern - Invisible chain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;78-breaking-the-pattern---invisible-chain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#78-breaking-the-pattern---invisible-chain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.9 Identifying and mitigate a compromise&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;79-identifying-and-mitigate-a-compromise&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#79-identifying-and-mitigate-a-compromise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;7.10 Face the truth, Conclusion&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;710-face-the-truth-conclusion&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#710-face-the-truth-conclusion&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
+&lt;p&gt;Please check back later.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
+
       </description>
     </item>
     
@@ -4268,20 +3106,24 @@ In an operating system, kernel rings define levels of privilege based on the est
     &lt;a href=&#34;#passive-information-gathering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;As part of passive information gathering, we can use the OSINT tools to gather information from a web application.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;
-  &lt;p class=&#34;hx:flex hx:items-center hx:font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx:inline-block hx:align-middle hx:mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;OSINT&lt;/p&gt;
+&lt;div
+  data-alert=&#34;note&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;OSINT&lt;/span&gt;
+  &lt;/p&gt;
 
-  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/open-source-intelligence-osint/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike OSINT Article&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
-  &lt;/div&gt;
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;&lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/open-source-intelligence-osint/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike OSINT Article&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Other interesting resources
-&lt;a href=&#34;https://www.akamai.com/glossary/what-is-a-cdn&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Content Delivery Network&lt;/a&gt;&lt;/p&gt;
+&lt;a
+    href=&#34;https://www.akamai.com/glossary/what-is-a-cdn&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Content Delivery Network&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Passive Information Gathering Tools&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering-tools&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#passive-information-gathering-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Domain Information
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/docs/06_tools/06.1_web/whois/&#34;&gt;Whois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/Whois/&#34;&gt;Whois&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lookup tool&lt;/li&gt;
 &lt;li&gt;ICANN&amp;rsquo;s website&lt;/li&gt;
 &lt;/ul&gt;
@@ -4634,60 +3476,14 @@ In an operating system, kernel rings define levels of privilege based on the est
     &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
   
 &lt;/div&gt;
-&lt;div class=&#34;hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200&#34;&gt;
-  &lt;p class=&#34;hx:flex hx:items-center hx:font-medium&#34;&gt;&lt;svg height=16px class=&#34;hx:inline-block hx:align-middle hx:mr-2&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;OSIR Cheat sheet&lt;/p&gt;
+&lt;div
+  data-alert=&#34;note&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;OSIR Cheat sheet&lt;/span&gt;
+  &lt;/p&gt;
 
-  &lt;div class=&#34;hx:w-full hx:min-w-0 hx:leading-7&#34;&gt;
-    &lt;div class=&#34;hx:mt-6 hx:leading-7 hx:first:mt-0&#34;&gt;&lt;p&gt;This document serves as a reference sheet for Incident Response&lt;/p&gt;&lt;/div&gt;
-  &lt;/div&gt;
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;This document serves as a reference sheet for Incident Response&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[06] Threat Hunting in Cloud</title>
-      <link>http://localhost:1313/docs/06_tools/06.1_web/whois/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/06_tools/06.1_web/whois/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;Test Test&gt;
-kvmwklmwklm
-### akf akf 
 
       </description>
     </item>
@@ -4734,7 +3530,8 @@ kvmwklmwklm
 &lt;/div&gt;
 &lt;h4&gt;2.1 Adversary Classification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-adversary-classification&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#21-adversary-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
-&lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
+&lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a
+    href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-threat-actor-motivations--objectives&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#211-threat-actor-motivations--objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
@@ -4743,7 +3540,8 @@ kvmwklmwklm
 &lt;li&gt;In some cases, threat actors target nation-states, driven by political motives within a country, through cross-border cyberattacks or other forms of cyber operations.&lt;/li&gt;
 &lt;li&gt;Finally, threat actors may target groups or communities to advance political or social causes.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The taxonomy of threat sources from &lt;strong&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST 800-30&lt;/a&gt;&lt;/strong&gt; outlines the following types;&lt;/p&gt;
+&lt;p&gt;The taxonomy of threat sources from &lt;strong&gt;&lt;a
+    href=&#34;https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST 800-30&lt;/a&gt;&lt;/strong&gt; outlines the following types;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Adversarial:&lt;/strong&gt; Individuals, groups, organizations, or states that seek to exploit the organization’s dependence on cyber resources&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Accidental:&lt;/strong&gt; Erroneous actions taken by individuals in the course of executing their everyday responsibilities&lt;/li&gt;
@@ -4805,17 +3603,24 @@ kvmwklmwklm
 &lt;h4&gt;2.2 Ransomware Threat Actors&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-ransomware-threat-actors&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#22-ransomware-threat-actors&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Ransomware threat actors are individuals or groups that develop, distribute, or operate ransomware malware to extort money from victims by encrypting data or threatening to leak stolen information unless a ransom is paid.&lt;/p&gt;
 &lt;p&gt;These actors are considered &lt;strong&gt;adversarial threat sources&lt;/strong&gt; in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&amp;rsquo;t look at connections
 and events on a one-off basis.&lt;/p&gt;
-&lt;p&gt;The paper &lt;strong&gt;“&lt;a href=&#34;https://arxiv.org/pdf/2304.11681&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Money Over Morals: A Business Analysis of Conti Ransomware&lt;/a&gt;”&lt;/strong&gt; analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than &lt;strong&gt;168,000&lt;/strong&gt; leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that &lt;strong&gt;over $80 million in ransom payments&lt;/strong&gt; were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels &lt;strong&gt;666 Bitcoin addresses&lt;/strong&gt; linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.&lt;/p&gt;
+&lt;p&gt;The paper &lt;strong&gt;“&lt;a
+    href=&#34;https://arxiv.org/pdf/2304.11681&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Money Over Morals: A Business Analysis of Conti Ransomware&lt;/a&gt;”&lt;/strong&gt; analyzes the internal operations of the Conti ransomware group using leaked chat logs and blockchain data. The authors show that modern ransomware groups operate like organized cybercrime businesses rather than small hacker groups, with structured roles, recruitment processes, and financial management. By examining more than &lt;strong&gt;168,000&lt;/strong&gt; leaked internal chat messages, the study reconstructs Conti’s organizational structure and identifies roles such as managers, developers, and affiliates involved in attacks. The researchers also trace cryptocurrency transactions and estimate that &lt;strong&gt;over $80 million in ransom payments&lt;/strong&gt; were likely received by Conti and related operations, which is over five times higher than previous public estimates. Additionally, the study labels &lt;strong&gt;666 Bitcoin addresses&lt;/strong&gt; linked to Conti and develops a method to identify ransom payments through transaction patterns. The findings highlight that ransomware groups function as highly coordinated and profitable criminal enterprises, and the authors suggest that analyzing financial flows and exchange points could help law enforcement trace and disrupt ransomware operations.&lt;/p&gt;
 &lt;h4&gt;2.3 Advanced Persistent Threats&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-advanced-persistent-threats&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#23-advanced-persistent-threats&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;APT (Advanced Persistent Threats) refers to a sophisticated, continuous cyberattack campaign conducted by a well-resourced and organized threat actor. These APT groups can be a nation-state or a highly skilled criminal group with a fundings and backings. Unlike opportunistic attacks, the APTs are strategic, stealthy and objective. They rarely aim for short term goals, but rather aim for the most valuable crown jewels with maximum impact over time.&lt;/p&gt;
 &lt;p&gt;For instance, an APT group might identify a new government program responsible for managing digital identities, which is expected to become critical for the nation over the next two decades. Instead of attacking the system during its early development, the group could &lt;strong&gt;infiltrate the system early and maintain long-term persistence&lt;/strong&gt;, waiting years before actively pursuing their objectives. By doing so, they &lt;strong&gt;maximize potential impact over time&lt;/strong&gt;, integrating themselves into the system and continuously monitoring its developments and operations.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike&lt;/a&gt; has featured multiple adversaries that are worth studying. They include &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/operator-panda/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Operator Panda&lt;/a&gt;, &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/punk-spider/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Punk Spider&lt;/a&gt;, &lt;a href=&#34;https://www.crowdstrike.com/en-us/adversaries/famous-chollima/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Famous Chollima&lt;/a&gt;. For instance, since at least November 2024, China-nexus targeted intrusion adversary OPERATOR PANDA has conducted operations against the telecom and professional services sectors. OPERATOR PANDA relies heavily on exploiting internet-facing appliances such as Cisco switches for initial access.&lt;/p&gt;
-&lt;p&gt;In the &lt;a href=&#34;https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft threat actor taxonomy&lt;/a&gt;, the threat actor group is named after weather events. A weather event or &amp;ldquo;Family name&amp;rdquo; represents either a nation-state actor attribution or a motivation. The below table shows the threat group Microsoft tracks and their assigned weather events in the naming convention (As of 14th March 2026)&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/adversaries/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike&lt;/a&gt; has featured multiple adversaries that are worth studying. They include &lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/adversaries/operator-panda/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Operator Panda&lt;/a&gt;, &lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/adversaries/punk-spider/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Punk Spider&lt;/a&gt;, &lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/adversaries/famous-chollima/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Famous Chollima&lt;/a&gt;. For instance, since at least November 2024, China-nexus targeted intrusion adversary OPERATOR PANDA has conducted operations against the telecom and professional services sectors. OPERATOR PANDA relies heavily on exploiting internet-facing appliances such as Cisco switches for initial access.&lt;/p&gt;
+&lt;p&gt;In the &lt;a
+    href=&#34;https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft threat actor taxonomy&lt;/a&gt;, the threat actor group is named after weather events. A weather event or &amp;ldquo;Family name&amp;rdquo; represents either a nation-state actor attribution or a motivation. The below table shows the threat group Microsoft tracks and their assigned weather events in the naming convention (As of 14th March 2026)&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -4937,16 +3742,20 @@ and events on a one-off basis.&lt;/p&gt;
     &lt;a href=&#34;#11-understanding-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Threat hunting is a process in which a blue team engages in search of anomalies that indicate a compromise within an enterprise organization. The threat hunters assume a &lt;code&gt;hypotheses&lt;/code&gt; which provides context on what to look for. The below are some of the other definitions are accepted.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Palo Alto Networks&lt;/strong&gt;&lt;br&gt;
-Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. &lt;a href=&#34;https://www.paloaltonetworks.sg/cyberpedia/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palo Alto Article&lt;/a&gt;&lt;/li&gt;
+Threat hunting is a proactive, analyst-driven process that searches for indicators of compromise (IOCs), attacker behaviors, and anomalies that bypass traditional detection systems. &lt;a
+    href=&#34;https://www.paloaltonetworks.sg/cyberpedia/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Palo Alto Article&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;IBM&lt;/strong&gt;&lt;br&gt;
-Threat hunting is a proactive approach to identifying unknown or ongoing cyber threats within an organization’s network before they cause damage. &lt;a href=&#34;https://www.ibm.com/think/topics/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Article&lt;/a&gt;&lt;/li&gt;
+Threat hunting is a proactive approach to identifying unknown or ongoing cyber threats within an organization’s network before they cause damage. &lt;a
+    href=&#34;https://www.ibm.com/think/topics/threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IBM Article&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Microsoft&lt;/strong&gt;&lt;br&gt;
-Cyber threat hunting is the process of proactively searching for undetected threats across networks, endpoints, and data to detect attacks that automated security controls might miss. &lt;a href=&#34;https://www.microsoft.com/en-sg/security/business/security-101/what-is-cyber-threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Article&lt;/a&gt;&lt;/li&gt;
+Cyber threat hunting is the process of proactively searching for undetected threats across networks, endpoints, and data to detect attacks that automated security controls might miss. &lt;a
+    href=&#34;https://www.microsoft.com/en-sg/security/business/security-101/what-is-cyber-threat-hunting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Microsoft Article&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;Dwell time&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dwell-time&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dwell-time&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The Dwell Time refers to the length of time from the initial compromise through the point of notifying affected stakeholders. These metrics are used to measure incident response capabilities.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.nist.gov/system/files/documents/2016/09/16/mandiant_rfi_response.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST Using Metrics to Mature Incident Response Capabilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.nist.gov/system/files/documents/2016/09/16/mandiant_rfi_response.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIST Using Metrics to Mature Incident Response Capabilities&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The dwell time is computed based on the following categories.&lt;/p&gt;
 &lt;ul&gt;
@@ -4962,7 +3771,8 @@ Cyber threat hunting is the process of proactively searching for undetected thre
     &lt;a href=&#34;#12-implementing-threat-hunting-in-enterprises&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat hunting process itself is complimentary to the standard incident detection, response and remediation. Hence, threat hunting works in parallel to a traditional SOC, SIEM infrastructure.&lt;/p&gt;
 &lt;p&gt;The below image represents the complimentary threat hunting positioning in an enterprise infrastructure.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
 &lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an &amp;ldquo;Incident&amp;rdquo; will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident.&lt;/li&gt;
 &lt;/ul&gt;
@@ -4976,8 +3786,10 @@ In a nutshell, the SOC Infrastructure will monitor for alters, triage informatio
 These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (the least) to HMM4 (the most)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.trellix.com/security-awareness/threat-intelligence/what-is-cyber-threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://detect-respond.blogspot.com/2015/10/a-simple-hunting-maturity-model.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.trellix.com/security-awareness/threat-intelligence/what-is-cyber-threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Threat Hunting Maturity Model&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -5034,7 +3846,8 @@ More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;h4&gt;1.4 Threat Hunting services&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;14-threat-hunting-services&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#14-threat-hunting-services&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;Threat Hunting Services&lt;/strong&gt; are services provided by cybersecurity companies to &lt;strong&gt;proactively search for hidden attackers inside an organization’s environment&lt;/strong&gt;, often using specialized analysts, threat intelligence, and advanced telemetry.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nsarchive.gwu.edu/document/21484-document-83&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant APT 1 report&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://nsarchive.gwu.edu/document/21484-document-83&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant APT 1 report&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In 2014 Mandiant released a report on APT 1, which highlighted a massive cyber espionage campaign by nation state threat actors. The group named &amp;ldquo;Unit 61398&amp;rdquo; which involved in this operation has compromised multiple targets across the world leading to a total compromise of 141 companies, spanning 20 major industries&lt;/p&gt;
 &lt;p&gt;APT1 has a well-defined attack methodology, honed over years and designed to steal large volumes of valuable intellectual property.  They maintained persistence over several months or years and steal broad categories of intellectual property, including technology blueprints, proprietary manufacturing process, test results, business plans, pricing documents, partnership agreements and emails and contact lists from victims.&lt;/p&gt;
@@ -5071,20 +3884,28 @@ More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;/table&gt;
 &lt;h4&gt;1.5 Hunting Approaches &amp;amp; Strategies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;15-hunting-approaches--strategies&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#15-hunting-approaches--strategies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;1.5.1 Structured Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;151-structured-threat-hunting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#151-structured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A structured threat hunting used formal frameworks, such as the &lt;a href=&#34;https://www.ibm.com/think/topics/mitre-attack&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE Adversary Tactics Techniques and Common Knowledge (ATT&amp;amp;CK) framework&lt;/a&gt;, guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.&lt;/p&gt;
+    &lt;a href=&#34;#151-structured-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A structured threat hunting used formal frameworks, such as the &lt;a
+    href=&#34;https://www.ibm.com/think/topics/mitre-attack&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE Adversary Tactics Techniques and Common Knowledge (ATT&amp;amp;CK) framework&lt;/a&gt;, guide structured hunts. They search for defined indicators of attack (IoA) and the tactics, techniques and procedures (TTPs) of known threat actors.&lt;/p&gt;
 &lt;p&gt;Threat Hunting Frameworks&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.intel471.com/resources/whitepapers/threat-hunting-framework&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intel 471 Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PEAK Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://go.group-ib.com/hubfs/leaflet/group-ib-thf-huntpoint-mxdr-datasheet-2020-en.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Group IB Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://huntbook.predefender.com/part-1/frameworks/threathunting/tahiti/index.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHITI Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.threathunting.net/sqrrl-archive&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sqrrl Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.intel471.com/resources/whitepapers/threat-hunting-framework&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Intel 471 Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.splunk.com/en_us/blog/security/peak-threat-hunting-framework.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PEAK Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://go.group-ib.com/hubfs/leaflet/group-ib-thf-huntpoint-mxdr-datasheet-2020-en.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Group IB Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://huntbook.predefender.com/part-1/frameworks/threathunting/tahiti/index.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TaHITI Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.threathunting.net/sqrrl-archive&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sqrrl Threat Hunting Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a
+    href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
 &lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href=&#34;https://www.ibm.com/topics/risk-management&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
+    &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a
+    href=&#34;https://www.ibm.com/topics/risk-management&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
 &lt;p&gt;Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.&lt;/p&gt;
 
       </description>
@@ -5634,6 +4455,145 @@ authors:&lt;/p&gt;
 &lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Inventory → classify → migrate securely → sanitize EOL systems; verify CSP responsibilities&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methods/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Penetration Testing Methods&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Penetration Testing Methods&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #pentest #redteam&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penetration testing is an authorized, simulated attack against systems, networks, or applications to identify exploitable vulnerabilities and assess the effectiveness of security controls. Common approaches include black-box, gray-box, and white-box testing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Phases: planning/scoping, reconnaissance, scanning, exploitation, post-exploitation, reporting, and remediation verification.&lt;/li&gt;
+&lt;li&gt;Scopes and rules of engagement must be clear and legally approved.&lt;/li&gt;
+&lt;li&gt;Use testing to validate controls and inform risk-based remediation.&lt;/li&gt;
+&lt;li&gt;Retest after fixes to ensure remediation effectiveness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP emphasis: testing supports assurance activities and must be governed to avoid unintended disruption or legal exposure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Black-box vs Gray-box vs White-box&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Black-box = tester has no internal knowledge&lt;/li&gt;
+&lt;li&gt;Gray-box = tester has limited knowledge (e.g., credentials)&lt;/li&gt;
+&lt;li&gt;White-box = tester has full knowledge (source code, architecture)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Running intrusive tests in production without approval or rollback plans.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An external firm performs a scoped web application pentest under an RoE, finds an authentication bypass, and the internal team builds a patch and validates the fix with a retest.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-115 — Technical Guide to Information Security Testing and Assessment&lt;/li&gt;
+&lt;li&gt;OWASP Testing Guide and ASVS&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001 and 27002 related controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Pentest = authorized attack simulation; plan scope, follow RoE, and retest after fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Business Continuity Planning (BCP)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Business Continuity Planning (BCP)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #bcp #resilience&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BCP is the process of preparing the organization to continue critical business functions during and after disruptive events, including development of plans, alternate processes, communications, and recovery strategies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Start with Business Impact Analysis (BIA) to identify critical processes and dependencies.&lt;/li&gt;
+&lt;li&gt;Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for critical services.&lt;/li&gt;
+&lt;li&gt;Maintain and test continuity plans regularly; include personnel, suppliers, and communications.&lt;/li&gt;
+&lt;li&gt;Coordinate BCP with DRP for IT recovery specifics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP emphasizes that BCP is a business governance activity; technical recovery (DRP) supports continuity but BCP covers people, processes, and facilities as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BCP vs DRP&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;BCP = whole-business continuity (processes, people)&lt;/li&gt;
+&lt;li&gt;DRP = technical recovery of IT systems and data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Having backup systems but no tested procedures to restore business operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After a local outage, a company activates its BCP to move staff to alternate work sites, switches to manual processes for critical transactions, and follows communication plans to inform stakeholders.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-34 — Contingency Planning Guide for Federal Information Systems&lt;/li&gt;
+&lt;li&gt;ISO 22301 — Business Continuity Management Systems&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;BCP = keep business running; DRP = restore IT&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>

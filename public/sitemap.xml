@@ -113,18 +113,6 @@
     <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/web/web-application-recon/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/manojh-kumar/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/02_platforms/web/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -134,19 +122,7 @@
     <loc>http://localhost:1313/docs/01_methodology/security-analysis/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/02-cissp-cheatsheet/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d3/03-cissp-cheatsheet-1.2/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d8/02-cissp-cheatsheet-1/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/05_detection/xy-notes-template/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</loc>
@@ -170,28 +146,7 @@
     <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/06.1_web/whois/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/aswin-balaji/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/06_tools/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d3/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d8/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/05_detection/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/keren-priyanka/</loc>
+    <loc>http://localhost:1313/docs/02_platforms/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/03_techniques/</loc>
@@ -200,7 +155,7 @@
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/06.1_web/</loc>
+    <loc>http://localhost:1313/docs/02_platforms/web/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/02_platforms/wifi/</loc>
@@ -228,12 +183,30 @@
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</loc>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methids/</loc>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methods/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/aswin-balaji/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/06_tools/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d3/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d8/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/keren-priyanka/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/manojh-kumar/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.2_network/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/06_tools/06.1_web/</loc>
   </url>
 </urlset>
