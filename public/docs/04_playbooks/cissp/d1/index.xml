@@ -297,5 +297,394 @@
       </description>
     </item>
     
+    <item>
+      <title>[36] SPAM</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/36-ransomware/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/36-ransomware/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Topic Name&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Dx – Domain Name&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Ransomware&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Ransomware&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #ransomware #malware&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ransomware is malicious software that encrypts or otherwise blocks access to data/systems and demands payment (ransom) for restoration. It often spreads via phishing, compromised RDP, or vulnerable services.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Preventive controls: phishing-resistant MFA, patching, network segmentation, least privilege.&lt;/li&gt;
+&lt;li&gt;Detection: EDR, anomaly detection, file integrity monitoring.&lt;/li&gt;
+&lt;li&gt;Recovery: immutable/backups, tested DR plans, and incident response playbooks.&lt;/li&gt;
+&lt;li&gt;Legal and communication plans should be prepared in advance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP professionals should emphasize resilience: backups (offline/immutable), segmentation, and rapid detection to minimize impact.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pay vs not pay&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Paying does not guarantee recovery and funds criminal activity&lt;/li&gt;
+&lt;li&gt;Focus on backups and recovery capability instead of ransom negotiations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Relying solely on backups without ensuring backups are isolated and tested.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization isolates infected hosts, restores systems from immutable backups, and conducts forensic analysis to identify entry vector and remediate vulnerabilities.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISA Ransomware Guide and best practices&lt;/li&gt;
+&lt;li&gt;NIST SP 800-184 — Guide for Cybersecurity Event Recovery&lt;/li&gt;
+&lt;li&gt;NIST SP 800-61 — Incident Response&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ransomware = prevent (MFA, patching), detect (EDR), recover (immutable backups)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[38] Reporting</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Topic Name&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Dx – Domain Name&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reporting is done by only ethical hackers, others can do exploit, recon and other things.&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Security Reporting and Communication&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Security Reporting and Communication&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #reporting #governance&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Security reporting encompasses incident reports, executive dashboards, compliance reporting, and communications to stakeholders that summarize security posture, incidents, and risk metrics.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Tailor reports to the audience: executives need KPI summaries; technical teams need actionable details.&lt;/li&gt;
+&lt;li&gt;Timeliness and accuracy are critical during incident communication; designate a spokesperson and follow communication plans.&lt;/li&gt;
+&lt;li&gt;Maintain evidence and timelines for legal and compliance purposes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP focuses on the governance role: reporting supports decision-making, accountability, and regulatory requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operational vs Executive reporting&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Operational = technical detail for remediation&lt;/li&gt;
+&lt;li&gt;Executive = concise risk and impact summaries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Sharing sensitive forensic details externally without legal review.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;During an incident, the incident lead produces a technical incident report for the IR team and an executive summary for leadership that includes impact, actions taken, and next steps.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-61 — Computer Security Incident Handling Guide&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022 reporting and audit controls&lt;/li&gt;
+&lt;li&gt;Internal reporting policies and regulatory guidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Reports must be accurate, audience-specific, and legally vetted&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/29-warrent-to-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/29-warrent-to-search/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Investigator Access &amp;amp; Device Seizure (Warrant Considerations)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Investigator Access &amp;amp; Device Seizure (Warrant Considerations)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #forensics #legal&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Legal and organizational considerations for seizing, searching, and examining devices (company-owned or personal) during investigations, including when a warrant is required and how chain-of-custody and privacy laws apply.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Company-owned devices are subject to employer policies and may be seized for investigation, but legal requirements (warrants, consent) vary by jurisdiction.&lt;/li&gt;
+&lt;li&gt;Preserve chain-of-custody, document actions, and avoid altering evidence; obtain legal counsel when interacting with personal devices.&lt;/li&gt;
+&lt;li&gt;Consider privacy, labor law, and regulatory obligations when conducting searches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP professionals must balance investigative needs with legal/privacy obligations and ensure procedures preserve evidence admissibility and organizational compliance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Company-owned vs personal devices&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Company devices: employer policies often permit seizure, but legal process may still apply&lt;/li&gt;
+&lt;li&gt;Personal devices: require stronger legal justification (consent or warrant)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Seizing a device without legal advice can expose the organization to litigation and evidence inadmissibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;HR reports insider misuse of data. Security isolates the employee&amp;rsquo;s company laptop, documents the seizure, and notifies legal to determine if a warrant or consent for further analysis is required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-86 — Guide to Integrating Forensic Techniques into Incident Response&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27037 — Guidelines for identification, collection, acquisition and preservation of digital evidence&lt;/li&gt;
+&lt;li&gt;Local legal counsel and jurisdictional guidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Preserve evidence, follow policy, and consult legal before searching personal devices&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Security KPIs and Metrics&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Security KPIs and Metrics&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #metrics #kpi&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Key Performance Indicators (KPIs) and metrics measure the effectiveness of security controls and help leadership make informed risk decisions. They should be actionable, measurable, and tied to business objectives.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Use metrics like MTTD (Mean Time to Detect), MTTR (Mean Time to Recover), patch compliance, number of incidents, and percent of critical assets with protections.&lt;/li&gt;
+&lt;li&gt;KPIs should be SMART: Specific, Measurable, Achievable, Relevant, Time-bound.&lt;/li&gt;
+&lt;li&gt;Avoid vanity metrics; focus on indicators that drive decisions and improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP candidates should understand governance-level metrics and how they support risk management and reporting to executives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metric vs KPI&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Metric = any measured value&lt;/li&gt;
+&lt;li&gt;KPI = a metric tied to a business objective and action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Reporting too many metrics without clear owners or actionables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A security team tracks patch compliance weekly and reports trend-based KPIs to leadership; a drop triggers a remediation action and post-mortem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST CSF measurement guidance&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27004 — Information security management — Measurement&lt;/li&gt;
+&lt;li&gt;CIS Controls measurement recommendations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;KPIs must be actionable, tied to risk, and support decision-making&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

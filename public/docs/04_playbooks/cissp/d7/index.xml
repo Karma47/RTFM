@@ -569,5 +569,280 @@
       </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/28-backup-stolen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/28-backup-stolen/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Stolen Backups and Media Protection&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Stolen Backups and Media Protection&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #backup #encryption&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Protecting backup media (tape, removable drives, cloud snapshots) from theft or unauthorized access through encryption, access controls, transport protection, and secure disposal.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Encrypt backups at rest with strong algorithms and protect keys with secure key management.&lt;/li&gt;
+&lt;li&gt;Use access controls and logging for backup systems; restrict physical access during transport and storage.&lt;/li&gt;
+&lt;li&gt;Implement tamper-evident seals and custody procedures for removable media.&lt;/li&gt;
+&lt;li&gt;For cloud backups, ensure provider-side encryption, customer-managed keys, and proper IAM controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Loss of backup media can lead to data breaches; encryption and key management are essential to maintain confidentiality and compliance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Encrypting data vs protecting keys&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Encrypting backups is necessary but insufficient if keys are exposed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming cloud snapshot is protected by provider without verifying key ownership and access controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization encrypts tape backups with AES-256 and stores encryption keys in an HSM; tapes are transported in secured containers with dual custody logging.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-88 Rev.1 — Guidelines for Media Sanitization&lt;/li&gt;
+&lt;li&gt;NIST SP 800-57 — Recommendation for Key Management&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Encrypt backups, protect keys, control custody, and sanitize retired media&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - End-of-Life (EOL) Systems and Migration to CSPs&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: End-of-Life (EOL) Systems and Migration to Cloud Service Providers (CSPs)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations / D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #cloud #migration&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EOL to CSP covers planning and executing migration from end-of-life on-premises systems to cloud service providers, including data migration, decommissioning, and ensuring security and compliance in the cloud.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Perform inventory and data classification to prioritize migration of EOL assets.&lt;/li&gt;
+&lt;li&gt;Apply secure migration practices: data sanitization, encryption, validation, and testing.&lt;/li&gt;
+&lt;li&gt;Review CSP shared responsibility models, SLAs, and compliance posture.&lt;/li&gt;
+&lt;li&gt;Plan decommissioning, data sanitization (NIST SP 800-88), and contractual exit strategies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Migration is both a security and governance activity; failure to sanitize decommissioned assets or misconfigure cloud services can introduce new risks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cloud shared responsibility&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand what the provider secures vs what the customer must secure (data, identities, configurations).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming CSP handles all security; misconfigured cloud resources (e.g., public buckets) cause breaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization migrates an EOL database to a managed DB service with encryption at rest, customer-managed keys, network restrictions, and post-migration validation to ensure access controls remain correct.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-88 Rev.1 — Guidelines for Media Sanitization&lt;/li&gt;
+&lt;li&gt;NIST Cloud Computing Security Reference and SP 800-144&lt;/li&gt;
+&lt;li&gt;Vendor shared responsibility documentation (AWS, Azure, GCP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Inventory → classify → migrate securely → sanitize EOL systems; verify CSP responsibilities&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methids/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methids/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Penetration Testing Methods&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Penetration Testing Methods&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #pentest #redteam&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Penetration testing is an authorized, simulated attack against systems, networks, or applications to identify exploitable vulnerabilities and assess the effectiveness of security controls. Common approaches include black-box, gray-box, and white-box testing.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Phases: planning/scoping, reconnaissance, scanning, exploitation, post-exploitation, reporting, and remediation verification.&lt;/li&gt;
+&lt;li&gt;Scopes and rules of engagement must be clear and legally approved.&lt;/li&gt;
+&lt;li&gt;Use testing to validate controls and inform risk-based remediation.&lt;/li&gt;
+&lt;li&gt;Retest after fixes to ensure remediation effectiveness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP emphasis: testing supports assurance activities and must be governed to avoid unintended disruption or legal exposure.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Black-box vs Gray-box vs White-box&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Black-box = tester has no internal knowledge&lt;/li&gt;
+&lt;li&gt;Gray-box = tester has limited knowledge (e.g., credentials)&lt;/li&gt;
+&lt;li&gt;White-box = tester has full knowledge (source code, architecture)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Running intrusive tests in production without approval or rollback plans.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An external firm performs a scoped web application pentest under an RoE, finds an authentication bypass, and the internal team builds a patch and validates the fix with a retest.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-115 — Technical Guide to Information Security Testing and Assessment&lt;/li&gt;
+&lt;li&gt;OWASP Testing Guide and ASVS&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001 and 27002 related controls&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Pentest = authorized attack simulation; plan scope, follow RoE, and retest after fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Business Continuity Planning (BCP)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Business Continuity Planning (BCP)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #bcp #resilience&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;BCP is the process of preparing the organization to continue critical business functions during and after disruptive events, including development of plans, alternate processes, communications, and recovery strategies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Start with Business Impact Analysis (BIA) to identify critical processes and dependencies.&lt;/li&gt;
+&lt;li&gt;Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for critical services.&lt;/li&gt;
+&lt;li&gt;Maintain and test continuity plans regularly; include personnel, suppliers, and communications.&lt;/li&gt;
+&lt;li&gt;Coordinate BCP with DRP for IT recovery specifics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP emphasizes that BCP is a business governance activity; technical recovery (DRP) supports continuity but BCP covers people, processes, and facilities as well.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;BCP vs DRP&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;BCP = whole-business continuity (processes, people)&lt;/li&gt;
+&lt;li&gt;DRP = technical recovery of IT systems and data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Having backup systems but no tested procedures to restore business operations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;After a local outage, a company activates its BCP to move staff to alternate work sites, switches to manual processes for critical transactions, and follows communication plans to inform stakeholders.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-34 — Contingency Planning Guide for Federal Information Systems&lt;/li&gt;
+&lt;li&gt;ISO 22301 — Business Continuity Management Systems&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;BCP = keep business running; DRP = restore IT&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

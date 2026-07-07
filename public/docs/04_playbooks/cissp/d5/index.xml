@@ -405,5 +405,74 @@
       </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - SAML (Security Assertion Markup Language)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: SAML (Security Assertion Markup Language)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D5 – Identity and Access Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #federation #sso&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;SAML is an XML-based framework for exchanging authentication and authorization data between an Identity Provider (IdP) and a Service Provider (SP), enabling single sign-on (SSO) and federation across domains.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SAML actors: Principal (user), Identity Provider (IdP), Service Provider (SP).&lt;/li&gt;
+&lt;li&gt;Assertions convey authentication, attribute, and authorization statements.&lt;/li&gt;
+&lt;li&gt;Security depends on proper signing, timestamping, and assertion validation to prevent replay and forgery.&lt;/li&gt;
+&lt;li&gt;SAML is commonly used for enterprise SSO and federation scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Understand SAML flows (browser SSO redirects, POST bindings) and common attack vectors such as assertion replay, signature stripping, and XML external entity issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IdP vs SP responsibilities&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;IdP = authenticates user and issues assertions&lt;/li&gt;
+&lt;li&gt;SP = consumes assertions and grants access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; trusting unsigned assertions or misconfiguring audience/recipient values leading to assertion misuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An employee authenticates at the corporate IdP; the IdP issues a signed SAML assertion consumed by a cloud HR application (SP) that grants access based on attributes in the assertion.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;OASIS SAML v2.0 specification&lt;/li&gt;
+&lt;li&gt;NIST SP 800-63 and SAML integration guidance&lt;/li&gt;
+&lt;li&gt;OWASP SAML Security Cheat Sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SAML = IdP issues signed assertions → SP consumes; validate signature, audience, timestamps&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

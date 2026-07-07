@@ -5,7 +5,7 @@
     <description>Recent content in Docs on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -16,11 +16,268 @@
     
     
     <item>
+      <title>[03] CISSP Cheatsheet - Cable Locks and Physical Deterrents</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/37-cable-locks/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/37-cable-locks/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;July 5, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Cable Locks and Physical Deterrents&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D4 – Physical and Environmental Security&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #physicalsecurity&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Cable locks are physical deterrents used to secure portable devices (laptops, monitors) by mechanically attaching them to an immovable object; they are one element of physical security and asset protection.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Cable locks deter opportunistic theft but are not foolproof against determined attackers.&lt;/li&gt;
+&lt;li&gt;Combine cable locks with asset tracking, access control, and CCTV for stronger protection.&lt;/li&gt;
+&lt;li&gt;For data centers, stronger physical controls such as locked racks and controlled access are appropriate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP teaches layered physical controls: deterrence, detection, delay, and response. Cable locks are a low-cost deterrent but should be part of a broader physical security program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deterrent vs Preventive control&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Cable locks deter casual theft but do not prevent all removal methods&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Relying solely on cable locks without access control or inventory reconciliation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Workplace laptops are secured with cable locks in public areas, asset tags are logged, and security checks verify presence at the end of the day.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;ISO/IEC 27001:2022 Annex A (Physical security)&lt;/li&gt;
+&lt;li&gt;NIST SP 800-161 (Supply chain and physical security considerations)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Cable locks = cheap deterrent; use alongside access control and asset management&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[03] CISSP Cheatsheet - Layer 3 Networking (Routing &amp; Segmentation)</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/25-layer-3/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/25-layer-3/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;July 5, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Layer 3 Networking (Routing &amp;amp; Segmentation)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #networking&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Layer 3 refers to the network layer (IP) responsible for routing packets between networks. Layer-3 devices (routers, layer-3 switches) enable routing, segmentation, and enforcement of routing policies to control traffic flow and reduce broadcast domains.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Layer-3 segmentation reduces broadcast traffic and limits lateral movement.&lt;/li&gt;
+&lt;li&gt;Routing protocols (OSPF, BGP) determine path selection and must be securely configured.&lt;/li&gt;
+&lt;li&gt;Access control lists (ACLs) and routing policies enforce security at layer 3.&lt;/li&gt;
+&lt;li&gt;Misconfigurations in routing can create traffic leaks or expose internal networks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP emphasis: understand how network architecture supports confidentiality, integrity, and availability. Proper segmentation is a fundamental control to limit attack surface and contain incidents.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Layer 2 vs Layer 3 segmentation&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Layer 2 segmentation (VLANs) isolates at the data link level but can still be bridged&lt;/li&gt;
+&lt;li&gt;Layer 3 segmentation enforces network boundaries via routing and ACLs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming VLANs alone stop lateral movement; routing ACLs and firewall controls are often required.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An enterprise deploys layer-3 routed interfaces between VLANs and applies ACLs to restrict traffic from user VLANs to the server VLAN, preventing undesired lateral access.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 791 — Internet Protocol&lt;/li&gt;
+&lt;li&gt;NIST SP 800-125 and SP 800-115 for network configuration and testing&lt;/li&gt;
+&lt;li&gt;CIS Controls and network segmentation guidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Layer 3 = routing + segmentation; use ACLs and secure routing to limit lateral movement&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[03] CISSP Cheatsheet - SPF (Sender Policy Framework)</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/39-spf/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/39-spf/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;July 5, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: SPF (Sender Policy Framework)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #email #authentication&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;SPF is an email authentication mechanism that allows domain owners to publish authorized sending IP addresses in DNS records (the SPF TXT record). Receiving mail servers check the sender’s SPF record to help detect and block forged sender addresses.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SPF uses DNS TXT records to list authorized mail senders for a domain.&lt;/li&gt;
+&lt;li&gt;SPF helps prevent simple email spoofing but does not provide end-to-end integrity.&lt;/li&gt;
+&lt;li&gt;SPF works best when combined with DKIM and DMARC for stronger protection.&lt;/li&gt;
+&lt;li&gt;Misconfigured SPF records can result in mail delivery failures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SPF supports authentication and non-repudiation efforts by reducing phishing risk.&lt;/li&gt;
+&lt;li&gt;CISSP focus: understand how SPF fits into defense-in-depth for email security and the operational risk of DNS-based controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SPF vs DKIM vs DMARC&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;SPF verifies the sending IP against DNS records&lt;/li&gt;
+&lt;li&gt;DKIM verifies message integrity via signatures&lt;/li&gt;
+&lt;li&gt;DMARC provides policy and reporting across SPF/DKIM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Common trap:&lt;/strong&gt; Relying on SPF alone; it does not protect forwarded mail unless using Sender Rewriting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization publishes an SPF record: &amp;ldquo;v=spf1 ip4:198.51.100.0/24 include:mail.example.net -all&amp;rdquo;. A receiving mail server checks an incoming message’s originating IP against this record and marks messages from unauthorized IPs as failing SPF.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 7208 — Sender Policy Framework (SPF) for Authorizing Use of Domains in Email&lt;/li&gt;
+&lt;li&gt;DMARC specification and best practices&lt;/li&gt;
+&lt;li&gt;NIST SP 800-177, Trustworthy Email&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SPF = DNS list of authorized mail senders; use with DKIM + DMARC&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>[03] CISSP Cheatsheet - Topic Name</title>
-      <link>http://localhost:1313/docs/04_playbooks/_template_cissp_note/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/_template_cissp_note/</link>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/_template_cissp_note/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/_template_cissp_note/</guid>
       <description>
         
         
@@ -1884,11 +2141,11 @@
     </item>
     
     <item>
-      <title>[06] TTX Ideation</title>
-      <link>http://localhost:1313/docs/06_tools/06.3_training/ideation/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <title>[36] SPAM</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/36-ransomware/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/06_tools/06.3_training/ideation/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/36-ransomware/</guid>
       <description>
         
         
@@ -1904,14 +2161,12 @@
           
           
           
-            
           
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
             &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
                 &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
             &lt;/svg&gt;
-            Prasanna
+            Your Name
           &lt;/a&gt;
         
       
@@ -1920,574 +2175,220 @@
 
   
     &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;June 19, 2026&lt;/time&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
   
 &lt;/div&gt;
-&lt;p&gt;LOBBY → ROLE_SELECTION → IN_PROGRESS → STAGE_1 → STAGE_2 → STAGE_3 → COMPLETED&lt;/p&gt;
-&lt;p&gt;Stage → Modules → Scenarios → Player Responses → AI Injection → Consensus → Next&lt;/p&gt;
-&lt;h1&gt;Conversational Game Project Plan&lt;/h1&gt;&lt;h2&gt;Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This project aims to create a web-based, AI-assisted multiplayer conversational game with executive and technical tracks. Users can host or join games, assume roles, interact with AI agents, and progress through multiple stages. A final report evaluates performance and collaboration.&lt;/p&gt;
+&lt;h1&gt;📘 Topic: Topic Name&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Dx – Domain Name&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;1. User Workflow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-user-workflow&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#1-user-workflow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Sign Up / Login&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Ransomware&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Users create an account or log in.&lt;/li&gt;
-&lt;li&gt;Basic profile information is stored (username, email).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Select Track&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Users choose between:
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Executive Track&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Technical Track&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Host or Join Game&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Host: Generates a unique &lt;strong&gt;invite code&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Join: Enters invite code to join an existing game.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Role Selection&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Players select roles (CEO, CISO, Legal, HR, PSIRT Analyst, Security Manager, Facilitator).&lt;/li&gt;
-&lt;li&gt;Unfilled roles are automatically assigned to &lt;strong&gt;AI agents&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Game Start&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Game begins when all roles are filled or AI agents are assigned.&lt;/li&gt;
-&lt;li&gt;Game progresses through &lt;strong&gt;3 stages&lt;/strong&gt;, each containing multiple &lt;strong&gt;modules/scenarios&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2&gt;2. Game Flow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-game-flow&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#2-game-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Stages and Modules&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Each stage has &lt;code&gt;x&lt;/code&gt; modules.&lt;/li&gt;
-&lt;li&gt;Modules are &lt;strong&gt;challenging scenarios&lt;/strong&gt; where players must provide inputs.&lt;/li&gt;
-&lt;li&gt;Facilitator AI injects &lt;strong&gt;additional complexity&lt;/strong&gt; or risks to simulate realistic pressure.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Player Interaction&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Players submit decisions or responses for each module.&lt;/li&gt;
-&lt;li&gt;AI agents provide role responses if roles are unfilled.&lt;/li&gt;
-&lt;li&gt;One player may act as a &lt;strong&gt;saboteur&lt;/strong&gt;, intentionally creating challenges for other players.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Stage Progression&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Consensus or completion of module triggers next module.&lt;/li&gt;
-&lt;li&gt;Completion of all modules in a stage triggers next stage.&lt;/li&gt;
-&lt;li&gt;After Stage 3, the game ends.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2&gt;3. AI Integration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-ai-integration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#3-ai-integration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Facilitator AI&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Injects complexity and challenges.&lt;/li&gt;
-&lt;li&gt;Guides players but does not give direct answers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Role AI&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fills unassigned player roles.&lt;/li&gt;
-&lt;li&gt;Responds according to role objectives and personality.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Saboteur AI (Optional)&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Introduces subtle conflicts or delays.&lt;/li&gt;
-&lt;li&gt;Challenges proposals to simulate real-world adversities.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Evaluation AI&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Reviews actions from all players and AI agents.&lt;/li&gt;
-&lt;li&gt;Generates a &lt;strong&gt;performance report&lt;/strong&gt; highlighting strengths, weaknesses, and recommendations.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2&gt;4. Technical Architecture (MVP)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-technical-architecture-mvp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#4-technical-architecture-mvp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: Bubble / Glide / Adalo (No-Code)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pages: Login/Signup → Lobby → Role Selection → Game Interface → Report&lt;/li&gt;
-&lt;li&gt;Components: Player cards, Module display, Chat window, Progress tracker&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Backend / Database&lt;/strong&gt;: Airtable or Bubble DB&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tables: Users, Games, Players, Stages, Modules, Actions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;AI Integration&lt;/strong&gt;: OpenAI API via Make.com / Zapier&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;AI agents simulate roles and facilitator interactions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Multiplayer Logic&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;MVP can be &lt;strong&gt;turn-based submission&lt;/strong&gt; instead of real-time.&lt;/li&gt;
-&lt;li&gt;Later, real-time can be added via Firebase or WebSockets.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;5. Project Phases &amp;amp; Milestones&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;5-project-phases--milestones&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#5-project-phases--milestones&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Phase 1: MVP Setup&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-1-mvp-setup&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-1-mvp-setup&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Setup user authentication and accounts&lt;/li&gt;
-&lt;li&gt;Host/Join game flow&lt;/li&gt;
-&lt;li&gt;Role selection (human + AI)&lt;/li&gt;
-&lt;li&gt;Basic stage/module navigation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Phase 2: Core Gameplay&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-2-core-gameplay&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-2-core-gameplay&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Module scenarios implemented&lt;/li&gt;
-&lt;li&gt;Facilitator and role AI integration&lt;/li&gt;
-&lt;li&gt;Turn-based player interactions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Phase 3: AI Complexity&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-3-ai-complexity&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-3-ai-complexity&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Saboteur AI (optional)&lt;/li&gt;
-&lt;li&gt;Dynamic facilitator injections&lt;/li&gt;
-&lt;li&gt;Conditional scenario branching&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Phase 4: Reporting &amp;amp; Analytics&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-4-reporting--analytics&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-4-reporting--analytics&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Post-game evaluation&lt;/li&gt;
-&lt;li&gt;Individual and team performance scoring&lt;/li&gt;
-&lt;li&gt;Recommendations generated by AI&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Phase 5: Polish &amp;amp; Deployment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;phase-5-polish--deployment&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#phase-5-polish--deployment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;UI enhancements&lt;/li&gt;
-&lt;li&gt;Multi-device support&lt;/li&gt;
-&lt;li&gt;Beta testing with users&lt;/li&gt;
-&lt;li&gt;Optional: Real-time multiplayer upgrade&lt;/li&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Ransomware&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #ransomware #malware&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Ransomware is malicious software that encrypts or otherwise blocks access to data/systems and demands payment (ransom) for restoration. It often spreads via phishing, compromised RDP, or vulnerable services.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Preventive controls: phishing-resistant MFA, patching, network segmentation, least privilege.&lt;/li&gt;
+&lt;li&gt;Detection: EDR, anomaly detection, file integrity monitoring.&lt;/li&gt;
+&lt;li&gt;Recovery: immutable/backups, tested DR plans, and incident response playbooks.&lt;/li&gt;
+&lt;li&gt;Legal and communication plans should be prepared in advance.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2&gt;6. Notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;6-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#6-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Keep MVP simple to launch quickly.&lt;/li&gt;
-&lt;li&gt;Focus on &lt;strong&gt;game flow, role dynamics, and AI responses&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Real-time multiplayer can be added later.&lt;/li&gt;
-&lt;li&gt;AI prompts should be &lt;strong&gt;structured JSON&lt;/strong&gt; for consistent game state updates.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1&gt;&lt;strong&gt;Step 1: Pick No-Code Platforms&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;You need platforms for &lt;strong&gt;frontend, backend, and AI&lt;/strong&gt;:&lt;/p&gt;
-&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Function&lt;/th&gt;
-					&lt;th&gt;No-Code Tool&lt;/th&gt;
-					&lt;th&gt;Notes&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Web interface &amp;amp; pages&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Bubble&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Most flexible for logic, databases, and user accounts&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Database / storage&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Bubble DB&lt;/strong&gt; or &lt;strong&gt;Airtable&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Store users, games, roles, actions&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;AI integration&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Make.com&lt;/strong&gt; or &lt;strong&gt;Zapier&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Connects Bubble or Airtable to OpenAI API&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Multiplayer logic (simple turn-based)&lt;/td&gt;
-					&lt;td&gt;Bubble workflows&lt;/td&gt;
-					&lt;td&gt;Real-time not required for MVP&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;✅ &lt;strong&gt;Why Bubble:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Handles login/signup&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Lets you design pages visually&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Can create “lobbies” and role selection pages&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Can call external APIs (like OpenAI)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Has a built-in database&lt;/p&gt;
-&lt;/li&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP professionals should emphasize resilience: backups (offline/immutable), segmentation, and rapid detection to minimize impact.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 2: Design Your Pages in Bubble&lt;/strong&gt;&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Login / Signup Page&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pay vs not pay&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fields: Username, Email, Password&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Button: “Sign Up” / “Login”&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Paying does not guarantee recovery and funds criminal activity&lt;/li&gt;
+&lt;li&gt;Focus on backups and recovery capability instead of ransom negotiations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Lobby Page&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Buttons: “Host Game” → generates invite code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;“Join Game” → input invite code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Track selection dropdown: Executive / Technical&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Role Selection Page&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;List of roles: CEO, CISO, Legal, HR, Facilitator, etc.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Players select roles; unselected roles are assigned to &lt;strong&gt;AI&lt;/strong&gt; automatically&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Game Page&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Module display: Scenario text&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Input box: Player submits actions/decisions&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Chat box: Shows responses from other players and AI agents&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Progress bar: Shows stages/modules&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Report Page&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Shows individual and team performance&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Highlights good decisions, mistakes, and suggestions&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 3: Set Up the Database&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Tables / Data Types in Bubble DB:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Users:&lt;/strong&gt; Username, Email, Password&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Games:&lt;/strong&gt; Host, Invite Code, Track, Status (Waiting / In Progress / Completed)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Players:&lt;/strong&gt; Game, User, Role, Is AI&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Stages / Modules:&lt;/strong&gt; Game, Stage Number, Module Number, Scenario Text, Status&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Actions:&lt;/strong&gt; Module, Player, Input, Timestamp&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Relying solely on backups without ensuring backups are isolated and tested.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 4: Game Logic (Simplified for MVP)&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;Since we avoid coding, your MVP should be &lt;strong&gt;turn-based&lt;/strong&gt;, not fully real-time:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Players submit actions for the module&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;AI responds to unfilled roles and facilitator messages&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Once all players (or AI) have submitted → next module appears&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;After all stages/modules → show final report&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;✅ &lt;strong&gt;Tip:&lt;/strong&gt; Bubble’s workflows can handle this “if all actions submitted → move to next module” logic visually.&lt;/p&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization isolates infected hosts, restores systems from immutable backups, and conducts forensic analysis to identify entry vector and remediate vulnerabilities.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 5: AI Integration&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;You can integrate &lt;strong&gt;OpenAI API&lt;/strong&gt; via Make.com (or Zapier):&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Trigger: Player submits action&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Action: Call OpenAI API with a prompt for the &lt;strong&gt;AI agent&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Example: Facilitator AI → “Inject complexity in current scenario”&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Example: Role AI → “Respond as Legal Officer to player decisions”&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Return AI response → show in chat box on game page&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Structured Prompt Example for OpenAI:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;{&lt;br&gt;
-&amp;ldquo;role&amp;rdquo;: &amp;ldquo;Legal&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;scenario&amp;rdquo;: &amp;ldquo;Player has decided to disclose a data breach publicly&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;objective&amp;rdquo;: &amp;ldquo;Ensure compliance and reduce liability&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;response_format&amp;rdquo;: {&lt;br&gt;
-&amp;ldquo;action&amp;rdquo;: &amp;ldquo;text&amp;rdquo;&lt;br&gt;
-}&lt;br&gt;
-}&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 6: MVP Launch Steps&lt;/strong&gt;&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Build pages in Bubble&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Connect database tables (users, games, players, modules)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Design workflows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Signup/Login&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Host/Join Game&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Role selection&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Submit module action → AI response → move to next module&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Integrate OpenAI via Make.com or Zapier for AI agents&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Test the game internally with friends or colleagues&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Show the final report page with AI-generated evaluations&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;Step 7: Keep It Simple&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;For the MVP, &lt;strong&gt;don’t worry about:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Real-time updates (use turn-based module submissions)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Complex UI/animations&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Multiple concurrent games (one at a time is fine)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Full AI sophistication (start with facilitator + 1 AI role)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The &lt;strong&gt;goal is a playable prototype&lt;/strong&gt; that demonstrates your idea.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;If you want, I can &lt;strong&gt;make a “step-by-step Bubble MVP blueprint”&lt;/strong&gt; with &lt;strong&gt;exact page layouts, database tables, and AI integration instructions&lt;/strong&gt; specifically for your conversational game.&lt;/p&gt;
-&lt;p&gt;Do you want me to make that next?&lt;/p&gt;
-&lt;p&gt;i also want to make it modular, like i can create more scenarios etc&lt;/p&gt;
-&lt;p&gt;Perfect! Making it &lt;strong&gt;modular&lt;/strong&gt; is smart—it lets you &lt;strong&gt;add new scenarios, stages, or roles&lt;/strong&gt; without touching the core game logic. Since you’re using a no-code approach like Bubble, modularity mostly comes from &lt;strong&gt;database design + workflows&lt;/strong&gt;. Here’s how to do it:&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;1️⃣ Database Design for Modular Gameplay&lt;/strong&gt;&lt;/h1&gt;&lt;h3&gt;&lt;strong&gt;Games&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;games&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#games&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;id (unique)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;host (user)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;track (executive / technical)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;invite_code&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;status (waiting / in_progress / completed)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Stages&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;id&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;game_id (link to game)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;stage_number&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;name&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;status (pending / in_progress / completed)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Modules (Scenarios)&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;modules-scenarios&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#modules-scenarios&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;id&lt;/li&gt;
-&lt;li&gt;stage_id (link to stage)&lt;/li&gt;
-&lt;li&gt;module_number&lt;/li&gt;
-&lt;li&gt;scenario_text&lt;/li&gt;
-&lt;li&gt;type (decision / challenge / discussion / simulation)&lt;/li&gt;
-&lt;li&gt;status (pending / completed)&lt;/li&gt;
-&lt;li&gt;optional: facilitator_injection_text&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Roles&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;roles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#roles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;id&lt;/li&gt;
-&lt;li&gt;name (CEO, CISO, Legal…)&lt;/li&gt;
-&lt;li&gt;objectives (JSON/text)&lt;/li&gt;
-&lt;li&gt;AI_agent_prompt (for AI to simulate this role)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Players&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;players&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#players&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;id&lt;/li&gt;
-&lt;li&gt;game_id&lt;/li&gt;
-&lt;li&gt;user_id (nullable if AI)&lt;/li&gt;
-&lt;li&gt;role_id&lt;/li&gt;
-&lt;li&gt;is_ai&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong&gt;Actions&lt;/strong&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;actions&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;id&lt;/li&gt;
-&lt;li&gt;module_id&lt;/li&gt;
-&lt;li&gt;player_id&lt;/li&gt;
-&lt;li&gt;input_text&lt;/li&gt;
-&lt;li&gt;timestamp&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;✅ This lets you &lt;strong&gt;create new scenarios/modules&lt;/strong&gt; just by adding records to the “Modules” table. No workflow changes needed.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;2️⃣ Modular Game Flow&lt;/strong&gt;&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Stages → Modules&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Each stage can have &lt;strong&gt;any number of modules&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Bubble workflow: “Go to next module” → dynamically pulls the next module record from the database.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Roles&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adding new roles = adding a new record to the &lt;strong&gt;Roles&lt;/strong&gt; table.&lt;/li&gt;
-&lt;li&gt;AI automatically picks up prompts from &lt;code&gt;AI_agent_prompt&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Facilitator injections&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Each module can have an optional field for “complexity” or “injection”.&lt;/li&gt;
-&lt;li&gt;Bubble workflow → AI reads this and outputs messages.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;AI Responses&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;AI prompts use the &lt;strong&gt;module text + role objectives&lt;/strong&gt; → returns JSON.&lt;/li&gt;
-&lt;li&gt;Since prompts are stored per role/module, adding a new scenario is just a &lt;strong&gt;database insert&lt;/strong&gt;, not workflow redesign.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;3️⃣ How to Add Scenarios / Modules Easily&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;Admin page in Bubble:
-&lt;ul&gt;
-&lt;li&gt;Add stage (name, order)&lt;/li&gt;
-&lt;li&gt;Add modules to that stage (scenario text, type, facilitator injection)&lt;/li&gt;
-&lt;li&gt;Assign roles that are expected to participate&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Optional: Tag modules with difficulty or category so you can filter or randomize scenarios per game.&lt;/li&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISA Ransomware Guide and best practices&lt;/li&gt;
+&lt;li&gt;NIST SP 800-184 — Guide for Cybersecurity Event Recovery&lt;/li&gt;
+&lt;li&gt;NIST SP 800-61 — Incident Response&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;4️⃣ AI Prompts for Modularity&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;Store &lt;strong&gt;prompts per role&lt;/strong&gt; and &lt;strong&gt;per scenario type&lt;/strong&gt;, for example:&lt;/p&gt;
-&lt;p&gt;{&lt;br&gt;
-&amp;ldquo;role&amp;rdquo;: &amp;ldquo;Legal&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;scenario_type&amp;rdquo;: &amp;ldquo;Data Breach&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;objective&amp;rdquo;: &amp;ldquo;Ensure compliance and reduce liability&amp;rdquo;,&lt;br&gt;
-&amp;ldquo;instructions&amp;rdquo;: &amp;ldquo;Respond in a professional tone. Provide guidance, highlight risks, do not solve directly.&amp;rdquo;&lt;br&gt;
-}&lt;/p&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ransomware = prevent (MFA, patching), detect (EDR), recover (immutable backups)&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[38] Reporting</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Topic Name&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; Dx – Domain Name&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reporting is done by only ethical hackers, others can do exploit, recon and other things.&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Security Reporting and Communication&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;When a new scenario is added → workflow fetches the relevant AI prompt automatically.&lt;/li&gt;
-&lt;li&gt;This makes AI behavior &lt;strong&gt;consistent across scenarios&lt;/strong&gt; without coding.&lt;/li&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h1&gt;&lt;strong&gt;5️⃣ Recommended Workflow in Bubble for Modular MVP&lt;/strong&gt;&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Game Start&lt;/strong&gt; → Fetch stages from DB → Load Stage 1&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Module Load&lt;/strong&gt; → Fetch module from DB → Display scenario&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Player Submission&lt;/strong&gt; → Save action to DB → Trigger AI agents for unfilled roles&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Facilitator Injection&lt;/strong&gt; → Optional AI message → Display&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Module Completion&lt;/strong&gt; → If all players/AI submitted → Move to next module&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stage Completion&lt;/strong&gt; → If all modules done → Move to next stage&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Game Completion&lt;/strong&gt; → Generate report (pull data from Actions table, evaluate, show summary)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;✅ Adding a new scenario or stage = just adding records in DB.&lt;/p&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+          
+          &lt;a href=&#34;http://localhost:1313/authors/your-name/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Your Name
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Security Reporting and Communication&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #reporting #governance&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;If you want, I can now make a &lt;strong&gt;complete Bubble MVP blueprint&lt;/strong&gt; that includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Page layout&lt;/li&gt;
-&lt;li&gt;Tables (DB) setup&lt;/li&gt;
-&lt;li&gt;Admin page for adding stages/modules&lt;/li&gt;
-&lt;li&gt;Modular AI integration flow&lt;/li&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition-1&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition-1&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Security reporting encompasses incident reports, executive dashboards, compliance reporting, and communications to stakeholders that summarize security posture, incidents, and risk metrics.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Tailor reports to the audience: executives need KPI summaries; technical teams need actionable details.&lt;/li&gt;
+&lt;li&gt;Timeliness and accuracy are critical during incident communication; designate a spokesperson and follow communication plans.&lt;/li&gt;
+&lt;li&gt;Maintain evidence and timelines for legal and compliance purposes.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;It will literally be a &lt;strong&gt;step-by-step guide you can follow without coding&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Do you want me to create that next?&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP focuses on the governance role: reporting supports decision-making, accountability, and regulatory requirements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Operational vs Executive reporting&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Operational = technical detail for remediation&lt;/li&gt;
+&lt;li&gt;Executive = concise risk and impact summaries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Sharing sensitive forensic details externally without legal review.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;During an incident, the incident lead produces a technical incident report for the IR team and an executive summary for leadership that includes impact, actions taken, and next steps.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-61 — Computer Security Incident Handling Guide&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022 reporting and audit controls&lt;/li&gt;
+&lt;li&gt;Internal reporting policies and regulatory guidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Reports must be accurate, audience-specific, and legally vetted&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>
@@ -2737,10 +2638,10 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
     
     <item>
       <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet-1/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d2/02-cissp-cheatsheet/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet-1/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2/02-cissp-cheatsheet/</guid>
       <description>
         
         
@@ -3080,353 +2981,10 @@ A: Identity Provider&lt;/p&gt;
     
     <item>
       <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d3/03-cissp-cheatsheet-1.2/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/02-cissp-cheatsheet/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/keren-samson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Keren
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data&lt;/li&gt;
-&lt;li&gt;Tailgating → Following an authorized person into a restricted area&lt;/li&gt;
-&lt;li&gt;Impersonation → Pretending to be someone else (e.g., IT support)&lt;/li&gt;
-&lt;li&gt;Dumpster Diving → Retrieving sensitive info from discarded materials&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-These attacks bypass technical controls → focus on &lt;strong&gt;human vulnerability&lt;/strong&gt;.&lt;br&gt;
-Mitigation = &lt;strong&gt;Security Awareness + Physical Security Controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes &lt;strong&gt;people as the weakest link&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which attack exploits physical proximity without hacking systems?&lt;br&gt;
-A: Shoulder Surfing&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.2 Reporting Structure (InfoSec Governance)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-reporting-structure-infosec-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#22-reporting-structure-infosec-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines organizational placement of information security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-InfoSec should report to &lt;strong&gt;CIO or CISO&lt;/strong&gt; for operational alignment.&lt;br&gt;
-Internal Audit must remain &lt;strong&gt;independent&lt;/strong&gt; to objectively assess controls.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-This tests &lt;strong&gt;governance and independence principles&lt;/strong&gt;, not technical knowledge.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why is reporting to Internal Audit incorrect?&lt;br&gt;
-A: It violates independence&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.isaca.org/resources/isaca-journal&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isaca.org/resources/isaca-journal&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.3 DMZ Traffic Capture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-dmz-traffic-capture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#23-dmz-traffic-capture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Monitoring network traffic in a switched environment.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Broadcast traffic&lt;/li&gt;
-&lt;li&gt;Traffic destined to your NIC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Understand &lt;strong&gt;network architecture behavior&lt;/strong&gt;, not just tools.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why can&amp;rsquo;t you see all traffic on a switch?&lt;br&gt;
-A: MAC-based forwarding&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wireshark.org/docs/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.4 Incident Response Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-incident-response-lifecycle&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#24-incident-response-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Structured process for handling incidents.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Phases:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Preparation&lt;/li&gt;
-&lt;li&gt;Detection&lt;/li&gt;
-&lt;li&gt;Response&lt;/li&gt;
-&lt;li&gt;Recovery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Backup is a &lt;strong&gt;supporting control&lt;/strong&gt;, not a phase.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;process lifecycle thinking&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which is not part of IR lifecycle?&lt;br&gt;
-A: Backup&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.5 Network Segmentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-network-segmentation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#25-network-segmentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Dividing networks to improve performance and security.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Router → separates broadcast domains&lt;/li&gt;
-&lt;li&gt;Switch → separates collision domains&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Segmentation reduces &lt;strong&gt;attack surface and lateral movement&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which device reduces broadcast traffic?&lt;br&gt;
-A: Router&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.6 NATO Phonetic Alphabet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-nato-phonetic-alphabet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#26-nato-phonetic-alphabet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Standardized word system (Alpha, Bravo, Charlie) for communication clarity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Used in aviation/military to avoid misunderstanding. Not encryption.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Tests ability to &lt;strong&gt;differentiate communication vs security controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Is this a confidentiality control?&lt;br&gt;
-A: No&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.7 Security Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-security-models&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#27-security-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Formal frameworks for enforcing access control.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chinese Wall → prevents conflict of interest&lt;/li&gt;
-&lt;li&gt;Take-Grant → models permission transfer&lt;/li&gt;
-&lt;li&gt;Noninterference → prevents information leakage&lt;/li&gt;
-&lt;li&gt;Information Flow → restricts data movement&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Know &lt;strong&gt;purpose of models&lt;/strong&gt;, not math&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which model stops insider conflict misuse?&lt;br&gt;
-A: Chinese Wall&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.8 Split-Brain DNS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;28-split-brain-dns&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#28-split-brain-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Using separate DNS views for internal vs external users.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Internal users see private IPs; external users see public IPs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;information disclosure (confidentiality)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use split DNS?&lt;br&gt;
-A: Hide internal infrastructure&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.9 Disaster Recovery Sites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;29-disaster-recovery-sites&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#29-disaster-recovery-sites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Alternate locations for business continuity.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hot → fully operational&lt;/li&gt;
-&lt;li&gt;Warm → partially configured&lt;/li&gt;
-&lt;li&gt;Cold → basic infrastructure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Trade-off between &lt;strong&gt;cost vs recovery time (RTO)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Which has lowest RTO?&lt;br&gt;
-A: Hot site&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.10 Brute Force Defense&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;210-brute-force-defense&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#210-brute-force-defense&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Attack that tries all possible passwords.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Defenses:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Strong passwords&lt;/li&gt;
-&lt;li&gt;Account lockout&lt;/li&gt;
-&lt;li&gt;MFA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Focus on &lt;strong&gt;preventive + detective controls&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Best mitigation for online brute force?&lt;br&gt;
-A: Account lockout&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.11 OCSP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-ocsp&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#211-ocsp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Online Certificate Status Protocol.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Checks certificate validity in real time instead of downloading CRLs.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Improves &lt;strong&gt;availability and timeliness&lt;/strong&gt; of revocation checks&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use OCSP over CRL?&lt;br&gt;
-A: Real-time validation&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.21 Blockchain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;221-blockchain&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#221-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-A distributed ledger that records transactions across multiple nodes.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Immutable → cannot be altered&lt;/li&gt;
-&lt;li&gt;Decentralized → no central authority&lt;/li&gt;
-&lt;li&gt;Transparent → all participants can verify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;integrity and non-repudiation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: What security property does blockchain strongly provide?&lt;br&gt;
-A: Integrity&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.22 Password Hashing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;222-password-hashing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#222-password-hashing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Converting plaintext passwords into fixed-length hashed values.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;One-way function&lt;/li&gt;
-&lt;li&gt;Same input → same output&lt;/li&gt;
-&lt;li&gt;Uses salt to prevent rainbow table attacks&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Supports &lt;strong&gt;confidentiality of stored credentials&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why add salt to hashes?&lt;br&gt;
-A: Prevent precomputed attacks&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.23 Shared Responsibility Model (IaaS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;223-shared-responsibility-model-iaas&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#223-shared-responsibility-model-iaas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Defines security responsibilities between cloud provider and customer.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Customer manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;OS&lt;/li&gt;
-&lt;li&gt;Applications&lt;/li&gt;
-&lt;li&gt;Data&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Provider manages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware&lt;/li&gt;
-&lt;li&gt;Physical security&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Very commonly tested → &lt;strong&gt;“who is responsible?”&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who secures the OS in IaaS?&lt;br&gt;
-A: Customer&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/compliance/shared-responsibility-model/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/compliance/shared-responsibility-model/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.26 BGP (Border Gateway Protocol)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;226-bgp-border-gateway-protocol&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#226-bgp-border-gateway-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Operates at WAN/Internet level&lt;/li&gt;
-&lt;li&gt;Determines best path between networks&lt;/li&gt;
-&lt;li&gt;Uses path attributes, not just shortest distance&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Critical to understand for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Internet routing&lt;/li&gt;
-&lt;li&gt;Risks like &lt;strong&gt;BGP hijacking&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Where is BGP primarily used?&lt;br&gt;
-A: Internet (WAN)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc4271&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datatracker.ietf.org/doc/html/rfc4271&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.29 Replay Attack Mitigation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;229-replay-attack-mitigation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#229-replay-attack-mitigation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Replay attacks reuse captured communication to gain unauthorized access.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
-Nonce = random number used once → ensures freshness of request&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Protects &lt;strong&gt;authentication integrity&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Why use a nonce?&lt;br&gt;
-A: Prevent reuse of captured messages&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2.30 SAML&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;230-saml&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#230-saml&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
-Security Assertion Markup Language used for federated authentication.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Identity Provider (IdP) → authenticates user&lt;/li&gt;
-&lt;li&gt;Service Provider (SP) → provides service&lt;/li&gt;
-&lt;li&gt;Assertions → authentication statements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
-Core concept in &lt;strong&gt;SSO and federation&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
-Q: Who sends SAML assertions?&lt;br&gt;
-A: Identity Provider&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.oasis-open.org/security/saml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.oasis-open.org/security/saml/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[03] CISSP Cheatsheet</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/03-cissp-cheatsheet-1.2/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/03-cissp-cheatsheet-1.2/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d3/03-cissp-cheatsheet-1.2/</guid>
       <description>
         
         
@@ -3463,6 +3021,349 @@ A: Identity Provider&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;This is test&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/assets/Pasted_image_20260626195953.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shoulder Surfing → Observing someone’s screen/keyboard to capture sensitive data&lt;/li&gt;
+&lt;li&gt;Tailgating → Following an authorized person into a restricted area&lt;/li&gt;
+&lt;li&gt;Impersonation → Pretending to be someone else (e.g., IT support)&lt;/li&gt;
+&lt;li&gt;Dumpster Diving → Retrieving sensitive info from discarded materials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+These attacks bypass technical controls → focus on &lt;strong&gt;human vulnerability&lt;/strong&gt;.&lt;br&gt;
+Mitigation = &lt;strong&gt;Security Awareness + Physical Security Controls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Even the strongest encryption is useless if a user reveals credentials. CISSP emphasizes &lt;strong&gt;people as the weakest link&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Which attack exploits physical proximity without hacking systems?&lt;br&gt;
+A: Shoulder Surfing&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.2 Reporting Structure (InfoSec Governance)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;22-reporting-structure-infosec-governance&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#22-reporting-structure-infosec-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Defines organizational placement of information security.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+InfoSec should report to &lt;strong&gt;CIO or CISO&lt;/strong&gt; for operational alignment.&lt;br&gt;
+Internal Audit must remain &lt;strong&gt;independent&lt;/strong&gt; to objectively assess controls.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+This tests &lt;strong&gt;governance and independence principles&lt;/strong&gt;, not technical knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why is reporting to Internal Audit incorrect?&lt;br&gt;
+A: It violates independence&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.isaca.org/resources/isaca-journal&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.isaca.org/resources/isaca-journal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.3 DMZ Traffic Capture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;23-dmz-traffic-capture&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#23-dmz-traffic-capture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Monitoring network traffic in a switched environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Switches forward traffic only to intended destinations. Without SPAN/mirroring, you only see:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Broadcast traffic&lt;/li&gt;
+&lt;li&gt;Traffic destined to your NIC&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Understand &lt;strong&gt;network architecture behavior&lt;/strong&gt;, not just tools.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why can&amp;rsquo;t you see all traffic on a switch?&lt;br&gt;
+A: MAC-based forwarding&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.wireshark.org/docs/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.wireshark.org/docs/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.4 Incident Response Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;24-incident-response-lifecycle&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#24-incident-response-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Structured process for handling incidents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Phases:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparation&lt;/li&gt;
+&lt;li&gt;Detection&lt;/li&gt;
+&lt;li&gt;Response&lt;/li&gt;
+&lt;li&gt;Recovery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Backup is a &lt;strong&gt;supporting control&lt;/strong&gt;, not a phase.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Focus on &lt;strong&gt;process lifecycle thinking&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Which is not part of IR lifecycle?&lt;br&gt;
+A: Backup&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.5 Network Segmentation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;25-network-segmentation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#25-network-segmentation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Dividing networks to improve performance and security.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Router → separates broadcast domains&lt;/li&gt;
+&lt;li&gt;Switch → separates collision domains&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Segmentation reduces &lt;strong&gt;attack surface and lateral movement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Which device reduces broadcast traffic?&lt;br&gt;
+A: Router&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.6 NATO Phonetic Alphabet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;26-nato-phonetic-alphabet&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#26-nato-phonetic-alphabet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Standardized word system (Alpha, Bravo, Charlie) for communication clarity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Used in aviation/military to avoid misunderstanding. Not encryption.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Tests ability to &lt;strong&gt;differentiate communication vs security controls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Is this a confidentiality control?&lt;br&gt;
+A: No&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.7 Security Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;27-security-models&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#27-security-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Formal frameworks for enforcing access control.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chinese Wall → prevents conflict of interest&lt;/li&gt;
+&lt;li&gt;Take-Grant → models permission transfer&lt;/li&gt;
+&lt;li&gt;Noninterference → prevents information leakage&lt;/li&gt;
+&lt;li&gt;Information Flow → restricts data movement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Know &lt;strong&gt;purpose of models&lt;/strong&gt;, not math&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Which model stops insider conflict misuse?&lt;br&gt;
+A: Chinese Wall&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.8 Split-Brain DNS&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;28-split-brain-dns&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#28-split-brain-dns&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Using separate DNS views for internal vs external users.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Internal users see private IPs; external users see public IPs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Protects &lt;strong&gt;information disclosure (confidentiality)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why use split DNS?&lt;br&gt;
+A: Hide internal infrastructure&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.9 Disaster Recovery Sites&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;29-disaster-recovery-sites&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#29-disaster-recovery-sites&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Alternate locations for business continuity.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hot → fully operational&lt;/li&gt;
+&lt;li&gt;Warm → partially configured&lt;/li&gt;
+&lt;li&gt;Cold → basic infrastructure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Trade-off between &lt;strong&gt;cost vs recovery time (RTO)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Which has lowest RTO?&lt;br&gt;
+A: Hot site&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.10 Brute Force Defense&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;210-brute-force-defense&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#210-brute-force-defense&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Attack that tries all possible passwords.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Defenses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong passwords&lt;/li&gt;
+&lt;li&gt;Account lockout&lt;/li&gt;
+&lt;li&gt;MFA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Focus on &lt;strong&gt;preventive + detective controls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Best mitigation for online brute force?&lt;br&gt;
+A: Account lockout&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.11 OCSP&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-ocsp&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#211-ocsp&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Online Certificate Status Protocol.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Checks certificate validity in real time instead of downloading CRLs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Improves &lt;strong&gt;availability and timeliness&lt;/strong&gt; of revocation checks&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why use OCSP over CRL?&lt;br&gt;
+A: Real-time validation&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.21 Blockchain&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;221-blockchain&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#221-blockchain&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+A distributed ledger that records transactions across multiple nodes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Immutable → cannot be altered&lt;/li&gt;
+&lt;li&gt;Decentralized → no central authority&lt;/li&gt;
+&lt;li&gt;Transparent → all participants can verify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Supports &lt;strong&gt;integrity and non-repudiation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: What security property does blockchain strongly provide?&lt;br&gt;
+A: Integrity&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.22 Password Hashing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;222-password-hashing&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#222-password-hashing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Converting plaintext passwords into fixed-length hashed values.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;One-way function&lt;/li&gt;
+&lt;li&gt;Same input → same output&lt;/li&gt;
+&lt;li&gt;Uses salt to prevent rainbow table attacks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Supports &lt;strong&gt;confidentiality of stored credentials&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why add salt to hashes?&lt;br&gt;
+A: Prevent precomputed attacks&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.23 Shared Responsibility Model (IaaS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;223-shared-responsibility-model-iaas&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#223-shared-responsibility-model-iaas&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Defines security responsibilities between cloud provider and customer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Customer manages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OS&lt;/li&gt;
+&lt;li&gt;Applications&lt;/li&gt;
+&lt;li&gt;Data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Provider manages:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware&lt;/li&gt;
+&lt;li&gt;Physical security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Very commonly tested → &lt;strong&gt;“who is responsible?”&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Who secures the OS in IaaS?&lt;br&gt;
+A: Customer&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/compliance/shared-responsibility-model/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aws.amazon.com/compliance/shared-responsibility-model/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.26 BGP (Border Gateway Protocol)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;226-bgp-border-gateway-protocol&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#226-bgp-border-gateway-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+BGP is the routing protocol used to exchange routing information between autonomous systems (AS) on the internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Operates at WAN/Internet level&lt;/li&gt;
+&lt;li&gt;Determines best path between networks&lt;/li&gt;
+&lt;li&gt;Uses path attributes, not just shortest distance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Critical to understand for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Internet routing&lt;/li&gt;
+&lt;li&gt;Risks like &lt;strong&gt;BGP hijacking&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Where is BGP primarily used?&lt;br&gt;
+A: Internet (WAN)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://datatracker.ietf.org/doc/html/rfc4271&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datatracker.ietf.org/doc/html/rfc4271&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.29 Replay Attack Mitigation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;229-replay-attack-mitigation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#229-replay-attack-mitigation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Replay attacks reuse captured communication to gain unauthorized access.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;br&gt;
+Nonce = random number used once → ensures freshness of request&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Protects &lt;strong&gt;authentication integrity&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Why use a nonce?&lt;br&gt;
+A: Prevent reuse of captured messages&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2.30 SAML&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;230-saml&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#230-saml&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
+Security Assertion Markup Language used for federated authentication.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identity Provider (IdP) → authenticates user&lt;/li&gt;
+&lt;li&gt;Service Provider (SP) → provides service&lt;/li&gt;
+&lt;li&gt;Assertions → authentication statements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CISSP Insight:&lt;/strong&gt;&lt;br&gt;
+Core concept in &lt;strong&gt;SSO and federation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q/A:&lt;/strong&gt;&lt;br&gt;
+Q: Who sends SAML assertions?&lt;br&gt;
+A: Identity Provider&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.oasis-open.org/security/saml/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.oasis-open.org/security/saml/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[03] CISSP Cheatsheet</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d8/02-cissp-cheatsheet-1/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d8/02-cissp-cheatsheet-1/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/keren-samson/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Keren
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
 &lt;h2&gt;2.1 Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-social-engineering-attacks&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#21-social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br&gt;
 Social engineering refers to psychological manipulation of people to perform actions or disclose confidential information&lt;/p&gt;
@@ -5185,6 +5086,555 @@ structured hunt. It is often triggered by the discovery of an indicator of compr
 &lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a href=&#34;https://www.ibm.com/topics/risk-management&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;risk assessment&lt;/a&gt; or a trends and vulnerabilities analysis of the IT environment.  &lt;/p&gt;
 &lt;p&gt;Entity-driven hunts focus specifically on critical assets and systems in a network. Threat hunters identify cyberthreats that might pose a risk to these entities and search for signs of ongoing compromises.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/29-warrent-to-search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/29-warrent-to-search/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Investigator Access &amp;amp; Device Seizure (Warrant Considerations)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Investigator Access &amp;amp; Device Seizure (Warrant Considerations)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #forensics #legal&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Legal and organizational considerations for seizing, searching, and examining devices (company-owned or personal) during investigations, including when a warrant is required and how chain-of-custody and privacy laws apply.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Company-owned devices are subject to employer policies and may be seized for investigation, but legal requirements (warrants, consent) vary by jurisdiction.&lt;/li&gt;
+&lt;li&gt;Preserve chain-of-custody, document actions, and avoid altering evidence; obtain legal counsel when interacting with personal devices.&lt;/li&gt;
+&lt;li&gt;Consider privacy, labor law, and regulatory obligations when conducting searches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP professionals must balance investigative needs with legal/privacy obligations and ensure procedures preserve evidence admissibility and organizational compliance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Company-owned vs personal devices&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Company devices: employer policies often permit seizure, but legal process may still apply&lt;/li&gt;
+&lt;li&gt;Personal devices: require stronger legal justification (consent or warrant)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Seizing a device without legal advice can expose the organization to litigation and evidence inadmissibility.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;HR reports insider misuse of data. Security isolates the employee&amp;rsquo;s company laptop, documents the seizure, and notifies legal to determine if a warrant or consent for further analysis is required.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-86 — Guide to Integrating Forensic Techniques into Incident Response&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27037 — Guidelines for identification, collection, acquisition and preservation of digital evidence&lt;/li&gt;
+&lt;li&gt;Local legal counsel and jurisdictional guidance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Preserve evidence, follow policy, and consult legal before searching personal devices&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Security KPIs and Metrics&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Security KPIs and Metrics&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #metrics #kpi&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Key Performance Indicators (KPIs) and metrics measure the effectiveness of security controls and help leadership make informed risk decisions. They should be actionable, measurable, and tied to business objectives.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Use metrics like MTTD (Mean Time to Detect), MTTR (Mean Time to Recover), patch compliance, number of incidents, and percent of critical assets with protections.&lt;/li&gt;
+&lt;li&gt;KPIs should be SMART: Specific, Measurable, Achievable, Relevant, Time-bound.&lt;/li&gt;
+&lt;li&gt;Avoid vanity metrics; focus on indicators that drive decisions and improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP candidates should understand governance-level metrics and how they support risk management and reporting to executives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Metric vs KPI&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Metric = any measured value&lt;/li&gt;
+&lt;li&gt;KPI = a metric tied to a business objective and action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Reporting too many metrics without clear owners or actionables.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A security team tracks patch compliance weekly and reports trend-based KPIs to leadership; a drop triggers a remediation action and post-mortem.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST CSF measurement guidance&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27004 — Information security management — Measurement&lt;/li&gt;
+&lt;li&gt;CIS Controls measurement recommendations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;KPIs must be actionable, tied to risk, and support decision-making&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4/24-deluge-sprinkler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4/24-deluge-sprinkler/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Deluge Sprinkler Systems&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Deluge Sprinkler Systems&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D4 – Physical and Environmental Security&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #physicalsecurity #fireprotection&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Deluge sprinkler systems use open sprinkler heads and a dry or drained piping network that is rapidly filled with water when a separate detection system (e.g., heat or smoke detectors) triggers a water-delivery valve. They provide rapid, high-volume water application suited for high-hazard areas.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Deluge systems are used where rapid, broad-area suppression is needed (e.g., flammable liquid hazards).&lt;/li&gt;
+&lt;li&gt;They differ from wet-pipe, dry-pipe, and pre-action systems in activation and risk of accidental discharge.&lt;/li&gt;
+&lt;li&gt;For IT environments, clean-agent suppression may be preferable to avoid water damage.&lt;/li&gt;
+&lt;li&gt;Design and testing must balance life safety and asset protection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Physical controls such as suppression systems are part of a layered defense; selecting the wrong system increases business risk to assets and availability.&lt;/li&gt;
+&lt;li&gt;CISSP focus: understand trade-offs between life-safety codes and asset protection when designing controls for critical systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deluge vs Pre-action vs Dry-pipe&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Deluge = open heads, actuated by separate detection; rapid, high-volume discharge&lt;/li&gt;
+&lt;li&gt;Pre-action = requires two triggers to fill pipes (reduces accidental discharge)&lt;/li&gt;
+&lt;li&gt;Dry-pipe = pipes filled with compressed air; water enters after sprinkler activation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Choosing water-based suppression in a server room without evaluating asset damage and alternatives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A datacenter with flammable coolant systems chooses a pre-action clean-agent system instead of a deluge to reduce accidental water damage while still protecting against fire.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NFPA 13 — Standard for the Installation of Sprinkler Systems&lt;/li&gt;
+&lt;li&gt;NFPA 2001 — Standard on Clean Agent Fire Extinguishing Systems&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022, Annex A 7.11 (Environmental controls)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Deluge = open heads + rapid discharge; use only when asset damage from water is acceptable or mitigated&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - SAML (Security Assertion Markup Language)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: SAML (Security Assertion Markup Language)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D5 – Identity and Access Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #federation #sso&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;SAML is an XML-based framework for exchanging authentication and authorization data between an Identity Provider (IdP) and a Service Provider (SP), enabling single sign-on (SSO) and federation across domains.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SAML actors: Principal (user), Identity Provider (IdP), Service Provider (SP).&lt;/li&gt;
+&lt;li&gt;Assertions convey authentication, attribute, and authorization statements.&lt;/li&gt;
+&lt;li&gt;Security depends on proper signing, timestamping, and assertion validation to prevent replay and forgery.&lt;/li&gt;
+&lt;li&gt;SAML is commonly used for enterprise SSO and federation scenarios.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Understand SAML flows (browser SSO redirects, POST bindings) and common attack vectors such as assertion replay, signature stripping, and XML external entity issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IdP vs SP responsibilities&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;IdP = authenticates user and issues assertions&lt;/li&gt;
+&lt;li&gt;SP = consumes assertions and grants access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; trusting unsigned assertions or misconfiguring audience/recipient values leading to assertion misuse.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An employee authenticates at the corporate IdP; the IdP issues a signed SAML assertion consumed by a cloud HR application (SP) that grants access based on attributes in the assertion.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;OASIS SAML v2.0 specification&lt;/li&gt;
+&lt;li&gt;NIST SP 800-63 and SAML integration guidance&lt;/li&gt;
+&lt;li&gt;OWASP SAML Security Cheat Sheet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;SAML = IdP issues signed assertions → SP consumes; validate signature, audience, timestamps&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/27-vpn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/27-vpn/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - VPN (Virtual Private Network)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: VPN (Virtual Private Network)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #networking #remote&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A VPN is a technology that creates an encrypted tunnel over an untrusted network (such as the Internet) to securely connect remote users or sites to corporate resources. Common VPN types include IPsec (site-to-site) and SSL/TLS-based VPNs (remote access).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Types: IPsec (network-layer), SSL/TLS (transport/application-layer), and TLS-based client VPNs.&lt;/li&gt;
+&lt;li&gt;Split tunneling sends only destined corporate traffic through the VPN; full tunneling routes all traffic via the corporate gateway.&lt;/li&gt;
+&lt;li&gt;Authentication, strong encryption, and endpoint posture checks are critical.&lt;/li&gt;
+&lt;li&gt;Consider performance impact, NAT traversal, and logging when designing VPNs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;VPNs support confidentiality and integrity for remote access but must be managed with proper authentication and endpoint controls to avoid becoming a threat vector.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Split tunnel vs full tunnel&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Split tunnel = performance gains but potential exposure from unmanaged internet traffic&lt;/li&gt;
+&lt;li&gt;Full tunnel = centralized control and monitoring but higher bandwidth usage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming encryption alone equals security; weak endpoints or stolen credentials still enable compromise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization configures VPN clients to use MFA and device posture checking; remote users must have up-to-date patches before VPN negotiation succeeds.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 4301 — Security Architecture for the Internet Protocol (IPsec)&lt;/li&gt;
+&lt;li&gt;NIST SP 800-77 — Guide to IPsec VPNs&lt;/li&gt;
+&lt;li&gt;NIST SP 800-46 — Guide to Enterprise Telework, Remote Access, and BYOD Security&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;VPN = encrypted tunnel; enforce MFA, endpoint checks, and choose tunneling mode based on risk&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6/35-datagram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6/35-datagram/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Datagram (UDP &amp;amp; Connectionless Protocols)&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Datagram (UDP &amp;amp; Connectionless Protocols)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D6 – Security Engineering&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #networking #udp&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A datagram is a self-contained, connectionless packet typically associated with the User Datagram Protocol (UDP). Datagram delivery is best-effort and does not guarantee ordering, delivery, or duplicate protection.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;UDP/datagram protocols are lightweight and used for DNS, DHCP, RTP, and some real-time applications.&lt;/li&gt;
+&lt;li&gt;Lack of connection state makes them susceptible to spoofing and amplification attacks.&lt;/li&gt;
+&lt;li&gt;Security controls include filtering, rate limiting, and application-layer protections.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;CISSP focus: know protocol characteristics and how they influence security design (e.g., when to use TCP vs UDP and how to mitigate UDP risks).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;UDP vs TCP&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;UDP = connectionless, no guarantees&lt;/li&gt;
+&lt;li&gt;TCP = connection-oriented, reliable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming UDP traffic is harmless; it can be abused for DDoS amplification.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An attacker spoofs UDP DNS queries to an open resolver to amplify a DDoS attack; defenders mitigate by restricting open resolvers and applying rate limits.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;RFC 768 — User Datagram Protocol (UDP)&lt;/li&gt;
+&lt;li&gt;NIST SP 800-115 — security testing and considerations&lt;/li&gt;
+&lt;li&gt;OWASP and vendor guidance on UDP-based services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Datagram = UDP; lightweight but needs filtering and rate limiting to mitigate abuse&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/28-backup-stolen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/28-backup-stolen/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - Stolen Backups and Media Protection&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: Stolen Backups and Media Protection&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #backup #encryption&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Protecting backup media (tape, removable drives, cloud snapshots) from theft or unauthorized access through encryption, access controls, transport protection, and secure disposal.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Encrypt backups at rest with strong algorithms and protect keys with secure key management.&lt;/li&gt;
+&lt;li&gt;Use access controls and logging for backup systems; restrict physical access during transport and storage.&lt;/li&gt;
+&lt;li&gt;Implement tamper-evident seals and custody procedures for removable media.&lt;/li&gt;
+&lt;li&gt;For cloud backups, ensure provider-side encryption, customer-managed keys, and proper IAM controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Loss of backup media can lead to data breaches; encryption and key management are essential to maintain confidentiality and compliance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Encrypting data vs protecting keys&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Encrypting backups is necessary but insufficient if keys are exposed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming cloud snapshot is protected by provider without verifying key ownership and access controls.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization encrypts tape backups with AES-256 and stores encryption keys in an HSM; tapes are transported in secured containers with dual custody logging.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-88 Rev.1 — Guidelines for Media Sanitization&lt;/li&gt;
+&lt;li&gt;NIST SP 800-57 — Recommendation for Key Management&lt;/li&gt;
+&lt;li&gt;ISO/IEC 27001:2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Encrypt backups, protect keys, control custody, and sanitize retired media&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</guid>
+      <description>
+        
+        
+        &lt;p&gt;title: &amp;ldquo;[03] CISSP Cheatsheet - End-of-Life (EOL) Systems and Migration to CSPs&amp;rdquo;
+date: 2026-07-05
+authors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+
+  
+&lt;/div&gt;
+&lt;h1&gt;📘 Topic: End-of-Life (EOL) Systems and Migration to Cloud Service Providers (CSPs)&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;Domain:&lt;/strong&gt; D7 – Security Operations / D1 – Security and Risk Management&lt;br&gt;
+&lt;strong&gt;Tags:&lt;/strong&gt; #cissp #cloud #migration&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🧾 Definition&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-definition&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-definition&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;EOL to CSP covers planning and executing migration from end-of-life on-premises systems to cloud service providers, including data migration, decommissioning, and ensuring security and compliance in the cloud.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔑 Key Points&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-points&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-points&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Perform inventory and data classification to prioritize migration of EOL assets.&lt;/li&gt;
+&lt;li&gt;Apply secure migration practices: data sanitization, encryption, validation, and testing.&lt;/li&gt;
+&lt;li&gt;Review CSP shared responsibility models, SLAs, and compliance posture.&lt;/li&gt;
+&lt;li&gt;Plan decommissioning, data sanitization (NIST SP 800-88), and contractual exit strategies.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚠️ CISSP Insight&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-cissp-insight&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-cissp-insight&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Migration is both a security and governance activity; failure to sanitize decommissioned assets or misconfigure cloud services can introduce new risks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;⚔️ Key Difference / Trap&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-key-difference--trap&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-key-difference--trap&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cloud shared responsibility&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand what the provider secures vs what the customer must secure (data, identities, configurations).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trap:&lt;/strong&gt; Assuming CSP handles all security; misconfigured cloud resources (e.g., public buckets) cause breaches.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🏗️ Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;An organization migrates an EOL database to a managed DB service with encryption at rest, customer-managed keys, network restrictions, and post-migration validation to ensure access controls remain correct.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;📚 References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NIST SP 800-88 Rev.1 — Guidelines for Media Sanitization&lt;/li&gt;
+&lt;li&gt;NIST Cloud Computing Security Reference and SP 800-144&lt;/li&gt;
+&lt;li&gt;Vendor shared responsibility documentation (AWS, Azure, GCP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;🔁 Quick Recall&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;-quick-recall&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#-quick-recall&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Inventory → classify → migrate securely → sanitize EOL systems; verify CSP responsibilities&lt;/li&gt;
+&lt;/ul&gt;
 
       </description>
     </item>

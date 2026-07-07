@@ -7,9 +7,12 @@ draft: true
 ---
 
 {{< meta >}}
+# 🚧 Page Under Construction
 
-This is a test article jfnwdjkf wek feiwnwoendf 
-![](/docs/01_methodology/threat-hunting/assets/Pasted_image_20260404203335.png)
+Sorry, this page is currently under construction.
 
-Notes
-this is a test 
+Please check back later.
+
+---
+
+If you believe this is an error, feel free to contact the site administrator.
