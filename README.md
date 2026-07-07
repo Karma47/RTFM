@@ -20,8 +20,6 @@ RTFM is a **personal knowledge publishing system** that:
 
 ## 🏗️ Architecture Diagram
 
-![Architecture Diagram](static/images/certs/workflow.drawio.png)
-
 ```text
 Obsidian (Editor)
     ↓
@@ -37,7 +35,7 @@ GitHub Actions (CI/CD)
     ↓
 Live Website
 ```
-
+![Architecture Diagram](static/images/certs/workflow.drawio.png)
 ---
 
 ## 🏗️ Architecture Overview
