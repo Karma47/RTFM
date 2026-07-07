@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/04_playbooks/CISSP/D1/38 Reporting.md",
+                "file": "content/docs/04_playbooks/CISSP/D1/14 Org Security Policy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "38 Reporting"
+              "title": "14 Org Security Policy"
             }
           }
         ]
@@ -180,8 +180,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "4a007f77aedf7cfe",
+  "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
+    "content/docs/04_playbooks/CISSP/D1/29 Warrent to search.md",
+    "content/docs/04_playbooks/CISSP/D1/36 Ransomware.md",
+    "content/docs/04_playbooks/CISSP/D1/34 KPIs.md",
+    "content/docs/04_playbooks/CISSP/D1/14 Org Security Policy.md",
+    "content/docs/04_playbooks/CISSP/D1/06 SOC 1 2.md",
+    "content/docs/04_playbooks/CISSP/D1/09 Patient.md",
+    "content/docs/04_playbooks/CISSP/D1/38 Reporting.md",
     "public/en.search-dialog.js",
     "README.md",
     "README.html",
@@ -193,20 +200,12 @@
     "themes/hextra/tests/render-link.spec.ts",
     "themes/hextra/tests/mobile-menu.spec.ts",
     "themes/hextra/layouts/_shortcodes/gallery.html",
-    "themes/hextra/layouts/_shortcodes/gallery-item.html",
     "themes/hextra/docs/content/docs/guide/shortcodes/gallery.zh-cn.md",
     "themes/hextra/docs/content/docs/guide/shortcodes/gallery.md",
     "themes/hextra/docs/content/docs/guide/shortcodes/gallery.ja.md",
     "themes/hextra/docs/content/docs/guide/shortcodes/gallery.fa.md",
     "public/images/certs/workflow.drawio.png",
     "static/images/certs/workflow.drawio.png",
-    "content/docs/04_playbooks/CISSP/D1/36 Ransomware.md",
-    "content/docs/04_playbooks/CISSP/D1/34 KPIs.md",
-    "content/docs/04_playbooks/CISSP/D1/29 Warrent to search.md",
-    "content/docs/04_playbooks/CISSP/D1/14 Org Security Policy.md",
-    "content/docs/04_playbooks/CISSP/D1/09 Patient.md",
-    "content/docs/04_playbooks/CISSP/D1/06 SOC 1 2.md",
-    "content/docs/04_playbooks/CISSP/D1/38 Reporting.md",
     "content/docs/04_playbooks/CISSP/D4/37 Cable locks.md",
     "content/docs/04_playbooks/CISSP/D2/02 CISSP Cheatsheet.md",
     "content/docs/04_playbooks/CISSP/D3/03 CISSP Cheatsheet 1.2.md",
