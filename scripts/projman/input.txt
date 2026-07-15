@@ -1,0 +1,329 @@
+1.0 Security and Risk Management
+1.1 Understand, adhere to, and promote professional ethics
+1.1.1 ISC2 Code of Professional Ethics
+1.1.2 Organizational code of ethics
+1.2 Understand and apply security concepts
+1.2.1 Confidentiality, integrity, and availability, authenticity, and nonrepudiation
+1.3 Evaluate and apply security governance principles
+1.3.1 Alignment of the security function to business strategy, goals, mission, and objectives
+1.3.2 Organizational processes (acquisitions, divestitures, governance committees)
+1.3.3 Organizational roles and responsibilities
+1.3.4 Security control frameworks (ISO, NIST, COBIT, SABSA, PCI, FedRAMP)
+1.3.5 Due care and due diligence
+1.4 Understand legal, regulatory, and compliance issues
+1.4.1 Cybercrimes and data breaches
+1.4.2 Licensing and Intellectual Property requirements
+1.4.3 Import and export controls
+1.4.4 Transborder data flow
+1.4.5 Privacy issues (GDPR, CCPA, PIPL, POPIA)
+1.4.6 Contractual, legal, regulatory requirements
+1.5 Understand investigation requirements (administrative, criminal, civil)
+1.6 Develop and implement security policies and procedures
+1.7 Business Continuity requirements
+1.7.1 Business Impact Analysis (BIA)
+1.7.2 External dependencies
+1.8 Personnel security policies
+1.8.1 Candidate screening and hiring
+1.8.2 Employment agreements
+1.8.3 Onboarding, transfers, termination
+1.8.4 Vendor and contractor controls
+1.9 Risk management concepts
+1.9.1 Threat and vulnerability identification
+1.9.2 Risk analysis and assessment
+1.9.3 Risk response and treatment
+1.9.4 Types of controls (preventive, detective, corrective)
+1.9.5 Control assessments
+1.9.6 Continuous monitoring
+1.9.7 Reporting
+1.9.8 Continuous improvement
+1.9.9 Risk frameworks (ISO, NIST, COBIT, SABSA, PCI)
+1.10 Threat modeling concepts
+1.11 Supply chain risk management
+1.11.1 Supplier risks (tampering, counterfeits)
+1.11.2 Risk mitigations (third-party assessment, SBOM)
+1.12 Security awareness and training
+1.12.1 Awareness methods (phishing, social engineering, gamification)
+1.12.2 Content reviews (AI, blockchain, crypto)
+1.12.3 Program effectiveness evaluation
+
+2.0 Asset Security
+2.1 Identify and classify information and assets
+2.1.1 Data classification
+2.1.2 Asset classification
+2.2 Asset handling requirements
+2.3 Provision assets securely
+2.3.1 Asset ownership
+2.3.2 Asset inventory
+2.3.3 Asset management
+2.4 Data lifecycle
+2.4.1 Data roles
+2.4.2 Data collection
+2.4.3 Data location
+2.4.4 Data maintenance
+2.4.5 Data retention
+2.4.6 Data remanence
+2.4.7 Data destruction
+2.5 Asset retention (EOL, EOS)
+2.6 Data security controls
+2.6.1 Data states (in use, transit, at rest)
+2.6.2 Scoping and tailoring
+2.6.3 Standards selection
+2.6.4 Data protection methods (DRM, DLP, CASB)
+
+3.0 Security Architecture and Engineering
+3.1 Secure design principles
+3.1.1 Threat modeling
+3.1.2 Least privilege
+3.1.3 Defense in depth
+3.1.4 Secure defaults
+3.1.5 Fail securely
+3.1.6 Separation of duties
+3.1.7 Keep it simple
+3.1.8 Zero trust
+3.1.9 Privacy by design
+3.1.10 Shared responsibility
+3.1.11 SASE
+3.2 Security models (Biba, Bell-LaPadula)
+3.3 Security controls selection
+3.4 System security capabilities (TPM, encryption)
+3.5 Architecture vulnerabilities
+3.5.1 Client systems
+3.5.2 Server systems
+3.5.3 Database systems
+3.5.4 Cryptographic systems
+3.5.5 Industrial Control Systems
+3.5.6 Cloud systems
+3.5.7 Distributed systems
+3.5.8 IoT
+3.5.9 Microservices and APIs
+3.5.10 Containerization
+3.5.11 Serverless
+3.5.12 Embedded systems
+3.5.13 HPC systems
+3.5.14 Edge computing
+3.5.15 Virtualized systems
+3.6 Cryptography
+3.6.1 Cryptographic lifecycle
+3.6.2 Cryptographic methods
+3.6.3 PKI
+3.6.4 Key management
+3.6.5 Digital signatures
+3.7 Cryptanalytic attacks
+3.7.1 Brute force
+3.7.2 Ciphertext-only
+3.7.3 Known plaintext
+3.7.4 Frequency analysis
+3.7.5 Chosen ciphertext
+3.7.6 Side-channel
+3.7.7 MITM
+3.7.8 Pass-the-hash
+3.7.9 Ransomware
+3.8 Physical security design
+3.9 Facility security controls
+3.9.1 Data centers
+3.9.2 Server rooms
+3.9.3 Fire protection
+3.9.4 Power systems
+3.10 System lifecycle
+3.10.1 Requirements
+3.10.2 Design
+3.10.3 Implementation
+3.10.4 Testing
+3.10.5 Deployment
+3.10.6 Operations
+3.10.7 Disposal
+
+4.0 Communication and Network Security
+4.1 Network architecture
+4.1.1 OSI and TCP/IP
+4.1.2 IPv4 and IPv6
+4.1.3 Secure protocols (IPSec, SSH, TLS)
+4.1.4 Network topology
+4.1.5 Converged protocols (VoIP, iSCSI)
+4.1.6 Transport architecture
+4.1.7 Performance metrics
+4.1.8 Traffic flows
+4.2 Secure network components
+4.2.1 Operation of infrastructure
+4.2.2 Transmission media
+4.2.3 Network Access Control (NAC) systems
+4.2.4 Endpoint security
+4.3 Implement secure communication channels according to design
+4.3.1 Voice, video, and collaboration
+4.3.2 Remote access
+4.3.3 Data communications
+4.3.4 Third-party connectivity
+5.0 Identity and Access Management (IAM)
+5.1 Control physical and logical access to assets
+5.1.1 Information
+5.1.2 Systems
+5.1.3 Devices
+5.1.4 Facilities
+5.1.5 Applications
+5.1.6 Services
+5.2 Design identification and authentication strategy
+5.2.1 Groups and roles
+5.2.2 Authentication, Authorization, and Accounting (AAA)
+5.2.3 Session management
+5.2.4 Registration, proofing, and establishment of identity
+5.2.5 Federated Identity Management (FIM)
+5.2.6 Credential management systems
+5.2.7 Single sign-on (SSO)
+5.2.8 Just-in-Time (JIT)
+5.3 Federated identity with a third-party service
+5.3.1 On-premise
+5.3.2 Cloud
+5.3.3 Hybrid
+5.4 Implement and manage authorization mechanisms
+5.4.1 Role-based access control (RBAC)
+5.4.2 Rule-based access control
+5.4.3 Mandatory access control (MAC)
+5.4.4 Discretionary access control (DAC)
+5.4.5 Attribute-based access control (ABAC)
+5.4.6 Risk-based access control
+5.4.7 Access policy enforcement
+5.5 Manage the identity and access provisioning lifecycle
+5.5.1 Account access review
+5.5.2 Provisioning and deprovisioning
+5.5.3 Role definition and transition
+5.5.4 Privilege escalation
+5.5.5 Service accounts management
+5.6 Implement authentication systems
+6.0 Security Assessment and Testing
+6.1 Design and validate assessment, test, and audit strategies
+6.1.1 Internal
+6.1.2 External
+6.1.3 Third-party
+6.1.4 Location
+6.2 Conduct security controls testing
+6.2.1 Vulnerability assessment
+6.2.2 Penetration testing
+6.2.3 Log reviews
+6.2.4 Synthetic transactions
+6.2.5 Code review and testing
+6.2.6 Misuse case testing
+6.2.7 Coverage analysis
+6.2.8 Interface testing
+6.2.9 Breach attack simulations
+6.2.10 Compliance checks
+6.3 Collect security process data
+6.3.1 Account management
+6.3.2 Management review and approval
+6.3.3 Key performance and risk indicators
+6.3.4 Backup verification data
+6.3.5 Training and awareness
+6.3.6 Disaster Recovery (DR) and Business Continuity (BC)
+6.4 Analyze test output and generate report
+6.4.1 Remediation
+6.4.2 Exception handling
+6.4.3 Ethical disclosure
+6.5 Conduct or facilitate security audits
+6.5.1 Internal
+6.5.2 External
+6.5.3 Third-party
+6.5.4 Location
+7.0 Security Operations
+7.1 Understand and comply with investigations
+7.1.1 Evidence collection and handling
+7.1.2 Reporting and documentation
+7.1.3 Investigative techniques
+7.1.4 Digital forensics tools, tactics, and procedures
+7.1.5 Artifacts
+7.2 Conduct logging and monitoring activities
+7.2.1 Intrusion detection and prevention systems (IDPS)
+7.2.2 Security information and event management (SIEM)
+7.2.3 Continuous monitoring and tuning
+7.2.4 Egress monitoring
+7.2.5 Log management
+7.2.6 Threat intelligence
+7.2.7 User and Entity Behavior Analytics (UEBA)
+7.3 Perform configuration management
+7.4 Apply foundational security operations concepts
+7.4.1 Need-to-know / least privilege
+7.4.2 Segregation of duties
+7.4.3 Privileged account management
+7.4.4 Job rotation
+7.4.5 Service-level agreements (SLA)
+7.5 Apply resource protection
+7.5.1 Media management
+7.5.2 Media protection techniques
+7.5.3 Data at rest and in transit
+7.6 Conduct incident management
+7.6.1 Detection
+7.6.2 Response
+7.6.3 Mitigation
+7.6.4 Reporting
+7.6.5 Recovery
+7.6.6 Remediation
+7.6.7 Lessons learned
+7.7 Operate and maintain detection and preventative measures
+7.7.1 Firewalls
+7.7.2 IDS and IPS
+7.7.3 Whitelisting and blacklisting
+7.7.4 Third-party security services
+7.7.5 Sandboxing
+7.7.6 Honeypots and honeynets
+7.7.7 Anti-malware
+7.7.8 Machine learning and AI-based tools
+7.8 Implement and support patch and vulnerability management
+7.9 Understand and participate in change management processes
+7.10 Implement recovery strategies
+7.10.1 Backup storage strategies
+7.10.2 Recovery site strategies
+7.10.3 Multiple processing sites
+7.10.4 System resilience and fault tolerance
+7.11 Implement disaster recovery processes
+7.11.1 Response
+7.11.2 Personnel
+7.11.3 Communications
+7.11.4 Assessment
+7.11.5 Restoration
+7.11.6 Training and awareness
+7.11.7 Lessons learned
+7.12 Test disaster recovery plan
+7.12.1 Tabletop
+7.12.2 Walkthrough
+7.12.3 Simulation
+7.12.4 Parallel
+7.12.5 Full interruption
+7.12.6 Communications
+7.13 Participate in business continuity planning
+7.14 Implement and manage physical security
+7.14.1 Perimeter security
+7.14.2 Internal security controls
+7.15 Address personnel safety and security concerns
+7.15.1 Travel
+7.15.2 Security training and awareness
+7.15.3 Emergency management
+7.15.4 Duress
+8.0 Software Development Security
+8.1 Understand and integrate security in the SDLC
+8.1.1 Development methodologies
+8.1.2 Maturity models
+8.1.3 Operation and maintenance
+8.1.4 Change management
+8.1.5 Integrated product team
+8.2 Identify and apply security controls in development ecosystems
+8.2.1 Programming languages
+8.2.2 Libraries
+8.2.3 Tool sets
+8.2.4 Integrated development environment
+8.2.5 Runtime
+8.2.6 Continuous integration and delivery
+8.2.7 Configuration management
+8.2.8 Code repositories
+8.2.9 Application security testing
+8.3 Assess the effectiveness of software security
+8.3.1 Auditing and logging
+8.3.2 Risk analysis and mitigation
+8.4 Assess security impact of acquired software
+8.4.1 Commercial off-the-shelf (COTS)
+8.4.2 Open source
+8.4.3 Third-party
+8.4.4 Managed services
+8.4.5 Cloud services
+8.5 Define and apply secure coding guidelines
+8.5.1 Code-level vulnerabilities
+8.5.2 API security
+8.5.3 Secure coding practices
+8.5.4 Software-defined security

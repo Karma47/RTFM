@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CISSP Game Dashboard</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+text-align: center;
+}
+
+.stats {
+display: flex;
+justify-content: space-around;
+margin-bottom: 20px;
+background: #0f172a;
+padding: 10px;
+border-radius: 10px;
+}
+
+.timeline {
+display: flex;
+overflow-x: auto;
+gap: 15px;
+}
+
+.week {
+min-width: 220px;
+background: #1e293b;
+padding: 15px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.week:hover {
+background: #334155;
+}
+
+.details {
+display: none;
+margin-top: 10px;
+}
+
+button {
+background: #22c55e;
+border: none;
+padding: 6px 10px;
+margin-top: 5px;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.progress-bar {
+height: 10px;
+background: #1e293b;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.progress-fill {
+height: 100%;
+background: #22c55e;
+width: 0%;
+border-radius: 5px;
+} </style>
+
+</head>
+
+<body>
+
+<h1>🎮 CISSP Gamified Dashboard</h1>
+
+<div class="stats">
+  <div>XP: <span id="xp">0</span></div>
+  <div>Level: <span id="level">1</span></div>
+  <div>🔥 Streak: <span id="streak">0</span></div>
+</div>
+
+<div class="progress-bar">
+  <div class="progress-fill" id="progressFill"></div>
+</div>
+
+<div class="timeline" id="timeline"></div>
+
+<script>
+const weeks = [
+  {name: "Security & Risk", person: "A"},
+  {name: "Asset Security", person: "B"},
+  {name: "Engineering", person: "C"},
+  {name: "Network", person: "D"},
+  {name: "IAM", person: "E"},
+  {name: "Testing", person: "F"},
+  {name: "Operations", person: "G"},
+  {name: "Software Security", person: "H"}
+];
+
+let state = JSON.parse(localStorage.getItem("cisspGame")) || {
+  xp: 0,
+  completed: [],
+  streak: 0,
+  lastDay: null
+};
+
+function save() {
+  localStorage.setItem("cisspGame", JSON.stringify(state));
+}
+
+function updateStats() {
+  document.getElementById("xp").innerText = state.xp;
+  document.getElementById("level").innerText = Math.floor(state.xp / 100) + 1;
+  document.getElementById("streak").innerText = state.streak;
+
+  const progress = (state.completed.length / weeks.length) * 100;
+  document.getElementById("progressFill").style.width = progress + "%";
+}
+
+function checkStreak() {
+  const today = new Date().toDateString();
+
+  if (state.lastDay !== today) {
+    const yesterday = new Date();
+    yesterday.setDate(yesterday.getDate() - 1);
+
+    if (state.lastDay === yesterday.toDateString()) {
+      state.streak += 1;
+    } else {
+      state.streak = 1;
+    }
+
+    state.lastDay = today;
+  }
+}
+
+function completeWeek(i) {
+  if (!state.completed.includes(i)) {
+    state.completed.push(i);
+    state.xp += 50;
+
+    checkStreak();
+    save();
+    render();
+  }
+}
+
+function toggle(el) {
+  const d = el.querySelector(".details");
+  d.style.display = d.style.display === "block" ? "none" : "block";
+}
+
+function render() {
+  const container = document.getElementById("timeline");
+  container.innerHTML = "";
+
+  weeks.forEach((w, i) => {
+    const done = state.completed.includes(i);
+
+    const div = document.createElement("div");
+    div.className = "week";
+    div.onclick = () => toggle(div);
+
+    div.innerHTML = `
+      <h3>Week ${i + 1}</h3>
+      <p>👤 Person ${w.person}</p>
+      <p>${w.name}</p>
+
+      <div class="details">
+        <button onclick="event.stopPropagation(); completeWeek(${i})">
+          ${done ? "✅ Completed" : "Complete (+50 XP)"}
+        </button>
+      </div>
+    `;
+
+    container.appendChild(div);
+  });
+
+  updateStats();
+}
+
+render();
+</script>
+
+</body>
+</html>
