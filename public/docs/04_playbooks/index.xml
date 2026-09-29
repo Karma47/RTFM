@@ -26,6 +26,71 @@
         
         &lt;p&gt;This contains the notes for CISSP Preperation.&lt;/p&gt;
 &lt;p&gt;Welcome to my notes section.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Topic&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d0-cissp-prep/&#34;&gt;D0 CISSP Prep&lt;/a&gt;&lt;br&gt;&lt;/td&gt;
+					&lt;td&gt;The page contains metrics, common pit falls and mitigations&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d1-security-and-risk-management/&#34;&gt;D1 Security and Risk Management&lt;/a&gt;&lt;br&gt;&lt;/td&gt;
+					&lt;td&gt;Governance, risk management, compliance, ethics, policies, and security principles.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d2-asset-security/&#34;&gt;D2 Asset Security&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Classify, own, protect, retain, and securely dispose of information and assets.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d3-security-architecture-and-engineering/&#34;&gt;D3 Security Architecture and Engineering&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Design and implement secure systems using security models, principles, and controls.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d4-communication-and-network-security/&#34;&gt;D4 Communication and Network Security&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Secure network architecture, protocols, transmission methods, and communications.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d5-identity-and-access-management/&#34;&gt;D5 Identity and Access Management&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Ensure the right user gets the right access to the right resource at the right time.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d6-security-assessment-and-testing/&#34;&gt;D6 Security Assessment and Testing&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Evaluate security controls through audits, assessments, testing, and reporting.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d7-security-operations/&#34;&gt;D7 Security Operations&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Maintain security through monitoring, incident response, recovery, logging, and operational processes.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;9&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;./d8-software-development-security/&#34;&gt;D8 Software Development Security&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Integrate security throughout the SDLC, from requirements and design through deployment and maintenance.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
 
       </description>
     </item>
