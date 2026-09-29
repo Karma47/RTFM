@@ -1,17 +1,29 @@
 import os
 import re
 import shutil
+from pathlib import Path
+from urllib.parse import quote, unquote
 
-CONTENT_BASE = "content/docs"
-STATIC_BASE = "static/docs"
+ROOT = Path(__file__).resolve().parent.parent
+CONTENT_BASE = ROOT / "content" / "docs"
+STATIC_BASE = ROOT / "static" / "docs"
 
-# Match markdown images but capture the path
-IMAGE_REGEX = re.compile(r'!\[(.*?)\]\((?P<path>[^)]+assets/[^)]+)\)')
+MARKDOWN_IMAGE_REGEX = re.compile(
+    r'!\[(?P<alt>.*?)\]\((?P<path>[^)\s]+)(?P<tail>[^)]*)\)'
+)
+WIKILINK_IMAGE_REGEX = re.compile(
+    r'!\[\[(?P<path>[^]|]+)(?:\|(?P<alt>[^]]+))?\]\]'
+)
+IMAGE_EXTENSIONS = {".avif", ".bmp", ".gif", ".jpeg", ".jpg", ".png", ".svg", ".webp"}
 
 
 def ensure_dir(path):
-    if not os.path.exists(path):
-        os.makedirs(path)
+    path.mkdir(parents=True, exist_ok=True)
+
+
+def is_image_path(path: str) -> bool:
+    path = unquote(path).split("?", 1)[0].split("#", 1)[0]
+    return Path(path).suffix.lower() in IMAGE_EXTENSIONS
 
 
 def sanitize_dir_segment(segment: str) -> str:
@@ -31,80 +43,121 @@ def sanitize_file_segment(segment: str) -> str:
     return segment.replace(" ", "_")
 
 
-def get_docs_rel_dir(md_dir: str) -> str:
-    """Return the docs-relative directory for a markdown file.
+def resolve_source(md_dir: Path, raw_path: str):
+    path = unquote(raw_path).replace("\\", "/").split("?", 1)[0].split("#", 1)[0]
+    path = re.sub(r"/+", "/", path).strip()
+    if not path or re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", path):
+        return None
 
-    For example:
-      content/docs/01_methodology/Threat Hunting -> 01_methodology/threat-hunting
-    """
-    rel = os.path.relpath(md_dir, CONTENT_BASE)
-    parts = [sanitize_dir_segment(p) for p in rel.split(os.sep)]
-    return "/".join(parts).strip("./")
+    candidates = []
 
+    def add_candidate(candidate: Path):
+        candidates.append(candidate)
+        try:
+            relative = candidate.relative_to(CONTENT_BASE)
+        except ValueError:
+            return
+        parts = list(relative.parts)
+        clean_relative = Path(
+            *[sanitize_dir_segment(part) for part in parts[:-1]],
+            sanitize_file_segment(parts[-1]),
+        )
+        candidates.append(STATIC_BASE / clean_relative)
 
-def move_image(content_folder, rel_path):
-    # Normalize the relative path (handle ./ and url-encoded spaces)
-    rel_path = rel_path.lstrip("./")
-    rel_path = rel_path.replace("%20", " ")
-
-    src = os.path.normpath(os.path.join(content_folder, rel_path))
-    if not os.path.exists(src):
-        src = os.path.normpath(os.path.join(CONTENT_BASE, rel_path))
-        if not os.path.exists(src):
-            print(f"Warning: Image not found at {src}, skipping")
-            return None
-
-    # Sanitize file name and directory segments for static output
-    parts = rel_path.split("/")
-    if len(parts) > 1:
-        dirs, filename = parts[:-1], parts[-1]
-        dirs = [sanitize_dir_segment(p) for p in dirs]
-        filename = sanitize_file_segment(filename)
-        clean_rel = "/".join(dirs + [filename])
-    else:
-        clean_rel = sanitize_file_segment(parts[0])
-
-    dest = os.path.normpath(os.path.join(STATIC_BASE, clean_rel))
-
-    ensure_dir(os.path.dirname(dest))
-
-    if os.path.exists(src) and not os.path.exists(dest):
-        print(f"Moving: {src} → {dest}")
-        shutil.move(src, dest)
-
-    return clean_rel
-
-
-def replace_image(match, md_dir):
-    alt = match.group(1)
-    path = match.group("path")
-
-    # Skip already converted links
     if path.startswith("/docs/"):
-        return match.group(0)
+        relative = path.lstrip("/")
+        while relative.startswith("docs/"):
+            relative = relative[5:]
+        url_parts = Path(relative).parts
+        clean_relative = Path(
+            *[sanitize_dir_segment(part) for part in url_parts[:-1]],
+            sanitize_file_segment(url_parts[-1]),
+        )
+        candidates.append(STATIC_BASE / clean_relative)
+        path = relative
+    elif path.startswith("/"):
+        return None
 
-    docs_rel_dir = get_docs_rel_dir(md_dir)
-    clean_rel_path = move_image(md_dir, path)
+    relative_path = Path(path.lstrip("./"))
+    current = md_dir
+    while current == CONTENT_BASE or CONTENT_BASE in current.parents:
+        add_candidate(current / relative_path)
+        if len(relative_path.parts) == 1:
+            add_candidate(current / "assets" / relative_path)
+        if current == CONTENT_BASE:
+            break
+        current = current.parent
 
-    if clean_rel_path is None:
-        return match.group(0)  # Skip if image not found
+    for candidate in candidates:
+        try:
+            candidate.resolve().relative_to(CONTENT_BASE.resolve())
+        except ValueError:
+            if candidate.is_file() and candidate.is_relative_to(STATIC_BASE):
+                return candidate
+            continue
+        if candidate.is_file():
+            return candidate
+    return None
 
-    # Avoid duplicating the docs_rel_dir if already in clean_rel_path
-    if clean_rel_path.startswith(docs_rel_dir + "/"):
-        new_path = f"/docs/{clean_rel_path}"
+
+def move_image(md_dir: Path, rel_path: str):
+    src = resolve_source(md_dir, rel_path)
+    if src is None:
+        print(f"Warning: Image not found for {rel_path!r} in {md_dir}")
+        return None
+
+    if src.is_relative_to(STATIC_BASE):
+        source_rel = src.relative_to(STATIC_BASE)
     else:
-        new_path = f"/docs/{docs_rel_dir}/{clean_rel_path}"
+        source_rel = src.relative_to(CONTENT_BASE)
 
-    return f"![{alt}]({new_path})"
+    parts = list(source_rel.parts)
+    clean_rel = Path(
+        *[sanitize_dir_segment(part) for part in parts[:-1]],
+        sanitize_file_segment(parts[-1]),
+    )
+    dest = STATIC_BASE / clean_rel
+    ensure_dir(dest.parent)
+
+    if not src.is_relative_to(STATIC_BASE) and src != dest and not dest.exists():
+        print(f"Moving: {src} -> {dest}")
+        shutil.move(str(src), str(dest))
+
+    return clean_rel.as_posix()
+
+
+def converted_markdown_image(match, md_dir: Path):
+    if not is_image_path(match.group("path")):
+        return match.group(0)
+    alt = match.group("alt") or ""
+    clean_rel_path = move_image(md_dir, match.group("path"))
+    if clean_rel_path is None:
+        return match.group(0)
+    image_url = "/docs/" + quote(clean_rel_path, safe="/._-")
+    return f"![{alt}]({image_url}{match.group('tail')})"
+
+
+def converted_wikilink_image(match, md_dir: Path):
+    if not is_image_path(match.group("path")):
+        return match.group(0)
+    clean_rel_path = move_image(md_dir, match.group("path"))
+    if clean_rel_path is None:
+        return match.group(0)
+    image_url = "/docs/" + quote(clean_rel_path, safe="/._-")
+    return f"![{match.group('alt') or ''}]({image_url})"
 
 
 def update_md(md_path):
     with open(md_path, "r", encoding="utf-8") as f:
         text = f.read()
 
-    md_dir = os.path.dirname(md_path)
-
-    new_text = IMAGE_REGEX.sub(lambda m: replace_image(m, md_dir), text)
+    md_dir = md_path.parent
+    new_text = MARKDOWN_IMAGE_REGEX.sub(
+        lambda match: converted_markdown_image(match, md_dir), text
+    )
+    new_text = WIKILINK_IMAGE_REGEX.sub(
+        lambda match: converted_wikilink_image(match, md_dir), new_text
+    )
 
     if new_text != text:
         print(f"Updating: {md_path}")
@@ -115,7 +168,7 @@ def process_content():
     for root, dirs, files in os.walk(CONTENT_BASE):
         for file in files:
             if file.lower().endswith(".md"):
-                update_md(os.path.join(root, file))
+                update_md(Path(root) / file)
 
 if __name__ == "__main__":
     ensure_dir(STATIC_BASE)

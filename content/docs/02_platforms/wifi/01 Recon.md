@@ -70,4 +70,4 @@ iwconfig wlan0mon channel 11
 mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist
 ```
 
-![](/docs//docs//docs//docs//docs//docs//docs//docs/02_platforms/wifi/assets/Pasted%20image%2020260222230339.png)
+![](/docs/02_platforms/wifi/assets/Pasted_image_20260222230339.png)

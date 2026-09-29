@@ -3,121 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/37-cable-locks/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/25-layer-3/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/39-spf/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</loc>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/your-name/</loc>
-    <lastmod>2026-07-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/_template_cissp_note/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/04-oasis/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/05-account-termination/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/06-soc-1-2/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/07-cfb/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/08-pentesting/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/09-patient/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/10-cpted/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/11-colocation/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/12-bcp/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/13-rfc-1918/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/14-org-security-policy/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/15-crypto-key-exhange/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/16-change-managemenr-process-config-mgmt-process/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/17-disaster-recivery/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/18-hierarchical-model/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/20-people-usifn-waek-passwords/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/21-first-responder/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/22-fire-supresssion-system/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/23-storage-space/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/36-ransomware/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/2.1-identify-and-classify-information-and-assets/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
-    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
@@ -149,9 +77,6 @@
     <loc>http://localhost:1313/docs/03_techniques/01-using-certutil/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/01-incident-response/</loc>
-    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/02_platforms/</loc>
     <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -173,35 +98,9 @@
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/29-warrent-to-search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/untitled/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/24-deluge-sprinkler/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/27-vpn/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d6/35-datagram/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/28-backup-stolen/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/30-eol-to-csp/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/32-pentesting-methods/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d7/33-bcp/</loc>
-  </url><url>
     <loc>http://localhost:1313/authors/aswin-balaji/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d3/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d8/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/05_detection/</loc>
   </url><url>
