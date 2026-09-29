@@ -5,6 +5,7 @@
     <description>Recent content in D2 Asset Security on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/04_playbooks/cissp/d2/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +14,154 @@
         
       
     
+    
+    <item>
+      <title>2.1 Identify and Classify information and assets</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d2/2.1-identify-and-classify-information-and-assets/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2/2.1-identify-and-classify-information-and-assets/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;June 30, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h3&gt;2.1.1 Data Classification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-data-classification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#211-data-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Identifying and classifying information and assets is a critical first step in developing an
+effective security program. This process involves categorising data and assets based on their sensitivity, criticality, strategic, and monetary value to the organisation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Prioritise security measures:&lt;/strong&gt; Ensures systems and data are protected through proactive risk mitigation and safeguards.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Facilitates compliance:&lt;/strong&gt; Helps meet regulatory and industry standards efficiently.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Streamlines access controls:&lt;/strong&gt; Simplifies management of user permissions and secure access.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improves incident response:&lt;/strong&gt; Enables faster detection, containment, and resolution of threats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduces risk of data loss:&lt;/strong&gt; Protects critical information from breaches, leaks, or accidental loss.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div
+  data-alert=&#34;example&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;Incident Response&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;An incident response team can securely manage sensitive data and continuously monitor for events, triggering alerts when potential data exposure is detected.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Common types of sensitive data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PII / SPII&lt;/strong&gt; – Personally Identifiable Information / Sensitive Personally Identifiable Information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PHI&lt;/strong&gt; – Protected Health Information&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PFI&lt;/strong&gt; – Personal Financial Information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Anonymisation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;anonymisation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#anonymisation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The process of permanently removing or altering personal data so that an individual can no longer be identified, directly or indirectly.&lt;/p&gt;
+&lt;div
+  data-alert=&#34;example&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;Anonymisation&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;Before: &lt;code&gt;Alice Lee, alice@email.com, 91234567&lt;/code&gt;
+After: &lt;code&gt;User, Age 28, Singapore&lt;/code&gt;&lt;br&gt;
+👉 No way to trace back to Alice&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;Pseudonymisation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;pseudonymisation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#pseudonymisation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The process of replacing identifiable information with artificial identifiers (pseudonyms), where the original identity can still be recovered using additional data.&lt;/p&gt;
+&lt;div
+  data-alert=&#34;example&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;Pseudonymisation&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;Before: &lt;code&gt;Alice Lee, NRIC S1234567A&lt;/code&gt;
+After: &lt;code&gt;User ID: U1029&lt;/code&gt;
+Mapping table: &lt;code&gt;U1029 → Alice Lee&lt;/code&gt;&lt;br&gt;
+👉 Identity is hidden but &lt;strong&gt;recoverable&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Aspect&lt;/th&gt;
+					&lt;th&gt;Anonymisation&lt;/th&gt;
+					&lt;th&gt;Pseudonymisation&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reversible?&lt;/td&gt;
+					&lt;td&gt;❌ No&lt;/td&gt;
+					&lt;td&gt;✅ Yes (with key)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Identifiable?&lt;/td&gt;
+					&lt;td&gt;❌ Not at all&lt;/td&gt;
+					&lt;td&gt;⚠️ Indirectly&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Security level&lt;/td&gt;
+					&lt;td&gt;🔒 Higher&lt;/td&gt;
+					&lt;td&gt;🔐 Moderate&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Use case&lt;/td&gt;
+					&lt;td&gt;Data sharing, analytics&lt;/td&gt;
+					&lt;td&gt;Internal systems, tracking users&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;GDPR classification&lt;/td&gt;
+					&lt;td&gt;Not personal data&lt;/td&gt;
+					&lt;td&gt;Still personal data&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;Data Classification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-classification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#data-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Gathering requirements:&lt;/strong&gt; Identify what data exists, its sensitivity, and regulatory or business needs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Classification scheme:&lt;/strong&gt; Define clear categories (e.g., public, internal, confidential) to organize data by sensitivity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data labelling:&lt;/strong&gt; Apply tags or labels to data so its classification is visible and enforceable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User training:&lt;/strong&gt; Educate users on how to handle, classify, and protect data appropriately.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance:&lt;/strong&gt; Regularly review and update classifications to reflect changes in data and risk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Data classification in government and public organisations:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-classification-in-government-and-public-organisations&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#data-classification-in-government-and-public-organisations&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Government classification are based on the possible damage ti national security, while non-government classification focus on a broader range of harm including financial, reputation damage.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/d2/assets/Pasted_image_20260715235647.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h4&gt;2.1.2 Asset classification&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;212-asset-classification&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#212-asset-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Asset classification involves categorizing assets based on their importance to the organization and the sensitivity of the data they store, process, or transmit. Important aspects of asset classification to remember:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Classify assets based on their value, criticality, and sensitivity&lt;/li&gt;
+&lt;li&gt;Consider the data stored, processed, or transmitted by the assets&lt;/li&gt;
+&lt;li&gt;Align asset classification with data classification&lt;/li&gt;
+&lt;li&gt;Use asset classification to prioritize security controls and risk management efforts&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
     
   </channel>
 </rss>

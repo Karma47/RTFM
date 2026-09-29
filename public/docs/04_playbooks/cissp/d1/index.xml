@@ -686,5 +686,24 @@ authors:&lt;/p&gt;
       </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1/untitled/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1/untitled/</guid>
+      <description>
+        
+        
+        &lt;p&gt;T1
+Like gmail, no identity proofing.
+T2
+remote verify
+T3
+in person proofing, like passport verification.&lt;/p&gt;
+
+      </description>
+    </item>
+    
   </channel>
 </rss>

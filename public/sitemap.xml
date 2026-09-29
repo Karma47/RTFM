@@ -101,7 +101,13 @@
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/38-reporting/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/2.1-identify-and-classify-information-and-assets/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/</loc>
+    <lastmod>2026-06-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/</loc>
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/</loc>
@@ -171,6 +177,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/34-kpis/</loc>
   </url><url>
+    <loc>http://localhost:1313/docs/04_playbooks/cissp/d1/untitled/</loc>
+  </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d4/24-deluge-sprinkler/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d5/26-saml/</loc>
@@ -190,8 +198,6 @@
     <loc>http://localhost:1313/authors/aswin-balaji/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/</loc>
-  </url><url>
-    <loc>http://localhost:1313/docs/04_playbooks/cissp/d2/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/cissp/d3/</loc>
   </url><url>
