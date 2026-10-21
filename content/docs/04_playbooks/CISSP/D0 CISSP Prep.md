@@ -8,7 +8,7 @@ authors:
 {{< meta >}}
 
 ---
-### Domain 2 Cheat Sheet
+### CISSP Cheat Sheet
 
 ![](/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png)
 
