@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prasanna V Balaji — Curriculum Vitae</title>
+<style>
+  :root{
+    --sectcol:#0096ff;      /* accent  */
+    --bgcol:#6e6e6e;        /* muted   */
+    --softcol:#e1e1e1;      /* rules   */
+    --teal:#008080;         /* links   */
+    --ink:#1b1b1b;
+    --page:21cm;
+  }
+
+  *{box-sizing:border-box;}
+
+  html{-webkit-text-size-adjust:100%;}
+
+  body{
+    margin:0;
+    padding:28px 18px 56px;
+    background:#f4f5f7;
+    color:var(--ink);
+    font-family:"Raleway","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+    font-size:15px;
+    line-height:1.45;
+  }
+
+  .sheet{
+    max-width:var(--page);
+    margin:0 auto;
+    background:#fff;
+    padding:26px 30px 34px;
+    border-radius:6px;
+    box-shadow:0 1px 3px rgba(0,0,0,.12),0 10px 30px rgba(0,0,0,.06);
+  }
+
+  /* ---------- header ---------- */
+  .name{
+    text-align:center;
+    font-variant:small-caps;
+    letter-spacing:.02em;
+    font-weight:700;
+    font-size:clamp(28px,5vw,44px);
+    margin:0 0 6px;
+  }
+
+  .contact{
+    text-align:center;
+    font-size:12.5px;
+    line-height:1.9;
+    color:var(--bgcol);
+  }
+  .contact .sep{color:var(--softcol);margin:0 6px;}
+
+  a{color:var(--teal);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  /* ---------- meta block ---------- */
+  .meta{
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:2px 16px;
+    font-size:12.5px;
+    margin:14px 0 0;
+  }
+  .meta dt{font-weight:600;white-space:nowrap;}
+  .meta dd{margin:0;color:var(--bgcol);}
+
+  hr.rule{
+    border:0;
+    border-top:1px solid var(--softcol);
+    margin:12px 0 14px;
+  }
+
+  /* ---------- sections ---------- */
+  h2.section{
+    text-align:center;
+    color:var(--sectcol);
+    font-size:17px;
+    font-weight:700;
+    margin:20px 0 10px;
+    letter-spacing:.04em;
+  }
+
+  .summary{text-align:justify;}
+
+  /* ---------- entry (cvevent) ---------- */
+  .entry{margin-bottom:16px;break-inside:avoid;}
+  .entry-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .entry-title{font-weight:700;}
+  .entry-inst{color:var(--bgcol);font-weight:400;}
+  .entry-date{color:var(--sectcol);font-size:13px;white-space:nowrap;}
+  .entry-head + hr.rule{margin:5px 0 8px;}
+
+  ul.bullets{margin:0;padding-left:18px;}
+  ul.bullets li{margin-bottom:4px;}
+  ul.bullets li::marker{color:var(--sectcol);}
+
+  /* ---------- certification table ---------- */
+  table.certs{
+    width:100%;
+    border-collapse:collapse;
+    font-size:13.5px;
+  }
+  table.certs th,
+  table.certs td{
+    text-align:left;
+    vertical-align:top;
+    padding:6px 8px;
+    border-bottom:1px solid var(--softcol);
+  }
+  table.certs thead th{
+    border-top:2px solid var(--ink);
+    border-bottom:1px solid var(--ink);
+    font-size:13px;
+  }
+  table.certs tbody tr:last-child td{border-bottom:2px solid var(--ink);}
+  table.certs td:first-child{white-space:nowrap;font-weight:600;width:22%;}
+  table.certs a{color:#3366cc;}
+
+  .footnote{
+    font-size:11.5px;
+    color:var(--bgcol);
+    margin-top:8px;
+  }
+
+  /* ---------- misc roles ---------- */
+  .misc .entry-title,
+  .misc .entry-inst,
+  .misc ul.bullets li{font-style:italic;}
+  .misc .entry-date{font-style:normal;}
+
+  /* ---------- footer ---------- */
+  .morse{
+    margin-top:34px;
+    text-align:center;
+    font-size:10.5px;
+    color:#c9c9c9;
+    letter-spacing:.05em;
+    word-break:break-word;
+  }
+
+  /* ---------- print ---------- */
+  @media print{
+    @page{size:A4;margin:12mm 12mm;}
+    body{background:#fff;padding:0;font-size:10.5pt;line-height:1.35;}
+    .sheet{box-shadow:none;border-radius:0;padding:0;max-width:none;}
+    h2.section{margin:12px 0 6px;font-size:12pt;}
+    .entry{margin-bottom:10px;}
+    a{color:inherit;}
+    .morse{color:#ddd;}
+  }
+
+  @media (max-width:560px){
+    .meta{grid-template-columns:1fr;}
+    .meta dt{margin-top:6px;}
+    table.certs td:first-child{white-space:normal;}
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ============ TITLE ============ -->
+  <h1 class="name">Prasanna V Balaji</h1>
+  <div class="contact">
+    (+65) 8351 2495<span class="sep">|</span><a href="https://www.linkedin.com/in/prasannavbalaji/">LinkedIn</a><span class="sep">|</span><a href="mailto:prasannavbalaji@proton.me">prasannavbalaji@proton.me</a> / <a href="mailto:prasanna.balaji@owasp.org">@owasp.org</a><span class="sep">|</span><a href="https://www.youtube.com/@blankdash_8087">YouTube</a><span class="sep">|</span><a href="https://docs.blankdash.com">Website &amp; Github</a><span class="sep">|</span><a href="https://patchstack.com/database/researcher/749f2e1d-43ee-4906-8e67-5676b999c89e">Patchstack</a>
+  </div>
+
+  <!-- ============ META ============ -->
+  <dl class="meta">
+    <dt>Status:</dt>
+    <dd>Senior Specialist &mdash; Product Cybersecurity and Privacy Office &nbsp;&middot;&nbsp; Singapore, Singapore</dd>
+    <dt>Fields:</dt>
+    <dd>Cybersecurity Posture Management, Incident Response, Vulnerability Management, Threat Intel, PenTesting</dd>
+    <dt>Skills / Tech:</dt>
+    <dd>Design &amp; Architect, Threat Intel, Incident Response, TTX &ndash; Crisis Management, PenTest, SIEM / PSIRT, Jira, RCA, Forensics</dd>
+  </dl>
+
+  <hr class="rule">
+
+  <!-- ============ SUMMARY ============ -->
+  <h2 class="section">Summary</h2>
+  <p class="summary">
+    <strong><a href="https://docs.blankdash.com">Cybersecurity professional</a></strong> with 8+ years of experience
+    across security consulting, security operations, vulnerability research, and enterprise security posture
+    management. Contributor to <strong><a href="https://patchstack.com/database/researcher/749f2e1d-43ee-4906-8e67-5676b999c89e">18+ CVE's</a></strong>
+    with strong expertise in incident response, security engineering, and large-scale risk reduction across complex
+    environments, including advanced cyber-physical systems such as <strong>humanoid robotics</strong>.
+  </p>
+
+  <!-- ============ CERTIFICATION ============ -->
+  <h2 class="section">License &amp; Certification</h2>
+  <table class="certs">
+    <thead>
+      <tr><th>Certification</th><th>Tools / Skills Covered</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://credentials.offsec.com/e59cdbab-42ee-4552-b394-2cbe95518344">OSIR</a></td>
+        <td>Malware Analysis, Reverse Engineering, x64dbg, Ghidra, MITRE ATT&amp;CK</td>
+      </tr>
+      <tr>
+        <td><a href="https://credentials.offsec.com/36e130be-97b7-4dd9-a641-683ad574b6db#acc.y3kD7YIK">OSTH</a></td>
+        <td>Threat Hunting, SIEM Analysis, Detection Engineering, Crowdstrike Falcon, Splunk, CTI</td>
+      </tr>
+      <tr>
+        <td><a href="https://credentials.offsec.com/f38e7568-776b-492d-a8d3-ffc7609b7166">OSDA</a></td>
+        <td>Threat Intel, TTP Map, MITRE ATT&amp;CK, Investigation, SIEM, EDR, Log Analysis, YARA, ELK</td>
+      </tr>
+      <tr>
+        <td><a href="https://credentials.offsec.com/ccc72839-54a1-4fa8-bdd2-b6171e476587#acc.MOWm1ABU">OSWP</a></td>
+        <td>Wireless Attacks, WPA/WPA2 Cracking, Aircrack-ng, Captive Portals, Enterprise Networks</td>
+      </tr>
+      <tr>
+        <td><a href="https://credentials.offsec.com/b9496311-bf16-4e87-83d3-c9b7ff5e64fc#acc.HWjwJpSY">OSCC</a></td>
+        <td>Penetration Testing, Enumeration, Exploitation Techniques</td>
+      </tr>
+      <tr>
+        <td><a href="https://credentials.offsec.com/6d20cb22-6d28-4132-94c9-2911c4ce5337#acc.hCprIHQ8">KLCP</a></td>
+        <td>Kali Linux, Securing, Monitoring, Assessments &amp; Custom Live Images, Scaling to Enterprise</td>
+      </tr>
+      <tr>
+        <td><a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&amp;a=QOb+PZyIHUmG5cBymy1E01njoEu0iD2Ov6brRKi1N1I=">Associate C|CISO</a></td>
+        <td>Security management, strategic planning, risk management, governance, and leadership</td>
+      </tr>
+      <tr>
+        <td><a href="https://certs.ine.com/85dbbb0a-6d1f-47b1-bde7-b79345cf4067#acc.Rk7VOUMx">eCPPT</a></td>
+        <td>Network Penetration Testing, Exploitation, Pivoting, Metasploit, Proxychains</td>
+      </tr>
+      <tr>
+        <td><a href="https://certs.ine.com/f374ec64-9aca-440a-8b15-dab5a7ef257d">eWPTX</a></td>
+        <td>Advanced Web Exploitation, Burp Suite, Web Attacks</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.credly.com/badges/e319a7c6-2cfa-40cc-a30a-e65de87543b9/linked_in_profile">CCSK</a></td>
+        <td>Cloud Security Architecture, CSA Cloud Controls Matrix</td>
+      </tr>
+      <tr>
+        <td><a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&amp;a=HUIuz777Vo7bn+YectPcwfSuGjJv5l9Byz8vzOWTzj0=">CHFI</a></td>
+        <td>Digital Forensics, Evidence Acquisition, Forensic Analysis</td>
+      </tr>
+      <tr>
+        <td><a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&amp;a=H+uvGg3f1u+SxDBpucsWAvK0wMK/QARWNuCC6BjJ/Gw=">CEH Master</a></td>
+        <td>Ethical Hacking, Network Attacks, Security Testing</td>
+      </tr>
+      <tr>
+        <td><span style="color:var(--teal)">OSCP*</span></td>
+        <td>Advanced Penetration Testing, AD Attacks, Privilege Escalation</td>
+      </tr>
+      <tr>
+        <td><a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&amp;a=ZaHqVPs7HNncXxwRS25I1r998S1Vyc5Qcrw4dYPWzRU=">CEI</a></td>
+        <td>EC-Council Cybersecurity Instructor Certification</td>
+      </tr>
+      <tr>
+        <td><span style="color:var(--teal)">CSCU</span></td>
+        <td>Information security and security computer usage</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="footnote">* In Progress &nbsp;|&nbsp; Click on the highlighted items to verify &nbsp;|&nbsp; Others not mentioned above: CEH Practical &amp; ANSI</p>
+
+  <!-- ============ AWARDS ============ -->
+  <h2 class="section">Awards &amp; Recognition</h2>
+  <ul class="bullets">
+    <li>18 x Reserved CVE's: CVE-2023-25476, CVE-2023-25452 &amp; more &mdash; <a href="https://patchstack.com/database/researcher/749f2e1d-43ee-4906-8e67-5676b999c89e">Patchstack (Full List)</a></li>
+    <li>3 x Outstanding Contribution: Vulnerability Management and PSIRM &mdash; Continental Automotive</li>
+    <li>2 x Award of Excellence: Cybersecurity Summit 2024 and SCT Motivation Team &mdash; Continental Automotive</li>
+    <li>1 x Extra Mile Award: Security Practice &mdash; Tata Elxsi</li>
+    <li>1 x Featured Cyber Security Specialist &mdash; <a href="https://www.manufacturingtodayindia.com/11190-the-threats-to-data-security-and-integrity-are-more-uncertain-than-ever">Manufacturing Today India (The threats to data security)</a></li>
+    <li>1 x CEH Hall of Fame Finalist &mdash; EC-Council</li>
+    <li>1 x Instructor Best Newcomer Award &mdash; <a href="https://www.eccouncil.org/eccouncil-in-news/ec-council-unveils-award-winning-cybersecurity-programs-and-instructors-from-2020/">EC-Council Global Awards</a></li>
+  </ul>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <h2 class="section">Experience</h2>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Senior Specialist &mdash; Product Incident Response and Threat Intelligence</span> &mdash; <span class="entry-inst">AUMOVIO <em>(formerly Continental AG)</em></span></div>
+      <div class="entry-date">Sep 2025 &ndash; Present</div>
+    </div>
+    <hr class="rule">
+    <ul class="bullets">
+      <li>Own and continuously enhance the product cybersecurity incident response (IR) framework, managing over ~<strong>80%</strong> of product security incidents annually across global product lines, ensuring consistent and timely resolution. Provide specialised cybersecurity consulting for <strong>humanoid robotics</strong> systems.</li>
+      <li>Built and implemented the processes, tooling, and operational requirements for the EU <strong>Cyber Resilience Act within 30 days</strong>, enabling compliance with <strong>ENISA's</strong> Single Reporting Platform for <strong>AEV</strong> (Actively Exploited Vulnerabilities) and <strong>SI</strong> (Severe Incidents) incident reporting.</li>
+      <li>Architect and implement a centralised PSIRT Hub, reducing stakeholder communication delays by ~<strong>30%</strong> and improving coordination across Product Security, Privacy, Engineering, and Business Units.</li>
+      <li>Maintain &amp; evolve critical PSIRT artefacts, including <strong>exploit toolkits, threat actor intelligence profiles, and root cause analysis repositories</strong>, improving triage efficiency by ~<strong>25%</strong> and reducing vulnerability recurrence.</li>
+      <li>Design and deploy automated workflows using Microsoft <strong>Power Automate</strong>, reducing manual tracking effort by ~<strong>40%</strong> and enabling real-time visibility for &gt;50 stakeholders.</li>
+      <li>Lead end-to-end coordination of incident response activities, including customer notifications, third-party disclosures, and legal alignment, reducing mean time to resolution (MTTR) by ~<strong>20&ndash;30%</strong>.</li>
+      <li>Refine and align the incident response process with <strong>ISO/SAE 21434</strong> and regulatory frameworks (<strong>UNECE R155, Cyber Resilience Act</strong>), achieving <strong>100% audit compliance</strong> and improving regulatory readiness.</li>
+      <li>Deliver Tabletop Exercises (TTX) across business units, training &gt;60 stakeholders annually with an average satisfaction <strong>rating of 4.9/5.0</strong>, enhancing real-world incident preparedness.</li>
+      <li>Design and execute executive-level crisis management exercises involving <strong>C-suite leadership</strong> (CTO, CISO, CPSIO, Legal, HR, Engineering), improving decision-making response time during simulations by ~<strong>35%</strong>.</li>
+      <li>Refined the incident response (IR) process by optimising the ticketing system, reducing the number of tickets from <strong>63 to 10 (84% reduction)</strong> while maintaining full compliance with defined standards and governance requirements.</li>
+      <li>Represented PSIRT in <strong>5+</strong> external and customer audits, <strong>achieving 100% compliance with ISO/SAE 21434 requirements</strong> and successfully passing all internal, customer, and regulatory audit assessments.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Senior Specialist &mdash; Product Incident Response and Threat Intel</span> &mdash; <span class="entry-inst">Continental AG</span></div>
+      <div class="entry-date">Jun 2023 &ndash; Aug 2025</div>
+    </div>
+    <hr class="rule">
+    <ul class="bullets">
+      <li>Own the design and implementation of processes for Product Security Incident Response Management Standard (PSIRM), ensuring alignment with <strong>ISO 21434</strong> Automotive Cybersecurity standards.</li>
+      <li>Implementation and continuous refinement of monitoring and triaging capabilities using intelligence sources such as <strong>AUTO-ISAC</strong> (Automotive Information Sharing and Analysis Center), preferred partners, and both public and private feeds.</li>
+      <li>Establish a robust process flow with faster response rate within 48 hours (adhering to P-PSIRM cycle times) for security events, leading to a <strong>significant reduction</strong> in overall response time.</li>
+      <li>Performed regular triaging of security events, prioritising over <strong>200 events</strong> per quarter with a <strong>95% accuracy rate</strong> in classification, escalation and response.</li>
+      <li>Served as the <strong>global point of contact</strong> for event management, response, and product security incident response (PSIRT), successfully managing <strong>100% of product security incidents</strong> within Continental Automotive.</li>
+      <li>Designed and led the development of a linear, story-driven interactive <strong>Tabletop Exercise (TTX)</strong> game to enhance cybersecurity incident response readiness, focused on key stakeholders including <strong>CXOs</strong>, product owners, IT, ISA, HR, media relations, quality, and supply chain teams.</li>
+      <li>Participate on behalf of Continental Automotive's Security Operations team in key industry forums such as <strong>AUTO-ISAC (Automotive Threat Intelligence Community)</strong> and delivered internal training sessions at major events, including the Asia Cybersecurity Summits (2023/24).</li>
+      <li>Created detailed documentation, templates, artefacts, and a centralised knowledge base for essential processes such as Incident Response, Tabletop Exercises (TTX), Event Management, and Vulnerability Management.</li>
+      <li>Ensured that these resources function as a central reference repository, promoting consistent process adherence and knowledge sharing across all Continental Automotive employees.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Senior Engineer &mdash; Security Practice</span> &mdash; <span class="entry-inst">Tata Elxsi</span></div>
+      <div class="entry-date">Mar 2021 &ndash; Jun 2023</div>
+    </div>
+    <hr class="rule">
+    <ul class="bullets">
+      <li>Responsible for providing security consultation for industry-leading customers on Security Testing, Defensive strategies, Cloud Compromises and Migration, Compliance, and Regulation.</li>
+      <li>Efficiently built defence strategies and threat models to install security controls for an in-house OTT application.</li>
+      <li>Conducted detailed root cause analyses for <strong>30+ cloud compromise incidents</strong> involving OTT applications and infrastructure hosted on <strong>Azure and AWS</strong>, including ransomware attacks and cryptominers.</li>
+      <li>Played a key role in assisting the organisation to achieve <strong>CSA STAR Type 1</strong> certification in under <strong>6 months</strong>, ensuring a robust cloud security framework and enhancing client trust.</li>
+      <li>Delivered continuous assessments for over 50 assets (Applications, Infrastructure, Devices) annually, identifying and <strong>mitigating 95% of critical vulnerabilities</strong>, mapping the attack surface.</li>
+      <li>Actively engaged in multiple security testing activities, leading our team in performing various analyses, including DAST and SAST according to industry standards such as OWASP, SANS 25, and PTES.</li>
+      <li>Security validation for CPE devices (STB RDK B/V) with respect to wireless testing, firmware analysis, bootloader testing, package analysis, OS &amp; network hardening, and certificate validation on cloud-hosted components.</li>
+      <li>Guided and supported the development team to <strong>fix 200+ hazardous security risks</strong> in less than 2 months, resulting in an average <strong>CSAT score of 4.5</strong>/5.</li>
+      <li>Achieved <strong>5+ successful proposals</strong> during my tenure in TEL and actively led teams to provide POC.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Senior Technical Researcher</span> &mdash; <span class="entry-inst">InfySEC Cybersecurity Solutions Pvt Ltd</span></div>
+      <div class="entry-date">May 2019 &ndash; Mar 2021</div>
+    </div>
+    <hr class="rule">
+    <ul class="bullets">
+      <li>Engage in penetration test activities with respect to web and host infrastructure (internal/external) for critical clients.</li>
+      <li>Involve in research of information concerning security trends, threats, attack vectors and techniques.</li>
+      <li>Coordinating with teams on the vulnerability management life cycle, including vulnerability scan, risk assessment based on the CVSS scoring system, remediation and verification.</li>
+      <li>Built labs for InfySEC's online courses on information security, entailing work on attack and defence which aids in-house CTF / trainings.</li>
+      <li>Primary responsibility for interfacing with multiple certification bodies such as EC-Council, Pearson VUE, CompTIA and Exim.</li>
+      <li>Conducted multiple information security trainings and workshops for clients such as corporate enterprises and independent consultants.</li>
+    </ul>
+  </div>
+
+  <!-- ============ MISC ROLES ============ -->
+  <div class="misc">
+    <div class="entry-head" style="margin-top:18px;">
+      <div><span class="entry-title">Misc Roles</span> &mdash; <span class="entry-inst">Freelance / Part-Time</span></div>
+      <div class="entry-date">&hellip;</div>
+    </div>
+    <hr class="rule">
+
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">Team Lead, Motivation Team</span> &mdash; <span class="entry-inst">AUMOVIO</span></div>
+        <div class="entry-date">Nov 2023 &ndash; Present</div>
+      </div>
+      <hr class="rule">
+      <ul class="bullets">
+        <li><strong>Lead</strong> the Employee Motivation team to enhance employee satisfaction and morale, driving initiatives to strengthen collaboration and workplace engagement across the business unit.</li>
+        <li>Conducted <strong>30+</strong> Hi-Tea engagement sessions featuring leadership talks, fostering open communication between employees and senior leaders.</li>
+        <li>Coordinated multiple employee engagement initiatives, including quiz sessions and lucky draw activities, improving participation and team engagement within the business unit.</li>
+        <li>Planned and executed <strong>2 end-to-end department-wide</strong> team bonding events over the past 2 years, enhancing cross-team collaboration and organisational culture.</li>
+        <li>Structured and implemented key employee development initiatives in coordination with HR and senior leadership, including an <strong>Employee Growth Program</strong> and an <strong>Award of Excellence Program</strong>, aimed at enhancing career progression, recognition, and overall employee engagement.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">Cyber Security Instructor</span> &mdash; <span class="entry-inst">EC-Council</span></div>
+        <div class="entry-date">Nov 2019 &ndash; Mar 2021</div>
+      </div>
+      <hr class="rule">
+      <ul class="bullets">
+        <li>Certified EC-Council Instructor delivering CSCU, CEH Master, and CHFI training to 800+ professionals across top organisations (CDOT, Comcast India) and universities (KL University); awarded Best EC-Council Instructor (<a href="https://www.eccouncil.org/eccouncil-in-news/ec-council-unveils-award-winning-cybersecurity-programs-and-instructors-from-2020/">prestigious award</a>).</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div><span class="entry-title">Security Researcher</span> &mdash; <span class="entry-inst">Synack Red Team</span></div>
+        <div class="entry-date">Nov 2021 &ndash; Jun 2024</div>
+      </div>
+      <hr class="rule">
+      <ul class="bullets">
+        <li>Contributed to multiple penetration testing projects managed by Synack, identifying and reporting over <strong>70 vulnerabilities</strong> on the platform, adhering to RoE and scope of testing.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ EDUCATION ============ -->
+  <h2 class="section">Education</h2>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Master of Science: Cyber Forensics and Information Security</span> &mdash; <span class="entry-inst">University of Madras</span></div>
+      <div class="entry-date">Jun 2020 &ndash; Jun 2022</div>
+    </div>
+    <hr class="rule">
+  </div>
+
+  <div class="entry">
+    <div class="entry-head">
+      <div><span class="entry-title">Bachelor of Technology: Computer Science and Engineering</span> &mdash; <span class="entry-inst">SRM University</span></div>
+      <div class="entry-date">Jun 2014 &ndash; Jun 2018</div>
+    </div>
+    <hr class="rule">
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <div class="morse">
+    &ldquo;-.- -. --- .-- .-.. . -.. --. . / # .-... / .-- .. ... -.. --- -- / .. ... / - .... . / ... . .-.. ..-.&rdquo;
+  </div>
+
+</div>
+</body>
+</html>
