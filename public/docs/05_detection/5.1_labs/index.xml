@@ -1,0 +1,118 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Detection labs</title>
+    <link>http://localhost:1313/docs/05_detection/5.1_labs/</link>
+    <description>Recent content in Detection labs on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/docs/05_detection/5.1_labs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Workshop Overview</title>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/01-workshop-intro/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/01-workshop-intro/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 2, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h5&gt;Topic: Hypothesis Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;topic-hypothesis-driven-threat-hunting&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#topic-hypothesis-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Duration: 4.5 Hours&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This Threat Hunting workshop is designed to provide participants with practical experience in identifying, investigating and analysing suspicious activities using a SIEM platform.&lt;/p&gt;
+&lt;p&gt;Participants will work within a preconfigured environment containing artificially generated security logs that simulate realistic cyber incidents.&lt;/p&gt;
+&lt;p&gt;Through guided and independent investigation exercises, participants will learn the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop threat hunting hypotheses&lt;/li&gt;
+&lt;li&gt;Analyse security events&lt;/li&gt;
+&lt;li&gt;Correlate logs from multiple sources&lt;/li&gt;
+&lt;li&gt;Identify IOCs and IOAs&lt;/li&gt;
+&lt;li&gt;Reconstruct incident timelines.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The workshop will follow a scenario-based approach, where participants act as Threat Hunters investigating a suspected security incident within a simulated enterprise environment using a Threat Intelligence Report.&lt;/p&gt;
+&lt;h5&gt;Participant requirements&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;participant-requirements&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#participant-requirements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Requirement&lt;/th&gt;
+					&lt;th&gt;Local VM&lt;/th&gt;
+					&lt;th&gt;Hosted lab (VM)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Laptop&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;RAM&lt;/td&gt;
+					&lt;td&gt;8 GB minimum recommended&lt;/td&gt;
+					&lt;td&gt;4–8 GB recommended&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;VirtualBox / VMware&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+					&lt;td&gt;Not required&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Web browser&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Internet&lt;/td&gt;
+					&lt;td&gt;Download/setup&lt;/td&gt;
+					&lt;td&gt;Required&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Splunk installation&lt;/td&gt;
+					&lt;td&gt;Preinstalled&lt;/td&gt;
+					&lt;td&gt;Preinstalled&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

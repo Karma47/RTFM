@@ -5,6 +5,7 @@
     <description>Recent content in Detection on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/05_detection/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,6 +14,19 @@
         
       
     
+    
+    <item>
+      <title>Detection labs</title>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
     
   </channel>
 </rss>
