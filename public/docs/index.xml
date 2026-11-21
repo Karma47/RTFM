@@ -518,6 +518,111 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     </item>
     
     <item>
+      <title>Workshop Overview</title>
+      <link>http://localhost:1313/docs/07_research/01-cve/</link>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/01-cve/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 2, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;WordPress Snap Pixel Plugin &amp;lt;= 1.5.8 is vulnerable to Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wordpress-snap-pixel-plugin--158-is-vulnerable-to-cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#wordpress-snap-pixel-plugin--158-is-vulnerable-to-cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Low priorityNo impactful threat&lt;/p&gt;
+&lt;p&gt;&amp;lt;= 1.5.8Vulnerable version(s)&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/database/wordpress/plugin/snap-pixel/vulnerabilities&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/for-plugins/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No VDP&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;Risks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;risks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#risks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;CVSS 5.4&lt;/p&gt;
+&lt;p&gt;As immediate action, update the affected plugin. If you&amp;rsquo;re unable to do so, ask your hosting provider or web developer for help.&lt;/p&gt;
+&lt;h4&gt;User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;h5&gt;5.4&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;54&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#54&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h3&gt;Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h1&gt;Solutions&lt;/h1&gt;&lt;p&gt;This security issue has a low severity impact and is unlikely to be exploited.&lt;/p&gt;
+&lt;h4&gt;Update to version 1.6.0 or later.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;update-to-version-160-or-later&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#update-to-version-160-or-later&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Update to version 1.6.0 or later to resolve the vulnerability.&lt;/p&gt;
+&lt;h1&gt;Details&lt;/h1&gt;&lt;p&gt;Software&lt;/p&gt;
+&lt;p&gt;Snap Pixel&lt;/p&gt;
+&lt;p&gt;Type&lt;/p&gt;
+&lt;p&gt;Plugin&lt;/p&gt;
+&lt;p&gt;Vulnerable versions&lt;/p&gt;
+&lt;p&gt;&amp;lt;= 1.5.8&lt;/p&gt;
+&lt;p&gt;Patched in&lt;/p&gt;
+&lt;p&gt;1.6.0&lt;/p&gt;
+&lt;p&gt;OWASP Top 10&lt;/p&gt;
+&lt;p&gt;A5: Broken Access Control&lt;/p&gt;
+&lt;p&gt;Classification&lt;/p&gt;
+&lt;p&gt;Cross Site Request Forgery (CSRF)&lt;/p&gt;
+&lt;p&gt;CVE ID&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-45642&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-45642&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Patchstack priority&lt;/p&gt;
+&lt;p&gt;Low&lt;/p&gt;
+&lt;p&gt;CVSS severity&lt;/p&gt;
+&lt;p&gt;5.4&lt;/p&gt;
+&lt;p&gt;Required privilege&lt;/p&gt;
+&lt;p&gt;Unauthenticated&lt;/p&gt;
+&lt;p&gt;Developer&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/for-plugins&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Claim ownership&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PSID&lt;/p&gt;
+&lt;p&gt;710c94b96abe&lt;/p&gt;
+&lt;p&gt;Credits&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Published&lt;/p&gt;
+&lt;p&gt;12 Oct, 2023&lt;/p&gt;
+&lt;p&gt;Have additional information or questions about this entry? &lt;a
+    href=&#34;mailto:triage@patchstack.com?subject=Inquiry%20about%20WordPress%20Snap%20Pixel%20plugin%20%3C=%201.5.8%20-%20Cross%20Site%20Request%20Forgery%20%5c%28CSRF%5c%29%20vulnerability&amp;amp;body=Hello%2C%20I%20am%20getting%20in%20touch%20in%20regards%20to%20the%20entry%20url&#34;&gt;Let us know.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Go to&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/database/wordpress/plugin/snap-pixel/vulnerabilities&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;https://patchstack.com/for-plugins/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No VDP&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Timeline&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;timeline&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#timeline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reported by&lt;img src=&#34;https://patchstack.com/_ipx/f_webp&amp;amp;fit_cover/images/profile-anonymous.webp&#34; alt=&#34;Profile Image&#34;  loading=&#34;lazy&#34; /&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;20 Feb, 2023&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>[02] VBS Macro Payload Execution</title>
       <link>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>

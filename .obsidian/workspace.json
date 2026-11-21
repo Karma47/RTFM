@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/05_detection/5.1_labs/02 Lab Development.md",
+                "file": "content/docs/07_research/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 Lab Development"
+              "title": "_index"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "3078f5b1510ae4d0",
@@ -185,6 +184,37 @@
   },
   "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
+    "content/docs/07_research/04 CVE-2023-25476.md",
+    "content/docs/07_research/03 CVE-2023-45276.md",
+    "content/docs/07_research/_index.md",
+    "content/docs/07_research/02 CVE-2023-45641.md",
+    "content/docs/07_research/01 CVE-2023-45642.md",
+    "content/docs/07_research/05 CVE-2023-41661.md",
+    "content/docs/07_research/06 CVE-2023-40328.md",
+    "content/docs/07_research/07 CVE-2023-37992.md",
+    "content/docs/07_research/08 CVE-2023-33208.md",
+    "content/docs/07_research/10 CVE-2023-24390.md",
+    "content/docs/07_research/11 CVE-2023-30754.md",
+    "content/docs/07_research/12 CVE-2023-26516.md",
+    "content/docs/07_research/12 CVE-2023-30477.md",
+    "content/docs/07_research/13 CVE-2023-28168.md",
+    "content/docs/07_research/14 CVE-2023-25452.md",
+    "content/docs/07_research/15 CVE-2023-26522.md",
+    "content/docs/07_research/16 CVE-2023-25974.md",
+    "content/docs/07_research/17 CVE-2023-26527.md",
+    "content/docs/07_research/18 CVE-2023-26541.md",
+    "content/docs/07_research/19 CVE-2023- 1 1 1 1 1.md",
+    "public/docs/07_research/18-cve-2023-26541/index.html",
+    "public/docs/07_research/18-cve-2023-26541",
+    "public/docs/07_research/17-cve-2023-26527/index.html",
+    "public/docs/07_research/17-cve-2023-26527",
+    "public/docs/07_research/19-cve-2023--1-1-1-1-1/index.html",
+    "public/docs/07_research/19-cve-2023--1-1-1-1-1",
+    "public/docs/07_research/18-cve-2023--1-1-1-1/index.html",
+    "public/docs/07_research/18-cve-2023--1-1-1-1",
+    "public/docs/07_research/17-cve-2023--1-1-1/index.html",
+    "public/docs/07_research/17-cve-2023--1-1-1",
+    "content/docs/05_detection/5.1_labs/02 Lab Development.md",
     "content/docs/05_detection/5.1_labs/assets/Pasted image 20261102152140.png",
     "content/docs/05_detection/5.1_labs/assets/Pasted image 20261102152122.png",
     "content/docs/05_detection/5.1_labs/assets/Pasted image 20261102145540.png",
@@ -195,41 +225,9 @@
     "public/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134335.png",
     "public/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134231.png",
     "public/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130536.png",
-    "public/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png",
-    "public/docs/05_detection/5.1_labs/assets",
-    "static/docs/05_detection/5.1_labs/assets",
-    "static/docs/05_detection/5.1_labs",
-    "static/docs/05_detection",
-    "content/docs/05_detection/5.1_labs/assets",
-    "public/docs/05_detection/5.1_labs/02-lab-development/index.html",
-    "public/docs/05_detection/5.1_labs/02-lab-development",
     "content/docs/05_detection/5.1_labs/01 Workshop Intro.md",
-    "content/docs/05_detection/5.1_labs/02 Lab Development.md",
     "content/docs/05_detection/5.1_labs/Untitled.md",
     "content/docs/05_detection/5.1_labs/02 Requirements.md",
-    "public/docs/05_detection/5.1_labs/02-requirements/index.html",
-    "public/docs/05_detection/5.1_labs/02-requirements",
-    "public/docs/05_detection/5.1_labs/01-workshop-intro-1/index.html",
-    "content/docs/05_detection/5.1_labs/_index.md",
-    "content/docs/04_playbooks/CISSP/D0 CISSP Prep.md",
-    "content/docs/04_playbooks/CISSP/D3 Security Architecture and Engineering.md",
-    "content/docs/05_detection/5.1_labs/01 Workshop Introduction.md",
-    "content/docs/05_detection/_index.md",
-    "content/docs/03_techniques/02 VBS Macro Payload Execution.md",
-    "content/docs/04_playbooks/CISSP/D7 Security Operations.md",
-    "content/docs/04_playbooks/CISSP/D8 Software Development Security.md",
-    "content/docs/04_playbooks/CISSP/_index.md",
-    "content/docs/03_techniques/02 VBS Macro yload Execution.md",
-    "content/docs/03_techniques/01 Using CertUTIL.md",
-    "content/docs/04_playbooks/OSWA/_index.md",
-    "content/docs/04_playbooks/CISSP/D2 Asset Security.md",
-    "content/docs/04_playbooks/CISSP/D1 Security and Risk Management.md",
-    "content/_index.md",
-    "content/docs/04_playbooks/CISSP/D6 Security Assessment and Testing.md",
-    "content/docs/04_playbooks/CISSP/D5 Identity and Access Management.md",
-    "content/docs/04_playbooks/CISSP/D4 Communication and Network Security.md",
-    "content/docs/04_playbooks/_index.md",
-    "content/docs/04_playbooks/CISSP/D1/29 Warrent to search.md",
-    "content/docs/04_playbooks/CISSP/D1/34 KPIs.md"
+    "content/docs/05_detection/5.1_labs/_index.md"
   ]
 }
