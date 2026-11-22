@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Methodology</title>
-    <link>http://localhost:1313/docs/01_methodology/</link>
+    <link>http://localhost:40231/docs/01_methodology/</link>
     <description>Recent content in Methodology on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/01_methodology/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:40231/docs/01_methodology/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Security Analysis</title>
-      <link>http://localhost:1313/docs/01_methodology/security-analysis/</link>
+      <link>http://localhost:40231/docs/01_methodology/security-analysis/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/security-analysis/</guid>
+      <guid>http://localhost:40231/docs/01_methodology/security-analysis/</guid>
       <description>
         
         
@@ -32,10 +32,10 @@
     
     <item>
       <title>Threat Hunting</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/</link>
+      <link>http://localhost:40231/docs/01_methodology/threat-hunting/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/</guid>
+      <guid>http://localhost:40231/docs/01_methodology/threat-hunting/</guid>
       <description>
         
         
