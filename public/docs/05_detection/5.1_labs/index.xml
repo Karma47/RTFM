@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RTFM – Challenge</title>
+    <title>RTFM – Threat Hunting Challenge</title>
     <link>http://localhost:1313/docs/05_detection/5.1_labs/</link>
-    <description>Recent content in Challenge on RTFM</description>
+    <description>Recent content in Threat Hunting Challenge on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/05_detection/5.1_labs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,49 +14,6 @@
         
       
     
-    
-    <item>
-      <title>Detection labs</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
-      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</guid>
-      <description>
-        
-        
-        &lt;h1&gt;Null National Bank&lt;/h1&gt;&lt;h2&gt;Security Operations Centre – Threat Hunting Exercise&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-operations-centre--threat-hunting-exercise&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#security-operations-centre--threat-hunting-exercise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Welcome to the Null National Bank cybersecurity exercise.&lt;/p&gt;
-&lt;p&gt;You have been assigned to the Security Operations Centre (SOC) investigation team.&lt;/p&gt;
-&lt;p&gt;Your objective is to investigate suspicious activity across the bank&amp;rsquo;s hybrid infrastructure, identify attacker activity, and uncover evidence of compromise.&lt;/p&gt;
-&lt;h3&gt;Exercise objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;exercise-objectives&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exercise-objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Investigate suspicious authentication activity.&lt;/li&gt;
-&lt;li&gt;Identify compromised user accounts.&lt;/li&gt;
-&lt;li&gt;Detect malicious execution and persistence.&lt;/li&gt;
-&lt;li&gt;Investigate privilege escalation.&lt;/li&gt;
-&lt;li&gt;Identify lateral movement.&lt;/li&gt;
-&lt;li&gt;Determine the extent of the compromise.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Exercise environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;exercise-environment&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exercise-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The exercise simulates a hybrid enterprise environment containing:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Active Directory infrastructure&lt;/li&gt;
-&lt;li&gt;Windows workstations and servers&lt;/li&gt;
-&lt;li&gt;Internal file and application servers&lt;/li&gt;
-&lt;li&gt;DMZ-hosted web, database and mail servers&lt;/li&gt;
-&lt;li&gt;Centralised Splunk SIEM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a
-    href=&#34;challenge-01/&#34;&gt;Start Exercise&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Each challenge contains 10 tasks. Share the initial challenge password with
-participants when the exercise begins; the next challenge&amp;rsquo;s password appears
-only after all 10 flags are validated. Progress is stored in the participant&amp;rsquo;s
-browser.&lt;/p&gt;
-&lt;p&gt;This static progression gate is intended for guided exercises, not as real
-access control. Passwords and flags can be discovered in the site&amp;rsquo;s JavaScript.&lt;/p&gt;
-
-      </description>
-    </item>
     
     <item>
       <title>Lab Development</title>
@@ -556,6 +513,49 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Detection labs</title>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</guid>
+      <description>
+        
+        
+        &lt;h1&gt;Null National Bank&lt;/h1&gt;&lt;h2&gt;Security Operations Centre – Threat Hunting Exercise&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-operations-centre--threat-hunting-exercise&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-operations-centre--threat-hunting-exercise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Welcome to the Null National Bank cybersecurity exercise.&lt;/p&gt;
+&lt;p&gt;You have been assigned to the Security Operations Centre (SOC) investigation team.&lt;/p&gt;
+&lt;p&gt;Your objective is to investigate suspicious activity across the bank&amp;rsquo;s hybrid infrastructure, identify attacker activity, and uncover evidence of compromise.&lt;/p&gt;
+&lt;h3&gt;Exercise objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;exercise-objectives&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#exercise-objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Investigate suspicious authentication activity.&lt;/li&gt;
+&lt;li&gt;Identify compromised user accounts.&lt;/li&gt;
+&lt;li&gt;Detect malicious execution and persistence.&lt;/li&gt;
+&lt;li&gt;Investigate privilege escalation.&lt;/li&gt;
+&lt;li&gt;Identify lateral movement.&lt;/li&gt;
+&lt;li&gt;Determine the extent of the compromise.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Exercise environment&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;exercise-environment&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#exercise-environment&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The exercise simulates a hybrid enterprise environment containing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Active Directory infrastructure&lt;/li&gt;
+&lt;li&gt;Windows workstations and servers&lt;/li&gt;
+&lt;li&gt;Internal file and application servers&lt;/li&gt;
+&lt;li&gt;DMZ-hosted web, database and mail servers&lt;/li&gt;
+&lt;li&gt;Centralised Splunk SIEM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a
+    href=&#34;challenge-01/&#34;&gt;Start Exercise&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Each challenge contains 10 tasks. Share the initial challenge password with
+participants when the exercise begins; the next challenge&amp;rsquo;s password appears
+only after all 10 flags are validated. Progress is stored in the participant&amp;rsquo;s
+browser.&lt;/p&gt;
+&lt;p&gt;This static progression gate is intended for guided exercises, not as real
+access control. Passwords and flags can be discovered in the site&amp;rsquo;s JavaScript.&lt;/p&gt;
 
       </description>
     </item>
