@@ -3,7 +3,7 @@ title: "[02] VBS Macro Payload Execution"
 date: 2026-10-26
 authors:
   - Prasanna
-draft: true
+draft: false
 ---
 
 {{< meta >}}

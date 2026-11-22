@@ -92,8 +92,8 @@ The SOC is expected to begin proactive threat hunting without waiting for the in
 
 ## Start the exercise
 
-Each challenge contains 10 tasks. Submit all 10 flags in a challenge to reveal
-the password for the next challenge. Progress is stored in the participant's
+Each challenge contains 10 tasks. Submit all 10 flags to complete a challenge
+and reveal the next challenge password. Progress is stored in the participant's
 browser.
 
 [Start Challenge 01: Initial Access](nullnationalbank/challenge-01/)

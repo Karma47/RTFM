@@ -97,11 +97,10 @@
     margin: 20px 0;
 }
 
-.nn-next-password code {
+.nn-next-password canvas {
     display: inline-block;
-    padding: 10px 14px;
+    max-width: 100%;
+    height: 40px;
     border-radius: 6px;
     background: #e2e8f0;
-    color: #0f172a;
-    font-size: 1.1rem;
 }

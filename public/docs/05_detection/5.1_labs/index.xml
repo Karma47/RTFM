@@ -601,8 +601,8 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     &lt;a href=&#34;#intelligence-status&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The Threat Intelligence team is conducting an ongoing assessment and will release additional intelligence in phases, prioritised according to relevance, confidence, and potential impact.&lt;/p&gt;
 &lt;p&gt;The SOC is expected to begin proactive threat hunting without waiting for the intelligence picture to become complete.&lt;/p&gt;
 &lt;h2&gt;Start the exercise&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;start-the-exercise&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#start-the-exercise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each challenge contains 10 tasks. Submit all 10 flags in a challenge to reveal
-the password for the next challenge. Progress is stored in the participant&amp;rsquo;s
+    &lt;a href=&#34;#start-the-exercise&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each challenge contains 10 tasks. Submit all 10 flags to complete a challenge
+and reveal the next challenge password. Progress is stored in the participant&amp;rsquo;s
 browser.&lt;/p&gt;
 &lt;p&gt;&lt;a
     href=&#34;nullnationalbank/challenge-01/&#34;&gt;Start Challenge 01: Initial Access&lt;/a&gt;&lt;/p&gt;

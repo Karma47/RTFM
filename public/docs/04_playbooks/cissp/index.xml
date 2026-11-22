@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – CISSP</title>
-    <link>http://localhost:40231/docs/04_playbooks/cissp/</link>
+    <link>http://localhost:1313/docs/04_playbooks/cissp/</link>
     <description>Recent content in CISSP on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:40231/docs/04_playbooks/cissp/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/04_playbooks/cissp/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>D0 CISSP Prep</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d0-cissp-prep/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
       <description>
         
         
@@ -57,7 +57,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;CISSP Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cissp-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -65,10 +65,10 @@
     
     <item>
       <title>D1 Security and Risk Management</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
       <description>
         
         
@@ -105,7 +105,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 1 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-1-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Due Care &amp;amp; Due Diligence&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;due-care--due-diligence&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#due-care--due-diligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -395,10 +395,10 @@
     
     <item>
       <title>D2 Asset Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d2-asset-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d2-asset-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</guid>
       <description>
         
         
@@ -435,7 +435,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 2 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-2-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Data Roles &amp;amp; Responsibilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-roles--responsibilities&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-roles--responsibilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -633,10 +633,10 @@
     
     <item>
       <title>D3 Security Architecture and Engineering</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
       <description>
         
         
@@ -673,7 +673,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 3 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-3-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Cryptography — Pick the Right Tool&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cryptography--pick-the-right-tool&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cryptography--pick-the-right-tool&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -766,10 +766,10 @@
     
     <item>
       <title>D4 Communication and Network Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
       <description>
         
         
@@ -806,7 +806,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 4 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-4-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Design Concepts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;design-concepts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#design-concepts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -1104,10 +1104,10 @@
     
     <item>
       <title>D5 Identity and Access Management</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
       <description>
         
         
@@ -1144,7 +1144,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 5 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-5-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;DR Site Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dr-site-types&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dr-site-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -1379,10 +1379,10 @@
     
     <item>
       <title>D6 Security Assessment and Testing</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
       <description>
         
         
@@ -1419,7 +1419,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 6 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-6-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -1427,10 +1427,10 @@
     
     <item>
       <title>D7 Security Operations</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d7-security-operations/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d7-security-operations/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</guid>
       <description>
         
         
@@ -1467,7 +1467,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 7 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-7-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -1475,10 +1475,10 @@
     
     <item>
       <title>D8 Software Development Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d8-software-development-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d8-software-development-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</guid>
       <description>
         
         
@@ -1515,7 +1515,7 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 8 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-8-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>

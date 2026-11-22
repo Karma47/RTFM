@@ -3,7 +3,7 @@ title: "[01] CertUtil File Transfer"
 date: 2026-03-19
 authors:
   - Prasanna
-draft: true
+draft: false
 ---
 
 {{< meta >}}

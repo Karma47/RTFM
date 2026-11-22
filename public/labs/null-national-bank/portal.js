@@ -1,3 +1,136 @@
+async function sha256Hex(value) {
+    if (!globalThis.crypto?.subtle || typeof TextEncoder === "undefined") {
+        throw new Error("The Web Crypto API is unavailable.");
+    }
+
+    const bytes = new TextEncoder().encode(value);
+    const digest = await globalThis.crypto.subtle.digest("SHA-256", bytes);
+    return Array.from(new Uint8Array(digest), (byte) =>
+        byte.toString(16).padStart(2, "0")
+    ).join("");
+}
+
+const verifierBasePath = "/labs/null-national-bank/";
+const passwordMask = 0x5a;
+
+function weave(first, second) {
+    if (!Array.isArray(first) || !Array.isArray(second) || Math.abs(first.length - second.length) > 1) {
+        throw new Error("Challenge verifier data has invalid fragments.");
+    }
+
+    const result = [];
+    for (let index = 0; index < Math.max(first.length, second.length); index++) {
+        if (index < first.length) {
+            result.push(first[index]);
+        }
+        if (index < second.length) {
+            result.push(second[index]);
+        }
+    }
+
+    return result;
+}
+
+function joinHash(first, second) {
+    if (typeof first !== "string" || typeof second !== "string") {
+        throw new Error("Challenge verifier data has an invalid hash fragment.");
+    }
+
+    return weave([...first], [...second]).join("");
+}
+
+function validateVerifierParts(first, second) {
+    if (
+        first?.version !== 1 ||
+        second?.version !== 1 ||
+        !Array.isArray(first.entries) ||
+        !Array.isArray(second.entries) ||
+        first.entries.length !== challenges.length ||
+        second.entries.length !== challenges.length
+    ) {
+        throw new Error("Challenge verifier assets have an unsupported format.");
+    }
+
+    challenges.forEach((challenge, challengeIndex) => {
+        const firstEntry = first.entries[challengeIndex];
+        const secondEntry = second.entries[challengeIndex];
+        if (
+            !firstEntry ||
+            !secondEntry ||
+            !/^[0-9a-f]{32}$/.test(firstEntry.p) ||
+            !/^[0-9a-f]{32}$/.test(secondEntry.p) ||
+            !Array.isArray(firstEntry.r) ||
+            !Array.isArray(secondEntry.r) ||
+            !firstEntry.r.every((byte) => Number.isInteger(byte) && byte >= 0 && byte <= 255) ||
+            !secondEntry.r.every((byte) => Number.isInteger(byte) && byte >= 0 && byte <= 255) ||
+            !Array.isArray(firstEntry.f) ||
+            !Array.isArray(secondEntry.f) ||
+            firstEntry.f.length !== challenge.tasks.length ||
+            secondEntry.f.length !== challenge.tasks.length
+        ) {
+            throw new Error(`Challenge verifier data is invalid for challenge ${challengeIndex + 1}.`);
+        }
+
+        firstEntry.f.forEach((fragment, taskIndex) => {
+            if (
+                !/^[0-9a-f]{32}$/.test(fragment) ||
+                !/^[0-9a-f]{32}$/.test(secondEntry.f[taskIndex])
+            ) {
+                throw new Error(
+                    `Challenge verifier data is invalid for challenge ${challengeIndex + 1}, task ${taskIndex + 1}.`
+                );
+            }
+        });
+
+        weave(firstEntry.r, secondEntry.r);
+    });
+}
+
+async function loadVerifierParts() {
+    const responses = await Promise.all([
+        fetch(`${verifierBasePath}verifier-a.json`, { cache: "no-store" }),
+        fetch(`${verifierBasePath}verifier-b.json`, { cache: "no-store" })
+    ]);
+
+    if (responses.some((response) => !response.ok)) {
+        throw new Error("A challenge verifier asset could not be loaded.");
+    }
+
+    const [first, second] = await Promise.all(responses.map((response) => response.json()));
+    validateVerifierParts(first, second);
+    return [first, second];
+}
+
+function revealPassword(first, second, challengeNumber) {
+    if (typeof TextDecoder === "undefined") {
+        throw new Error("Password display is unavailable in this browser.");
+    }
+
+    const encoded = weave(
+        first.entries[challengeNumber - 1].r,
+        second.entries[challengeNumber - 1].r
+    );
+    const bytes = encoded.map((byte) => byte ^ passwordMask);
+    return new TextDecoder().decode(new Uint8Array(bytes));
+}
+
+function drawPassword(canvas, password) {
+    const context = canvas.getContext("2d");
+    if (!context) {
+        canvas.replaceWith(document.createTextNode("Password display is unavailable."));
+        return;
+    }
+
+    const font = "17.6px monospace";
+    context.font = font;
+    canvas.width = Math.ceil(context.measureText(password).width) + 28;
+    canvas.height = 40;
+    context.font = font;
+    context.fillStyle = "#0f172a";
+    context.textBaseline = "middle";
+    context.fillText(password, 14, 20);
+}
+
 const challenges = [
     {
         title: "Initial Access",
@@ -8,18 +141,17 @@ const challenges = [
         evidence:
             "Review authentication events in the instructor-provided Splunk environment.",
         tasks: [
-            { prompt: "Identify the compromised employee account.", flag: "FLAG{neha.gupta}" },
-            { prompt: "Identify the source IP address for the suspicious login.", flag: "FLAG{203.0.113.47}" },
-            { prompt: "Identify the workstation targeted during initial access.", flag: "FLAG{WS-FIN-023}" },
-            { prompt: "What Windows event ID records a successful logon?", flag: "FLAG{4624}" },
-            { prompt: "What Windows event ID records a failed logon?", flag: "FLAG{4625}" },
-            { prompt: "Identify the logon type associated with a remote interactive session.", flag: "FLAG{10}" },
-            { prompt: "Identify the remote access protocol used in the initial access.", flag: "FLAG{RDP}" },
-            { prompt: "What authentication technique is indicated by many failed attempts followed by a success?", flag: "FLAG{password-spray}" },
-            { prompt: "Identify the executable commonly associated with an RDP client.", flag: "FLAG{mstsc.exe}" },
-            { prompt: "What was the outcome of the attacker's final authentication attempt?", flag: "FLAG{success}" }
+            { prompt: "Identify the compromised employee account." },
+            { prompt: "Identify the source IP address for the suspicious login." },
+            { prompt: "Identify the workstation targeted during initial access." },
+            { prompt: "What Windows event ID records a successful logon?" },
+            { prompt: "What Windows event ID records a failed logon?" },
+            { prompt: "Identify the logon type associated with a remote interactive session." },
+            { prompt: "Identify the remote access protocol used in the initial access." },
+            { prompt: "What authentication technique is indicated by many failed attempts followed by a success?" },
+            { prompt: "Identify the executable commonly associated with an RDP client." },
+            { prompt: "What was the outcome of the attacker's final authentication attempt?" }
         ],
-        password: "NNB-START-01"
     },
     {
         title: "Execution & Persistence",
@@ -30,18 +162,17 @@ const challenges = [
         evidence:
             "Review Windows and Sysmon telemetry in the instructor-provided Splunk environment.",
         tasks: [
-            { prompt: "Identify the process associated with the attacker's execution.", flag: "FLAG{powershell.exe}" },
-            { prompt: "Which PowerShell option is commonly used to execute a Base64-encoded command?", flag: "FLAG{-enc}" },
-            { prompt: "Identify the Windows script host used to execute a VBScript file.", flag: "FLAG{wscript.exe}" },
-            { prompt: "Identify the command-line utility used to create a scheduled task.", flag: "FLAG{schtasks.exe}" },
-            { prompt: "Which registry key is commonly used for per-user startup persistence?", flag: "FLAG{HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run}" },
-            { prompt: "What Windows event ID records process creation?", flag: "FLAG{4688}" },
-            { prompt: "What Windows event ID records a new service installation?", flag: "FLAG{7045}" },
-            { prompt: "Identify the encoding format often used to obscure PowerShell commands.", flag: "FLAG{base64}" },
-            { prompt: "Which Sysmon event ID records process creation?", flag: "FLAG{1}" },
-            { prompt: "What persistence mechanism is created by a task configured to run on a schedule?", flag: "FLAG{scheduled-task}" }
+            { prompt: "Identify the process associated with the attacker's execution." },
+            { prompt: "Which PowerShell option is commonly used to execute a Base64-encoded command?" },
+            { prompt: "Identify the Windows script host used to execute a VBScript file." },
+            { prompt: "Identify the command-line utility used to create a scheduled task." },
+            { prompt: "Which registry key is commonly used for per-user startup persistence?" },
+            { prompt: "What Windows event ID records process creation?" },
+            { prompt: "What Windows event ID records a new service installation?" },
+            { prompt: "Identify the encoding format often used to obscure PowerShell commands." },
+            { prompt: "Which Sysmon event ID records process creation?" },
+            { prompt: "What persistence mechanism is created by a task configured to run on a schedule?" }
         ],
-        password: "NNB-EXEC-02"
     },
     {
         title: "Privilege Escalation",
@@ -52,18 +183,17 @@ const challenges = [
         evidence:
             "Review authentication and Windows security events in the instructor-provided Splunk environment.",
         tasks: [
-            { prompt: "Identify the compromised privileged account.", flag: "FLAG{rajesh.kumar}" },
-            { prompt: "What Windows event ID records special privileges assigned to a new logon?", flag: "FLAG{4672}" },
-            { prompt: "Identify the privileged Active Directory group targeted in the escalation.", flag: "FLAG{Domain Admins}" },
-            { prompt: "Which privilege allows a process to debug and adjust the memory of other processes?", flag: "FLAG{SeDebugPrivilege}" },
-            { prompt: "Identify the built-in Windows utility that can run a program as another user.", flag: "FLAG{runas.exe}" },
-            { prompt: "Which local group grants administrative rights on a Windows computer?", flag: "FLAG{Administrators}" },
-            { prompt: "What Windows event ID records a successful logon?", flag: "FLAG{4624}" },
-            { prompt: "What Windows event ID records a user account being added to a security-enabled group?", flag: "FLAG{4728}" },
-            { prompt: "What access-control technique abuses elevated rights to gain higher privileges?", flag: "FLAG{privilege-escalation}" },
-            { prompt: "What is the status of an account after it has obtained elevated permissions?", flag: "FLAG{elevated}" }
+            { prompt: "Identify the compromised privileged account." },
+            { prompt: "What Windows event ID records special privileges assigned to a new logon?" },
+            { prompt: "Identify the privileged Active Directory group targeted in the escalation." },
+            { prompt: "Which privilege allows a process to debug and adjust the memory of other processes?" },
+            { prompt: "Identify the built-in Windows utility that can run a program as another user." },
+            { prompt: "Which local group grants administrative rights on a Windows computer?" },
+            { prompt: "What Windows event ID records a successful logon?" },
+            { prompt: "What Windows event ID records a user account being added to a security-enabled group?" },
+            { prompt: "What access-control technique abuses elevated rights to gain higher privileges?" },
+            { prompt: "What is the status of an account after it has obtained elevated permissions?" }
         ],
-        password: "NNB-PRIV-03"
     },
     {
         title: "Lateral Movement",
@@ -74,18 +204,17 @@ const challenges = [
         evidence:
             "Correlate endpoint and authentication events in the instructor-provided Splunk environment.",
         tasks: [
-            { prompt: "Identify the destination host involved in lateral movement.", flag: "FLAG{MN-DC01}" },
-            { prompt: "Which TCP port is commonly used by SMB for file sharing?", flag: "FLAG{445}" },
-            { prompt: "Identify the Windows utility commonly associated with remote service execution.", flag: "FLAG{PsExec.exe}" },
-            { prompt: "What Windows event ID records a successful logon?", flag: "FLAG{4624}" },
-            { prompt: "What logon type is commonly associated with network logons?", flag: "FLAG{3}" },
-            { prompt: "Which hidden administrative share exposes the Windows directory over SMB?", flag: "FLAG{ADMIN$}" },
-            { prompt: "Identify the source workstation from which lateral movement began.", flag: "FLAG{WS-FIN-023}" },
-            { prompt: "Which Windows management technology can be used to execute commands remotely?", flag: "FLAG{WMI}" },
-            { prompt: "Which protocol is commonly used by PsExec to communicate with a remote Windows host?", flag: "FLAG{SMB}" },
-            { prompt: "Identify the authentication protocol commonly seen with Windows network logons.", flag: "FLAG{NTLM}" }
+            { prompt: "Identify the destination host involved in lateral movement." },
+            { prompt: "Which TCP port is commonly used by SMB for file sharing?" },
+            { prompt: "Identify the Windows utility commonly associated with remote service execution." },
+            { prompt: "What Windows event ID records a successful logon?" },
+            { prompt: "What logon type is commonly associated with network logons?" },
+            { prompt: "Which hidden administrative share exposes the Windows directory over SMB?" },
+            { prompt: "Identify the source workstation from which lateral movement began." },
+            { prompt: "Which Windows management technology can be used to execute commands remotely?" },
+            { prompt: "Which protocol is commonly used by PsExec to communicate with a remote Windows host?" },
+            { prompt: "Identify the authentication protocol commonly seen with Windows network logons." }
         ],
-        password: "NNB-LATERAL-04"
     },
     {
         title: "Domain Compromise",
@@ -96,18 +225,17 @@ const challenges = [
         evidence:
             "Review the related Windows and domain activity in the instructor-provided Splunk environment.",
         tasks: [
-            { prompt: "Identify the account privilege that confirms domain compromise.", flag: "FLAG{domain_admin}" },
-            { prompt: "Which Active Directory database file contains domain account data?", flag: "FLAG{ntds.dit}" },
-            { prompt: "What replication technique can be abused to retrieve password hashes from a domain controller?", flag: "FLAG{DCSync}" },
-            { prompt: "Which Windows process commonly holds credentials in memory?", flag: "FLAG{lsass.exe}" },
-            { prompt: "Identify the credential-dumping tool commonly associated with LSASS access.", flag: "FLAG{mimikatz.exe}" },
-            { prompt: "Which built-in domain account is used by Kerberos to encrypt ticket-granting tickets?", flag: "FLAG{krbtgt}" },
-            { prompt: "Which Active Directory group has the highest level of domain-wide administrative privileges?", flag: "FLAG{Domain Admins}" },
-            { prompt: "What Windows event ID records a new user account being created?", flag: "FLAG{4720}" },
-            { prompt: "What Kerberos ticket type is commonly requested during Kerberoasting?", flag: "FLAG{TGS}" },
-            { prompt: "What forged Kerberos ticket can grant an attacker broad domain access?", flag: "FLAG{Golden Ticket}" }
+            { prompt: "Identify the account privilege that confirms domain compromise." },
+            { prompt: "Which Active Directory database file contains domain account data?" },
+            { prompt: "What replication technique can be abused to retrieve password hashes from a domain controller?" },
+            { prompt: "Which Windows process commonly holds credentials in memory?" },
+            { prompt: "Identify the credential-dumping tool commonly associated with LSASS access." },
+            { prompt: "Which built-in domain account is used by Kerberos to encrypt ticket-granting tickets?" },
+            { prompt: "Which Active Directory group has the highest level of domain-wide administrative privileges?" },
+            { prompt: "What Windows event ID records a new user account being created?" },
+            { prompt: "What Kerberos ticket type is commonly requested during Kerberoasting?" },
+            { prompt: "What forged Kerberos ticket can grant an attacker broad domain access?" }
         ],
-        password: "NNB-LATERAL-05"
     }
 ];
 
@@ -124,29 +252,48 @@ if (root) {
         throw new Error("Null National Bank portal has an invalid challenge number.");
     }
 
+    root.innerHTML = '<p class="nn-loading">Loading challenge...</p>';
+    initializePortal(root, challengeNumber).catch((error) => {
+        console.error("Challenge portal initialization failed.", error);
+        root.textContent =
+            "The challenge portal could not start. Refresh the page or contact your instructor.";
+    });
+}
+
+async function initializePortal(root, challengeNumber) {
+    const [verifierA, verifierB] = await loadVerifierParts();
     const challenge = challenges[challengeNumber - 1];
-    const nextChallenge = challenges[challengeNumber];
-    const progressKey = "nn_task_progress_v2";
+    const legacyProgressKey = "nn_task_progress_v2";
+    if (localStorage.getItem(legacyProgressKey) !== null) {
+        localStorage.removeItem(legacyProgressKey);
+    }
+
+    const progressKey = "nn_task_completion_v3";
     const progress = JSON.parse(localStorage.getItem(progressKey) || "{}");
 
     if (!progress || typeof progress !== "object" || Array.isArray(progress)) {
         throw new Error("Null National Bank portal has invalid saved progress.");
     }
 
-    function completedFlagsFor(number) {
-        const savedFlags = progress[String(number)] || [];
-        if (!Array.isArray(savedFlags) || savedFlags.some((flag) => typeof flag !== "string")) {
-            throw new Error(`Null National Bank portal has invalid saved flags for challenge ${number}.`);
+    function completedTasksFor(number) {
+        const savedTasks = progress[String(number)] || [];
+        if (
+            !Array.isArray(savedTasks) ||
+            savedTasks.some(
+                (taskIndex) =>
+                    !Number.isInteger(taskIndex) ||
+                    taskIndex < 0 ||
+                    taskIndex >= challenges[number - 1].tasks.length
+            )
+        ) {
+            throw new Error(`Null National Bank portal has invalid saved tasks for challenge ${number}.`);
         }
 
-        const accepted = new Set(savedFlags);
-        return challenges[number - 1].tasks
-            .filter((task) => accepted.has(task.flag))
-            .map((task) => task.flag);
+        return Array.from(new Set(savedTasks));
     }
 
     function challengeIsComplete(number) {
-        return completedFlagsFor(number).length === challenges[number - 1].tasks.length;
+        return completedTasksFor(number).length === challenges[number - 1].tasks.length;
     }
 
     let passwordAccepted = challengeIsComplete(challengeNumber);
@@ -155,9 +302,9 @@ if (root) {
         const previousChallengesComplete = challenges
             .slice(0, challengeNumber - 1)
             .every((_, index) => challengeIsComplete(index + 1));
-        const completedFlags = completedFlagsFor(challengeNumber);
-        const completedFlagSet = new Set(completedFlags);
-        const challengeComplete = completedFlags.length === challenge.tasks.length;
+        const completedTasks = completedTasksFor(challengeNumber);
+        const completedTaskSet = new Set(completedTasks);
+        const challengeComplete = completedTasks.length === challenge.tasks.length;
 
         root.innerHTML = `
             <div class="nn-header">
@@ -195,11 +342,11 @@ if (root) {
                                 <p>${challenge.evidence}</p>
                             </section>
                             <p class="nn-progress" role="status">
-                                ${completedFlags.length} / ${challenge.tasks.length} flags submitted
+                                ${completedTasks.length} / ${challenge.tasks.length} flags submitted
                             </p>
                             <div class="nn-task-list">
                                 ${challenge.tasks.map((task, index) => {
-                                    const complete = completedFlagSet.has(task.flag);
+                                    const complete = completedTaskSet.has(index);
                                     return `
                                         <section class="nn-task" data-complete="${complete}">
                                             <h3>Task ${index + 1}</h3>
@@ -225,11 +372,11 @@ if (root) {
                                     ? `
                                         <p class="nn-message" role="status">Challenge completed. All 10 flags are validated.</p>
                                         ${
-                                            nextChallenge
+                                            challengeNumber < challenges.length
                                                 ? `
                                                     <div class="nn-next-password">
                                                         <p>Challenge ${challengeNumber + 1} password</p>
-                                                        <code>${nextChallenge.password}</code>
+                                                        <canvas id="next-password-display" role="img" aria-label="Next challenge password"></canvas>
                                                     </div>
                                                     <a class="nn-button" href="../challenge-${String(challengeNumber + 1).padStart(2, "0")}/">
                                                         Continue to Challenge ${String(challengeNumber + 1).padStart(2, "0")}
@@ -245,36 +392,71 @@ if (root) {
             </div>
         `;
 
+        const passwordCanvas = root.querySelector("#next-password-display");
+        if (passwordCanvas) {
+            drawPassword(
+                passwordCanvas,
+                revealPassword(verifierA, verifierB, challengeNumber + 1)
+            );
+        }
+
         const passwordForm = document.getElementById("password-form");
         if (passwordForm) {
-            passwordForm.addEventListener("submit", (event) => {
+            passwordForm.addEventListener("submit", async (event) => {
                 event.preventDefault();
                 const submitted = document.getElementById("password-input").value.trim();
-                if (submitted === challenge.password) {
+                const message = document.getElementById("password-message");
+                let submittedHash;
+                try {
+                    submittedHash = await sha256Hex(submitted);
+                } catch (error) {
+                    console.error("Challenge password verification failed.", error);
+                    message.textContent =
+                        "Password verification is unavailable. Reload the page and try again.";
+                    return;
+                }
+
+                const expectedHash = joinHash(
+                    verifierA.entries[challengeNumber - 1].p,
+                    verifierB.entries[challengeNumber - 1].p
+                );
+                if (submittedHash === expectedHash) {
                     passwordAccepted = true;
                     render();
                 } else {
-                    document.getElementById("password-message").textContent =
-                        "Incorrect password. Try again.";
+                    message.textContent = "Incorrect password. Try again.";
                 }
             });
         }
 
         document.querySelectorAll(".nn-task-form").forEach((flagForm) => {
-            flagForm.addEventListener("submit", (event) => {
+            flagForm.addEventListener("submit", async (event) => {
                 event.preventDefault();
                 const taskIndex = Number(flagForm.dataset.taskIndex);
-                const task = challenge.tasks[taskIndex];
                 const submitted = document.getElementById(`flag-input-${taskIndex}`).value.trim();
-                if (submitted === task.flag) {
-                    const savedFlags = new Set(progress[String(challengeNumber)] || []);
-                    savedFlags.add(task.flag);
-                    progress[String(challengeNumber)] = Array.from(savedFlags);
+                const message = document.getElementById(`flag-message-${taskIndex}`);
+                let submittedHash;
+                try {
+                    submittedHash = await sha256Hex(submitted);
+                } catch (error) {
+                    console.error("Challenge flag verification failed.", error);
+                    message.textContent =
+                        "Flag verification is unavailable. Reload the page and try again.";
+                    return;
+                }
+
+                const expectedHash = joinHash(
+                    verifierA.entries[challengeNumber - 1].f[taskIndex],
+                    verifierB.entries[challengeNumber - 1].f[taskIndex]
+                );
+                if (submittedHash === expectedHash) {
+                    const savedTasks = new Set(progress[String(challengeNumber)] || []);
+                    savedTasks.add(taskIndex);
+                    progress[String(challengeNumber)] = Array.from(savedTasks);
                     localStorage.setItem(progressKey, JSON.stringify(progress));
                     render();
                 } else {
-                    document.getElementById(`flag-message-${taskIndex}`).textContent =
-                        "Incorrect flag. Try again.";
+                    message.textContent = "Incorrect flag. Try again.";
                 }
             });
         });

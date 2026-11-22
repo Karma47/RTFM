@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Security Research</title>
-    <link>http://localhost:40231/docs/07_research/</link>
+    <link>http://localhost:1313/docs/07_research/</link>
     <description>Recent content in Security Research on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:40231/docs/07_research/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/07_research/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>CVE-2023-24390</title>
-      <link>http://localhost:40231/docs/07_research/10-cve-2023-24390/</link>
+      <link>http://localhost:1313/docs/07_research/10-cve-2023-24390/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/10-cve-2023-24390/</guid>
+      <guid>http://localhost:1313/docs/07_research/10-cve-2023-24390/</guid>
       <description>
         
         
@@ -150,10 +150,10 @@
     
     <item>
       <title>CVE-2023-25452</title>
-      <link>http://localhost:40231/docs/07_research/14-cve-2023-25452/</link>
+      <link>http://localhost:1313/docs/07_research/14-cve-2023-25452/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/14-cve-2023-25452/</guid>
+      <guid>http://localhost:1313/docs/07_research/14-cve-2023-25452/</guid>
       <description>
         
         
@@ -283,10 +283,10 @@
     
     <item>
       <title>CVE-2023-25476</title>
-      <link>http://localhost:40231/docs/07_research/04-cve-2023-25476/</link>
+      <link>http://localhost:1313/docs/07_research/04-cve-2023-25476/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/04-cve-2023-25476/</guid>
+      <guid>http://localhost:1313/docs/07_research/04-cve-2023-25476/</guid>
       <description>
         
         
@@ -416,10 +416,10 @@
     
     <item>
       <title>CVE-2023-25974</title>
-      <link>http://localhost:40231/docs/07_research/16-cve-2023-25974/</link>
+      <link>http://localhost:1313/docs/07_research/16-cve-2023-25974/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/16-cve-2023-25974/</guid>
+      <guid>http://localhost:1313/docs/07_research/16-cve-2023-25974/</guid>
       <description>
         
         
@@ -549,10 +549,10 @@
     
     <item>
       <title>CVE-2023-26516</title>
-      <link>http://localhost:40231/docs/07_research/12-cve-2023-26516/</link>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-26516/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/12-cve-2023-26516/</guid>
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-26516/</guid>
       <description>
         
         
@@ -682,10 +682,10 @@
     
     <item>
       <title>CVE-2023-26522</title>
-      <link>http://localhost:40231/docs/07_research/15-cve-2023-26522/</link>
+      <link>http://localhost:1313/docs/07_research/15-cve-2023-26522/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/15-cve-2023-26522/</guid>
+      <guid>http://localhost:1313/docs/07_research/15-cve-2023-26522/</guid>
       <description>
         
         
@@ -813,10 +813,10 @@
     
     <item>
       <title>CVE-2023-26527</title>
-      <link>http://localhost:40231/docs/07_research/17-cve-2023-26527/</link>
+      <link>http://localhost:1313/docs/07_research/17-cve-2023-26527/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/17-cve-2023-26527/</guid>
+      <guid>http://localhost:1313/docs/07_research/17-cve-2023-26527/</guid>
       <description>
         
         
@@ -946,10 +946,10 @@
     
     <item>
       <title>CVE-2023-26541</title>
-      <link>http://localhost:40231/docs/07_research/18-cve-2023-26541/</link>
+      <link>http://localhost:1313/docs/07_research/18-cve-2023-26541/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/18-cve-2023-26541/</guid>
+      <guid>http://localhost:1313/docs/07_research/18-cve-2023-26541/</guid>
       <description>
         
         
@@ -1079,10 +1079,10 @@
     
     <item>
       <title>CVE-2023-28168</title>
-      <link>http://localhost:40231/docs/07_research/13-cve-2023-28168/</link>
+      <link>http://localhost:1313/docs/07_research/13-cve-2023-28168/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/13-cve-2023-28168/</guid>
+      <guid>http://localhost:1313/docs/07_research/13-cve-2023-28168/</guid>
       <description>
         
         
@@ -1210,10 +1210,10 @@
     
     <item>
       <title>CVE-2023-30477</title>
-      <link>http://localhost:40231/docs/07_research/12-cve-2023-30477/</link>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-30477/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/12-cve-2023-30477/</guid>
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-30477/</guid>
       <description>
         
         
@@ -1343,10 +1343,10 @@
     
     <item>
       <title>CVE-2023-30754</title>
-      <link>http://localhost:40231/docs/07_research/11-cve-2023-30754/</link>
+      <link>http://localhost:1313/docs/07_research/11-cve-2023-30754/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/11-cve-2023-30754/</guid>
+      <guid>http://localhost:1313/docs/07_research/11-cve-2023-30754/</guid>
       <description>
         
         
@@ -1476,10 +1476,10 @@
     
     <item>
       <title>CVE-2023-33208</title>
-      <link>http://localhost:40231/docs/07_research/08-cve-2023-33208/</link>
+      <link>http://localhost:1313/docs/07_research/08-cve-2023-33208/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/08-cve-2023-33208/</guid>
+      <guid>http://localhost:1313/docs/07_research/08-cve-2023-33208/</guid>
       <description>
         
         
@@ -1609,10 +1609,10 @@
     
     <item>
       <title>CVE-2023-37992</title>
-      <link>http://localhost:40231/docs/07_research/07-cve-2023-37992/</link>
+      <link>http://localhost:1313/docs/07_research/07-cve-2023-37992/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/07-cve-2023-37992/</guid>
+      <guid>http://localhost:1313/docs/07_research/07-cve-2023-37992/</guid>
       <description>
         
         
@@ -1742,10 +1742,10 @@
     
     <item>
       <title>CVE-2023-40328</title>
-      <link>http://localhost:40231/docs/07_research/06-cve-2023-40328/</link>
+      <link>http://localhost:1313/docs/07_research/06-cve-2023-40328/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/06-cve-2023-40328/</guid>
+      <guid>http://localhost:1313/docs/07_research/06-cve-2023-40328/</guid>
       <description>
         
         
@@ -1875,10 +1875,10 @@
     
     <item>
       <title>CVE-2023-41661</title>
-      <link>http://localhost:40231/docs/07_research/05-cve-2023-41661/</link>
+      <link>http://localhost:1313/docs/07_research/05-cve-2023-41661/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/05-cve-2023-41661/</guid>
+      <guid>http://localhost:1313/docs/07_research/05-cve-2023-41661/</guid>
       <description>
         
         
@@ -2008,10 +2008,10 @@
     
     <item>
       <title>CVE-2023-45276</title>
-      <link>http://localhost:40231/docs/07_research/03-cve-2023-45276/</link>
+      <link>http://localhost:1313/docs/07_research/03-cve-2023-45276/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/03-cve-2023-45276/</guid>
+      <guid>http://localhost:1313/docs/07_research/03-cve-2023-45276/</guid>
       <description>
         
         
@@ -2141,10 +2141,10 @@
     
     <item>
       <title>CVE-2023-45641</title>
-      <link>http://localhost:40231/docs/07_research/02-cve-2023-45641/</link>
+      <link>http://localhost:1313/docs/07_research/02-cve-2023-45641/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/02-cve-2023-45641/</guid>
+      <guid>http://localhost:1313/docs/07_research/02-cve-2023-45641/</guid>
       <description>
         
         
@@ -2274,10 +2274,10 @@
     
     <item>
       <title>CVE-2023-45642</title>
-      <link>http://localhost:40231/docs/07_research/01-cve-2023-45642/</link>
+      <link>http://localhost:1313/docs/07_research/01-cve-2023-45642/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/01-cve-2023-45642/</guid>
+      <guid>http://localhost:1313/docs/07_research/01-cve-2023-45642/</guid>
       <description>
         
         

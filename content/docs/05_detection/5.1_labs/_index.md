@@ -60,10 +60,10 @@ The exercise simulates a hybrid enterprise environment containing:
 
 [Start Exercise](challenge-01/)
 
-Each challenge contains 10 tasks. Share the initial challenge password with
-participants when the exercise begins; the next challenge's password appears
-only after all 10 flags are validated. Progress is stored in the participant's
-browser.
+Each challenge contains 10 tasks. Share the initial password with participants
+when the exercise begins. The next challenge password appears after all 10
+flags are validated. Progress is stored in the participant's browser.
 
-This static progression gate is intended for guided exercises, not as real
-access control. Passwords and flags can be discovered in the site's JavaScript.
+The portal uses split SHA-256 verifier data and transformed password display
+values to discourage casual inspection. These values remain public, answers may
+be guessed, and browser progress can be altered. This is not real access control.

