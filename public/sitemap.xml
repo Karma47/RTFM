@@ -3,13 +3,73 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/10-cve-2023-24390/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/14-cve-2023-25452/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/04-cve-2023-25476/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/16-cve-2023-25974/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/12-cve-2023-26516/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/15-cve-2023-26522/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/17-cve-2023-26527/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/18-cve-2023-26541/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/13-cve-2023-28168/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/12-cve-2023-30477/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/11-cve-2023-30754/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/08-cve-2023-33208/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/07-cve-2023-37992/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/06-cve-2023-40328/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/05-cve-2023-41661/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/03-cve-2023-45276/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/02-cve-2023-45641/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/07_research/01-cve-2023-45642/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/07_research/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/05_detection/</loc>
     <lastmod>2026-11-02T00:00:00+00:00</lastmod>
@@ -17,22 +77,19 @@
     <loc>http://localhost:1313/docs/05_detection/5.1_labs/</loc>
     <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/05_detection/5.1_labs/02-lab-development/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
     <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/05_detection/5.1_labs/01-workshop-intro/</loc>
     <lastmod>2026-11-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/07_research/01-cve/</loc>
-    <lastmod>2026-11-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</loc>
+    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/03-wmic/</loc>
+    <lastmod>2026-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/03_techniques/04-dll/</loc>
     <lastmod>2026-10-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/03_techniques/</loc>

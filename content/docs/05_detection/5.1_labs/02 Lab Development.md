@@ -42,7 +42,7 @@ Foundation
 ![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134839.png)
 
 - Once the installation is completed. login to the Ubuntu Server
-![[Pasted image 20261102141258.png]]
+![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png)
 
 - Next we will set up the Ubuntu server with the nexessary tools. 
 ```bash
@@ -76,7 +76,7 @@ sudo mkdir -p /opt/threat-hunting-lab/scripts/{generators,validation}
 sudo chown -R $USER:$USER /opt/threat-hunting-lab
 ```
 - Once done, our directory structure should look the below;
-![[Pasted image 20261102145540.png]]
+![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png)
 #### 02 Setting up SIEM
 - For the SIEM solution we will use splunk, hence we will set up the splunk enterprise free trial. 
 
@@ -226,9 +226,9 @@ df -h
 free -h
 ```
 - Next login to the Splunk instance using the credentials `hunter:hunter123`
-![[Pasted image 20261102152122.png]]
+![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png)
 
-![[Pasted image 20261102152140.png]]
+![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png)
 
 
 

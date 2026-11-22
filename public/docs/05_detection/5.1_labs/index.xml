@@ -106,7 +106,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once the installation is completed. login to the Ubuntu Server
-![[Pasted image 20261102141258.png]]&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Next we will set up the Ubuntu server with the nexessary tools.&lt;/p&gt;
@@ -165,7 +165,7 @@
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Once done, our directory structure should look the below;
-![[Pasted image 20261102145540.png]]&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;02 Setting up SIEM&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-setting-up-siem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-setting-up-siem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
@@ -409,9 +409,9 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Next login to the Splunk instance using the credentials &lt;code&gt;hunter:hunter123&lt;/code&gt;
-![[Pasted image 20261102152122.png]]&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;![[Pasted image 20261102152140.png]]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;02 Target Architecture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-target-architecture&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
