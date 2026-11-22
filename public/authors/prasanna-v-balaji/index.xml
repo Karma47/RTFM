@@ -16,61 +16,6 @@
     
     
     <item>
-      <title>Challenge</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</link>
-      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;November 22, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;div id=&#34;nn-bank-portal&#34;&gt;
-    &lt;div class=&#34;nn-loading&#34;&gt;
-        Loading Null National Bank exercise...
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;link rel=&#34;stylesheet&#34;
-      href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
-
-&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34;
-        defer&gt;&lt;/script&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Introduction Null National Bank</title>
       <link>http://localhost:1313/docs/05_detection/5.1_labs/03-introduction-nnb/</link>
       <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
@@ -283,6 +228,22 @@
 &lt;h5&gt;Intelligence status&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;intelligence-status&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#intelligence-status&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The Threat Intelligence team is conducting an ongoing assessment and will release additional intelligence in phases, prioritised according to relevance, confidence, and potential impact.&lt;/p&gt;
 &lt;p&gt;The SOC is expected to begin proactive threat hunting without waiting for the intelligence picture to become complete.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Threat Hunting Challenge</title>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</link>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</guid>
+      <description>
+        
+        
+        &lt;p&gt;This exercise now uses separate pages for each challenge.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    href=&#34;../challenge-01/&#34;&gt;Start Challenge 01: Initial Access&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>

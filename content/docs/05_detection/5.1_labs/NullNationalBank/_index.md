@@ -31,4 +31,12 @@ The exercise simulates a hybrid enterprise environment containing:
 - DMZ-hosted web, database and mail servers
 - Centralised Splunk SIEM
 
-[Start Exercise](challenge/)
+[Start Exercise](challenge-01/)
+
+Each challenge contains 10 tasks. Share the initial challenge password with
+participants when the exercise begins; the next challenge's password appears
+only after all 10 flags are validated. Progress is stored in the participant's
+browser.
+
+This static progression gate is intended for guided exercises, not as real
+access control. Passwords and flags can be discovered in the site's JavaScript.

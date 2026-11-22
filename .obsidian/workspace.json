@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/05_detection/5.1_labs/NullNationalBank/challenge.md",
+                "file": "content/docs/05_detection/5.1_labs/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "challenge"
+              "title": "_index"
             }
           }
         ]
@@ -184,21 +184,25 @@
   },
   "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
-    "public/labs/null-national-bank/portal.js",
-    "static/labs/null-national-bank/portal.js",
-    "public/labs/null-national-bank/portal.css",
-    "static/labs/null-national-bank/portal.css",
-    "public/labs/null-national-bank",
-    "static/labs/null-national-bank",
-    "public/labs",
-    "static/labs",
-    "layouts/shortcodes/nn-bank-portal.html",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/nn-bank-portal.html",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/file.html",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/_index.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/challenge.md",
-    "content/docs/05_detection/5.1_labs/03 Introduction NNB.md",
     "content/docs/05_detection/5.1_labs/_index.md",
+    "content/docs/05_detection/5.1_labs/03 Introduction NNB.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/_index.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-01/index.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-03/index.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-04/index.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-05/index.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-02/index.md",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/index.html",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-05",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/index.html",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-04",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/index.html",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-02",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/index.html",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-03",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/index.html",
+    "public/docs/05_detection/5.1_labs/nullnationalbank/challenge-01",
     "content/docs/05_detection/5.1_labs/02 Lab Development.md",
     "public/docs/05_detection/5.1_labs/assets/01_init.drawio.png",
     "static/docs/05_detection/5.1_labs/assets/01_init.drawio.png",
@@ -224,11 +228,6 @@
     "content/docs/04_playbooks/OSWA/_index.md",
     "content/docs/04_playbooks/CISSP/_index.md",
     "content/docs/07_research/04 CVE-2023-25476.md",
-    "content/docs/07_research/03 CVE-2023-45276.md",
-    "content/docs/07_research/02 CVE-2023-45641.md",
-    "content/docs/07_research/01 CVE-2023-45642.md",
-    "content/docs/07_research/05 CVE-2023-41661.md",
-    "content/docs/07_research/06 CVE-2023-40328.md",
-    "content/docs/07_research/07 CVE-2023-37992.md"
+    "content/docs/07_research/03 CVE-2023-45276.md"
   ]
 }

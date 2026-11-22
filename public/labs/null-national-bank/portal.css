@@ -1,68 +1,107 @@
 #nn-bank-portal {
-    max-width: 900px;
+    max-width: 850px;
     margin: 30px auto;
-    color: var(--hx-color-text);
-}
-
-.nn-panel {
-    border: 1px solid var(--hx-color-border);
-    border-radius: 12px;
-    padding: 24px;
-    margin-bottom: 20px;
 }
 
 .nn-header {
-    padding: 28px;
-    border-radius: 12px;
     background: #111827;
-    color: #ffffff;
-    margin-bottom: 24px;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .nn-header h2 {
-    color: #ffffff;
+    color: white;
 }
 
-.nn-muted {
-    color: #94a3b8;
+.nn-panel {
+    padding: 25px;
+    border: 1px solid var(--hx-color-border);
+    border-radius: 12px;
+}
+
+.nn-eyebrow {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+}
+
+.nn-brief {
+    margin: 24px 0;
+}
+
+.nn-brief h3 {
+    margin: 20px 0 6px;
+}
+
+.nn-progress {
+    font-weight: 700;
+}
+
+.nn-task-list {
+    display: grid;
+    gap: 16px;
 }
 
 .nn-task {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 14px;
+    padding: 18px;
     border: 1px solid var(--hx-color-border);
     border-radius: 8px;
-    margin: 10px 0;
 }
 
-.nn-task.locked {
-    opacity: 0.5;
+.nn-task[data-complete="true"] {
+    border-color: #16a34a;
 }
 
-.nn-input {
+.nn-task h3 {
+    margin: 0 0 8px;
+}
+
+.nn-panel label {
+    display: block;
+    font-weight: 700;
+}
+
+.nn-panel input {
     width: 100%;
     padding: 12px;
-    border: 1px solid var(--hx-color-border);
+    margin: 15px 0;
+    border: 1px solid #64748b;
     border-radius: 8px;
-    margin: 12px 0;
 }
 
+.nn-panel button,
 .nn-button {
+    display: inline-block;
     background: #2563eb;
     color: white;
-    padding: 12px 22px;
     border: none;
+    padding: 12px 25px;
     border-radius: 8px;
     cursor: pointer;
+    text-decoration: none;
 }
 
+.nn-panel button:hover,
 .nn-button:hover {
     background: #1d4ed8;
+    color: white;
 }
 
-.nn-status {
-    margin-top: 12px;
-    font-size: 14px;
+.nn-message {
+    margin-top: 15px;
+}
+
+.nn-next-password {
+    margin: 20px 0;
+}
+
+.nn-next-password code {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background: #e2e8f0;
+    color: #0f172a;
+    font-size: 1.1rem;
 }

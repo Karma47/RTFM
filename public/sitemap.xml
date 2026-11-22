@@ -8,9 +8,6 @@
     <loc>http://localhost:1313/authors/</loc>
     <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</loc>
-    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/05_detection/</loc>
     <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/prasanna-v-balaji/</loc>
+    <lastmod>2026-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/</loc>
     <lastmod>2026-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/07_research/10-cve-2023-24390/</loc>
@@ -186,6 +186,16 @@
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/aswin-balaji/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/</loc>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/</loc>
   </url><url>
     <loc>http://localhost:1313/docs/04_playbooks/oswa/</loc>
   </url><url>

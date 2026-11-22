@@ -9,47 +9,20 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
 <title>Threat Hunting Challenge – RTFM</title>
-  <meta name="description" content=" By: Prasanna | November 22, 2026 " /><link rel="canonical" href="http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/" itemprop="url" />
+  <meta name="description" content="Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
+The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.
+Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.
+Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services." /><link rel="canonical" href="http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge/" itemprop="url" />
 
 <meta property="og:title" content="Threat Hunting Challenge">
 <meta
   property="og:description"
   content="
     
-      
-  
-    
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          
-            
-                
-            
-            Prasanna
-          
-        
-      
-    
-  
-
-  
-    |
-    November 22, 2026
-  
-
-
-
-
+      Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
+The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.
+Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.
+Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services.
     
   ">
 <meta
@@ -71,14 +44,20 @@
 
 
 	<meta itemprop="name" content="Threat Hunting Challenge">
-	<meta itemprop="description" content="By: Prasanna | November 22, 2026">
+	<meta itemprop="description" content="Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
+The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.
+Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.
+Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services.">
 	<meta itemprop="datePublished" content="2026-11-22T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-11-22T00:00:00+00:00">
-	<meta itemprop="wordCount" content="6">
+	<meta itemprop="wordCount" content="576">
 	<meta itemprop="keywords" content="Prasanna V Balaji">
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="Threat Hunting Challenge">
-	<meta name="twitter:description" content="By: Prasanna | November 22, 2026">
+	<meta name="twitter:description" content="Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
+The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.
+Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.
+Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services.">
 <link href="/css/compiled/main.css" rel="stylesheet" />
     <link href="/css/variables.css" rel="stylesheet" />
     <link href="/css/custom.css" rel="stylesheet" />
@@ -138,7 +117,7 @@
       href="/docs/05_detection/5.1_labs/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Detection labs</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge</span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -164,19 +143,67 @@
     </a>
   </div>
   
+    <ul class='hx:flex hx:flex-col hx:gap-1 hx:relative hx:before:absolute hx:before:inset-y-1 hx:before:w-px hx:before:bg-gray-200 hx:before:content-[""] hx:dark:before:bg-neutral-800 hx:ltr:pl-3 hx:ltr:before:left-0 hx:rtl:pr-3 hx:rtl:before:right-0 hx:ltr:ml-3 hx:rtl:mr-3'><li>
+              <a
+                href="#"
+                class="hx:flex hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [word-break:break-word] hx:cursor-pointer [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:contrast-more:border hx:gap-2 hx:before:opacity-25 hx:before:content-['#'] hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:text-gray-900 hx:contrast-more:dark:text-gray-50 hx:contrast-more:border-transparent hx:contrast-more:hover:border-gray-900 hx:contrast-more:dark:hover:border-gray-50"
+              ></a>
+            </li>
+          </ul>
+  
               
-            </li></ul>
-      </div>
             </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/05_detection/5.1_labs/03-introduction-nnb/"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Introduction Null National Bank</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 01 - Initial Access</span>
     </a>
   </div>
               
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 02 - Execution and Persistence</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 03 - Privilege Escalation</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 04 - Lateral Movement</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 05 - Domain Compromise</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
             </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
@@ -796,7 +823,7 @@
       href="/docs/05_detection/5.1_labs/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Detection labs</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge</span>
     </a>
       <button type="button" class="hextra-sidebar-collapsible-button hx:absolute hx:top-1/2 hx:-translate-y-1/2 hx:ltr:right-2 hx:rtl:left-2 hx:shrink-0 hx:cursor-pointer hx:p-0 hx:text-gray-500 hx:dark:text-neutral-400 hx:group-hover:text-gray-900 hx:dark:group-hover:text-gray-50 hx:group-data-[active=true]:text-primary-800 hx:group-data-[active=true]:dark:text-primary-600 hx:hextra-focus-visible-inset" aria-label="Toggle section" aria-expanded="true"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:h-[18px] hx:min-w-[18px] hx:rounded-xs hx:p-0.5 hx:hover:bg-gray-800/5 hx:dark:hover:bg-gray-100/5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" class="hx:origin-center hx:transition-transform hx:rtl:-rotate-180"></path></svg></button>
   </div>
@@ -822,18 +849,58 @@
     </a>
   </div>
               
-            </li></ul>
-      </div>
             </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
-      href="/docs/05_detection/5.1_labs/03-introduction-nnb/"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/"
       
     >
-      <span class="hx:min-w-0 [word-break:break-word]">Introduction Null National Bank</span>
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 01 - Initial Access</span>
     </a>
   </div>
               
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 02 - Execution and Persistence</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 03 - Privilege Escalation</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 04 - Lateral Movement</span>
+    </a>
+  </div>
+              
+            </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">Challenge 05 - Domain Compromise</span>
+    </a>
+  </div>
+              
+            </li></ul>
+      </div>
             </li><li class="hx:flex hx:flex-col "><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none] hx:hextra-focus-visible-inset hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
@@ -1496,8 +1563,36 @@
 </div></div></aside>
     
 <nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="Table of contents">
-    <div class="hextra-scrollbar hx:sticky hx:top-[var(--hextra-navbar-height)] hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--hextra-navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4">
-      <div class=" hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
+    <div class="hextra-scrollbar hx:sticky hx:top-[var(--hextra-navbar-height)] hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--hextra-navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#technical-architecture">Technical Architecture
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#scenario-overview">Scenario overview
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#users-and-groups">Users and Groups
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#internal-network--101010024">Internal network — 10.10.10.0/24
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#dmz-network--1721610024">DMZ network — 172.16.10.0/24
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#current-situation">Current situation
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-12 hx:rtl:pr-12 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#intelligence-status">Intelligence status
+        </a>
+      </li></ul>
+      <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
         <button id="backToTop" tabindex="-1" class="hx:cursor-pointer hx:transition-all hx:duration-75 hx:opacity-0 hx:text-xs hx:font-medium hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">
           <span>Scroll to top</span>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:inline hx:ltr:ml-1 hx:rtl:mr-1 hx:h-3.5 hx:w-3.5 hx:rounded-full hx:border hx:border-gray-500 hx:hover:border-gray-900 hx:dark:border-gray-400 hx:dark:hover:border-gray-100 hx:contrast-more:border-gray-800 hx:contrast-more:dark:border-gray-50">
@@ -1520,7 +1615,7 @@
           <a href="/docs/05_detection/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Detection</a>
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
-          <a href="/docs/05_detection/5.1_labs/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Detection labs</a>
+          <a href="/docs/05_detection/5.1_labs/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Challenge</a>
         </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
           <a href="/docs/05_detection/5.1_labs/nullnationalbank/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Detection labs</a>
@@ -1535,44 +1630,198 @@
             </div>
           
           
-          <div style="margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
-  
-    <span style="display: flex; align-items: center; gap: 6px;">
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          <a href="https://www.linkedin.com/in/prasannavbalaji" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;" onmouseover="this.style.borderBottom='1px solid #0a66c2'" onmouseout="this.style.borderBottom='1px solid transparent'">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-            </svg>
-            Prasanna
-          </a>
-        
-      
-    </span>
-  
+          <p>Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.</p>
+<p>The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.</p>
+<p>Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.</p>
+<p>Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services.</p>
+<p>The organization maintains a centralised Security Operations Centre (SOC), supported by Endpoint Detection and Response (EDR), Security Information and Event Management (SIEM), network monitoring, and threat intelligence capabilities.</p>
+<p>The SOC is responsible for monitoring the organization&rsquo;s technology environment, investigating suspicious activity, and proactively identifying potential threats that may bypass existing security controls.</p>
+<h4>Technical Architecture<span class="hx:absolute hx:-mt-20" id="technical-architecture"></span>
+    <a href="#technical-architecture" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p><img src="/docs/05_detection/5.1_labs/assets/mermaid-diagram.png" alt=""  loading="lazy" /></p>
+<h4>Scenario overview<span class="hx:absolute hx:-mt-20" id="scenario-overview"></span>
+    <a href="#scenario-overview" class="subheading-anchor" aria-label="Permalink for this section"></a></h4><p>The organization has received preliminary threat intelligence suggesting that it may be a target of a coordinated cyber campaign. The intelligence indicates potential adversarial interest in the organization, although the credibility, scope, and relevance of the information are still being assessed.</p>
+<p>At this stage, there is no confirmed evidence of a successful compromise. However, the Intelligence Team believes the following infrastructure may be linked to the attack.</p>
+<p><strong>Domain : <code>NullNationalBank.com</code></strong></p>
+<p><img src="/docs/05_detection/5.1_labs/assets/01_init.drawio.png" alt=""  loading="lazy" /></p>
+<p>The network is segmented into two subnets, managed by the central router <strong>IDS1</strong>:</p>
+<ul>
+<li><strong>Internal Network (10.10.10.0/24):</strong> Hosts employee workstations and internal servers.</li>
+<li><strong>DMZ (172.16.10.0/24):</strong> Hosts DB1, WEB1, and MAIL1, exposing their respective services to the internet through NAT on IDS1.</li>
+</ul>
+<p>Internal servers include:</p>
+<ul>
+<li><strong>FILE1:</strong> Departmental file shares (SMB).</li>
+<li><strong>INTERNAL1:</strong> Enterprise applications.</li>
+<li><strong>DC1:</strong> Domain Controller for Meridian National Bank.</li>
+</ul>
+<p>The <strong>Splunk SIEM</strong> centrally collects telemetry from endpoints, including Windows Event Logs, PowerShell Script Block Logging, and Sysmon, enabling security monitoring, correlation, and threat detection across the environment.</p>
+<h5><strong>Users and Groups</strong><span class="hx:absolute hx:-mt-20" id="users-and-groups"></span>
+    <a href="#users-and-groups" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><table>
+	<thead>
+			<tr>
+					<th>Name</th>
+					<th>Username</th>
+					<th>Department</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Rajesh Kumar (DA)</td>
+					<td><code>rajesh.kumar</code></td>
+					<td>IT</td>
+			</tr>
+			<tr>
+					<td>Arjun Menon</td>
+					<td><code>arjun.menon</code></td>
+					<td>IT</td>
+			</tr>
+			<tr>
+					<td>Priya Sharma</td>
+					<td><code>priya.sharma</code></td>
+					<td>IT</td>
+			</tr>
+			<tr>
+					<td>Ananya Iyer</td>
+					<td><code>ananya.iyer</code></td>
+					<td>HR</td>
+			</tr>
+			<tr>
+					<td>Kavitha Reddy</td>
+					<td><code>kavitha.reddy</code></td>
+					<td>HR</td>
+			</tr>
+			<tr>
+					<td>Vikram Patel</td>
+					<td><code>vikram.patel</code></td>
+					<td>Finance</td>
+			</tr>
+			<tr>
+					<td>Neha Gupta</td>
+					<td><code>neha.gupta</code></td>
+					<td>Finance</td>
+			</tr>
+			<tr>
+					<td>Rahul Verma</td>
+					<td><code>rahul.verma</code></td>
+					<td>Finance</td>
+			</tr>
+			<tr>
+					<td>Sneha Nair</td>
+					<td><code>sneha.nair</code></td>
+					<td>Marketing</td>
+			</tr>
+			<tr>
+					<td>Divya Krishnan</td>
+					<td><code>divya.krishnan</code></td>
+					<td>Marketing</td>
+			</tr>
+			<tr>
+					<td>Amit Shah</td>
+					<td><code>amit.shah</code></td>
+					<td>Sales</td>
+			</tr>
+			<tr>
+					<td>Karan Malhotra</td>
+					<td><code>karan.malhotra</code></td>
+					<td>Sales</td>
+			</tr>
+			<tr>
+					<td>Meera Joshi</td>
+					<td><code>meera.joshi</code></td>
+					<td>Sales</td>
+			</tr>
+	</tbody>
+</table>
+<h5><strong>Internal network —</strong> <code>10.10.10.0/24</code><span class="hx:absolute hx:-mt-20" id="internal-network--101010024"></span>
+    <a href="#internal-network--101010024" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><table>
+	<thead>
+			<tr>
+					<th>Hostname</th>
+					<th>IP</th>
+					<th>Function</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>MN-DC01</code></td>
+					<td><code>10.10.10.10</code></td>
+					<td>Primary Domain Controller / DNS</td>
+			</tr>
+			<tr>
+					<td><code>MN-FS01</code></td>
+					<td><code>10.10.10.20</code></td>
+					<td>File server</td>
+			</tr>
+			<tr>
+					<td><code>MN-APP01</code></td>
+					<td><code>10.10.10.30</code></td>
+					<td>Internal business application server</td>
+			</tr>
+			<tr>
+					<td><code>MN-SIEM01</code></td>
+					<td><code>10.10.10.40</code></td>
+					<td>SIEM / log analytics</td>
+			</tr>
+			<tr>
+					<td><code>MN-PAM01</code></td>
+					<td><code>10.10.10.50</code></td>
+					<td>Privileged Access Management</td>
+			</tr>
+	</tbody>
+</table>
+<h5><strong>DMZ network —</strong> <code>172.16.10.0/24</code><span class="hx:absolute hx:-mt-20" id="dmz-network--1721610024"></span>
+    <a href="#dmz-network--1721610024" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><table>
+	<thead>
+			<tr>
+					<th>Hostname</th>
+					<th>IP</th>
+					<th>Function</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>MN-WEB01</code></td>
+					<td><code>172.16.10.10</code></td>
+					<td>Internet-facing banking web portal</td>
+			</tr>
+			<tr>
+					<td><code>MN-DB01</code></td>
+					<td><code>172.16.10.20</code></td>
+					<td>Banking portal database</td>
+			</tr>
+			<tr>
+					<td><code>MN-MAIL01</code></td>
+					<td><code>172.16.10.30</code></td>
+					<td>Mail gateway</td>
+			</tr>
+	</tbody>
+</table>
+<h5>Current situation<span class="hx:absolute hx:-mt-20" id="current-situation"></span>
+    <a href="#current-situation" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>During the past 24 hours, the organization has experienced several significant service disruptions affecting business-critical systems. While initial investigations have not established a definitive cause, the frequency and timing of these disruptions have raised concerns within the SOC.</p>
+<p>Separately, the SOC has identified a collection of indicators that have appeared repeatedly across security monitoring, investigations, and threat detection activities over the past two quarters.</p>
+<p>Although none of these indicators has independently established a security incident, their recurrence, combined with the recent operational disruptions and emerging intelligence, warrants further investigation.</p>
+<h5>Intelligence status<span class="hx:absolute hx:-mt-20" id="intelligence-status"></span>
+    <a href="#intelligence-status" class="subheading-anchor" aria-label="Permalink for this section"></a></h5><p>The Threat Intelligence team is conducting an ongoing assessment and will release additional intelligence in phases, prioritised according to relevance, confidence, and potential impact.</p>
+<p>The SOC is expected to begin proactive threat hunting without waiting for the intelligence picture to become complete.</p>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">TH Challenge</span>
+  </p>
 
-  
-    <span style="color: #d1d5db;">|</span>
-    <time style="font-style: italic;">November 22, 2026</time>
-  
+  <div class="hextra-alert-content"><p>Contents
+<a
+    href="../challenge-01/">Start Challenge 01: Initial Access</a>
+This exercise now uses separate pages for each challenge.</p></div>
 </div>
-<div id="nn-bank-portal"></div>
-<link rel="stylesheet" href="/labs/null-national-bank/portal.css">
-<script src="/labs/null-national-bank/portal.js" defer></script>
 
           
         </div>
-        <div class="hx:mt-16"></div>
+        <div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+        href="/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/"
+        title="Challenge 01 - Initial Access"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
+      >Challenge 01 - Initial Access<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
         
       </main>
     </article>
