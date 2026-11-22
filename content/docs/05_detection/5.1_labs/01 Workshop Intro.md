@@ -33,3 +33,4 @@ The workshop will follow a scenario-based approach, where participants act as Th
 | Web browser         | Required                 | Required           |
 | Internet            | Download/setup           | Required           |
 | Splunk installation | Preinstalled             | Preinstalled       |
+

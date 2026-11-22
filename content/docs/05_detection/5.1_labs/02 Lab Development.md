@@ -234,3 +234,4 @@ free -h
 
 #### 02 Target Architecture
 ![](/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png)
+
