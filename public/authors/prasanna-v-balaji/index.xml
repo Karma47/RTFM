@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Prasanna V Balaji</title>
-    <link>http://localhost:1313/authors/prasanna-v-balaji/</link>
+    <link>http://localhost:1315/authors/prasanna-v-balaji/</link>
     <description>Recent content in Prasanna V Balaji on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1315/authors/prasanna-v-balaji/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Threat Hunting Challenge</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
+      <link>http://localhost:1315/docs/05_detection/5.1_labs/nullnationalbank/</link>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</guid>
+      <guid>http://localhost:1315/docs/05_detection/5.1_labs/nullnationalbank/</guid>
       <description>
         
         
@@ -31,12 +31,12 @@
 &lt;p&gt;The organization maintains a centralised Security Operations Centre (SOC), supported by Endpoint Detection and Response (EDR), Security Information and Event Management (SIEM), network monitoring, and threat intelligence capabilities.&lt;/p&gt;
 &lt;p&gt;The SOC is responsible for monitoring the organization&amp;rsquo;s technology environment, investigating suspicious activity, and proactively identifying potential threats that may bypass existing security controls.&lt;/p&gt;
 &lt;h4&gt;Technical Architecture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;technical-architecture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#technical-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/mermaid-diagram.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#technical-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/mermaid-diagram.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;Scenario overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;scenario-overview&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#scenario-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The organization has received preliminary threat intelligence suggesting that it may be a target of a coordinated cyber campaign. The intelligence indicates potential adversarial interest in the organization, although the credibility, scope, and relevance of the information are still being assessed.&lt;/p&gt;
 &lt;p&gt;At this stage, there is no confirmed evidence of a successful compromise. However, the Intelligence Team believes the following infrastructure may be linked to the attack.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Domain : &lt;code&gt;NullNationalBank.com&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/assets/01_NullBank_Network_Diagram.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/nullnationalbank/assets/01_NullBank_Network_Diagram.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 The network is segmented into two subnets, managed by the central router &lt;strong&gt;IDS1&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Internal Network (10.10.10.0/24):&lt;/strong&gt; Hosts employee workstations and internal servers.&lt;/li&gt;
@@ -202,17 +202,17 @@ The network is segmented into two subnets, managed by the central router &lt;str
 and reveal the next challenge password. Progress is stored in the participant&amp;rsquo;s
 browser.&lt;/p&gt;
 &lt;p&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/&#34;&gt;Start Challenge 01: Initial Access&lt;/a&gt;&lt;/p&gt;
+    href=&#34;http://localhost:1315/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/&#34;&gt;Start Challenge 01: Initial Access&lt;/a&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>CVE-2023-24390</title>
-      <link>http://localhost:1313/docs/07_research/10-cve-2023-24390/</link>
+      <link>http://localhost:1315/docs/07_research/10-cve-2023-24390/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/10-cve-2023-24390/</guid>
+      <guid>http://localhost:1315/docs/07_research/10-cve-2023-24390/</guid>
       <description>
         
         
@@ -342,10 +342,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-25452</title>
-      <link>http://localhost:1313/docs/07_research/14-cve-2023-25452/</link>
+      <link>http://localhost:1315/docs/07_research/14-cve-2023-25452/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/14-cve-2023-25452/</guid>
+      <guid>http://localhost:1315/docs/07_research/14-cve-2023-25452/</guid>
       <description>
         
         
@@ -475,10 +475,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-25476</title>
-      <link>http://localhost:1313/docs/07_research/04-cve-2023-25476/</link>
+      <link>http://localhost:1315/docs/07_research/04-cve-2023-25476/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/04-cve-2023-25476/</guid>
+      <guid>http://localhost:1315/docs/07_research/04-cve-2023-25476/</guid>
       <description>
         
         
@@ -608,10 +608,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-25974</title>
-      <link>http://localhost:1313/docs/07_research/16-cve-2023-25974/</link>
+      <link>http://localhost:1315/docs/07_research/16-cve-2023-25974/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/16-cve-2023-25974/</guid>
+      <guid>http://localhost:1315/docs/07_research/16-cve-2023-25974/</guid>
       <description>
         
         
@@ -741,10 +741,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-26516</title>
-      <link>http://localhost:1313/docs/07_research/12-cve-2023-26516/</link>
+      <link>http://localhost:1315/docs/07_research/12-cve-2023-26516/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/12-cve-2023-26516/</guid>
+      <guid>http://localhost:1315/docs/07_research/12-cve-2023-26516/</guid>
       <description>
         
         
@@ -874,10 +874,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-26522</title>
-      <link>http://localhost:1313/docs/07_research/15-cve-2023-26522/</link>
+      <link>http://localhost:1315/docs/07_research/15-cve-2023-26522/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/15-cve-2023-26522/</guid>
+      <guid>http://localhost:1315/docs/07_research/15-cve-2023-26522/</guid>
       <description>
         
         
@@ -1005,10 +1005,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-26527</title>
-      <link>http://localhost:1313/docs/07_research/17-cve-2023-26527/</link>
+      <link>http://localhost:1315/docs/07_research/17-cve-2023-26527/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/17-cve-2023-26527/</guid>
+      <guid>http://localhost:1315/docs/07_research/17-cve-2023-26527/</guid>
       <description>
         
         
@@ -1138,10 +1138,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-26541</title>
-      <link>http://localhost:1313/docs/07_research/18-cve-2023-26541/</link>
+      <link>http://localhost:1315/docs/07_research/18-cve-2023-26541/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/18-cve-2023-26541/</guid>
+      <guid>http://localhost:1315/docs/07_research/18-cve-2023-26541/</guid>
       <description>
         
         
@@ -1271,10 +1271,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-28168</title>
-      <link>http://localhost:1313/docs/07_research/13-cve-2023-28168/</link>
+      <link>http://localhost:1315/docs/07_research/13-cve-2023-28168/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/13-cve-2023-28168/</guid>
+      <guid>http://localhost:1315/docs/07_research/13-cve-2023-28168/</guid>
       <description>
         
         
@@ -1402,10 +1402,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-30477</title>
-      <link>http://localhost:1313/docs/07_research/12-cve-2023-30477/</link>
+      <link>http://localhost:1315/docs/07_research/12-cve-2023-30477/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/12-cve-2023-30477/</guid>
+      <guid>http://localhost:1315/docs/07_research/12-cve-2023-30477/</guid>
       <description>
         
         
@@ -1535,10 +1535,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-30754</title>
-      <link>http://localhost:1313/docs/07_research/11-cve-2023-30754/</link>
+      <link>http://localhost:1315/docs/07_research/11-cve-2023-30754/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/11-cve-2023-30754/</guid>
+      <guid>http://localhost:1315/docs/07_research/11-cve-2023-30754/</guid>
       <description>
         
         
@@ -1668,10 +1668,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-33208</title>
-      <link>http://localhost:1313/docs/07_research/08-cve-2023-33208/</link>
+      <link>http://localhost:1315/docs/07_research/08-cve-2023-33208/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/08-cve-2023-33208/</guid>
+      <guid>http://localhost:1315/docs/07_research/08-cve-2023-33208/</guid>
       <description>
         
         
@@ -1801,10 +1801,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-37992</title>
-      <link>http://localhost:1313/docs/07_research/07-cve-2023-37992/</link>
+      <link>http://localhost:1315/docs/07_research/07-cve-2023-37992/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/07-cve-2023-37992/</guid>
+      <guid>http://localhost:1315/docs/07_research/07-cve-2023-37992/</guid>
       <description>
         
         
@@ -1934,10 +1934,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-40328</title>
-      <link>http://localhost:1313/docs/07_research/06-cve-2023-40328/</link>
+      <link>http://localhost:1315/docs/07_research/06-cve-2023-40328/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/06-cve-2023-40328/</guid>
+      <guid>http://localhost:1315/docs/07_research/06-cve-2023-40328/</guid>
       <description>
         
         
@@ -2067,10 +2067,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-41661</title>
-      <link>http://localhost:1313/docs/07_research/05-cve-2023-41661/</link>
+      <link>http://localhost:1315/docs/07_research/05-cve-2023-41661/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/05-cve-2023-41661/</guid>
+      <guid>http://localhost:1315/docs/07_research/05-cve-2023-41661/</guid>
       <description>
         
         
@@ -2200,10 +2200,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-45276</title>
-      <link>http://localhost:1313/docs/07_research/03-cve-2023-45276/</link>
+      <link>http://localhost:1315/docs/07_research/03-cve-2023-45276/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/03-cve-2023-45276/</guid>
+      <guid>http://localhost:1315/docs/07_research/03-cve-2023-45276/</guid>
       <description>
         
         
@@ -2333,10 +2333,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-45641</title>
-      <link>http://localhost:1313/docs/07_research/02-cve-2023-45641/</link>
+      <link>http://localhost:1315/docs/07_research/02-cve-2023-45641/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/02-cve-2023-45641/</guid>
+      <guid>http://localhost:1315/docs/07_research/02-cve-2023-45641/</guid>
       <description>
         
         
@@ -2466,10 +2466,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>CVE-2023-45642</title>
-      <link>http://localhost:1313/docs/07_research/01-cve-2023-45642/</link>
+      <link>http://localhost:1315/docs/07_research/01-cve-2023-45642/</link>
       <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/07_research/01-cve-2023-45642/</guid>
+      <guid>http://localhost:1315/docs/07_research/01-cve-2023-45642/</guid>
       <description>
         
         
@@ -2599,10 +2599,10 @@ browser.&lt;/p&gt;
     
     <item>
       <title>Lab Development</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/01-lab-development/</link>
+      <link>http://localhost:1315/docs/05_detection/5.1_labs/labdev/01-lab-development/</link>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/01-lab-development/</guid>
+      <guid>http://localhost:1315/docs/05_detection/5.1_labs/labdev/01-lab-development/</guid>
       <description>
         
         
@@ -2663,32 +2663,32 @@ browser.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://ubuntu.com/download&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ubuntu.com/download&lt;/a&gt;
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130536.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130536.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Create a new VM in VMWare
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134231.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134231.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Choose the Ubuntu Server ISO file and proceed to next.
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134335.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134335.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once setup, install the Ubuntu Server from the Live ISO file.
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134539.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134539.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;SInce it&amp;rsquo;s a VM for a Lab environment, the server settings are pretty much straight forward.
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134705.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134705.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Set up the &lt;code&gt;username&lt;/code&gt; credentials and it starts installing.
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134839.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102134839.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Once the installation is completed. login to the Ubuntu Server
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102141258.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Next we will set up the Ubuntu server with the nexessary tools.&lt;/p&gt;
@@ -2747,7 +2747,7 @@ browser.&lt;/p&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Once done, our directory structure should look the below;
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102145540.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;02 Setting up SIEM&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-setting-up-siem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#02-setting-up-siem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
@@ -2991,21 +2991,21 @@ free -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Next login to the Splunk instance using the credentials &lt;code&gt;hunter:hunter123&lt;/code&gt;
-&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152122.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102152140.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h4&gt;02 Target Architecture&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-target-architecture&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#02-target-architecture&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/05_detection/5.1_labs/assets/Pasted_image_20261102130458.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>Lab Development</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/02-lab-development/</link>
+      <link>http://localhost:1315/docs/05_detection/5.1_labs/labdev/02-lab-development/</link>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/02-lab-development/</guid>
+      <guid>http://localhost:1315/docs/05_detection/5.1_labs/labdev/02-lab-development/</guid>
       <description>
         
         
@@ -3443,10 +3443,10 @@ ls -la ~/NullNationalBank/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#3
     
     <item>
       <title>Lab Development</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/03-scenario/</link>
+      <link>http://localhost:1315/docs/05_detection/5.1_labs/labdev/scenarios/03-scenario/</link>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/03-scenario/</guid>
+      <guid>http://localhost:1315/docs/05_detection/5.1_labs/labdev/scenarios/03-scenario/</guid>
       <description>
         
         
@@ -4093,655 +4093,11 @@ ls -la ~/NullNationalBank/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#3
     </item>
     
     <item>
-      <title>Lab Development - Phase 1</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-1-of-5/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-1-of-5/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Supply-Chain Entry &amp;amp; Initial Foothold (Stages 1–10)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;supply-chain-entry--initial-foothold-stages-110&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#supply-chain-entry--initial-foothold-stages-110&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Scenario file:&lt;/strong&gt; &lt;code&gt;cinderlink-part-01.yaml&lt;/code&gt; (&lt;code&gt;nbk-002-operation-cinderlink-part-01&lt;/code&gt;) &lt;strong&gt;Time window:&lt;/strong&gt; 2025-06-03T00:00:00Z · duration 44d22h · warmup 3d &lt;strong&gt;Covers master-chain stages:&lt;/strong&gt; 1–10 (Phases 1–2: supply-chain entry, first C2)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Target environment:&lt;/strong&gt; Null National Bank, Chennai — hybrid estate, internal 10.10.10.0/24, DMZ 172.16.10.0/24 behind IDS1, Splunk SIEM on MN-SIEM01 (Windows Event Logs, PowerShell Script Block Logging, Sysmon).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Attacker profile:&lt;/strong&gt; Financially motivated APT hybrid — espionage-grade tradecraft (APT29/Turla dwell discipline) with a banking objective (Carbanak-style endgame). Entry vector is a trojanized third-party ERP plug-in (SolarWinds pattern).&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Threat-intel anchor:&lt;/strong&gt; &lt;code&gt;NullNationalBank.com&lt;/code&gt; — attacker-controlled lookalike domain (ATT&amp;amp;CK PRE: T1583.001).&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Storyline stages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;storyline-stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storyline-stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Stage ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Reference APT&lt;/th&gt;
-					&lt;th&gt;ATT&amp;amp;CK&lt;/th&gt;
-					&lt;th&gt;EvidenceForge events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;1&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;vendor-build-compromise&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Trojanized update logic inserted into vendor ERP plug-in build pipeline&lt;/td&gt;
-					&lt;td&gt;SolarWinds Orion (APT29)&lt;/td&gt;
-					&lt;td&gt;T1195.002 (Compromise Software Supply Chain) + T1553.002 (Code Signing)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; (build-runner) + &lt;code&gt;raw&lt;/code&gt;/syslog (code_signing evidence: cert subject CN=Northvale Systems, signed_hash_change)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;2&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;signed-update-ships&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Valid-signature malicious update &lt;code&gt;NorthvaleERPSync-4.7.2.msi&lt;/code&gt; deploys to MN-APP01 + ~40 workstations; new DLL hash &lt;code&gt;9f2c4b77…&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;SolarWinds / CCleaner&lt;/td&gt;
-					&lt;td&gt;T1195.002 + T1036.005 (Masquerading: Match Legitimate Name/Location)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; (msiexec /qn) + &lt;code&gt;raw&lt;/code&gt;/syslog (file_write evidence: path + new hash)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;3&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;dormancy-period&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Plug-in silent ~5 weeks; only odd-hours (02:47 local) config file reads on telemetry.toml&lt;/td&gt;
-					&lt;td&gt;SolarWinds (classic dwell)&lt;/td&gt;
-					&lt;td&gt;T1027 (Obfuscated Files or Information)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (file_read evidence) — the only event in an otherwise deliberate quiet gap&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;4&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;lookalike-dns-beacon&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Resolves &lt;code&gt;4b6e582e7a.update.&lt;/code&gt; / &lt;code&gt;c81af931.cdn.nullnationalbank.com&lt;/code&gt; from MN-APP01 (10.10.10.30) and workstation .110; first recurring SOC indicator&lt;/td&gt;
-					&lt;td&gt;SolarWinds-style C2 scheme&lt;/td&gt;
-					&lt;td&gt;T1071.004 (DNS) + T1583.001 (Acquire Domains)&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;dns_query&lt;/code&gt; (source_ip, query, answer 198.51.100.140)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;5&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;encoded-task-activation&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;60-hour-jitter HTTPS beacon starts; user-agent spoofs &lt;code&gt;NorthvaleUpdateService/4.7&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;3CX (Lazarus-linked)&lt;/td&gt;
-					&lt;td&gt;T1071.001 (Web Protocols) + T1132.001 (Data Encoding)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; (443/ssl, SF, 5.1 KB up / 184 KB down, user_agent field)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;6&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;target-gating-check&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Off-target workstations (.109, Marketing/Sales fleet) self-uninstall within minutes; bank-targeted hosts persist&lt;/td&gt;
-					&lt;td&gt;ASUS ShadowHammer&lt;/td&gt;
-					&lt;td&gt;T1036.005&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; (msiexec /x {GUID} /qn) on MN-WS-109&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;7&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;suspicious-parent-child&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;ERP service NVPluginSvc.exe spawns mshta → PowerShell encoded-command from %ProgramData%&lt;/td&gt;
-					&lt;td&gt;3CX (Lazarus-linked)&lt;/td&gt;
-					&lt;td&gt;T1059.007 (Mshta) + T1059.001 (PowerShell)&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;process&lt;/code&gt; + 2× &lt;code&gt;raw&lt;/code&gt;/syslog (parent_process_name lineage preserved as evidence JSON)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;8&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;dll-sideload-chain&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Unsigned &lt;code&gt;NVUtils.dll&lt;/code&gt; side-loaded into signed vendor binary on infected workstations (.102, .104, .106–.108)&lt;/td&gt;
-					&lt;td&gt;Turla Snake / Uroburos&lt;/td&gt;
-					&lt;td&gt;T1574.002 (DLL Side-Loading)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (loaded_into, signed:false evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;9&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;first-tier-c2&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Beacons via hijacked Chennai-region web host (103.21.58.19) as dead-drop resolver; irregular 48–72h jitter&lt;/td&gt;
-					&lt;td&gt;Equation Group operations&lt;/td&gt;
-					&lt;td&gt;T1584.006 (Web Services) + T1071.001&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (beacon_interval_hint)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;10&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;redirector-handoff&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Second-tier redirector (185.220.101.44); same spoofed UA, mismatched TLS/JA3 fingerprint&lt;/td&gt;
-					&lt;td&gt;APT29 (Operation Ghost)&lt;/td&gt;
-					&lt;td&gt;T1090.002 (Proxy: External Proxy)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (ja3_hint)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Red herrings (this part only)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red-herrings-this-part-only&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#red-herrings-this-part-only&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Explanation&lt;/th&gt;
-					&lt;th&gt;Events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;routine-it-directory-check&lt;/code&gt; (+0s)&lt;/td&gt;
-					&lt;td&gt;Routine directory-health logon from priya.sharma&amp;rsquo;s assigned IT workstation&lt;/td&gt;
-					&lt;td&gt;Ordinary IT operations, unrelated to the intrusion&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; type 3 from 10.10.10.103&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;&lt;code&gt;legitimate-vendor-update-cadence&lt;/code&gt; (+11d22h)&lt;/td&gt;
-					&lt;td&gt;Clean vendor update &lt;code&gt;NorthvaleERPSync-4.7.1.msi&lt;/code&gt; in normal monthly cadence — &lt;em&gt;inside the dormancy gap&lt;/em&gt;&lt;/td&gt;
-					&lt;td&gt;Shares the vendor user-agent the attacker later spoofs; tests whether hunters validate hashes rather than user-agents&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; (msiexec) + &lt;code&gt;raw&lt;/code&gt;/syslog (clean:true, signed:true)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Generator &amp;amp; hunting notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generator--hunting-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#generator--hunting-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Event spacing:&lt;/strong&gt; &lt;code&gt;automated&lt;/code&gt;, 1–50 s between events within each stage.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Raw/syslog wrapper:&lt;/strong&gt; unsupported descriptive fields (hashes, lineage, hints) are carried as JSON in the &lt;code&gt;message&lt;/code&gt; field of &lt;code&gt;raw&lt;/code&gt; events with &lt;code&gt;app_name: cinderlink&lt;/code&gt; — they appear in the syslog output plane only, so cross-referencing syslog with the structured planes (zeek, sysmon, security) is part of the intended hunt workflow.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Quiet period:&lt;/strong&gt; no storyline events between stage 2 (+2d22h) and stage 4 (+37d22h) except the stage-3 single file_read and the two red herrings. Time-boxed hunts over short windows will miss the entry vector by design.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Early detection opportunities for players:&lt;/strong&gt; the DNS beacon pattern (stage 4), msiexec install/uninstall asymmetry (stage 6), mshta parent-child chain (stage 7).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Output formats:&lt;/strong&gt; bash_history, windows_event_security, windows_event_sysmon, ecar, syslog, zeek_conn, zeek_dns, zeek_http, cisco_asa → &lt;code&gt;./datasets/NBK-002&lt;/code&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Lab Development - Phase 2</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-2-of-5/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-2-of-5/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;C2 Handoff &amp;amp; Internal Discovery (Stages 11–20)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;c2-handoff--internal-discovery-stages-1120&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#c2-handoff--internal-discovery-stages-1120&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Scenario file:&lt;/strong&gt; &lt;code&gt;cinderlink-part-02.yaml&lt;/code&gt; (&lt;code&gt;nbk-002-operation-cinderlink-part-02&lt;/code&gt;) &lt;strong&gt;Time window:&lt;/strong&gt; 2025-07-14T22:00:00Z · duration 30d · warmup 3d &lt;strong&gt;Covers master-chain stages:&lt;/strong&gt; 9–20 (end of Phase 2, into Phase 3 discovery)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Target environment:&lt;/strong&gt; Null National Bank, Chennai — internal 10.10.10.0/24, DMZ 172.16.10.0/24 behind IDS1, Splunk SIEM on MN-SIEM01.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Position in the intrusion:&lt;/strong&gt; the attacker has a functioning foothold on MN-APP01 and infected workstations; this part covers C2 infrastructure evolution, deep implant installation, and the beginning of internal reconnaissance.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Storyline stages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;storyline-stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storyline-stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Stage ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Reference APT&lt;/th&gt;
-					&lt;th&gt;ATT&amp;amp;CK&lt;/th&gt;
-					&lt;th&gt;EvidenceForge events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;11&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;first-tier-c2&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Beacons via hijacked Chennai-region web host (103.21.58.19); irregular 48–72h jitter&lt;/td&gt;
-					&lt;td&gt;Equation Group&lt;/td&gt;
-					&lt;td&gt;T1584.006 + T1071.001&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (beacon_interval_hint)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;12&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;redirector-handoff&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Second-tier redirector 185.220.101.44; JA3 mismatch with declared vendor updater&lt;/td&gt;
-					&lt;td&gt;APT29 (Operation Ghost)&lt;/td&gt;
-					&lt;td&gt;T1090.002&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (ja3_hint)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;13&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;dns-txt-fallback&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;After IDS1 egress filtering change, C2 shifts to DNS TXT channel: &lt;code&gt;e5f2.c8ba19aa77d0.nullnationalbank.com&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;OilRig (APT34)&lt;/td&gt;
-					&lt;td&gt;T1071.004&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;dns_query&lt;/code&gt; (qtype TXT) + &lt;code&gt;raw&lt;/code&gt;/syslog (base32 payload hint)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;14&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;memory-only-execution&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Core implant injected into svchost.exe; no disk artifact&lt;/td&gt;
-					&lt;td&gt;Turla Snake&lt;/td&gt;
-					&lt;td&gt;T1055 (Process Injection)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process_access&lt;/code&gt; (svchost, access_mask 0x1010) + &lt;code&gt;raw&lt;/code&gt;/syslog (injection_class)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;15&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;blending-service-install&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Persistence service &lt;strong&gt;NVAppMonSvc&lt;/strong&gt; installed from %ProgramData%, name matches vendor conventions&lt;/td&gt;
-					&lt;td&gt;Turla&lt;/td&gt;
-					&lt;td&gt;T1543.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;service_installed&lt;/code&gt; (service_name + service_file_name) + &lt;code&gt;raw&lt;/code&gt;/syslog (display_name)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;16&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;host-recon-lolbins&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;net group &amp;quot;Domain Admins&amp;quot; /domain&lt;/code&gt;, &lt;code&gt;systeminfo&lt;/code&gt; from arjun.menon&amp;rsquo;s workstation (MN-WS-102)&lt;/td&gt;
-					&lt;td&gt;Operation Aurora&lt;/td&gt;
-					&lt;td&gt;T1087.002 + T1033&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;process&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;17&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;slow-subnet-sweep&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;ARP/ICMP sweep of 10.10.10.0/24 over four nights, one packet per host per night — invisible to burst-rate rules&lt;/td&gt;
-					&lt;td&gt;Moonlight Maze&lt;/td&gt;
-					&lt;td&gt;T1018 + T1046&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; (icmp, orig_bytes 42, conn_state SO)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;18&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;ldap-spn-enumeration&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;LDAP connection to MN-DC01:389 with SPN filter &lt;code&gt;(servicePrincipalName=*)&lt;/code&gt; — builds Kerberoast target list (erp-svc, sqlsvc, backup-svc)&lt;/td&gt;
-					&lt;td&gt;APT28/29 campaigns&lt;/td&gt;
-					&lt;td&gt;T1087.002&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; (ldap) + &lt;code&gt;raw&lt;/code&gt;/syslog (filter, attributes_requested)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;19&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;share-mapping&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;SMB logon to MN-FS01 from .102; directory listings of Finance, BoardPapers, IT shares, human-paced&lt;/td&gt;
-					&lt;td&gt;APT10 targeted intrusions&lt;/td&gt;
-					&lt;td&gt;T1135&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 3) + &lt;code&gt;raw&lt;/code&gt;/syslog (access_paths, access_pattern)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;20&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;helpdesk-social-engineering&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Caller poses as vikram.patel (&amp;rsquo;lost phone&amp;rsquo;); password reset + MFA re-registration granted (ticket HD-2025-11884); verifier bypass via employee ID + payroll digits&lt;/td&gt;
-					&lt;td&gt;MGM Resorts 2023 (Scattered Spider)&lt;/td&gt;
-					&lt;td&gt;T1566.004 + T1098&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;raw&lt;/code&gt;/syslog (helpdesk_action + event 4724 password-reset evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;⚠ = boundary entry intentionally duplicated with the adjacent part (overlapping timestamps preserve continuity).&lt;/p&gt;
-&lt;h2&gt;Red herrings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red-herrings&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#red-herrings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;None in this part (all three red herrings live in part 1).&lt;/p&gt;
-&lt;h2&gt;Generator &amp;amp; hunting notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generator--hunting-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#generator--hunting-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Overlap mechanics:&lt;/strong&gt; stages 11 and 12 re-emit identically at &lt;code&gt;+0s&lt;/code&gt;/&lt;code&gt;+2d&lt;/code&gt; of this part&amp;rsquo;s window so that correlating events across parts stays chronologically coherent — they are the same events as part 1&amp;rsquo;s stages 9–10, not new occurrences.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Night-window rule:&lt;/strong&gt; from stage 15 onward, attacker activity is confined to 01:00–04:30 UTC. Hour-of-day histogram pivoting is an intended early detection win.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hunting highlight:&lt;/strong&gt; stage 15 (&lt;code&gt;service_installed&lt;/code&gt; for NVAppMonSvc in %ProgramData%) is the loudest structured Windows-plane artifact in this part — EID 7045 in the security plane, Sysmon EID 1/13 in the endpoint plane.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cross-plane trap:&lt;/strong&gt; stage 18&amp;rsquo;s LDAP query looks like a benign &lt;code&gt;connection&lt;/code&gt; in zeek_conn; only the syslog raw JSON reveals the SPN filter. Teams that skip the syslog plane will miss the Kerberoast preparation.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Output formats:&lt;/strong&gt; bash_history, windows_event_security, windows_event_sysmon, ecar, syslog, zeek_conn, zeek_dns, zeek_http, cisco_asa → &lt;code&gt;./datasets/NBK-002&lt;/code&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Lab Development - Phase 3</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-3-of-5/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-3-of-5/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Credential &amp;amp; Identity Abuse (Stages 21–30)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;credential--identity-abuse-stages-2130&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#credential--identity-abuse-stages-2130&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Scenario file:&lt;/strong&gt; &lt;code&gt;cinderlink-part-03.yaml&lt;/code&gt; (&lt;code&gt;nbk-002-operation-cinderlink-part-03&lt;/code&gt;) &lt;strong&gt;Time window:&lt;/strong&gt; 2025-08-05T22:00:00Z · duration 29d · warmup 3d &lt;strong&gt;Covers master-chain stages:&lt;/strong&gt; 19–30 (Phase 3 wrap-up into Phase 4 credential access and start of lateral movement)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Target environment:&lt;/strong&gt; Null National Bank, Chennai — internal 10.10.10.0/24, DMZ 172.16.10.0/24 behind IDS1, Splunk SIEM on MN-SIEM01.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Position in the intrusion:&lt;/strong&gt; the attacker has completed discovery and now attacks identity. This part contains the exercise&amp;rsquo;s densest credential-access sequence — helpdesk manipulation, MFA bombing, LSASS dumping, Kerberoasting, DCSync, OAuth abuse, and a long-running VPN spray — ending with the first lateral-movement hops.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Storyline stages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;storyline-stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storyline-stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Stage ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Reference APT&lt;/th&gt;
-					&lt;th&gt;ATT&amp;amp;CK&lt;/th&gt;
-					&lt;th&gt;EvidenceForge events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;21&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;share-mapping&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;SMB logon to MN-FS01 from .102; Finance/BoardPapers/IT share listings (same event as part 2 stage 19)&lt;/td&gt;
-					&lt;td&gt;APT10&lt;/td&gt;
-					&lt;td&gt;T1135&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 3) + &lt;code&gt;raw&lt;/code&gt;/syslog&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;22&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;helpdesk-social-engineering&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Fake &amp;rsquo;lost phone&amp;rsquo; call as vikram.patel → password reset + MFA re-registration (ticket HD-2025-11884)&lt;/td&gt;
-					&lt;td&gt;MGM Resorts 2023 (Scattered Spider)&lt;/td&gt;
-					&lt;td&gt;T1566.004 + T1098&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;raw&lt;/code&gt;/syslog&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;23&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;mfa-push-bombing&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Overnight MFA push storm vs rajesh.kumar: 31 denials, approval at attempt 32 at 02:14 IST from 198.51.100.76&lt;/td&gt;
-					&lt;td&gt;Twitter 2020 / Uber 2022&lt;/td&gt;
-					&lt;td&gt;T1621 (MFA Request Generation)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (mfa_push evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;24&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;lsass-dump&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Renamed unsigned tool &lt;code&gt;winsdkdiag.exe -ma&lt;/code&gt; in rajesh.kumar&amp;rsquo;s Temp; process_access to lsass.exe with mask 0x1010&lt;/td&gt;
-					&lt;td&gt;OPM breach (China-linked)&lt;/td&gt;
-					&lt;td&gt;T1003.001 (LSASS Memory)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (signed:false) + &lt;code&gt;process_access&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;25&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;kerberoasting&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;RC4 (0x17) service tickets for erp-svc, sqlsvc, backup-svc from MN-WS-102; ticket-size outlier&lt;/td&gt;
-					&lt;td&gt;APT29 cloud campaigns&lt;/td&gt;
-					&lt;td&gt;T1558.003 (Kerberoasting)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (kerberoast evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;26&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;dcsync&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Replication ops GetChanges + GetChangesAll vs MN-DC01, pulling krbtgt, from workstation .102 — &lt;strong&gt;strongest single hunt signal in the whole chain&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;APT29 tradecraft&lt;/td&gt;
-					&lt;td&gt;T1003.006 (DCSync)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (dcsync evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;27&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;rogue-oauth-app&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Multi-tenant OAuth app &lt;strong&gt;&amp;lsquo;NVSync Tools&amp;rsquo;&lt;/strong&gt; registered + admin-consented (Mail.Read, Files.Read.All) by hijacked rajesh.kumar session from 198.51.100.76&lt;/td&gt;
-					&lt;td&gt;Midnight Blizzard (Microsoft intrusion)&lt;/td&gt;
-					&lt;td&gt;T1550.001&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (oauth_consent evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;28&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;token-replay-window&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Vikram.patel RDP-class logon (type 10) from 86.54.12.9 (Rotterdam) 40 min after a Chennai session; no matching interactive logon&lt;/td&gt;
-					&lt;td&gt;Storm-0558 (China-linked)&lt;/td&gt;
-					&lt;td&gt;T1550.001&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 10) + &lt;code&gt;raw&lt;/code&gt;/syslog (geo_hint, token_auth, no_interactive_logon_match)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;29&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;slow-vpn-spray&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Six-week password spray vs VPN: 9 accounts, 58 attempts at 18h intervals, 0.3 jitter; success on kavitha.reddy at attempt 41 from 45.33.32.156&lt;/td&gt;
-					&lt;td&gt;Midnight Blizzard (APT29)&lt;/td&gt;
-					&lt;td&gt;T1110.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;credential_spray&lt;/code&gt; (structured event with success block)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;30&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;wmi-winrm-hops&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;wmic /node:MN-APP01 process call create&lt;/code&gt; via WinRM from .102 (arjun.menon); WsmProvHost parentage in raw JSON&lt;/td&gt;
-					&lt;td&gt;NotPetya (Sandworm) propagation&lt;/td&gt;
-					&lt;td&gt;T1047 + T1021.006&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (parent lineage) + &lt;code&gt;logon&lt;/code&gt; (type 3)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;⚠ = boundary entry intentionally duplicated with the adjacent part.&lt;/p&gt;
-&lt;h2&gt;Red herrings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red-herrings&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#red-herrings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;None in this part.&lt;/p&gt;
-&lt;h2&gt;Generator &amp;amp; hunting notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generator--hunting-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#generator--hunting-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Overlap mechanics:&lt;/strong&gt; stages 21, 22, and 30 re-emit at boundary positions to keep the five parts chronologically continuous; the event content is identical to the neighboring part&amp;rsquo;s copy.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The structured-vs-raw split is the pedagogical core here:&lt;/strong&gt; stage 29&amp;rsquo;s spray is fully structured (&lt;code&gt;credential_spray&lt;/code&gt; → auth/failure events across the Windows and firewall planes), while stages 23, 25, 26, and 27 — MFA storm, Kerberoasting, DCSync, OAuth consent — exist &lt;em&gt;only&lt;/em&gt; as raw syslog JSON with &lt;code&gt;app_name: cinderlink&lt;/code&gt;. Teams that correlate both planes reconstruct the full identity attack; teams limited to the Windows plane see only fragments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Key pivot clues for players:&lt;/strong&gt; stage 24&amp;rsquo;s &lt;code&gt;process_access&lt;/code&gt; mask &lt;code&gt;0x1010&lt;/code&gt; against lsass.exe on a workstation; stage 26&amp;rsquo;s raw &lt;code&gt;GetChangesAll&lt;/code&gt; + &lt;code&gt;krbtgt&lt;/code&gt; combination; stage 28&amp;rsquo;s impossible-travel type-10 logon.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Timeline note:&lt;/strong&gt; the spray starts at +21d of this window but resolves in part 4 at its &lt;code&gt;+0s&lt;/code&gt; boundary — the six-week campaign spans both windows.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Output formats:&lt;/strong&gt; bash_history, windows_event_security, windows_event_sysmon, ecar, syslog, zeek_conn, zeek_dns, zeek_http, cisco_asa → &lt;code&gt;./datasets/NBK-002&lt;/code&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Lab Development - Phase 4</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-4-of-5/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-4-of-5/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Lateral Movement &amp;amp; Collection (Stages 31–40)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;lateral-movement--collection-stages-3140&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#lateral-movement--collection-stages-3140&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Scenario file:&lt;/strong&gt; &lt;code&gt;cinderlink-part-04.yaml&lt;/code&gt; (&lt;code&gt;nbk-002-operation-cinderlink-part-04&lt;/code&gt;) &lt;strong&gt;Time window:&lt;/strong&gt; 2025-08-26T22:00:00Z · duration 43d · warmup 3d &lt;strong&gt;Covers master-chain stages:&lt;/strong&gt; 29–40 (Phase 5 lateral movement, into Phase 7 collection staging)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Target environment:&lt;/strong&gt; Null National Bank, Chennai — internal 10.10.10.0/24, DMZ 172.16.10.0/24 behind IDS1, Splunk SIEM on MN-SIEM01.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Position in the intrusion:&lt;/strong&gt; with domain credentials harvested in part 3, the attacker moves. This part includes the PAM encounter (a control that &lt;em&gt;works&lt;/em&gt;), Kerberos ticket abuse reaching the SIEM server itself, the conspicuous decoy miner, and bulk data staging.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Storyline stages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;storyline-stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storyline-stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Stage ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Reference APT&lt;/th&gt;
-					&lt;th&gt;ATT&amp;amp;CK&lt;/th&gt;
-					&lt;th&gt;EvidenceForge events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;31&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;slow-vpn-spray&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Same spray event as part 3 stage 29 (58 attempts, 18h interval; success on kavitha.reddy) — resolves here&lt;/td&gt;
-					&lt;td&gt;Midnight Blizzard (APT29)&lt;/td&gt;
-					&lt;td&gt;T1110.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;credential_spray&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;32&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;wmi-winrm-hops&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Same WinRM/WMI hop chain as part 3 stage 30 (&lt;code&gt;wmic /node:MN-APP01&lt;/code&gt; from .102)&lt;/td&gt;
-					&lt;td&gt;NotPetya (Sandworm)&lt;/td&gt;
-					&lt;td&gt;T1047 + T1021.006&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog + &lt;code&gt;logon&lt;/code&gt;&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;33&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;pam-interplay&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Direct probe of MN-PAM01 denied (control works); attacker then harvests a checked-out PAM credential cached on MN-WS-103&lt;/td&gt;
-					&lt;td&gt;APT10 (Cloud Hopper MSP tradecraft)&lt;/td&gt;
-					&lt;td&gt;T1021 + T1552 (Unsecured Credentials)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;failed_logon&lt;/code&gt; (type 10, target_username external-threat-actor) + &lt;code&gt;raw&lt;/code&gt;/syslog (credential_theft evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;34&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;admin-share-staging&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Tooling &lt;code&gt;nvdutil.exe&lt;/code&gt; staged to &lt;code&gt;\\MN-APP01\ADMIN$\Temp&lt;/code&gt; and executed from UNC path&lt;/td&gt;
-					&lt;td&gt;Carbanak / FIN8&lt;/td&gt;
-					&lt;td&gt;T1021.002 (SMB/Windows Admin Shares)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (file_write) + &lt;code&gt;process&lt;/code&gt; (UNC execution)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;35&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;pass-the-ticket-fs01&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Kerberos pass-the-ticket with sqlsvc from .102 onto MN-FS01; ticket reused across hosts&lt;/td&gt;
-					&lt;td&gt;APT29&lt;/td&gt;
-					&lt;td&gt;T1550.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 9) + &lt;code&gt;raw&lt;/code&gt;/syslog (kerberos_ticket_reuse_across_hosts)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;36&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;pass-the-ticket-siem01&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Same ticket lands on &lt;strong&gt;MN-SIEM01&lt;/strong&gt; eight minutes later, sourced from MN-FS01 (10.10.10.20) — attacker inspects the SIEM&lt;/td&gt;
-					&lt;td&gt;APT29&lt;/td&gt;
-					&lt;td&gt;T1550.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 9)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;37&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;scheduled-task-persistence&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;NV-HealthCheck&lt;/code&gt; task created on MN-APP01/MN-FS01; weekly Sunday 03:10 IST trigger; encoded PowerShell action&lt;/td&gt;
-					&lt;td&gt;Lazarus (Dream Job follow-on)&lt;/td&gt;
-					&lt;td&gt;T1053.005&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;scheduled_task_created&lt;/code&gt; (task_name + task_content JSON)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;38&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;decoy-miner-noise&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Cryptominer &lt;code&gt;/opt/runner/xmr-stak&lt;/code&gt; executes on neglected CI-RUNNER — deliberately conspicuous, unrelated to the chain&lt;/td&gt;
-					&lt;td&gt;TeamTNT cloud campaigns&lt;/td&gt;
-					&lt;td&gt;T1496 (Resource Hijacking)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog (cpu_baseline_break)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;39&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;log-tampering-attempts&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Sysmon config change blocked by tamper protection on MN-WS-109/.111; DNS debug log retention on MN-DC01 aged 14d → 4d&lt;/td&gt;
-					&lt;td&gt;APT29 cloud campaigns&lt;/td&gt;
-					&lt;td&gt;T1562.001 + T1562.002&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;raw&lt;/code&gt;/syslog (config_change evidence)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;40&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;fs01-compression&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;7z.exe a -v512m -p&lt;/code&gt; builds split, password-protected archives of Finance + BoardPapers over three nights; mass file reads on QuarterClose paths&lt;/td&gt;
-					&lt;td&gt;APT41/32 staging pattern&lt;/td&gt;
-					&lt;td&gt;T1560.001 + T1005&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; (7z command line) + &lt;code&gt;raw&lt;/code&gt;/syslog (file_read, volume_hint)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;⚠ = boundary entry intentionally duplicated with the adjacent part.&lt;/p&gt;
-&lt;h2&gt;Red herrings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red-herrings&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#red-herrings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;None in this part.&lt;/p&gt;
-&lt;h2&gt;Generator &amp;amp; hunting notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generator--hunting-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#generator--hunting-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Overlap mechanics:&lt;/strong&gt; stages 31, 32, and 35 are identical re-emissions of part 3&amp;rsquo;s boundary stages (29, 30) — the part-4 copies carry the resolution of multi-window events (spray success) rather than new occurrences.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;PAM teaching moment (stage 33):&lt;/strong&gt; the vault probe is denied — the only &lt;code&gt;failed_logon&lt;/code&gt; the attacker incurs. The real failure is a valid credential sitting on an endpoint, the classic gap between vaulting and endpoint hygiene. Include this in the debrief as the control that worked.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;SIEM-blindspot test (stage 36):&lt;/strong&gt; the pass-the-ticket onto MN-SIEM01 is the exercise&amp;rsquo;s reflexivity joke — the intrusion reaches the monitoring platform while it watches. Type-9 logons from 10.10.10.20 to 10.10.10.40 in the security plane are the tell.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Decoy discipline (stage 38):&lt;/strong&gt; the miner is loud, easy, and a dead end. Score teams separately for finding it vs. recognizing it&amp;rsquo;s &lt;em&gt;not&lt;/em&gt; part of Cinderlink — chasing it exclusively is the designed failure mode.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Log-tampering explanation (stage 39):&lt;/strong&gt; the retention cut on MN-DC01 DNS logs retroactively justifies telemetry gaps between this part and part 5.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Output formats:&lt;/strong&gt; bash_history, windows_event_security, windows_event_sysmon, ecar, syslog, zeek_conn, zeek_dns, zeek_http, cisco_asa → &lt;code&gt;./datasets/NBK-002&lt;/code&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Lab Development - Phase 5</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-5-of-5/</link>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-5-of-5/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Exfiltration, Fraud Prep &amp;amp; Long-Haul Exit (Stages 41–50)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;exfiltration-fraud-prep--long-haul-exit-stages-4150&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#exfiltration-fraud-prep--long-haul-exit-stages-4150&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Scenario file:&lt;/strong&gt; &lt;code&gt;cinderlink-part-05.yaml&lt;/code&gt; (&lt;code&gt;nbk-002-operation-cinderlink-part-05&lt;/code&gt;) &lt;strong&gt;Time window:&lt;/strong&gt; 2025-09-24T22:00:00Z · duration 47d · warmup 3d &lt;strong&gt;Covers master-chain stages:&lt;/strong&gt; 38–50 (end of collection, Phase 8 exfiltration/fraud prep, Phase 9 persistence &amp;amp; exit)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Target environment:&lt;/strong&gt; Null National Bank, Chennai — internal 10.10.10.0/24, DMZ 172.16.10.0/24 behind IDS1, Splunk SIEM on MN-SIEM01.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Position in the intrusion:&lt;/strong&gt; the finale. The attacker exfiltrates the staged archives, plants and then withdraws a payment-page skimmer, and exits cosmetically — leaving exactly two residual artifacts for the exercise&amp;rsquo;s &amp;ldquo;phase 2 hunt.&amp;rdquo; This part closes the loop on the threat-intel anchor: the lookalike domain from part 1 returns as the exfiltration channel.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Storyline stages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;storyline-stages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#storyline-stages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Stage ID&lt;/th&gt;
-					&lt;th&gt;Behavior&lt;/th&gt;
-					&lt;th&gt;Reference APT&lt;/th&gt;
-					&lt;th&gt;ATT&amp;amp;CK&lt;/th&gt;
-					&lt;th&gt;EvidenceForge events&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;41&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;decoy-miner-noise&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Same CI-RUNNER miner event as part 4 stage 38 (&lt;code&gt;/opt/runner/xmr-stak&lt;/code&gt;)&lt;/td&gt;
-					&lt;td&gt;TeamTNT&lt;/td&gt;
-					&lt;td&gt;T1496&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;42&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;log-tampering-attempts&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Same blocked Sysmon config changes + DNS retention cut as part 4 stage 39&lt;/td&gt;
-					&lt;td&gt;APT29 cloud campaigns&lt;/td&gt;
-					&lt;td&gt;T1562.001 + T1562.002&lt;/td&gt;
-					&lt;td&gt;2× &lt;code&gt;raw&lt;/code&gt;/syslog&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;43&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;fs01-compression&lt;/code&gt; ⚠ overlap&lt;/td&gt;
-					&lt;td&gt;Same 7z archive staging of Finance/BoardPapers as part 4 stage 40&lt;/td&gt;
-					&lt;td&gt;APT41/32&lt;/td&gt;
-					&lt;td&gt;T1560.001 + T1005&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;process&lt;/code&gt; + &lt;code&gt;raw&lt;/code&gt;/syslog&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;44&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;webshell-on-web01&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Web shell deployed at &lt;code&gt;/portal/uploads/resource_util.aspx&lt;/code&gt; on MN-WEB01 — independent second foothold outside the supply-chain path&lt;/td&gt;
-					&lt;td&gt;MOVEit (Cl0p) / Accellion FTA&lt;/td&gt;
-					&lt;td&gt;T1505.003 (Web Shell)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (webshell evidence, IIS POST-heavy pattern)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;45&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;low-and-slow-exfil&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;~48 MB total exfiltrated to &lt;code&gt;cdn.nullnationalbank.com&lt;/code&gt; (198.51.100.140) over nine days as &amp;ldquo;vendor telemetry&amp;rdquo; (spoofed UA), 4–8 MB chunks every 30–90 min, just under DLP thresholds&lt;/td&gt;
-					&lt;td&gt;APT29 (Operation Ghost drip)&lt;/td&gt;
-					&lt;td&gt;T1041 (Exfiltration Over C2 Channel)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;connection&lt;/code&gt; (48 MB up, 2.1 MB down, SF) + &lt;code&gt;raw&lt;/code&gt;/syslog (chunk_pattern)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;46&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;portal-skimmer-test&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Payment-page script &lt;code&gt;/var/www/staging/portal/pay/js/vendor-checkout.js&lt;/code&gt; modified in staging only; new JS references &lt;code&gt;metricssvc.nullnationalbank-cdn.net&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Magecart / British Airways&lt;/td&gt;
-					&lt;td&gt;T1554 (Compromise Client Software Binary — script-insertion aspect, closest available mapping)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (file_write, integrity_hash_changed, third_party_ref)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;47&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;redundant-persistence-web&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Fourth persistence channel confirmed: NV-HealthCheck task re-arms the dormant ERP plug-in quarterly; channels (OAuth app, DCSync capability, web shell, plug-in) each survive different remediation waves&lt;/td&gt;
-					&lt;td&gt;Turla Snake (multi-year dwell)&lt;/td&gt;
-					&lt;td&gt;T1053.005 + T1195.002&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;scheduled_task_created&lt;/code&gt; (task_content JSON)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;48&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;cosmetic-exit-web&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Skimmer file restored to original hash; attacker rotates visible C2&lt;/td&gt;
-					&lt;td&gt;APT29 (Ghost residual tradecraft)&lt;/td&gt;
-					&lt;td&gt;T1070 (Indicator Removal)&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;raw&lt;/code&gt;/syslog (file_restore, original_hash_restored)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;49&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;cosmetic-exit-fs&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;NV-HealthCheck task on MN-FS01 left &lt;strong&gt;disabled-but-not-deleted&lt;/strong&gt; — residual artifact #1&lt;/td&gt;
-					&lt;td&gt;APT29&lt;/td&gt;
-					&lt;td&gt;T1070&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;scheduled_task_created&lt;/code&gt; (state: disabled-but-not-deleted)&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;50&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;cosmetic-exit-db&lt;/code&gt;&lt;/td&gt;
-					&lt;td&gt;Stale sqlsvc ticket used once against MN-DB01 — residual artifact #2 (reused ticket, no new account)&lt;/td&gt;
-					&lt;td&gt;APT29&lt;/td&gt;
-					&lt;td&gt;T1550.003&lt;/td&gt;
-					&lt;td&gt;&lt;code&gt;logon&lt;/code&gt; (type 3) + &lt;code&gt;raw&lt;/code&gt;/syslog (insurance note)&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;⚠ = boundary entry intentionally duplicated with the adjacent part.&lt;/p&gt;
-&lt;h2&gt;Red herrings&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;red-herrings&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#red-herrings&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;None in this part. Note that stages 41–43 are &lt;em&gt;overlap re-emissions&lt;/em&gt; (identical boundary events shared with part 4) and not new attack activity.&lt;/p&gt;
-&lt;h2&gt;Generator &amp;amp; hunting notes&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;generator--hunting-notes&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#generator--hunting-notes&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Overlap mechanics:&lt;/strong&gt; stages 41–43 are re-emissions of part 4&amp;rsquo;s stages 38–40 at this part&amp;rsquo;s &lt;code&gt;+0s&lt;/code&gt;/&lt;code&gt;+4d&lt;/code&gt;/&lt;code&gt;+13d&lt;/code&gt; positions — deduplicate on stage id + absolute timestamp when correlating across parts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;IOC payoff (stage 45):&lt;/strong&gt; this is the moment the &lt;code&gt;NullNationalBank.com&lt;/code&gt; intel anchor becomes actionable evidence. Hunters should connect the exfil destination to the part-1 DNS beaconing (&lt;code&gt;update.&lt;/code&gt; / &lt;code&gt;cdn.nullnationalbank.com&lt;/code&gt; subdomain encoding) — the domain was hostile from day one, but only proves hostile when tied to egress volume.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fraud-prep reality check (stage 46):&lt;/strong&gt; the skimmer is staging-only; payment-page production traffic was never touched. Debrief should emphasize that detection of &lt;em&gt;intent&lt;/em&gt; vs. &lt;em&gt;execution&lt;/em&gt; matters for regulatory reporting.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Phase 2 hunt (stages 48–50):&lt;/strong&gt; the &amp;ldquo;clean&amp;rdquo; post-remediation log set should still show a disabled-not-deleted task on MN-FS01 and a single type-3 sqlsvc logon on MN-DB01. Teams that declare victory after remediation without spotting these two residuals have not finished the exercise.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Output formats:&lt;/strong&gt; bash_history, windows_event_security, windows_event_sysmon, ecar, syslog, zeek_conn, zeek_dns, zeek_http, cisco_asa → &lt;code&gt;./datasets/NBK-002&lt;/code&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>[02] VBS Macro Payload Execution</title>
-      <link>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</link>
+      <link>http://localhost:1315/docs/03_techniques/02-vbs-macro-payload-execution/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</guid>
+      <guid>http://localhost:1315/docs/03_techniques/02-vbs-macro-payload-execution/</guid>
       <description>
         
         
@@ -4822,11 +4178,11 @@ ls -la ~/NullNationalBank/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#3
 &lt;h4&gt;STEP 2: Malicious VBS Script&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-malicious-vbs-script&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-malicious-vbs-script&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;In MS Word, embed the malicious VBS script by choosing &lt;code&gt;View&lt;/code&gt; and click on &lt;code&gt;Macros&lt;/code&gt;
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152438.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261026152438.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Next Create a macro called &lt;code&gt;MyMacro&lt;/code&gt;
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152554.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261026152554.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload.
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152635.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261026152635.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -4869,7 +4225,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Save the document as &lt;code&gt;Macro Enabled&lt;/code&gt; and open the document to see the execution.
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -4877,10 +4233,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>[03] WMIC</title>
-      <link>http://localhost:1313/docs/03_techniques/03-wmic/</link>
+      <link>http://localhost:1315/docs/03_techniques/03-wmic/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/03-wmic/</guid>
+      <guid>http://localhost:1315/docs/03_techniques/03-wmic/</guid>
       <description>
         
         
@@ -4998,17 +4354,17 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[04] DLL</title>
-      <link>http://localhost:1313/docs/03_techniques/04-dll/</link>
+      <link>http://localhost:1315/docs/03_techniques/04-dll/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/04-dll/</guid>
+      <guid>http://localhost:1315/docs/03_techniques/04-dll/</guid>
       <description>
         
         
@@ -5102,7 +4458,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 4: Interact with the infected host from the console&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-interact-with-the-infected-host-from-the-console&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-4-interact-with-the-infected-host-from-the-console&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -5138,7 +4494,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 2: Copy the command produced by metasploit and run it in the victims device.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -5170,17 +4526,17 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>D0 CISSP Prep</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d0-cissp-prep/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d0-cissp-prep/</guid>
       <description>
         
         
@@ -5217,7 +4573,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;CISSP Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cissp-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -5225,10 +4581,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D1 Security and Risk Management</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
       <description>
         
         
@@ -5265,7 +4621,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 1 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-1-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Due Care &amp;amp; Due Diligence&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;due-care--due-diligence&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#due-care--due-diligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -5555,10 +4911,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D2 Asset Security</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d2-asset-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d2-asset-security/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d2-asset-security/</guid>
       <description>
         
         
@@ -5595,7 +4951,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 2 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-2-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-2-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Data Roles &amp;amp; Responsibilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;data-roles--responsibilities&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#data-roles--responsibilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -5793,10 +5149,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D3 Security Architecture and Engineering</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d3-security-architecture-and-engineering/</guid>
       <description>
         
         
@@ -5833,7 +5189,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 3 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-3-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-3-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001411.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Cryptography — Pick the Right Tool&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cryptography--pick-the-right-tool&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cryptography--pick-the-right-tool&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -5926,10 +5282,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D4 Communication and Network Security</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d4-communication-and-network-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d4-communication-and-network-security/</guid>
       <description>
         
         
@@ -5966,7 +5322,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 4 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-4-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-4-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001454.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Design Concepts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;design-concepts&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#design-concepts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -6264,10 +5620,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D5 Identity and Access Management</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d5-identity-and-access-management/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d5-identity-and-access-management/</guid>
       <description>
         
         
@@ -6304,7 +5660,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 5 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-5-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-5-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001549.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;DR Site Types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;dr-site-types&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#dr-site-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
@@ -6539,10 +5895,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D6 Security Assessment and Testing</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d6-security-assessment-and-testing/</guid>
       <description>
         
         
@@ -6579,7 +5935,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 6 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-6-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-6-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001639.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -6587,10 +5943,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D7 Security Operations</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d7-security-operations/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d7-security-operations/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d7-security-operations/</guid>
       <description>
         
         
@@ -6627,7 +5983,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 7 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-7-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-7-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001749.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -6635,10 +5991,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>D8 Software Development Security</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/d8-software-development-security/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/d8-software-development-security/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/d8-software-development-security/</guid>
       <description>
         
         
@@ -6675,7 +6031,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h3&gt;Domain 8 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-8-cheat-sheet&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+    &lt;a href=&#34;#domain-8-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/04_playbooks/cissp/assets/Pasted_image_20260930001836.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
 
       </description>
@@ -6683,10 +6039,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>[1] Attack Mapping Methodology</title>
-      <link>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
+      <link>http://localhost:1315/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</link>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid>
+      <guid>http://localhost:1315/docs/01_methodology/security-analysis/01-attack-mapping-methodology/</guid>
       <description>
         
         
@@ -6729,7 +6085,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;p&gt;In simple terms for a cyber defender it&amp;rsquo;s important to know where exactly in the chain that a threat actor is and take necessary actions to break the chain thereby disrupting the threat actor to achieve their goals.&lt;/p&gt;
 &lt;p&gt;The below image from &lt;a
     href=&#34;https://www.trendmicro.com/en_gb/what-is/cyber-attack/cyber-kill-chain.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trend Micro&amp;rsquo;s blog&lt;/a&gt; explains the Cyber Kill Chain&amp;rsquo;s 7 different stages.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/security-analysis/assets/Pasted_image_20260324003052.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
 			&lt;tr&gt;
@@ -6809,14 +6165,14 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/security-analysis/assets/Pasted_image_20260325004002.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h3&gt;2. MITRE ATT&amp;amp;CK&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-mitre-attck&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#2-mitre-attck&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;2.1 MITRE ATT&amp;amp;CK Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;21-mitre-attck-framework&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#21-mitre-attck-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;In addition to the Cyber kill chain, the &lt;a
     href=&#34;https://attack.mitre.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK&lt;/a&gt; framework dives deep into the &lt;code&gt;tactics&lt;/code&gt;, &lt;code&gt;techniques&lt;/code&gt; and &lt;code&gt;procedures&lt;/code&gt; that can be mapped any ongoing threats. There are 14 different sections that expand into &lt;code&gt;sub techniques&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/security-analysis/assets/Pasted_image_20260325011054.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;In addition to MITRE ATT&amp;amp;CK, the D3FEND framework helps by providing a complementary, defense focused taxonomy that maps concrete countermeasures, techniques, and controls to attacker behaviors making it easier for security teams to design, validate, and communicate mitigations (detection rules, system hardening, isolation mechanisms, and response playbooks) that directly correspond to adversary tactics and techniques.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/security-analysis/assets/Pasted_image_20260325010310.png&#34; alt=&#34;697&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rsquo;ve mentioned earlier in section 1.2.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -6874,17 +6230,17 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
     href=&#34;https://sansorg.egnyte.com/dl/k7gJ2gVBj5&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SANS Industrial Control Systems Cyber Kill Chain White Paper&lt;/a&gt; ICS attacks may have many facets that fall into the attack categories of enabling, initiation or supporting to achive their ultimate effect. The complexity of launching an attack is determined by the security of the system the process being monitored and contrlled, the safety design and controls and the intended impact.&lt;/p&gt;
 &lt;p&gt;In the Stuxnet campaign there is a completed two-stage ICS attack that le to the highly tailored and impactful manipulation of the process to cause physical destruction. The attack is mapped to the &lt;a
     href=&#34;https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Purdue Model&lt;/a&gt; below;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/security-analysis/assets/Pasted_image_20260325233319.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[01] CertUtil File Transfer</title>
-      <link>http://localhost:1313/docs/03_techniques/01-using-certutil/</link>
+      <link>http://localhost:1315/docs/03_techniques/01-using-certutil/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/01-using-certutil/</guid>
+      <guid>http://localhost:1315/docs/03_techniques/01-using-certutil/</guid>
       <description>
         
         
@@ -6958,10 +6314,10 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
     
     <item>
       <title>[03] Threat Communication</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</link>
+      <link>http://localhost:1315/docs/01_methodology/threat-hunting/03-threat-information-management/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/03-threat-information-management/</guid>
+      <guid>http://localhost:1315/docs/01_methodology/threat-hunting/03-threat-information-management/</guid>
       <description>
         
         
@@ -7011,7 +6367,7 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 &lt;p&gt;The primary focus in this context is &lt;strong&gt;intelligence&lt;/strong&gt;, which may encompass elements from multiple classifications listed above. For example, an intelligence report may describe a threat actor leveraging specific Tactics, Techniques, and Procedures (TTPs) to exploit identified weaknesses in target environments—weaknesses that may also exist within your organization’s network or products. In such a scenario, the intelligence contains a combination of information, threats, and weaknesses.&lt;/p&gt;
 &lt;p&gt;Based on this intelligence, the threat hunting team can proactively initiate investigations to identify potential indicators of compromise or ongoing attacks within the environment.&lt;/p&gt;
 &lt;p&gt;Effectively communicating threat intelligence requires adherence to standardized procedures and protocols to ensure proper handling and dissemination. One of the most widely adopted frameworks for this purpose is the Traffic Light Protocol (TLP), which provides a simple and intuitive mechanism for classifying and sharing sensitive information.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317231522.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;The above image is an example of how Threat Intelligence and Threat Hunting would fit into a cybersecurity operations process. The goal is to make sure that there is a strong feedback loop that flows back as a source into the pipeline.&lt;/p&gt;
 &lt;h5&gt;3.1.1 Traffic Light Protocol&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;311-traffic-light-protocol&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#311-traffic-light-protocol&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The FIRST &lt;strong&gt;Traffic Light Protocol (TLP)&lt;/strong&gt; is a standardized framework used to classify and control the sharing of sensitive information. It helps organizations ensure that threat intelligence and security-related data are disseminated only to appropriate audiences, reducing the risk of unintended exposure.&lt;/p&gt;
@@ -7064,7 +6420,7 @@ Here is an example MITRE ATT&amp;amp;CK Mapping for an attack scenario we&amp;rs
 &lt;/ol&gt;
 &lt;p&gt;The Pyramid of Pain address how difficult it if for attackers to mask certain characteristic during an attack, at the same time it&amp;rsquo;s also difficult to hunt fir defenders. For instance writing a search query in &lt;a
     href=&#34;https://www.splunk.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Splunk&lt;/a&gt; to hunt for a specific file has is relatively easy, while it&amp;rsquo;s difficult to define a behaviors and hunt for those. On the other hand, a threat actor can mutate malware resulting in different file signatures, while the behavior of the malware would more or less be the similar to the original.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318233556.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 Here is an example of the Pain to attacker, Value to defender outlined.&lt;/p&gt;
 &lt;table&gt;
 	&lt;thead&gt;
@@ -7149,7 +6505,7 @@ A number of these intelligence providers support structured threat intelligence 
     href=&#34;https://oasis-open.github.io/cti-documentation/stix/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX&lt;/a&gt; which defines the objects for everything in JSON format, using &lt;a
     href=&#34;https://oasis-open.github.io/cti-documentation/taxii/intro.html&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAXII&lt;/a&gt; a Trusted Automated Exchange of Intelligence Information protocol.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260318235614.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;TAXII requires two primary services to support intel sharing&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Collection - Interface to logical repository of CTI objects&lt;/li&gt;
@@ -7158,7 +6514,7 @@ A number of these intelligence providers support structured threat intelligence 
 &lt;p&gt;In a nutshell STIX Defines what the data looks like, while TAXII Defines how the data is shared.&lt;/p&gt;
 &lt;p&gt;The &lt;a
     href=&#34;https://oasis-open.github.io/cti-stix-visualization/?url=https://raw.githubusercontent.com/oasis-open/cti-stix-visualization/master/test.json&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;STIX Visualizer&lt;/a&gt; allows us to rapidly visualize the STIX objects and their relationships. It consumes a Json object and maps out such that it&amp;rsquo;s easily understandable for humans.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319000021.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Below is an example STIX JSON object in which a threat actor Disco Team operates primarily in Spanish and they have been known to steal credit card information for financial gain.&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -7262,7 +6618,7 @@ Here’s a simple &lt;strong&gt;list of disclosure types&lt;/strong&gt;:&lt;/p&g
 &lt;/table&gt;
 &lt;p&gt;The &lt;a
     href=&#34;https://ieeexplore.ieee.org/document/9606687&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Automated Responsible Disclosure of Security Vulnerabilities&lt;/a&gt; is a  solution that leverages a distributed ledger and inteledger technologies to automate the disclosure process while offering increased security, privacy and transparency.
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260317233457.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 The ARD solution presented in the above mentioned paper tackles all the problems currently present in the Responsible disclosure approaches and possibly be a solution in the future.&lt;/p&gt;
 &lt;h5&gt;3.2.2 Cyber Threat Reporting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;322-cyber-threat-reporting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#322-cyber-threat-reporting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;The creation of structured and actionable reports that communicate threat insights (e.g., actors, TTPs, risks) tailored to different audiences such as executives, analysts, or SOC teams.&lt;/p&gt;
@@ -7271,465 +6627,17 @@ The ARD solution presented in the above mentioned paper tackles all the problems
 &lt;li&gt;&lt;a
     href=&#34;https://center-for-threat-informed-defense.github.io/cti-blueprints/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CTI Blueprint&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[04] Hunting with Data</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/04-hunting-with-data/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h4&gt;4.1 Data types&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;41-data-types&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#41-data-types&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.2 Network Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;42-network-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#42-network-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.3 Endpoint /Host Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;43-endpoint-host-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#43-endpoint-host-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.4 Authentication &amp;amp; Identity Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;44-authentication--identity-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#44-authentication--identity-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.5 File and Storage Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;45-file-and-storage-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#45-file-and-storage-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.6 Email Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;46-email-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#46-email-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.7 Cloud &amp;amp; SaaS Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;47-cloud--saas-logs&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#47-cloud--saas-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.8 Application Logs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;48-application-logs&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#48-application-logs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.9 Security Tool Telemetry&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;49-security-tool-telemetry&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#49-security-tool-telemetry&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.10 Threat Intelligence Data&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;410-threat-intelligence-data&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#410-threat-intelligence-data&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;4.11 Memory Artifacts&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;411-memory-artifacts&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#411-memory-artifacts&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;
-      </description>
-    </item>
-    
-    <item>
-      <title>[05 Threat Hunting in Cloud</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/05-threat-hunting-in-cloud/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
-&lt;p&gt;Please check back later.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[06] Psychology of Trust Boundaries</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/06-psychology-of-trust-boundary/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h1&gt;🚧 Page Under Construction&lt;/h1&gt;&lt;p&gt;Sorry, this page is currently under construction.&lt;/p&gt;
-&lt;p&gt;Please check back later.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;If you believe this is an error, feel free to contact the site administrator.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[06] Threat Hunting in Cloud</title>
-      <link>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/02_platforms/web/web-application-enumeration/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h4&gt;Passive Information gathering&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#passive-information-gathering&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;As part of passive information gathering, we can use the OSINT tools to gather information from a web application.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div
-  data-alert=&#34;note&#34; class=&#34;hextra-alert&#34;
-&gt;
-  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;OSINT&lt;/span&gt;
-  &lt;/p&gt;
-
-  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;&lt;a
-    href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/open-source-intelligence-osint/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike OSINT Article&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Other interesting resources
-&lt;a
-    href=&#34;https://www.akamai.com/glossary/what-is-a-cdn&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Content Delivery Network&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;Passive Information Gathering Tools&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;passive-information-gathering-tools&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#passive-information-gathering-tools&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;Domain Information
-&lt;ul&gt;
-&lt;li&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/Whois/&#34;&gt;Whois&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lookup tool&lt;/li&gt;
-&lt;li&gt;ICANN&amp;rsquo;s website&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Subdomain Identification
-&lt;ul&gt;
-&lt;li&gt;DNSDumpster&lt;/li&gt;
-&lt;li&gt;Certificate transparency&lt;/li&gt;
-&lt;li&gt;crt.sh&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Additional Insights
-&lt;ul&gt;
-&lt;li&gt;Shodan&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Service Discovery&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;service-discovery&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#service-discovery&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Apart from the above mentioned, there are methods to discover running services.&lt;/li&gt;
-&lt;li&gt;The most common toolkit used for that is &lt;code&gt;Nmap&lt;/code&gt;, that is used to discover open ports and services on a host or across entire networks.
-&lt;img src=&#34;http://localhost:1313/docs/02_platforms/web/assets/Pasted_image_20260320153345.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>[06] Threat Hunting in Cloud</title>
-      <link>http://localhost:1313/docs/02_platforms/wifi/01-recon/</link>
-      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/02_platforms/wifi/01-recon/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;March 19, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;h4&gt;01. What is the channel that the wifi-global Access Point is currently using?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;01-what-is-the-channel-that-the-wifi-global-access-point-is-currently-using&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#01-what-is-the-channel-that-the-wifi-global-access-point-is-currently-using&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Setup the wifi adapter in monitor mode and verify the setup&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng check &lt;span class=&#34;nb&#34;&gt;kill&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng start wlan0
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airmon-ng --verbose&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;Start &lt;code&gt;airodump-ng&lt;/code&gt; and look for the results&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;We can also see the output capture files are saved for the further analysis.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;02. What is the MAC of the wifi-IT client?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;02-what-is-the-mac-of-the-wifi-it-client&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#02-what-is-the-mac-of-the-wifi-it-client&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;From the previous output we can see that the BSSID of the client wifi-IT is &lt;code&gt;F0:9F:C2:1A:CA:25&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Using this information we can identify the MAC of the essid &lt;code&gt;wifi-IT&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon --essid wifi-IT --bssid F0:9F:C2:1A:CA:25 -c &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt; --manufacturer --wps&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;03. What is the probe of 78:C1:A7:BF:72:46 ?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;03-what-is-the-probe-of-78c1a7bf7246-&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#03-what-is-the-probe-of-78c1a7bf7246-&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;We can run &lt;code&gt;airodump-ng&lt;/code&gt; again to check the probe of provided address.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;airodump-ng wlan0mon -w ~/wifi/scan --manufacturer --wps --band abg&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h4&gt;04. What is the ESSID of the hidden AP (mac F0:9F:C2:6A:88:26)?&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#04-what-is-the-essid-of-the-hidden-ap-mac-f09fc26a8826&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;Prepare a wordlist with the common patterns &lt;code&gt;wifi-$words&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;cat /root/rockyou-top100000.txt | awk &amp;#39;{print &amp;#34;wifi-&amp;#34;$1}&amp;#39; &amp;gt; wifi.wordlist&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;This wordlist will be use to brute force the wifi essids&lt;/li&gt;
-&lt;li&gt;Verify the generated list, which looks like the below listed example.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ less wifi.wordlist
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-123456
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-12345
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-123456789
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-12345678
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-abc123
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wifi-nicole&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;We can now use &lt;code&gt;mdk4&lt;/code&gt; to bruteforce the essid of the provided address.&lt;/li&gt;
-&lt;li&gt;First find the channel of the provided AP&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ airodump-ng wlan0mon&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;We can see that it&amp;rsquo;s running in &lt;code&gt;channel 11&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;The below explains the options set for the program (refer to mdk4 man page)
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;p&lt;/code&gt; - SSID Probing and Bruteforcing&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; - Set MAC address of target AP&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-f&lt;/code&gt; - Read SSIDs from file for bruteforcing hidden SSIDs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;iwconfig wlan0mon channel &lt;span class=&#34;m&#34;&gt;11&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mdk4 wlan0mon p -t  F0:9F:C2:6A:88:26 -f ./wifi.wordlist&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;Copy code&#34;
-    aria-label=&#34;Copy code&#34;
-    data-copied-label=&#34;Copied!&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/02_platforms/wifi/assets/Pasted_image_20260222230339.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260319003014.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[02] Threat Actors</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link>
+      <link>http://localhost:1315/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid>
+      <guid>http://localhost:1315/docs/01_methodology/threat-hunting/02-threat-actors-landscape/</guid>
       <description>
         
         
@@ -7768,7 +6676,7 @@ The ARD solution presented in the above mentioned paper tackles all the problems
     &lt;a href=&#34;#21-adversary-classification&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;The threat actors can be categorized based on their motivations, skillsets and other attributes that they might have.  Typically we can think of a target and motivation, which will paint a picture about the nature of a threat actor.&lt;/p&gt;
 &lt;p&gt;These threat actors are strategic and methodical in executing their attack chain. According to &lt;a
     href=&#34;https://cloud.google.com/security/resources/insights/targeted-attack-lifecycle&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mandiant Targeted attack life cycle&lt;/a&gt;, these predictable sequence of event.&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314145910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;2.1.1 Threat Actor Motivations &amp;amp; Objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;211-threat-actor-motivations--objectives&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#211-threat-actor-motivations--objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;ol&gt;
 &lt;li&gt;A threat actor may target an individual for reasons such as personal revenge, defamation, or financial gain.&lt;/li&gt;
@@ -7841,7 +6749,7 @@ The ARD solution presented in the above mentioned paper tackles all the problems
 &lt;p&gt;These actors are considered &lt;strong&gt;adversarial threat sources&lt;/strong&gt; in cybersecurity risk assessments such as those described in NIST Special Publication 800-30.&lt;/p&gt;
 &lt;p&gt;&lt;a
     href=&#34;https://evessio.s3.amazonaws.com/customer/8c4659ee-526a-4e9c-89dc-f6f4c3c1a789/event/626d2029-35a9-4ee1-a871-8f2e82ca8720/responses/80d534e2-ad36-4051-8947-3a047e6e350c/acc8ddcc-profile_62a34107590ad18b904b739d_Stages_of_a_Ransomware_Attack.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DarkTrack Threat discovery&lt;/a&gt; defined the following stages of a Ransomware Attack which includes Initiation, Establish foothold &amp;amp; Beaconing (C2), Lateral Movement, Data Exfiltration, Data Encryption, Ransom, Clean up &amp;amp; Recovery, The Cycle Repeats.&lt;br&gt;
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314151116.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Research shows that 80% of ransomware victims that pay the ransom suffer a second attack, often in the hands of the same group. The only way to truly keep the attackers
 from striking again is to know the full scope of the attack, ensure the attacker is no longer in your environment, and use a technology that doesn&amp;rsquo;t look at connections
 and events on a one-off basis.&lt;/p&gt;
@@ -7928,7 +6836,7 @@ and events on a one-off basis.&lt;/p&gt;
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260314153921.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Hence we have to distinguish actor groups that that distinct TTPs, objectives or other patterns.&lt;/p&gt;
 
       </description>
@@ -7936,10 +6844,10 @@ and events on a one-off basis.&lt;/p&gt;
     
     <item>
       <title>[01] Threat Hunting Introduction</title>
-      <link>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link>
+      <link>http://localhost:1315/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</link>
       <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid>
+      <guid>http://localhost:1315/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</guid>
       <description>
         
         
@@ -8009,7 +6917,7 @@ Cyber threat hunting is the process of proactively searching for undetected thre
 &lt;ul&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://www.crowdstrike.com/en-us/cybersecurity-101/threat-intelligence/threat-hunting/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crowdstrike Threat Hunting Process&lt;/a&gt;
-&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312231306.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 In a nutshell, the SOC Infrastructure will monitor for alters, triage information and classify them as Events (or) Incidents. Upon classification, an associated process will be triggered for instance an &amp;ldquo;Incident&amp;rdquo; will trigger an incident response process. Threat Hunting, however is a cyclic process, where it an organization is assumed breach. Upon a successful threat hunt, the identified threats will be submitted to the SOC, which will trigger an incident response if it meets the criteria for an Incident.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;More or less, threat hunting is like looking for &lt;strong&gt;smoke before a fire&lt;/strong&gt;. Due to this nature, a threat hint doesn&amp;rsquo;t wait for an alert signals, instructions, alarms or event indicators of compromise, but rather questions everything form a hypothesis, and try to prove or disprove the original hypothesis.&lt;/p&gt;
@@ -8063,7 +6971,7 @@ These three parameters are mapped into 5 levels of maturity ranging gotm HMM0 (t
 			&lt;/tr&gt;
 	&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260312234325.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -8137,7 +7045,7 @@ More or less, the workflow looks as shown below&lt;/p&gt;
 &lt;li&gt;&lt;a
     href=&#34;https://www.mitre.org/sites/default/files/2021-11/prs-19-3892-ttp-based-hunting.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MITRE ATT&amp;amp;CK Based Hunting&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1315/docs/01_methodology/threat-hunting/assets/Pasted_image_20260313000913.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;
 structured hunt. It is often triggered by the discovery of an indicator of compromise (IoC) in an organization’s system. Hunters then look for what caused the IoC and whether it is still at large in the network.&lt;/p&gt;
 &lt;h5&gt;1.5.2 Situational + Entity-Driven Threat Hunting&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;152-situational--entity-driven-threat-hunting&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#152-situational--entity-driven-threat-hunting&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;A situational hunt is a response to an organization’s unique situation. It is usually driven by the results of an internal &lt;a

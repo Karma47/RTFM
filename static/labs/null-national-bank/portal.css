@@ -35,6 +35,37 @@
     margin: 20px 0 6px;
 }
 
+.nn-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 24px 0 16px;
+    border-bottom: 1px solid var(--hx-color-border);
+}
+
+.nn-panel .nn-tab {
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    background: transparent;
+    color: inherit;
+    border-bottom: 3px solid transparent;
+}
+
+.nn-panel .nn-tab[aria-selected="true"] {
+    color: #2563eb;
+    border-bottom-color: #2563eb;
+}
+
+.nn-tab-panel {
+    min-height: 100px;
+}
+
+.nn-walkthrough-content {
+    white-space: pre-wrap;
+    padding: 18px;
+    border: 1px solid var(--hx-color-border);
+    border-radius: 8px;
+}
+
 .nn-evidence-image {
     display: block;
     width: 100%;
@@ -77,6 +108,54 @@
     margin: 15px 0;
     border: 1px solid #64748b;
     border-radius: 8px;
+}
+
+.nn-static-content {
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+.nn-static-content h1,
+.nn-static-content h2,
+.nn-static-content h3,
+.nn-static-content h4 {
+    margin: 1.4em 0 0.6em;
+}
+
+.nn-static-content ul,
+.nn-static-content ol {
+    padding-left: 1.5em;
+    margin: 0.75em 0;
+}
+
+.nn-static-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.nn-static-content th,
+.nn-static-content td {
+    padding: 8px 12px;
+    border: 1px solid var(--hx-color-border);
+}
+
+.nn-static-content blockquote {
+    border-left: 4px solid #64748b;
+    padding-left: 16px;
+    margin-left: 0;
+}
+
+.nn-static-content pre {
+    overflow-x: auto;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.nn-static-content img {
+    max-width: 100%;
+    height: auto;
 }
 
 .nn-panel button,

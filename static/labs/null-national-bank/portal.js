@@ -12,6 +12,21 @@ async function sha256Hex(value) {
 
 const verifierBasePath = "/labs/null-national-bank/";
 const passwordMask = 0x5a;
+const reportContentPath = "/labs/null-national-bank/content/threat-report.html";
+
+async function loadStaticContent(path, label) {
+    const response = await fetch(path, { cache: "no-cache" });
+    if (!response.ok) {
+        throw new Error(`${label} failed to load (HTTP ${response.status}).`);
+    }
+
+    const content = await response.text();
+    if (!content.trim()) {
+        throw new Error(`${label} is empty.`);
+    }
+
+    return content;
+}
 
 function weave(first, second) {
     if (!Array.isArray(first) || !Array.isArray(second) || Math.abs(first.length - second.length) > 1) {
@@ -84,6 +99,21 @@ function validateVerifierParts(first, second) {
 
         weave(firstEntry.r, secondEntry.r);
     });
+
+    if (
+        !first.report ||
+        !second.report ||
+        !/^[0-9a-f]{32}$/.test(first.report.p) ||
+        !/^[0-9a-f]{32}$/.test(second.report.p) ||
+        !Array.isArray(first.report.r) ||
+        !Array.isArray(second.report.r) ||
+        !first.report.r.every((byte) => Number.isInteger(byte) && byte >= 0 && byte <= 255) ||
+        !second.report.r.every((byte) => Number.isInteger(byte) && byte >= 0 && byte <= 255)
+    ) {
+        throw new Error("Report verifier data has an invalid format.");
+    }
+
+    weave(first.report.r, second.report.r);
 }
 
 async function loadVerifierParts() {
@@ -114,6 +144,16 @@ function revealPassword(first, second, challengeNumber) {
     return new TextDecoder().decode(new Uint8Array(bytes));
 }
 
+function revealReportPassword(first, second) {
+    if (typeof TextDecoder === "undefined") {
+        throw new Error("Report password display is unavailable in this browser.");
+    }
+
+    const encoded = weave(first.report.r, second.report.r);
+    const bytes = encoded.map((byte) => byte ^ passwordMask);
+    return new TextDecoder().decode(new Uint8Array(bytes));
+}
+
 function drawPassword(canvas, password) {
     const context = canvas.getContext("2d");
     if (!context) {
@@ -140,6 +180,7 @@ const challenges = [
             "Determine which employee account was compromised during the initial access.",
         evidence:
             "Review authentication events in the instructor-provided Splunk environment.",
+        walkthrough: "/labs/null-national-bank/content/walkthroughs/phase-01.html",
         tasks: [
             { prompt: "Identify the compromised employee account." },
             { prompt: "Identify the source IP address for the suspicious login." },
@@ -162,6 +203,7 @@ const challenges = [
         evidence:
             "Review Windows and Sysmon telemetry in the instructor-provided Splunk environment.",
         image: "/labs/null-national-bank/images/01_phase.svg",
+        walkthrough: "/labs/null-national-bank/content/walkthroughs/phase-02.html",
         tasks: [
             { prompt: "Identify the process associated with the attacker's execution." },
             { prompt: "Which PowerShell option is commonly used to execute a Base64-encoded command?" },
@@ -183,6 +225,7 @@ const challenges = [
             "Determine which privileged account was compromised.",
         evidence:
             "Review authentication and Windows security events in the instructor-provided Splunk environment.",
+        walkthrough: "/labs/null-national-bank/content/walkthroughs/phase-03.html",
         image: "/labs/null-national-bank/images/02_phase.svg",
         tasks: [
             { prompt: "Identify the compromised privileged account." },
@@ -205,6 +248,7 @@ const challenges = [
             "Identify the destination host involved in the lateral movement.",
         evidence:
             "Correlate endpoint and authentication events in the instructor-provided Splunk environment.",
+        walkthrough: "/labs/null-national-bank/content/walkthroughs/phase-04.html",
         image: "/labs/null-national-bank/images/03_phase.svg",    
         tasks: [
             { prompt: "Identify the destination host involved in lateral movement." },
@@ -222,11 +266,12 @@ const challenges = [
     {
         title: "Domain Compromise",
         situation:
-            "The SOC is assessing the final impact of the incident across the bank's domain.",
+            "The SOC is assessing the final impact of the Threat across the bank's domain.",
         objective:
             "Identify the indicator that confirms the domain compromise.",
         evidence:
             "Review the related Windows and domain activity in the instructor-provided Splunk environment.",
+        walkthrough: "/labs/null-national-bank/content/walkthroughs/phase-05.html",
         image: "/labs/null-national-bank/images/04_phase.svg",
         tasks: [
             { prompt: "Identify the account privilege that confirms domain compromise." },
@@ -246,18 +291,22 @@ const challenges = [
 const root = document.getElementById("nn-bank-portal");
 
 if (root) {
+    root.innerHTML = '<p class="nn-loading">Loading challenge...</p>';
+    const reportPage = root.dataset.reportPage === "true";
     const challengeNumber = Number(root.dataset.challenge);
-
     if (
-        !Number.isInteger(challengeNumber) ||
-        challengeNumber < 1 ||
-        challengeNumber > challenges.length
+        !reportPage &&
+        (!Number.isInteger(challengeNumber) ||
+            challengeNumber < 1 ||
+            challengeNumber > challenges.length)
     ) {
         throw new Error("Null National Bank portal has an invalid challenge number.");
     }
 
-    root.innerHTML = '<p class="nn-loading">Loading challenge...</p>';
-    initializePortal(root, challengeNumber).catch((error) => {
+    const initialization = reportPage
+        ? initializeReportPortal(root)
+        : initializePortal(root, challengeNumber);
+    initialization.catch((error) => {
         console.error("Challenge portal initialization failed.", error);
         root.textContent =
             "The challenge portal could not start. Refresh the page or contact your instructor.";
@@ -301,6 +350,28 @@ async function initializePortal(root, challengeNumber) {
     }
 
     let passwordAccepted = challengeIsComplete(challengeNumber);
+    let walkthroughAccepted = false;
+    let walkthroughLoading = false;
+    let walkthroughMarkup = "";
+    let walkthroughError = "";
+    let activeTab = "challenge";
+
+    async function loadWalkthrough() {
+        walkthroughLoading = true;
+        walkthroughError = "";
+        render();
+        try {
+            walkthroughMarkup = await loadStaticContent(
+                challenge.walkthrough,
+                `Challenge ${challengeNumber} walkthrough`
+            );
+        } catch (error) {
+            console.error(`Challenge ${challengeNumber} walkthrough could not be loaded.`, error);
+            walkthroughError = "The walkthrough could not be loaded. Check the Markdown file or retry.";
+        }
+        walkthroughLoading = false;
+        render();
+    }
 
     function render() {
         const previousChallengesComplete = challenges
@@ -310,6 +381,100 @@ async function initializePortal(root, challengeNumber) {
         const completedTaskSet = new Set(completedTasks);
         const challengeComplete = completedTasks.length === challenge.tasks.length;
 
+        const challengeContent = !previousChallengesComplete
+            ? `
+                <p>This challenge is locked. Submit all 10 flags in Challenge ${challengeNumber - 1} first.</p>
+                <a class="nn-button" href="../challenge-${String(challengeNumber - 1).padStart(2, "0")}/">
+                    Return to Challenge ${String(challengeNumber - 1).padStart(2, "0")}
+                </a>
+            `
+            : !passwordAccepted
+              ? `
+                    <p>Enter the challenge password to continue.</p>
+                    <form class="nn-password-form" data-password-purpose="challenge">
+                        <label for="nn-challenge-password">CHALLENGE PASSWORD</label>
+                        <input id="nn-challenge-password" type="password" autocomplete="off" required>
+                        <button type="submit">Unlock Challenge</button>
+                        <p class="nn-message" data-password-message aria-live="polite"></p>
+                    </form>
+                `
+              : `
+                    <section class="nn-brief">
+                        <h3>Situation</h3>
+                        <p>${challenge.situation}</p>
+                        <h3>Investigation objective</h3>
+                        <p>${challenge.objective}</p>
+                        <h3>Evidence</h3>
+                        <p>${challenge.evidence}</p>
+                        ${
+                            challenge.image
+                                ? `<img class="nn-evidence-image" src="${challenge.image}" alt="Null National Bank network diagram showing hosts and numbered attack stages">`
+                                : ""
+                        }
+                    </section>
+                    <p class="nn-progress" role="status">
+                        ${completedTasks.length} / ${challenge.tasks.length} flags submitted
+                    </p>
+                    <div class="nn-task-list">
+                        ${challenge.tasks.map((task, index) => {
+                            const complete = completedTaskSet.has(index);
+                            return `
+                                <section class="nn-task" data-complete="${complete}">
+                                    <h3>Task ${index + 1}</h3>
+                                    <p>${task.prompt}</p>
+                                    ${
+                                        complete
+                                            ? '<p class="nn-message" role="status">Flag validated.</p>'
+                                            : `
+                                                <form class="nn-task-form" data-task-index="${index}">
+                                                    <label for="flag-input-${index}">FLAG</label>
+                                                    <input id="flag-input-${index}" type="text" autocomplete="off" spellcheck="false" required>
+                                                    <button type="submit">Submit Flag</button>
+                                                    <p class="nn-message" id="flag-message-${index}" aria-live="polite"></p>
+                                                </form>
+                                            `
+                                    }
+                                </section>
+                            `;
+                        }).join("")}
+                    </div>
+                    ${
+                        challengeComplete
+                            ? `
+                                <p class="nn-message" role="status">Challenge completed. All 10 flags are validated.</p>
+                                <div class="nn-next-password">
+                                    <p>${challengeNumber < challenges.length ? `Challenge ${challengeNumber + 1} password` : "Report and Challenge 5 walkthrough password"}</p>
+                                    <canvas id="next-password-display" role="img" aria-label="Next password"></canvas>
+                                </div>
+                                ${
+                                    challengeNumber < challenges.length
+                                        ? `<a class="nn-button" href="../challenge-${String(challengeNumber + 1).padStart(2, "0")}/">Continue to Challenge ${String(challengeNumber + 1).padStart(2, "0")}</a>`
+                                        : '<a class="nn-button" href="../report/">Open Threat Report</a>'
+                                }
+                            `
+                            : ""
+                    }
+                `;
+
+        const walkthroughContent = !walkthroughAccepted
+            ? `
+                <p>Enter the completion password to read this phase's walkthrough.</p>
+                <form class="nn-password-form" data-password-purpose="walkthrough">
+                    <label for="nn-walkthrough-password">WALKTHROUGH PASSWORD</label>
+                    <input id="nn-walkthrough-password" type="password" autocomplete="off" required>
+                    <button type="submit">Unlock Walkthrough</button>
+                    <p class="nn-message" data-password-message aria-live="polite"></p>
+                </form>
+            `
+            : walkthroughLoading
+              ? '<p role="status">Loading walkthrough...</p>'
+              : walkthroughError
+                ? `
+                    <p class="nn-message" role="alert">${walkthroughError}</p>
+                    <button id="nn-retry-walkthrough" type="button">Retry</button>
+                `
+                : `<section class="nn-walkthrough-content nn-static-content">${walkthroughMarkup}</section>`;
+
         root.innerHTML = `
             <div class="nn-header">
                 <h2>NULL NATIONAL BANK</h2>
@@ -318,127 +483,76 @@ async function initializePortal(root, challengeNumber) {
             <div class="nn-panel">
                 <p class="nn-eyebrow">CHALLENGE ${challengeNumber} / ${challenges.length}</p>
                 <h2>${challenge.title}</h2>
-                ${
-                    !previousChallengesComplete
-                        ? `
-                            <p>This challenge is locked. Submit all 10 flags in Challenge ${challengeNumber - 1} first.</p>
-                            <a class="nn-button" href="../challenge-${String(challengeNumber - 1).padStart(2, "0")}/">
-                                Return to Challenge ${String(challengeNumber - 1).padStart(2, "0")}
-                            </a>
-                        `
-                        : !passwordAccepted
-                          ? `
-                            <p>Enter the challenge password to continue.</p>
-                            <form id="password-form">
-                                <label for="password-input">CHALLENGE PASSWORD</label>
-                                <input id="password-input" type="password" autocomplete="off" required>
-                                <button type="submit">Unlock Challenge</button>
-                            </form>
-                            <p class="nn-message" id="password-message" aria-live="polite"></p>
-                        `
-                          : `
-                            <section class="nn-brief">
-                                <h3>Situation</h3>
-                                <p>${challenge.situation}</p>
-                                <h3>Investigation objective</h3>
-                                <p>${challenge.objective}</p>
-                                <h3>Evidence</h3>
-                                <p>${challenge.evidence}</p>
-                                ${
-                                    challenge.image
-                                        ? `<img class="nn-evidence-image" src="${challenge.image}" alt="Null National Bank network diagram showing hosts and numbered attack stages">`
-                                        : ""
-                                }
-                            </section>
-                            <p class="nn-progress" role="status">
-                                ${completedTasks.length} / ${challenge.tasks.length} flags submitted
-                            </p>
-                            <div class="nn-task-list">
-                                ${challenge.tasks.map((task, index) => {
-                                    const complete = completedTaskSet.has(index);
-                                    return `
-                                        <section class="nn-task" data-complete="${complete}">
-                                            <h3>Task ${index + 1}</h3>
-                                            <p>${task.prompt}</p>
-                                            ${
-                                                complete
-                                                    ? '<p class="nn-message" role="status">Flag validated.</p>'
-                                                    : `
-                                                        <form class="nn-task-form" data-task-index="${index}">
-                                                            <label for="flag-input-${index}">FLAG</label>
-                                                            <input id="flag-input-${index}" type="text" autocomplete="off" spellcheck="false" required>
-                                                            <button type="submit">Submit Flag</button>
-                                                            <p class="nn-message" id="flag-message-${index}" aria-live="polite"></p>
-                                                        </form>
-                                                    `
-                                            }
-                                        </section>
-                                    `;
-                                }).join("")}
-                            </div>
-                            ${
-                                challengeComplete
-                                    ? `
-                                        <p class="nn-message" role="status">Challenge completed. All 10 flags are validated.</p>
-                                        ${
-                                            challengeNumber < challenges.length
-                                                ? `
-                                                    <div class="nn-next-password">
-                                                        <p>Challenge ${challengeNumber + 1} password</p>
-                                                        <canvas id="next-password-display" role="img" aria-label="Next challenge password"></canvas>
-                                                    </div>
-                                                    <a class="nn-button" href="../challenge-${String(challengeNumber + 1).padStart(2, "0")}/">
-                                                        Continue to Challenge ${String(challengeNumber + 1).padStart(2, "0")}
-                                                    </a>
-                                                `
-                                                : "<p>Congratulations. You have completed all challenges.</p>"
-                                        }
-                                    `
-                                    : ""
-                            }
-                        `
-                }
+                <div class="nn-tabs" role="tablist" aria-label="Challenge sections">
+                    <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "challenge"}" data-portal-tab="challenge">Challenge</button>
+                    <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "walkthrough"}" data-portal-tab="walkthrough">Walkthrough</button>
+                </div>
+                <section class="nn-tab-panel" role="tabpanel">
+                    ${activeTab === "challenge" ? challengeContent : walkthroughContent}
+                </section>
             </div>
         `;
 
+        root.querySelectorAll("[data-portal-tab]").forEach((tab) => {
+            tab.addEventListener("click", () => {
+                activeTab = tab.dataset.portalTab;
+                render();
+            });
+        });
+
+        root.querySelector("#nn-retry-walkthrough")?.addEventListener("click", loadWalkthrough);
+
         const passwordCanvas = root.querySelector("#next-password-display");
         if (passwordCanvas) {
-            drawPassword(
-                passwordCanvas,
-                revealPassword(verifierA, verifierB, challengeNumber + 1)
-            );
+            const password =
+                challengeNumber < challenges.length
+                    ? revealPassword(verifierA, verifierB, challengeNumber + 1)
+                    : revealReportPassword(verifierA, verifierB);
+            drawPassword(passwordCanvas, password);
         }
 
-        const passwordForm = document.getElementById("password-form");
-        if (passwordForm) {
+        root.querySelectorAll(".nn-password-form").forEach((passwordForm) => {
             passwordForm.addEventListener("submit", async (event) => {
                 event.preventDefault();
-                const submitted = document.getElementById("password-input").value.trim();
-                const message = document.getElementById("password-message");
+                const submitted = passwordForm.querySelector("input").value.trim();
+                const message = passwordForm.querySelector("[data-password-message]");
                 let submittedHash;
                 try {
                     submittedHash = await sha256Hex(submitted);
                 } catch (error) {
-                    console.error("Challenge password verification failed.", error);
+                    console.error("Portal password verification failed.", error);
                     message.textContent =
                         "Password verification is unavailable. Reload the page and try again.";
                     return;
                 }
 
-                const expectedHash = joinHash(
-                    verifierA.entries[challengeNumber - 1].p,
-                    verifierB.entries[challengeNumber - 1].p
-                );
+                const expectedHash =
+                    passwordForm.dataset.passwordPurpose === "challenge"
+                        ? joinHash(
+                              verifierA.entries[challengeNumber - 1].p,
+                              verifierB.entries[challengeNumber - 1].p
+                          )
+                        : challengeNumber < challenges.length
+                          ? joinHash(
+                                verifierA.entries[challengeNumber].p,
+                                verifierB.entries[challengeNumber].p
+                            )
+                          : joinHash(verifierA.report.p, verifierB.report.p);
                 if (submittedHash === expectedHash) {
-                    passwordAccepted = true;
-                    render();
+                    if (passwordForm.dataset.passwordPurpose === "challenge") {
+                        passwordAccepted = true;
+                        render();
+                    } else {
+                        walkthroughAccepted = true;
+                        await loadWalkthrough();
+                    }
                 } else {
                     message.textContent = "Incorrect password. Try again.";
                 }
             });
-        }
+        });
 
-        document.querySelectorAll(".nn-task-form").forEach((flagForm) => {
+        root.querySelectorAll(".nn-task-form").forEach((flagForm) => {
             flagForm.addEventListener("submit", async (event) => {
                 event.preventDefault();
                 const taskIndex = Number(flagForm.dataset.taskIndex);
@@ -469,6 +583,94 @@ async function initializePortal(root, challengeNumber) {
                 }
             });
         });
+    }
+
+    render();
+}
+
+async function initializeReportPortal(root) {
+    const [verifierA, verifierB] = await loadVerifierParts();
+    const expectedHash = joinHash(verifierA.report.p, verifierB.report.p);
+    let reportAccepted = false;
+    let reportLoading = false;
+    let reportMarkup = "";
+    let reportError = "";
+
+    async function loadReport() {
+        reportLoading = true;
+        reportError = "";
+        render();
+        try {
+            reportMarkup = await loadStaticContent(reportContentPath, "Threat Report");
+        } catch (error) {
+            console.error("Threat Report could not be loaded.", error);
+            reportError = "The Threat Report could not be loaded. Check the Markdown file or retry.";
+        }
+        reportLoading = false;
+        render();
+    }
+
+    function render() {
+        root.innerHTML = `
+            <div class="nn-header">
+                <h2>NULL NATIONAL BANK</h2>
+                <p>Threat Report</p>
+            </div>
+            <div class="nn-panel">
+                ${
+                    !reportAccepted
+                        ? `
+                            <h2>Unlock Threat Report</h2>
+                            <p>Enter the password provided after completing Challenge 5.</p>
+                            <form class="nn-password-form">
+                                <label for="nn-report-password">REPORT PASSWORD</label>
+                                <input id="nn-report-password" type="password" autocomplete="off" required>
+                                <button type="submit">Unlock Report</button>
+                                <p class="nn-message" data-password-message aria-live="polite"></p>
+                            </form>
+                        `
+                        : reportLoading
+                          ? '<p role="status">Loading Threat Report...</p>'
+                          : reportError
+                            ? `
+                                <p class="nn-message" role="alert">${reportError}</p>
+                                <button id="nn-retry-report" type="button">Retry</button>
+                                <a class="nn-button" href="../challenge-05/">Return to Challenge 5</a>
+                            `
+                            : `
+                                <section class="nn-static-content">${reportMarkup}</section>
+                                <a class="nn-button" href="../challenge-05/">Return to Challenge 5</a>
+                            `
+                }
+            </div>
+        `;
+
+        root.querySelector("#nn-retry-report")?.addEventListener("click", loadReport);
+
+        const passwordForm = root.querySelector(".nn-password-form");
+        if (passwordForm) {
+            passwordForm.addEventListener("submit", async (event) => {
+                event.preventDefault();
+                const submitted = passwordForm.querySelector("input").value.trim();
+                const message = passwordForm.querySelector("[data-password-message]");
+                let submittedHash;
+                try {
+                    submittedHash = await sha256Hex(submitted);
+                } catch (error) {
+                    console.error("Report password verification failed.", error);
+                    message.textContent =
+                        "Password verification is unavailable. Reload the page and try again.";
+                    return;
+                }
+
+                if (submittedHash === expectedHash) {
+                    reportAccepted = true;
+                    await loadReport();
+                } else {
+                    message.textContent = "Incorrect password. Try again.";
+                }
+            });
+        }
     }
 
     render();

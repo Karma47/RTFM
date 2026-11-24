@@ -51,6 +51,7 @@ if (
     throw new Error("The local secrets file must define exactly five challenges.");
 }
 
+const reportPassword = requireText(config.reportPassword, "Report password");
 const shards = [
     { version: 1, entries: [] },
     { version: 1, entries: [] }
@@ -85,6 +86,12 @@ config.challenges.forEach((challenge, challengeIndex) => {
         f: flagHashes.map(([, second]) => second.join(""))
     });
 });
+
+const [reportHashA, reportHashB] = splitAlternating([...hash(reportPassword)]);
+const hiddenReportPassword = Array.from(Buffer.from(reportPassword, "utf8"), (byte) => byte ^ xorMask);
+const [reportDisplayA, reportDisplayB] = splitAlternating(hiddenReportPassword);
+shards[0].report = { p: reportHashA.join(""), r: reportDisplayA };
+shards[1].report = { p: reportHashB.join(""), r: reportDisplayB };
 
 writeFileSync(
     path.join(outputDirectory, "verifier-a.json"),

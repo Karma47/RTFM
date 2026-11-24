@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Playbooks</title>
-    <link>http://localhost:1313/docs/04_playbooks/</link>
+    <link>http://localhost:1315/docs/04_playbooks/</link>
     <description>Recent content in Playbooks on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/04_playbooks/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1315/docs/04_playbooks/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>CISSP</title>
-      <link>http://localhost:1313/docs/04_playbooks/cissp/</link>
+      <link>http://localhost:1315/docs/04_playbooks/cissp/</link>
       <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/cissp/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/cissp/</guid>
       <description>
         
         
@@ -97,10 +97,10 @@
     
     <item>
       <title>CISSP</title>
-      <link>http://localhost:1313/docs/04_playbooks/oswa/</link>
+      <link>http://localhost:1315/docs/04_playbooks/oswa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/04_playbooks/oswa/</guid>
+      <guid>http://localhost:1315/docs/04_playbooks/oswa/</guid>
       <description>
         
         

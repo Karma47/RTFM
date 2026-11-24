@@ -29,7 +29,8 @@ Participant's browser
   - hashes submitted passwords and flags with Web Crypto SHA-256
   - compares each digest with the reconstructed shard fragments
   - stores completed task indexes in localStorage
-  - after 10 valid flags, reconstructs the next password for display
+  - after 10 valid flags, reconstructs the next challenge or report password
+  - fetches Hugo-rendered report and walkthrough Markdown fragments after unlock
 ```
 
 The portal UI and task prompts are in
@@ -38,6 +39,18 @@ The verifier generator is
 [`scripts/generate_nnb_verifiers.mjs`](../scripts/generate_nnb_verifiers.mjs).
 The challenge pages and navigation are Hugo content under
 [`content/docs/05_detection/5.1_labs/NullNationalBank/`](../content/docs/05_detection/5.1_labs/NullNationalBank/).
+Write the long-form content directly in Markdown:
+
+- Threat Report: `content/docs/05_detection/5.1_labs/NullNationalBank/threat-report.md`
+- Walkthroughs: `content/docs/05_detection/5.1_labs/NullNationalBank/walkthroughs/phase-01.md` through `phase-05.md`
+
+Hugo renders these files with
+[`layouts/_default/nnb-content-fragment.html`](../layouts/_default/nnb-content-fragment.html)
+as static HTML fragments. The portal fetches each fragment only after the
+password check. You can use normal Markdown headings, lists, tables, links,
+images, and code blocks; there is no need to encode long content in JSON or
+JavaScript. Keep images used by this content under
+`static/labs/null-national-bank/content/` and reference them by their public URL.
 
 ## Local configuration
 
@@ -51,9 +64,10 @@ It is ignored by Git via the root `.gitignore` and is outside Hugo's published
 `content/` and `static/` trees. Keep its file permissions restricted. Do not
 copy its values into Markdown, HTML, JavaScript, or any other published asset.
 
-The JSON must contain exactly five challenge objects, in the same order as the
-challenge pages. Each object has one `password` and exactly ten `flags`, one
-for each task. For example, a single entry has this shape:
+The JSON must contain a top-level `reportPassword` and exactly five challenge
+objects, in the same order as the challenge pages. Each challenge object has
+one `password` and exactly ten `flags`, one for each task. For example, a
+challenge entry has this shape:
 
 ```json
 {
@@ -89,8 +103,8 @@ commit that file or include real account credentials in it.
    ```
 
    The script validates the challenge and flag counts, calculates SHA-256
-   digests, splits each digest between two files, and transforms the password
-   display bytes. It writes:
+   digests, splits each digest between two files, and transforms the challenge
+   and report password display bytes. It writes:
 
    - `static/labs/null-national-bank/verifier-a.json`
    - `static/labs/null-national-bank/verifier-b.json`
@@ -106,7 +120,8 @@ commit that file or include real account credentials in it.
    confirm its generated copies are updated too.
 4. Test with `hugo server`. Enter the initial challenge password, verify that
    an incorrect flag is rejected, and submit all ten correct flags to check
-   completion and the next-password display.
+   completion and the next-password display. Confirm the corresponding
+   walkthrough and Threat Report Markdown render after their password checks.
 5. Before publishing, inspect `git status --short`. Commit the generated
    verifier assets and any intended site output, but never commit
    `.local/null-national-bank-secrets.json`.
@@ -126,8 +141,11 @@ flags, is removed by the portal when it initializes.
 - A correct flag adds that task's index to `nn_task_completion_v3` in
   `localStorage`; the flag text itself is not saved.
 - After all ten task indexes are complete, the portal displays the following
-  challenge password and enables the next challenge link. The initial password
-  is shared with participants by the instructor.
+  challenge password and enables the next challenge link. That password also
+  unlocks the completed phase's walkthrough. Phase 5 displays the report
+  password instead, which unlocks its walkthrough and the Threat Report.
+- Once unlocked, the portal fetches the relevant static HTML fragment generated
+  from the Markdown source. No report text is stored in browser localStorage.
 
 ## Security limitations
 
@@ -135,8 +153,10 @@ This is a static website. Both verifier shards and all client-side validation
 logic are delivered to the browser. Splitting hashes, transforming the
 password display data, and drawing the revealed password on a canvas only
 discourage casual inspection; they do not provide confidentiality or trusted
-access control. A visitor can retrieve the assets, attempt guesses against
-the hashes, alter local storage, or modify the client-side validation code.
+access control. The rendered report and walkthrough fragments are also public
+static files and can be requested directly without using the portal. A visitor
+can retrieve the assets, attempt guesses against the hashes, alter local
+storage, or modify the client-side validation code.
 Use a server-side verifier if the challenge requires enforceable access
 control, and never reuse these values as real credentials.
 
