@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Threat Hunting Challenge</title>
-    <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
+    <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
     <description>Recent content in Threat Hunting Challenge on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,85 +17,85 @@
     
     <item>
       <title>Challenge 01 - Initial Access</title>
-      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</guid>
       <description>
         
         
         &lt;div id=&#34;nn-bank-portal&#34; data-challenge=&#34;1&#34;&gt;&lt;/div&gt;
 &lt;noscript&gt;This interactive challenge requires JavaScript to be enabled.&lt;/noscript&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.css&#34;&gt;
-&lt;script src=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
 
       </description>
     </item>
     
     <item>
       <title>Challenge 02 - Execution and Persistence</title>
-      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-02/</guid>
       <description>
         
         
         &lt;div id=&#34;nn-bank-portal&#34; data-challenge=&#34;2&#34;&gt;&lt;/div&gt;
 &lt;noscript&gt;This interactive challenge requires JavaScript to be enabled.&lt;/noscript&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.css&#34;&gt;
-&lt;script src=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
 
       </description>
     </item>
     
     <item>
       <title>Challenge 03 - Privilege Escalation</title>
-      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-03/</guid>
       <description>
         
         
         &lt;div id=&#34;nn-bank-portal&#34; data-challenge=&#34;3&#34;&gt;&lt;/div&gt;
 &lt;noscript&gt;This interactive challenge requires JavaScript to be enabled.&lt;/noscript&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.css&#34;&gt;
-&lt;script src=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
 
       </description>
     </item>
     
     <item>
       <title>Challenge 04 - Lateral Movement</title>
-      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-04/</guid>
       <description>
         
         
         &lt;div id=&#34;nn-bank-portal&#34; data-challenge=&#34;4&#34;&gt;&lt;/div&gt;
 &lt;noscript&gt;This interactive challenge requires JavaScript to be enabled.&lt;/noscript&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.css&#34;&gt;
-&lt;script src=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
 
       </description>
     </item>
     
     <item>
       <title>Challenge 05 - Domain Compromise</title>
-      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/</link>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/</guid>
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-05/</guid>
       <description>
         
         
         &lt;div id=&#34;nn-bank-portal&#34; data-challenge=&#34;5&#34;&gt;&lt;/div&gt;
 &lt;noscript&gt;This interactive challenge requires JavaScript to be enabled.&lt;/noscript&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.css&#34;&gt;
-&lt;script src=&#34;http://127.0.0.1:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/portal.js&#34; defer&gt;&lt;/script&gt;
 
       </description>
     </item>

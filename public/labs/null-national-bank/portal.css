@@ -35,6 +35,14 @@
     margin: 20px 0 6px;
 }
 
+.nn-evidence-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
 .nn-progress {
     font-weight: 700;
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/05_detection/5.1_labs/NullNationalBank/_index.md",
+                "file": "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-01/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "index"
             }
           }
         ]
@@ -184,31 +184,39 @@
   },
   "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
-    "challenge-01.md",
+    "public/labs/null-national-bank/images/05_phase.svg",
+    "static/labs/null-national-bank/images/05_phase.svg",
+    "public/labs/null-national-bank/images/04_phase.svg",
+    "static/labs/null-national-bank/images/04_phase.svg",
+    "public/labs/null-national-bank/images/03_phase.svg",
+    "static/labs/null-national-bank/images/03_phase.svg",
+    "static/labs/null-national-bank/images/02_phase.svg",
+    "public/labs/null-national-bank/images/02_phase.svg",
+    "public/labs/null-national-bank/images/01_phase.svg",
+    "static/labs/null-national-bank/images/01_phase.svg",
+    "public/labs/null-national-bank/images/th_phase_01.webp",
+    "public/labs/null-national-bank/images",
+    "static/labs/null-national-bank/images",
+    "public/images/detection_labs",
+    "static/images/detection_labs",
+    "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 1 of 5.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/_index.md",
+    "challenge-01.md",
     "content/docs/05_detection/5.1_labs/_index.md",
     "content/docs/05_detection/_index.md",
     "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 5 of 5.md",
-    "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 1 of 5.md",
     "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 3 of 5.md",
     "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 2 of 5.md",
     "content/docs/05_detection/5.1_labs/LabDev/01 Lab Development.md",
     "content/docs/05_detection/5.1_labs/LabDev/_index.md",
     "content/docs/05_detection/5.1_labs/LabDev/Scenarios/03 Scenario.md",
-    "static/docs/05_detection/5.1_labs/nullnationalbank/assets/01_NullBank_Network_Diagram.png",
     "static/docs/05_detection/5.1_labs/nullnationalbank/assets",
     "static/docs/05_detection/5.1_labs/nullnationalbank",
-    "public/docs/05_detection/5.1_labs/nullnationalbank/assets/01_NullBank_Network_Diagram.png",
     "public/docs/05_detection/5.1_labs/nullnationalbank/assets",
     "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-5-of-5/index.html",
     "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-4-of-5/index.html",
     "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-2-of-5/index.html",
-    "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-1-of-5/index.html",
-    "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-3-of-5/index.html",
-    "public/docs/05_detection/5.1_labs/labdev/scenarios/03-scenario/index.html",
-    "public/docs/05_detection/5.1_labs/labdev/scenarios/operation-cinderlink--part-5-of-5",
     "content/docs/05_detection/5.1_labs/LabDev/02 Lab Development.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/assets/01_NullBank_Network_Diagram.png",
     "content/docs/05_detection/5.1_labs/LabDev/Scenarios/Operation Cinderlink — Part 4 of 5.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-05/index.md",
     "content/docs/03_techniques/01 Using CertUTIL.md",
@@ -221,14 +229,6 @@
     "content/docs/05_detection/5.1_labs/03 Introduction NNB.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-01/index.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-03/index.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-04/index.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-02/index.md",
-    "public/docs/05_detection/5.1_labs/assets/01_init.drawio.png",
-    "static/docs/05_detection/5.1_labs/assets/01_init.drawio.png",
-    "content/docs/05_detection/5.1_labs/assets/01_init.drawio.png",
-    "static/docs/05_detection/5.1_labs/assets/mermaid-diagram.png",
-    "public/docs/05_detection/5.1_labs/assets/mermaid-diagram.png",
-    "content/docs/05_detection/5.1_labs/assets/mermaid-diagram.png",
-    "public/docs/03_techniques/assets/Pasted_image_20261122002233.png"
+    "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-04/index.md"
   ]
 }

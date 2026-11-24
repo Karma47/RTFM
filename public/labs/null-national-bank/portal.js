@@ -161,6 +161,7 @@ const challenges = [
             "Find the process associated with the attacker's execution and persistence activity.",
         evidence:
             "Review Windows and Sysmon telemetry in the instructor-provided Splunk environment.",
+        image: "/labs/null-national-bank/images/01_phase.svg",
         tasks: [
             { prompt: "Identify the process associated with the attacker's execution." },
             { prompt: "Which PowerShell option is commonly used to execute a Base64-encoded command?" },
@@ -182,6 +183,7 @@ const challenges = [
             "Determine which privileged account was compromised.",
         evidence:
             "Review authentication and Windows security events in the instructor-provided Splunk environment.",
+        image: "/labs/null-national-bank/images/02_phase.svg",
         tasks: [
             { prompt: "Identify the compromised privileged account." },
             { prompt: "What Windows event ID records special privileges assigned to a new logon?" },
@@ -203,6 +205,7 @@ const challenges = [
             "Identify the destination host involved in the lateral movement.",
         evidence:
             "Correlate endpoint and authentication events in the instructor-provided Splunk environment.",
+        image: "/labs/null-national-bank/images/03_phase.svg",    
         tasks: [
             { prompt: "Identify the destination host involved in lateral movement." },
             { prompt: "Which TCP port is commonly used by SMB for file sharing?" },
@@ -224,6 +227,7 @@ const challenges = [
             "Identify the indicator that confirms the domain compromise.",
         evidence:
             "Review the related Windows and domain activity in the instructor-provided Splunk environment.",
+        image: "/labs/null-national-bank/images/04_phase.svg",
         tasks: [
             { prompt: "Identify the account privilege that confirms domain compromise." },
             { prompt: "Which Active Directory database file contains domain account data?" },
@@ -340,6 +344,11 @@ async function initializePortal(root, challengeNumber) {
                                 <p>${challenge.objective}</p>
                                 <h3>Evidence</h3>
                                 <p>${challenge.evidence}</p>
+                                ${
+                                    challenge.image
+                                        ? `<img class="nn-evidence-image" src="${challenge.image}" alt="Null National Bank network diagram showing hosts and numbered attack stages">`
+                                        : ""
+                                }
                             </section>
                             <p class="nn-progress" role="status">
                                 ${completedTasks.length} / ${challenge.tasks.length} flags submitted
