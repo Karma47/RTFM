@@ -1,6 +1,9 @@
 ---
-title: TH Challenge
-description: Splunk Threat Hunting Labs
+title: Threat Hunting Challenge
+date: 2026-11-24
+authors:
+  - Prasanna
+description: Null Chennai, Splunk Threat Hunting Labs
 ---
 Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
 

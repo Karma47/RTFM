@@ -1,10 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RTFM – TH Challenge</title>
+    <title>RTFM – Threat Hunting Challenge</title>
     <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/</link>
-    <description>Recent content in TH Challenge on RTFM</description>
+    <description>Recent content in Threat Hunting Challenge on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
     
 	  <atom:link href="http://127.0.0.1:1313/docs/05_detection/5.1_labs/nullnationalbank/index.xml" rel="self" type="application/rss+xml" />
     
