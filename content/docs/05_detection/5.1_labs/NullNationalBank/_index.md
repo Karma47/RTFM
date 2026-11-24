@@ -25,8 +25,7 @@ At this stage, there is no confirmed evidence of a successful compromise. Howeve
 
 **Domain : `NullNationalBank.com`**
 
-![](/docs/05_detection/5.1_labs/assets/01_init.drawio.png)
-
+![](/docs/05_detection/5.1_labs/nullnationalbank/assets/01_NullBank_Network_Diagram.png)
 The network is segmented into two subnets, managed by the central router **IDS1**:
 
 - **Internal Network (10.10.10.0/24):** Hosts employee workstations and internal servers.
@@ -96,4 +95,4 @@ Each challenge contains 10 tasks. Submit all 10 flags to complete a challenge
 and reveal the next challenge password. Progress is stored in the participant's
 browser.
 
-[Start Challenge 01: Initial Access](nullnationalbank/challenge-01/)
+[Start Challenge 01: Initial Access](/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/)

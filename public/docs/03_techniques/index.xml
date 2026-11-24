@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Techniques</title>
-    <link>http://localhost:1313/docs/03_techniques/</link>
+    <link>http://127.0.0.1:1313/docs/03_techniques/</link>
     <description>Recent content in Techniques on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 26 Oct 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/03_techniques/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://127.0.0.1:1313/docs/03_techniques/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>[02] VBS Macro Payload Execution</title>
-      <link>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</link>
+      <link>http://127.0.0.1:1313/docs/03_techniques/02-vbs-macro-payload-execution/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/02-vbs-macro-payload-execution/</guid>
+      <guid>http://127.0.0.1:1313/docs/03_techniques/02-vbs-macro-payload-execution/</guid>
       <description>
         
         
@@ -101,11 +101,11 @@
 &lt;h4&gt;STEP 2: Malicious VBS Script&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-malicious-vbs-script&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-malicious-vbs-script&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;In MS Word, embed the malicious VBS script by choosing &lt;code&gt;View&lt;/code&gt; and click on &lt;code&gt;Macros&lt;/code&gt;
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152438.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261026152438.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Next Create a macro called &lt;code&gt;MyMacro&lt;/code&gt;
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152554.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261026152554.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;Edit the macro and input the below mentioned VBA Code to that downloads and executes the payload.
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152635.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261026152635.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -148,7 +148,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Save the document as &lt;code&gt;Macro Enabled&lt;/code&gt; and open the document to see the execution.
-&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
+&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261026152824.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
       </description>
@@ -156,10 +156,10 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
     
     <item>
       <title>[03] WMIC</title>
-      <link>http://localhost:1313/docs/03_techniques/03-wmic/</link>
+      <link>http://127.0.0.1:1313/docs/03_techniques/03-wmic/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/03-wmic/</guid>
+      <guid>http://127.0.0.1:1313/docs/03_techniques/03-wmic/</guid>
       <description>
         
         
@@ -277,17 +277,17 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261122001534.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[04] DLL</title>
-      <link>http://localhost:1313/docs/03_techniques/04-dll/</link>
+      <link>http://127.0.0.1:1313/docs/03_techniques/04-dll/</link>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/04-dll/</guid>
+      <guid>http://127.0.0.1:1313/docs/03_techniques/04-dll/</guid>
       <description>
         
         
@@ -381,7 +381,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261122002301.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 4: Interact with the infected host from the console&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-4-interact-with-the-infected-host-from-the-console&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-4-interact-with-the-infected-host-from-the-console&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -417,7 +417,7 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261122002233.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;h5&gt;STEP 2: Copy the command produced by metasploit and run it in the victims device.&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#step-2-copy-the-command-produced-by-metasploit-and-run-it-in-the-victims-device&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h5&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
 
@@ -449,17 +449,17 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://127.0.0.1:1313/docs/03_techniques/assets/Pasted_image_20261122002211.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 
       </description>
     </item>
     
     <item>
       <title>[01] CertUtil File Transfer</title>
-      <link>http://localhost:1313/docs/03_techniques/01-using-certutil/</link>
+      <link>http://127.0.0.1:1313/docs/03_techniques/01-using-certutil/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/03_techniques/01-using-certutil/</guid>
+      <guid>http://127.0.0.1:1313/docs/03_techniques/01-using-certutil/</guid>
       <description>
         
         

@@ -1,13 +1,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RTFM – Detection</title>
-    <link>http://localhost:1313/docs/05_detection/</link>
+    <link>http://127.0.0.1:1313/docs/05_detection/</link>
     <description>Recent content in Detection on RTFM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 02 Nov 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/docs/05_detection/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="http://127.0.0.1:1313/docs/05_detection/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -17,10 +17,10 @@
     
     <item>
       <title>Detection Labs</title>
-      <link>http://localhost:1313/docs/05_detection/5.1_labs/</link>
+      <link>http://127.0.0.1:1313/docs/05_detection/5.1_labs/</link>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/docs/05_detection/5.1_labs/</guid>
+      <guid>http://127.0.0.1:1313/docs/05_detection/5.1_labs/</guid>
       <description>
         
         
