@@ -1,0 +1,248 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Request-Smuggling</title>
+    <link>http://localhost:1313/tags/request-smuggling/</link>
+    <description>Recent content in Request-Smuggling on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/tags/request-smuggling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Request Smuggling</title>
+      <link>http://localhost:1313/docs/06_tools/06.1_web/19-request-smuggling/</link>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/06_tools/06.1_web/19-request-smuggling/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 26, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;p&gt;A curated collection of resources for learning about HTTP request smuggling, organized into foundational material, controlled practice, and published research.&lt;/p&gt;
+&lt;p&gt;Use hands-on material only in its intended training environment, and assess other systems only with explicit authorization.&lt;/p&gt;
+&lt;h2&gt;1. Introduction to Request Smuggling&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-introduction-to-request-smuggling&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-introduction-to-request-smuggling&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;What is Request Smuggling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Official overview and guidance for understanding and preventing this issue.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;2. Additional Learning Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-additional-learning-resources&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-additional-learning-resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.youtube.com/watch?v=PFllH0QccCs&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling Overview&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Talks and demonstrations related to HTTP request smuggling.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;3. Hands-on Labs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-hands-on-labs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-hands-on-labs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Lab&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/lab-basic-cl-te&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Basic CL TE&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Basic CL TE&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/lab-basic-te-cl&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Basic TE CL&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Basic TE CL&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/lab-obfuscating-te-header&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Obfuscating TE Header&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Obfuscating TE Header&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-cl-te-via-differential-responses&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Confirming CL TE via Differential Responses&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Confirming CL TE via Differential Responses&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/finding/lab-confirming-te-cl-via-differential-responses&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Confirming TE CL via Differential Responses&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Confirming TE CL via Differential Responses&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;6&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-cl-te&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bypass Front End Controls CL TE&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Bypass Front End Controls CL TE&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;7&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-bypass-front-end-controls-te-cl&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bypass Front End Controls TE CL&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Bypass Front End Controls TE CL&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;8&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-reveal-front-end-request-rewriting&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Reveal Front End Request Rewriting&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Reveal Front End Request Rewriting&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;9&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-capture-other-users-requests&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capture Other Users Requests&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Capture Other Users Requests&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;10&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-deliver-reflected-xss&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deliver Reflected XSS&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Deliver Reflected XSS&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;11&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/response-queue-poisoning/lab-request-smuggling-h2-response-queue-poisoning-via-te-request-smuggling&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 Response Queue Poisoning via TE Request Smuggling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 Response Queue Poisoning via TE Request Smuggling&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;12&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-h2-cl-request-smuggling&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 CL Request Smuggling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 CL Request Smuggling&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;13&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-h2-request-smuggling-via-crlf-injection&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 Request Smuggling via CRLF Injection&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 Request Smuggling via CRLF Injection&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;14&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/lab-request-smuggling-h2-request-splitting-via-crlf-injection&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 Request Splitting via CRLF Injection&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 Request Splitting via CRLF Injection&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;15&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-perform-web-cache-poisoning&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perform Web Cache Poisoning&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Perform Web Cache Poisoning&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;16&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/exploiting/lab-perform-web-cache-deception&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perform Web Cache Deception&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Perform Web Cache Deception&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;17&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/request-tunnelling/lab-request-smuggling-h2-bypass-access-controls-via-request-tunnelling&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 Bypass Access Controls via Request Tunnelling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 Bypass Access Controls via Request Tunnelling&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;18&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/request-smuggling/advanced/request-tunnelling/lab-request-smuggling-h2-web-cache-poisoning-via-request-tunnelling&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request Smuggling HTTP/2 Web Cache Poisoning via Request Tunnelling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Request Smuggling HTTP/2 Web Cache Poisoning via Request Tunnelling&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;4. Bug Bounty Writeups and Case Studies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-bug-bounty-writeups-and-case-studies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-bug-bounty-writeups-and-case-studies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://ricardoiramar.medium.com/the-powerful-http-request-smuggling-af208fafa142&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Powerful HTTP Request Smuggling&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to HTTP request smuggling.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://pastebin.com/E6LMFm2w&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;E6LMFm2w&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to HTTP request smuggling.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Recommended Learning Path&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;recommended-learning-path&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#recommended-learning-path&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Read the topic overview and note the relevant defensive guidance.&lt;/li&gt;
+&lt;li&gt;Work through the practice labs in their intended training environments.&lt;/li&gt;
+&lt;li&gt;Review the research references for context, then focus on prevention and secure design.&lt;/li&gt;
+&lt;li&gt;Apply the lessons only to systems you own or are explicitly authorized to assess.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

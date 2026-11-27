@@ -1,0 +1,182 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RTFM – Information-Disclosure</title>
+    <link>http://localhost:1313/tags/information-disclosure/</link>
+    <description>Recent content in Information-Disclosure on RTFM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/tags/information-disclosure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Information Disclosure</title>
+      <link>http://localhost:1313/docs/06_tools/06.1_web/06-information-disclosure/</link>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/06_tools/06.1_web/06-information-disclosure/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;November 26, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;p&gt;A curated collection of resources for learning about information disclosure, organized into foundational material, controlled practice, and published research.&lt;/p&gt;
+&lt;p&gt;Use hands-on material only in its intended training environment, and assess other systems only with explicit authorization.&lt;/p&gt;
+&lt;h2&gt;1. Introduction to Information Disclosure&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-introduction-to-information-disclosure&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-introduction-to-information-disclosure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Information Disclosure&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Official overview and guidance for understanding and preventing this issue.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;2. Additional Learning Resources&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-additional-learning-resources&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-additional-learning-resources&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://www.youtube.com/watch?v=42q-N1DXpAY&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Video Resource 1&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Talks and demonstrations related to information disclosure.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;3. Hands-on Labs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-hands-on-labs&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-hands-on-labs&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Lab&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-error-messages&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infoleak in Error Messages&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Infoleak in Error Messages&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-on-debug-page&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infoleak on Debug Page&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Infoleak on Debug Page&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-via-backup-files&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infoleak via Backup Files&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Infoleak via Backup Files&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-authentication-bypass&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infoleak Authentication Bypass&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Infoleak Authentication Bypass&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;5&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://portswigger.net/web-security/information-disclosure/exploiting/lab-infoleak-in-version-control-history&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Infoleak in Version Control History&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Practice &lt;strong&gt;Infoleak in Version Control History&lt;/strong&gt; in the linked training lab.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;4. Bug Bounty Writeups and Case Studies&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;4-bug-bounty-writeups-and-case-studies&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#4-bug-bounty-writeups-and-case-studies&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;#&lt;/th&gt;
+					&lt;th&gt;Resource&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;1&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://threatnix.io/blog/exploiting-csp-in-webkit-to-break-authentication-authorization/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Exploiting CSP in Webkit to Break Authentication Authorization&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to information disclosure.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;2&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://krevetk0.medium.com/how-i-accidentally-hacked-many-companies-using-n-a-vulnerability-in-atlassian-cloud-d4ff8e7dbef1&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How I Accidentally Hacked Many Companies Using N a Vulnerability in Atlassian Cloud&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to information disclosure.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;3&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://infosecwriteups.com/a-tale-of-5250-how-i-accessed-millions-of-users-data-including-their-national-id-s-fd48ca7ca0bf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Tale of 5250 How I Accessed Millions of Users Data Including Their National ID S&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to information disclosure.&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;4&lt;/td&gt;
+					&lt;td&gt;&lt;a
+    href=&#34;https://feed.bugs.xdavidhu.me/bugs/0012&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bug Report 0012&lt;/a&gt;&lt;/td&gt;
+					&lt;td&gt;Published case studies and research related to information disclosure.&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Recommended Learning Path&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;recommended-learning-path&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#recommended-learning-path&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Read the topic overview and note the relevant defensive guidance.&lt;/li&gt;
+&lt;li&gt;Work through the practice labs in their intended training environments.&lt;/li&gt;
+&lt;li&gt;Review the research references for context, then focus on prevention and secure design.&lt;/li&gt;
+&lt;li&gt;Apply the lessons only to systems you own or are explicitly authorized to assess.&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

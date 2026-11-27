@@ -1,5 +1,5 @@
 ---
-title: Cybersecurity Tools
+title: Resources
 description: All documentation notes
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Network Tools
+title: Network Resources
 description: All documentation notes
 ---
 
