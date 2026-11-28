@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-01.md",
+                "file": "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-00.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "challenge-01"
+              "title": "challenge-00"
             }
           }
         ]
@@ -184,10 +184,14 @@
   },
   "active": "37c46f3a79f1c879",
   "lastOpenFiles": [
-    "public/labs/null-national-bank/content/threat-intel/challenge-00.html",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/warm-up/index.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-00.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-02.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-01.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-03.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-05.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-04.md",
+    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-02.md",
+    "public/labs/null-national-bank/content/threat-intel/challenge-00.html",
     "content/docs/05_detection/5.1_labs/NullNationalBank/challenge-01/index.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel.md",
     "public/labs/null-national-bank/content/threat-intel/challenge-05.html",
@@ -196,9 +200,6 @@
     "public/labs/null-national-bank/content/threat-intel/challenge-02.html",
     "public/labs/null-national-bank/content/threat-intel/challenge-01.html",
     "public/labs/null-national-bank/content/threat-intel",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-05.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-04.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel/challenge-03.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/threat-intel",
     "public/labs/null-national-bank/content/threat-intel.html",
     "public/labs/null-national-bank/content/challenges/challenge-05.md",
@@ -212,9 +213,7 @@
     "static/labs/null-national-bank/content/challenges/challenge-03.md",
     "static/labs/null-national-bank/content/challenges/challenge-02.md",
     "static/labs/null-national-bank/content/challenges/challenge-01.md",
-    "static/labs/null-national-bank/content/challenges",
     "content/docs/05_detection/5.1_labs/NullNationalBank/walkthroughs/phase-01.md",
-    "content/docs/05_detection/5.1_labs/NullNationalBank/warm-up/index.md",
     "warm-up.md",
     "content/docs/05_detection/5.1_labs/NullNationalBank/_index.md",
     "content/docs/05_detection/5.1_labs/_index.md",

@@ -1,9 +1,24 @@
-<h1>Reported Endpoint Artifacts</h1><h2>File and installer indicators<span class="hx:absolute hx:-mt-20" id="file-and-installer-indicators"></span>
-    <a href="#file-and-installer-indicators" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><code>C:\Program Files\Northvale\Common\NVUtils.dll</code></li>
-<li><code>msiexec.exe /x {A17C44F2-90B3-4E01-NVSN} /qn</code></li>
-</ul>
-<p>The Northvale DLL path was listed twice in the source report. Verify its
-signature, hash, file origin, load path, and process context. The supplied
-report does not identify a privileged account or a specific privilege
-escalation technique; seek corroborating identity and security-event evidence.</p>
+<hr>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">Note</span>
+  </p>
+
+  <div class="hextra-alert-content"><p><em>Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking.</em></p></div>
+</div>
+<hr>
+<h2>Credential Escalation &amp; Cloud (from 2025-06-07)<span class="hx:absolute hx:-mt-20" id="credential-escalation--cloud-from-2025-06-07"></span>
+    <a href="#credential-escalation--cloud-from-2025-06-07" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>Situation.</strong> The intrusion went credentialed: an overnight <strong>MFA push-bombing storm</strong> against <code>rajesh.kumar</code> succeeded on attempt 32; LSASS was dumped via a renamed dual-use tool during his remote session; RC4 Kerberos tickets were roasted for <code>erp-svc</code>, <code>sqlsvc</code>, <code>backup-svc</code>; and <strong>DCSync replicated the <code>krbtgt</code> hash</strong> — the strongest single detection signal to date. A rogue multi-tenant OAuth app (&ldquo;NVSync Tools&rdquo;) was admin-consented from a hijacked session, and a token replay produced impossible-travel sign-ins. A 40-minute-interval password spray ran against VPN, landing <code>kavitha.reddy</code>.</p>
+<p><strong>IOCs</strong></p>
+<ol>
+<li><code>198.51.100.76</code> — source of MFA bombing and rogue OAuth consent</li>
+<li><code>45.33.32.156</code> — low-and-slow VPN password spray</li>
+</ol>
+<p><strong>IOAs</strong></p>
+<ol>
+<li>LSASS access mask <code>0x1010</code> from an unsigned <code>winsdkdiag.exe</code> running from Temp</li>
+<li>RC4 (<code>0x17</code>) ticket requests for service accounts with outlier ticket sizes, followed by DCSync (<code>GetChangesAll</code>, <code>krbtgt</code>)</li>
+</ol>
+<p><strong>Speculation &amp; direction.</strong> With <code>krbtgt</code> compromised, treat Golden-Ticket forgery as possible until a domain-wide credential rotation (twice) is completed. The OAuth grant implies mailbox/file cloud access independent of on-prem cleanup — revocation of consent alone is insufficient; rotate the consenting admin&rsquo;s session tokens. Further impossible-travel pairs (Asia ↔ EU) expected.</p>
+<p><strong>MITRE ATT&amp;CK:</strong> T1621 (MFA Request Generation) · T1003.001 (LSASS) · T1558.003 (Kerberoasting) · T1003.006 (DCSync) · T1550.001 (Application Access Token) · T1110.003 (Password Spraying)</p>

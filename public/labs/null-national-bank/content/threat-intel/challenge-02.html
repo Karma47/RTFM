@@ -1,25 +1,24 @@
-<h1>ERP Plugin Execution Indicators</h1><h2>Reported files<span class="hx:absolute hx:-mt-20" id="reported-files"></span>
-    <a href="#reported-files" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><code>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</code></li>
-<li><code>C:\Windows\System32\mshta.exe</code></li>
-<li><code>C:\Windows\System32\msiexec.exe</code></li>
-</ul>
-<h2>Reported command lines<span class="hx:absolute hx:-mt-20" id="reported-command-lines"></span>
-    <a href="#reported-command-lines" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+<hr>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">Note</span>
+  </p>
 
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">mshta.exe javascript:eval(unescape(&#39;%61%74%6f%62&#39;))
-</span></span><span class="line"><span class="cl">msiexec.exe /i NorthvaleERPSync-4.7.2.msi /qn ALLUSERS=1
-</span></span><span class="line"><span class="cl">powershell.exe -NoProfile -EncodedCommand</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
+  <div class="hextra-alert-content"><p><em>Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking.</em></p></div>
 </div>
-</div>
-<p>These are observed indicators, not commands to run. Correlate process lineage,
-accounts, timestamps, installer records, and endpoint telemetry.</p>
+<hr>
+<h2>Foothold Expansion &amp; Recon (from 2025-06-05)<span class="hx:absolute hx:-mt-20" id="foothold-expansion--recon-from-2025-06-05"></span>
+    <a href="#foothold-expansion--recon-from-2025-06-05" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>Situation.</strong> With egress filtering tightened, C2 <strong>fell back to DNS TXT records carrying base32 payloads</strong>. The implant moved fully <strong>in-memory into a service host</strong> (no disk artefact), then installed persistence as <strong><code>NVAppMonSvc</code></strong>, a service name mimicking vendor conventions. Interactive discovery followed from the workstation of <code>arjun.menon</code>: domain group enumeration, slow ARP/ICMP sweep of the /24, LDAP SPN harvesting, and human-paced SMB browsing of Finance paths. Separately, a caller impersonating <code>vikram.patel</code> talked the helpdesk into a password + MFA reset using employee-ID and payroll-fragment verification.</p>
+<p><strong>IOCs</strong></p>
+<ol>
+<li><code>C:\ProgramData\Northvale\NVAppMonSvc.exe</code> — rogue persistence service (display name &ldquo;Northvale Application Monitor Service&rdquo;)</li>
+<li>Large TXT responses to <code>*.nullnationalbank.com</code> queries (base32 payload) — DNS C2 channel</li>
+</ol>
+<p><strong>IOAs</strong></p>
+<ol>
+<li>Process-injection access (<code>0x1010</code>) against <code>svchost.exe</code> with no corresponding on-disk module</li>
+<li>LDAP queries filtered on <code>(servicePrincipalName=*)</code> requesting SPN/memberOf attributes from a workstation context</li>
+</ol>
+<p><strong>Speculation &amp; direction.</strong> The SPN enumeration telegraphs an imminent Kerberoasting attempt. The helpdesk bypass signals an identity-attack track running in parallel with the endpoint track — assume credential-reset procedures are known to the adversary. Watch <code>arjun.menon</code>&rsquo;s account: activity may be hijacked rather than the user being complicit.</p>
+<p><strong>MITRE ATT&amp;CK:</strong> T1071.004 (DNS, TXT fallback) · T1055 (Process Injection) · T1543.003 (Windows Service) · T1087.002 / T1035 / T1135 (Discovery) · T1566.004 + T1098 (Vishing / Account Manipulation)</p>

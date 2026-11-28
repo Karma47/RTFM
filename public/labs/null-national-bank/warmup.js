@@ -17,7 +17,7 @@ if (root) {
         }
     ];
     const progressKey = "nn_warmup_task_completion_v1";
-    let activeTab = "challenge";
+    let activeTab = "threat-intel";
     let walkthroughUnlocked = false;
     let threatIntelLoading = false;
     let threatIntelMarkup = "";
@@ -132,18 +132,14 @@ if (root) {
                 : isComplete
                     ? passwordPrompt
                     : "<p>Submit all three flags on the Hunt Challenge tab to reveal the demo password and unlock this walkthrough.</p>";
-            const threatIntelContent = !isComplete
-                ? "<p>Complete all three flags on the Hunt Challenge tab to unlock this threat intel.</p>"
-                : !walkthroughUnlocked
-                    ? passwordPrompt
-                    : threatIntelLoading
-                        ? '<p role="status">Loading Threat Intel...</p>'
-                        : threatIntelError
-                            ? `
-                                <p class="nn-message" role="alert">${threatIntelError}</p>
-                                <button class="nn-button" id="warmup-retry-threat-intel" type="button">Retry</button>
-                            `
-                            : `<section class="nn-static-content">${threatIntelMarkup}</section>`;
+            const threatIntelContent = threatIntelLoading
+                ? '<p role="status">Loading Threat Intel...</p>'
+                : threatIntelError
+                    ? `
+                        <p class="nn-message" role="alert">${threatIntelError}</p>
+                        <button class="nn-button" id="warmup-retry-threat-intel" type="button">Retry</button>
+                    `
+                    : `<section class="nn-static-content">${threatIntelMarkup}</section>`;
 
             root.innerHTML = `
                 <div class="nn-header">
@@ -176,7 +172,6 @@ if (root) {
                     activeTab = tab.dataset.warmupTab;
                     if (
                         activeTab === "threat-intel" &&
-                        walkthroughUnlocked &&
                         !threatIntelLoading &&
                         !threatIntelMarkup &&
                         !threatIntelError
@@ -223,6 +218,6 @@ if (root) {
             });
         }
 
-        render();
+        loadThreatIntel();
     }
 }

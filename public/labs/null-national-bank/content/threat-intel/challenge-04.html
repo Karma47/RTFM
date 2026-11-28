@@ -1,12 +1,24 @@
-<h1>Reported DNS and Network Indicators</h1><h2>DNS queries<span class="hx:absolute hx:-mt-20" id="dns-queries"></span>
-    <a href="#dns-queries" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><code>4b6e582e7a.update.nullnationalbank.com</code> — reported from host <code>MN-APP01</code></li>
-<li><code>c81af931.cdn.nullnationalbank.com</code></li>
-</ul>
-<h2>Reported HTTPS destination<span class="hx:absolute hx:-mt-20" id="reported-https-destination"></span>
-    <a href="#reported-https-destination" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><code>103.21.58.19:443</code> — reported command-and-control (C2) server</li>
-</ul>
-<p>Correlate query timestamps, responses, initiating processes, and outbound
-connections. These indicators alone do not establish lateral movement or
-identify a source and destination host.</p>
+<hr>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">Note</span>
+  </p>
+
+  <div class="hextra-alert-content"><p><em>Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking.</em></p></div>
+</div>
+<hr>
+<h2>Lateral Movement &amp; Staging (from 2025-06-08 14:00)<span class="hx:absolute hx:-mt-20" id="lateral-movement--staging-from-2025-06-08-1400"></span>
+    <a href="#lateral-movement--staging-from-2025-06-08-1400" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>Situation.</strong> From <code>arjun.menon</code>&rsquo;s workstation, execution chained to servers via <strong>WMI/WinRM</strong> with payloads staged on <code>ADMIN$</code> shares. A PAM vault probe failed, but a <strong>checked-out admin credential was harvested from an admin endpoint instead</strong>. An eight-minute <strong>pass-the-ticket hop chain</strong> using <code>sqlsvc</code> crossed servers <em>including the SIEM itself</em>. Persistence landed as maintenance-named scheduled task <strong><code>NV-HealthCheck</code></strong> (encoded PowerShell, Sundays 03:10 IST). Finance and Board papers were mass-read and compressed into <strong>split, password-protected archives</strong> (<code>q3close.7z</code>). Defence impairments began: blocked Sysmon config edits and DNS log retention cut from 14d to 4d. An unrelated cryptominer on a neglected CI runner created counter-detection noise.</p>
+<p><strong>IOCs</strong></p>
+<ol>
+<li><code>\\MN-APP01\ADMIN$\Temp\nvdutil.exe</code> — staged remote-exec tool (<code>--mode stealth --persist</code>)</li>
+<li>Scheduled task <code>NV-HealthCheck</code> — persistence on MN-APP01 / MN-FS01</li>
+</ol>
+<p><strong>IOAs</strong></p>
+<ol>
+<li>Same <code>sqlsvc</code> Kerberos ticket reused across multiple hosts in an 8-minute window (incl. MN-SIEM01)</li>
+<li>Bulk EID 4663 reads on Finance/BoardPapers followed by <code>7z a -v512m -p</code> archive creation</li>
+</ol>
+<p><strong>Speculation &amp; direction.</strong> The hop chain through the SIEM server implies attacker awareness of monitoring topology — audit the SIEM for tampering and log-source anomalies. Archive naming tied to quarter-close suggests a business-calendar awareness and imminent exfiltration. Do not anchor on the miner: it is unattributed noise concurrent with the real intrusion.</p>
+<p><strong>MITRE ATT&amp;CK:</strong> T1047 / T1021.006 (WMI/WinRM) · T1021.002 (Admin Shares) · T1552 (Unsecured Credentials) · T1550.003 (Pass the Ticket) · T1053.005 (Scheduled Task) · T1560.001 (Archive via Utility) · T1562.001/.002 (Impair Defenses)</p>

@@ -1,13 +1,23 @@
-<h1>Reported C2 Connections</h1><h2>Destinations and Zeek connection UIDs<span class="hx:absolute hx:-mt-20" id="destinations-and-zeek-connection-uids"></span>
-    <a href="#destinations-and-zeek-connection-uids" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li><code>185.220.101.44:443</code> — reported C2 server; Zeek UID
-<code>CULzlAfbPNyJVa079b</code></li>
-<li><code>198.51.100.140:443</code> — reported as an internal external-threat-actor server</li>
-<li><code>CKBQJ4kUvLDoKyG74EN</code></li>
-<li><code>CtTujUYQDPoWqrd3Qd</code></li>
-</ul>
-<p><code>198.51.100.140</code> is in the documentation-only TEST-NET-2 range; treat it as a
-synthetic or sanitized indicator, not a publicly routable destination.</p>
-<p>Correlate each UID with Zeek connection, DNS, HTTP, and endpoint records before
-assigning it to a process or host. The supplied report does not itself confirm
-domain compromise.</p>
+<hr>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">Note</span>
+  </p>
+
+  <div class="hextra-alert-content"><p><em>Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking.</em></p></div>
+</div>
+<hr>
+<h2>Exfiltration &amp; Cosmetic Exit (from 2025-06-10 18:00)<span class="hx:absolute hx:-mt-20" id="exfiltration--cosmetic-exit-from-2025-06-10-1800"></span>
+    <a href="#exfiltration--cosmetic-exit-from-2025-06-10-1800" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>IOCs</strong></p>
+<ol>
+<li><code>/portal/uploads/resource_util.aspx</code> — web shell on MN-WEB01 (POST-heavy, low-and-slow cadence)</li>
+<li><code>metricssvc.nullnationalbank-cdn.net</code> — third-party script reference in STAGING payment page</li>
+</ol>
+<p><strong>IOAs</strong></p>
+<ol>
+<li>Outbound HTTPS uploads, 4–8 MB chunks at 30–90 min intervals, bearing the vendor updater user-agent</li>
+<li>File hash restored to original values + task disabled-but-not-deleted — anti-forensic cleanup, not remediation</li>
+</ol>
+<p><strong>Speculation &amp; direction.</strong> This is an exit, not a departure: four persistence channels were maintained and three survive any single remediation wave. Expect re-entry via (a) the dormant plug-in config re-arm task, (b) the sqlsvc ticket, or (c) the web shell. Verify the STAGING script change has not propagated to PRODUCTION; the skimmer appears staged for activation. Full scope-and-eradication must precede any external breach notification decision.</p>
+<p><strong>MITRE ATT&amp;CK:</strong> T1041 (Exfiltration Over C2) · T1505.003 (Web Shell) · T1554 (Compromise Client Software Binary) · T1070 (Indicator Removal) · T1053.005 (Persistence re-arm)</p>

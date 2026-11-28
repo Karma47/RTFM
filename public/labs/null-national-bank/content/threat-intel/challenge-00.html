@@ -1,10 +1,57 @@
-<h1>Warm-up Threat Intelligence</h1><h2>Reported authentication indicators<span class="hx:absolute hx:-mt-20" id="reported-authentication-indicators"></span>
-    <a href="#reported-authentication-indicators" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
-<li>Targeted employee account: <code>rajesh.kumar</code></li>
-<li>Source IP address: <code>203.0.113.42</code></li>
-<li>Threat actor linked to the source in the intelligence note: <code>apt-dinesh</code></li>
+<hr>
+<div
+  data-alert="note" class="hextra-alert"
+>
+  <p class="hextra-alert-title"><svg height=16px class="hextra-alert-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span class="hextra-alert-title-text">Note</span>
+  </p>
+
+  <div class="hextra-alert-content"><p><em>Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking.</em></p></div>
+</div>
+<hr>
+<h1>Warm-up Threat Intelligence</h1><h2>Suspicious RDP Logon to Employee Workstation<span class="hx:absolute hx:-mt-20" id="suspicious-rdp-logon-to-employee-workstation"></span>
+    <a href="#suspicious-rdp-logon-to-employee-workstation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Between failed and successful attempts on <strong>2025-11-24 (UTC)</strong>, the employee account <strong><code>rajesh.kumar</code></strong> received <strong>two failed RDP logons</strong> followed by a <strong>successful RDP logon to workstation <code>MN-WS-101</code></strong>, all from the same external address <code>203.0.113.42</code>. A threat-intelligence note associates that address with the tracked actor <strong><code>apt-dinesh</code></strong>. The failure-then-success sequence from a single external source is consistent with password guessing that landed — the account should be treated as <strong>acted upon, not necessarily complicit</strong>.</p>
+<h2>Indicators<span class="hx:absolute hx:-mt-20" id="indicators"></span>
+    <a href="#indicators" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><table>
+	<thead>
+			<tr>
+					<th>#</th>
+					<th>Type</th>
+					<th>Value</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1</td>
+					<td>IOC</td>
+					<td><code>203.0.113.42</code> — external RDP source, linked to <code>apt-dinesh</code></td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>IOC</td>
+					<td>Successful <strong>Type 10 (RemoteInteractive)</strong> logon to <code>MN-WS-101</code> by <code>rajesh.kumar</code> from that address</td>
+			</tr>
+			<tr>
+					<td>1</td>
+					<td>IOA</td>
+					<td>Two failed RDP logons immediately preceding a success from one external IP (brute-force / password-guess pattern)</td>
+			</tr>
+			<tr>
+					<td>2</td>
+					<td>IOA</td>
+					<td>External-source RDP access to an employee workstation — validate against VPN gateway and broker records</td>
+			</tr>
+	</tbody>
+</table>
+<h2>Speculation &amp; Direction<span class="hx:absolute hx:-mt-20" id="speculation--direction"></span>
+    <a href="#speculation--direction" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>Assume credentials are now known to the adversary; expect follow-on <strong>internal discovery, lateral movement, or privilege escalation</strong> from <code>MN-WS-101</code> within the next hours.</li>
+<li>Hunt: pull full Windows Security event sequences (4625 failures → 4624 Type 10 success → 4647/4634) for <code>rajesh.kumar</code>; check whether the source address appears elsewhere in perimeter logs (VPN, OWA, cloud IdP).</li>
+<li>Contain: disable/reset the account, force MFA re-registration, isolate <code>MN-WS-101</code>, and block the address at the perimeter.</li>
+<li>Confirm whether <code>MN-WS-101</code> holds privileged access or caches credentials worth stealing before deciding the containment blast radius.</li>
 </ul>
-<p>The source is in the documentation-only TEST-NET-3 range. Treat it as a
-synthetic or sanitized indicator, not a publicly routable source address.
-Corroborate the attribution with authentication records; an intelligence link
-alone does not prove who performed the logons.</p>
+<h2>MITRE ATT&amp;CK<span class="hx:absolute hx:-mt-20" id="mitre-attck"></span>
+    <a href="#mitre-attck" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li><strong>T1110.001</strong> — Brute Force: Password Guessing (failed logon burst)</li>
+<li><strong>T1021.001</strong> — Remote Services: Remote Desktop Protocol (external RDP access)</li>
+<li><strong>T1078</strong> — Valid Accounts (post-success use of <code>rajesh.kumar</code>)</li>
+</ul>

@@ -7,39 +7,27 @@ build:
 sitemap:
   disable: true
 ---
-# Suspected Supply-Chain Compromise
-
-> [!NOTE]
-> **TLP:AMBER+STRICT** — Need-to-know within the organisation only. No onward sharing.
-
-## Assessment
-
-- Infrastructure believed compromised; **no direct compromise evidence**.
-- Access suspected via a **compromised vendor**, through a **tampered ERP plugin update**.
-- Endpoints performing **malicious DNS queries**; C2 over **TCP/443**.
-
-## Indicators
-
-|Indicator|Type|
-|---|---|
-|`103.21.58.19:443`|C2 server|
-|`185.220.101.44:443`|C2 server|
-|`198.51.100.140:443`|Threat-actor server|
-|`MN-APP014b6e582e7a.update.nullnationalbank.com`|Malicious DNS query|
-|`c81af931.cdn.nullnationalbank.com`|Malicious DNS query|
-|`NorthvaleERPSync-4.7.2.msi` (silent install via `msiexec /qn`)|Tampered update|
-|`mshta.exe` JavaScript execution|Execution artefact|
-|`powershell.exe -EncodedCommand`|Execution artefact|
-|`C:\Program Files\Northvale\Common\NVUtils.dll`|Suspicious DLL|
-|Zeek UIDs: `CULzlAfbPNyJVa079b`, `CKBQJ4kUvLDoKyG74EN`, `CtTujUYQDPoWqrd3Qd`|Log pivot points|
-
-## Hunting Actions
-
-1. Sweep DNS and egress logs for all indicators above.
-2. Search endpoints for `NVUtils.dll` and the 4.7.2 MSI install; verify hashes/signatures.
-3. Pull Zeek connection records for the listed UIDs; pivot on source hosts.
-4. Review vendor access and session logs for anomalies.
 
 ---
 
-_Report ID: TIR-2026-1128-ERP · TLP:AMBER+STRICT · Preliminary indicators — unverified._
+> [!NOTE]
+> _Series TIR-2026-1128-CL/P1–P5 · TLP:AMBER · Indicators preliminary and unverified; validate before blocking._
+> 
+
+---
+## Supply-Chain Insertion 
+The adversary trojanised the vendor's ERP plug-in build pipeline, shipping a **digitally signed malicious update (`NorthvaleERPSync-4.7.2`)** to the app server and ~40 workstations. After ~16 h dormancy, hosts resolved lookalike C2 domains and began HTTPS beaconing spoofing the vendor updater user-agent. Non-bank-joined hosts silently self-uninstalled; `mshta`/PowerShell chains spawned from the ERP service process; an unsigned DLL was side-loaded into a signed vendor binary. C2 transited a hijacked regional web host, then handed off to second-tier redirector infrastructure.
+
+**IOCs**
+
+1. `NorthvaleERPSync-4.7.2.msi` — trojanised signed installer
+2. `198.51.100.140:443` — C2 / actor infrastructure
+
+**IOAs**
+
+1. `mshta.exe` / encoded PowerShell spawned by `NVPluginSvc.exe` (ERP service as parent)
+2. User-agent declares vendor updater but TLS fingerprint does not match it (JA3 mismatch)
+
+**Speculation & direction.** The valid code signature suggests signing keys or the build system are held by the actor — treat all vendor 4.x updates as suspect pending hash verification. Expect additional implant activation gated on config reads (off-hours `telemetry.toml` reads observed). Hunt: pivot on Zeek UIDs `CULzlAfbPNyJVa079b`, `CKBQJ4kUvLDoKyG74EN`, `CtTujUYQDPoWqrd3Qd`; verify hashes rather than trusting user-agents — a benign vendor update sharing the same UA exists as cover traffic.
+
+**MITRE ATT&CK:** T1195.002 (Compromise Software Supply Chain) · T1553.002 (Subvert Code Signing) · T1071.004 (DNS) · T1059.001/.007 (PowerShell/Mshta) · T1574.002 (DLL Side-Loading) · T1090.002 (External Proxy) · T1036.005 (Masquerading)

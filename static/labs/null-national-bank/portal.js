@@ -358,7 +358,7 @@ async function initializePortal(root, challengeNumber) {
     let threatIntelLoading = false;
     let threatIntelMarkup = "";
     let threatIntelError = "";
-    let activeTab = "challenge";
+    let activeTab = "threat-intel";
 
     async function loadThreatIntel() {
         threatIntelLoading = true;
@@ -657,7 +657,17 @@ async function initializePortal(root, challengeNumber) {
         });
     }
 
-    render();
+    if (
+        activeTab === "threat-intel" &&
+        passwordAccepted &&
+        challenges
+            .slice(0, challengeNumber - 1)
+            .every((_, index) => challengeIsComplete(index + 1))
+    ) {
+        loadThreatIntel();
+    } else {
+        render();
+    }
 }
 
 async function initializeReportPortal(root) {
