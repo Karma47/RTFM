@@ -1,2 +1,85 @@
-<h1>Phase 1: Initial Access Walkthrough</h1><p>Replace this starter with the long-form walkthrough in Markdown. It is rendered
-as a static HTML fragment and loaded in the portal after the password check.</p>
+<h1>Operation CinderLink, Part 1: Investigation Walkthrough</h1><p>This part follows a suspected software-supply-chain compromise from the vendor build pipeline to endpoint execution and early command-and-control (C2). Use the ground-truth storyline as a hypothesis; validate each step against source telemetry. The collection covers <strong>2025-06-03 00:00Z through 2025-06-06 00:00Z</strong>, with intentional overlap at scenario boundaries.</p>
+<h2>Step-by-step investigation<span class="hx:absolute hx:-mt-20" id="step-by-step-investigation"></span>
+    <a href="#step-by-step-investigation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1. Build one UTC timeline<span class="hx:absolute hx:-mt-20" id="1-build-one-utc-timeline"></span>
+    <a href="#1-build-one-utc-timeline" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Normalize EDR epoch timestamps, Windows event timestamps, syslog, DNS, and Zeek to UTC. Preserve the source timestamp and sensor name, and join on host, process ID/GUID, principal, logon ID, and network UID where available. Do not treat filtered or missing sensor records as evidence that an action did not occur.</p>
+<h3>2. Start at the vendor build pipeline<span class="hx:absolute hx:-mt-20" id="2-start-at-the-vendor-build-pipeline"></span>
+    <a href="#2-start-at-the-vendor-build-pipeline" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/EXTERNAL-VENDOR-CI.nbk.local/ecar.json</code>, <code>syslog.log</code>, and the account&rsquo;s <code>bash_history</code>.</p>
+<p>At approximately <strong>2025-06-03 00:59:55Z</strong>, locate the build-runner activity for the ERP plug-in release. Compare the process command line, parent, account, and pipeline context with the next syslog record. That record reports a code-signing certificate subject of Northvale Systems and a <code>signed_hash_change</code>.</p>
+<p>Treat the signing certificate as provenance, not proof of safety: a malicious artifact can still be validly signed. Preserve the build output and compare the affected source revision, build job, artifact hash, and signing history with a known-good release. This is the first point in the chain, so corroboration in downstream package and endpoint records is important.</p>
+<h3>3. Follow the signed update onto endpoints<span class="hx:absolute hx:-mt-20" id="3-follow-the-signed-update-onto-endpoints"></span>
+    <a href="#3-follow-the-signed-update-onto-endpoints" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, <code>windows_event_sysmon.xml</code>, <code>windows_event_security.xml</code>, and <code>syslog.log</code>; then compare workstation copies.</p>
+<p>At <strong>08:00:05Z on June 3</strong>, identify the <code>msiexec.exe /i NorthvaleERPSync-4.7.2.msi /qn ALLUSERS=1</code> process. Correlate its process lineage and logon/session with the syslog file-write record for:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">C:\Program Files\Northvale\ERPSync\nvpluginsvc.dll</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>The file-write record reports a signed file and a new hash. Compare that hash with the vendor&rsquo;s trusted release and check for the same package and hash on the approximately 40 workstations described by the scenario. A signed installer or DLL is not independently benign; provenance, hash, and deployment authorization must agree.</p>
+<h3>4. Look for activity during the dormancy gap<span class="hx:absolute hx:-mt-20" id="4-look-for-activity-during-the-dormancy-gap"></span>
+    <a href="#4-look-for-activity-during-the-dormancy-gap" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/syslog.log</code> and endpoint file-audit/EDR records.</p>
+<p>At <strong>23:59:52Z on June 3</strong>, the syslog summary flags a read of <code>telemetry.toml</code> and records local time as 02:47. Compare this with the install timestamp and the device&rsquo;s timezone; the scenario describes an approximately 16-hour dormant period. A configuration read alone can be normal. It becomes suspicious when it is off-hours and precedes unusual DNS and network behavior by the same plug-in/service identity.</p>
+<h3>5. Identify the lookalike DNS pattern<span class="hx:absolute hx:-mt-20" id="5-identify-the-lookalike-dns-pattern"></span>
+    <a href="#5-identify-the-lookalike-dns-pattern" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, <code>windows_event_sysmon.xml</code>, <code>windows_event_security.xml</code>, and <code>data/mn-siem01/dns.json</code>.</p>
+<p>At around <strong>06:00Z on June 4</strong>, investigate the A-record lookups:</p>
+<ul>
+<li>
+<p><code>4b6e582e7a.update.nullnationalbank.com</code></p>
+</li>
+<li>
+<p><code>c81af931.cdn.nullnationalbank.com</code></p>
+</li>
+</ul>
+<p>Compare query timing, subdomain structure, response, and the initiating process/account. The encoded-looking labels and repeated vendor-like parent domains deserve scrutiny, but a single unusual name is not enough to prove C2. Check whether ordinary Northvale clients resolve the same names and whether the same host later makes correlated outbound connections.</p>
+<h3>6. Attribute the first HTTPS beacon<span class="hx:absolute hx:-mt-20" id="6-attribute-the-first-https-beacon"></span>
+    <a href="#6-attribute-the-first-https-beacon" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> MN-APP01 EDR flow/process records and <code>data/mn-siem01/conn.json</code>, <code>http.json</code>, and <code>dns.json</code>.</p>
+<p>For the <strong>2025-06-04 11:59:45Z</strong> connection to <code>198.51.100.140:443</code>, use Zeek UID <code>CKBQJ4kUvLDoKyG74EN</code> to join the network record to endpoint flows and the process/user responsible. Compare periodicity, user-agent, TLS fingerprint, DNS history, and the known Northvale updater baseline. The storyline says updater traffic was spoofed; do not conclude that from the user-agent alone.</p>
+<p><code>198.51.100.140</code> is an address recorded in this synthetic dataset, not independently validated live threat intelligence. Sensor rows marked filtered are visibility gaps, not proof of no connection.</p>
+<h3>7. Distinguish target-gating from ordinary uninstall activity<span class="hx:absolute hx:-mt-20" id="7-distinguish-target-gating-from-ordinary-uninstall-activity"></span>
+    <a href="#7-distinguish-target-gating-from-ordinary-uninstall-activity" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-WS-109.nbk.local/ecar.json</code>, Windows installer and process events, and the corresponding records on bank-joined workstations.</p>
+<p>At <strong>16:00Z on June 4</strong>, the ground truth records an <code>msiexec.exe /x</code> uninstall on MN-WS-109. Compare package identity and install/uninstall times across hosts, and validate domain membership and the plug-in&rsquo;s target-list behavior. The storyline says off-target systems silently remove the plug-in while bank-joined systems persist. Confirm that contrast across endpoints rather than treating one uninstall as proof of the whole mechanism.</p>
+<h3>8. Trace execution beyond the ERP service<span class="hx:absolute hx:-mt-20" id="8-trace-execution-beyond-the-erp-service"></span>
+    <a href="#8-trace-execution-beyond-the-erp-service" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, <code>windows_event_sysmon.xml</code>, <code>windows_event_security.xml</code>, and <code>syslog.log</code>.</p>
+<p>At <strong>19:59:32Z on June 4</strong>, inspect PID <code>14804</code> running:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">mshta.exe javascript:eval(unescape(&#39;%61%74%6f%62&#39;))</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>Correlate the process with its parent, principal, logon ID, module loads, and the following PowerShell process at PID <code>14808</code> with <code>-NoProfile -EncodedCommand</code>. The records tie suspicious script-host and PowerShell execution to activity under the ERP service context. Do not decode or execute the payload as part of triage; preserve it and use approved static-analysis procedures. The process chain and timing are more significant than either Windows binary name alone.</p>
+<h3>9. Verify DLL side-loading on a workstation<span class="hx:absolute hx:-mt-20" id="9-verify-dll-side-loading-on-a-workstation"></span>
+    <a href="#9-verify-dll-side-loading-on-a-workstation" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-WS-102.nbk.local/ecar.json</code>, <code>windows_event_sysmon.xml</code>, and <code>syslog.log</code>.</p>
+<p>At <strong>22:00:07Z on June 4</strong>, find <code>NVUtils.dll</code> under <code>C:\Program Files\Northvale\Common</code>. Compare the image/module-load events to the host&rsquo;s signed Northvale executable, file signature, hash, write time, and load path. The syslog summary specifically says the loaded DLL is unsigned. This combination supports side-loading; the DLL name or directory alone does not.</p>
+<h3>10. Follow the C2 infrastructure handoff<span class="hx:absolute hx:-mt-20" id="10-follow-the-c2-infrastructure-handoff"></span>
+    <a href="#10-follow-the-c2-infrastructure-handoff" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> MN-APP01 endpoint flows and <code>data/mn-siem01/conn.json</code> / <code>http.json</code>.</p>
+<p>Join the <strong>June 4 23:59:35Z</strong> connection to <code>103.21.58.19:443</code> (UID <code>CtTujUYQDPoWqrd3Qd</code>) and the <strong>June 5 21:59:34Z</strong> connection to <code>185.220.101.44:443</code> (UID <code>CULzlAfbPNyJVa079b</code>) to the endpoint process and account. The syslog summaries describe irregular 48–72-hour beacon jitter and then a TLS fingerprint mismatch with the declared vendor updater. Validate those features against the actual sensor fields and clean vendor traffic; filtered ASA/Sysmon rows leave gaps.</p>
+<h3>11. Exclude the two explicit red herrings<span class="hx:absolute hx:-mt-20" id="11-exclude-the-two-explicit-red-herrings"></span>
+    <a href="#11-exclude-the-two-explicit-red-herrings" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Use the red-herring section in <code>GROUND_TRUTH.md</code> and the underlying host records:</p>
+<ul>
+<li>
+<p><code>priya.sharma</code>&rsquo;s directory-health check on managed workstation MN-WS-103 is described as routine IT activity. Validate its approved tool, workstation, account, and schedule.</p>
+</li>
+<li>
+<p>The <code>northvale-vendor</code> update on MN-FS01 is a separate clean, signed update. Check its artifact hash and signature against a trusted vendor baseline. Its similar user-agent is intentionally misleading; user-agent similarity by itself does not connect it to the attacker.</p>
+</li>
+</ul>
+<h2>Assessment and gaps<span class="hx:absolute hx:-mt-20" id="assessment-and-gaps"></span>
+    <a href="#assessment-and-gaps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The most persuasive chain is build-pipeline anomaly → signed package with a changed hash → dormant configuration access → lookalike DNS and HTTPS beaconing → script-host/PowerShell execution → unsigned DLL loaded alongside a vendor binary → redirector change. Confirm joins across process lineage, identity, hashes, DNS, and network UIDs before assigning scope.</p>
+<p>Mark each conclusion as directly observed, corroborated, inferred, or unresolved. In particular, determine the full endpoint population, validate the vendor&rsquo;s build/signing records, and review filtered sensors before estimating impact or treating listed IPs/domains as production threat intelligence.</p>

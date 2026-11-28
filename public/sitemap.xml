@@ -47,9 +47,6 @@
     <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/</loc>
-    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/15-deserialization/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -101,6 +98,9 @@
     <loc>http://localhost:1313/tags/request-smuggling/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/docs/06_tools/</loc>
+    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/01-sql-injection/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -122,16 +122,10 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/06_tools/06.1_web/wapt-master-training-list/</loc>
-    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/17-web-cache-poisoning/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/06_tools/06.1_web/</loc>
-    <lastmod>2026-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/web-application-security/</loc>
     <lastmod>2026-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/web-cache-poisoning/</loc>
@@ -337,6 +331,8 @@
   </url><url>
     <loc>http://localhost:1313/docs/01_methodology/threat-hunting/01-threat-hunting-essentials/</loc>
     <lastmod>2026-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/warm-up/</loc>
   </url><url>
     <loc>http://localhost:1313/authors/aswin-balaji/</loc>
   </url><url>

@@ -16,6 +16,23 @@
     
     
     <item>
+      <title>00 Null Warm-up</title>
+      <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/warm-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/warm-up/</guid>
+      <description>
+        
+        
+        &lt;div id=&#34;nn-bank-warmup&#34;&gt;&lt;/div&gt;
+&lt;noscript&gt;This interactive warm-up requires JavaScript to be enabled.&lt;/noscript&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/labs/null-national-bank/portal.css&#34;&gt;
+&lt;script src=&#34;http://localhost:1313/labs/null-national-bank/warmup.js&#34; defer&gt;&lt;/script&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Challenge 01 - Initial Access</title>
       <link>http://localhost:1313/docs/05_detection/5.1_labs/nullnationalbank/challenge-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

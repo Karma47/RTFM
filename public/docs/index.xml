@@ -3012,184 +3012,6 @@
     </item>
     
     <item>
-      <title>WAPT Master Training List</title>
-      <link>http://localhost:1313/docs/06_tools/06.1_web/wapt-master-training-list/</link>
-      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/docs/06_tools/06.1_web/wapt-master-training-list/</guid>
-      <description>
-        
-        
-        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
-  
-    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
-      By:
-      
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
-                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
-            &lt;/svg&gt;
-            Prasanna
-          &lt;/a&gt;
-        
-      
-    &lt;/span&gt;
-  
-
-  
-    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
-    &lt;time style=&#34;font-style: italic;&#34;&gt;November 26, 2026&lt;/time&gt;
-  
-&lt;/div&gt;
-&lt;p&gt;A topic-by-topic index of the web application security resources in the master training list. Each topic page brings together its overview, controlled practice labs, and related research references.&lt;/p&gt;
-&lt;p&gt;Practice only in intended training environments, and assess other systems only with explicit authorization.&lt;/p&gt;
-&lt;h2&gt;Topic Pages&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;topic-pages&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#topic-pages&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;#&lt;/th&gt;
-					&lt;th&gt;Topic&lt;/th&gt;
-					&lt;th&gt;Defensive Focus&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;01&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/01-sql-injection/&#34;&gt;SQL Injection&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Safe database access and parameterized queries&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;02&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/02-authentication/&#34;&gt;Authentication&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Identity verification, account recovery, and MFA&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;03&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/03-directory-traversal/&#34;&gt;Directory Traversal&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Secure file path handling&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;04&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/04-os-command-injection/&#34;&gt;OS Command Injection&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Safe process invocation and input handling&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;05&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/05-business-logic-issues/&#34;&gt;Business Logic Issues&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Workflow validation and server-side business rules&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;06&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/06-information-disclosure/&#34;&gt;Information Disclosure&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Error handling and protection of sensitive data&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;07&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/07-access-control/&#34;&gt;Access Control&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Authorization checks and least privilege&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;08&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/08-file-upload-vulnerabilities/&#34;&gt;File Upload Vulnerabilities&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Upload validation, storage, and serving controls&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;09&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/09-ssrf/&#34;&gt;SSRF&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Controls on server-initiated network requests&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;10&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/10-xxe/&#34;&gt;XXE&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Secure XML parsing and external entity handling&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;11&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/11-xss/&#34;&gt;XSS&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Context-aware output encoding and browser protections&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;12&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/12-csrf/&#34;&gt;CSRF&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Request integrity and browser cookie protections&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;13&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/13-cors/&#34;&gt;CORS&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Narrow, explicit cross-origin policies&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;14&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/14-clickjacking/&#34;&gt;Clickjacking&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Framing restrictions and interaction safeguards&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;15&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/15-deserialization/&#34;&gt;Deserialization&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Safe data formats and strict input validation&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;16&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/16-ssti/&#34;&gt;SSTI&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Safe template rendering and context-aware escaping&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;17&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/17-web-cache-poisoning/&#34;&gt;Web Cache Poisoning&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Consistent cache keys and cache-control policy&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;18&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/18-host-header-injection/&#34;&gt;Host Header Injection&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Host validation and trusted proxy configuration&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;19&lt;/td&gt;
-					&lt;td&gt;&lt;a
-    href=&#34;http://localhost:1313/docs/06_tools/06.1_web/19-request-smuggling/&#34;&gt;Request Smuggling&lt;/a&gt;&lt;/td&gt;
-					&lt;td&gt;Consistent HTTP parsing across intermediaries&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Recommended Learning Path&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;recommended-learning-path&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#recommended-learning-path&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;Start with the overview for each topic.&lt;/li&gt;
-&lt;li&gt;Use the linked practice environments to reinforce the concepts.&lt;/li&gt;
-&lt;li&gt;Review prevention guidance and apply it to systems you own or are authorized to assess.&lt;/li&gt;
-&lt;/ol&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>Web Cache Poisoning</title>
       <link>http://localhost:1313/docs/06_tools/06.1_web/17-web-cache-poisoning/</link>
       <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
@@ -8970,6 +8792,336 @@ End Sub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-
 &lt;h3&gt;CISSP Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;cissp-cheat-sheet&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#cissp-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930004910.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;hr&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>D1 Security and Risk Management</title>
+      <link>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</link>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/docs/04_playbooks/cissp/d1-security-and-risk-management/</guid>
+      <description>
+        
+        
+        &lt;div style=&#34;margin-top: 1rem; margin-bottom: 2rem; font-size: 0.875rem; color: #6b7280; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;&#34;&gt;
+  
+    &lt;span style=&#34;display: flex; align-items: center; gap: 6px;&#34;&gt;
+      By:
+      
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+          &lt;a href=&#34;https://www.linkedin.com/in/prasannavbalaji&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;display: inline-flex; align-items: center; gap: 4px; font-weight: 600; color: #0a66c2; text-decoration: none; border-bottom: 1px solid transparent;&#34; onmouseover=&#34;this.style.borderBottom=&#39;1px solid #0a66c2&#39;&#34; onmouseout=&#34;this.style.borderBottom=&#39;1px solid transparent&#39;&#34;&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;14&#34; height=&#34;14&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;currentColor&#34;&gt;
+                &lt;path d=&#34;M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z&#34;/&gt;
+            &lt;/svg&gt;
+            Prasanna
+          &lt;/a&gt;
+        
+      
+    &lt;/span&gt;
+  
+
+  
+    &lt;span style=&#34;color: #d1d5db;&#34;&gt;|&lt;/span&gt;
+    &lt;time style=&#34;font-style: italic;&#34;&gt;September 29, 2026&lt;/time&gt;
+  
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h3&gt;Domain 1 Cheat Sheet&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;domain-1-cheat-sheet&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#domain-1-cheat-sheet&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/docs/04_playbooks/cissp/assets/Pasted_image_20260930001202.png&#34; alt=&#34;&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Due Care &amp;amp; Due Diligence&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;due-care--due-diligence&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#due-care--due-diligence&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Type&lt;/th&gt;
+					&lt;th&gt;Definition&lt;/th&gt;
+					&lt;th&gt;Examples&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Due Care&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Taking action to implement a requirement&lt;/td&gt;
+					&lt;td&gt;I lock my door&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Due Diligence&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Implementation of the requirements in the best possible way&lt;/td&gt;
+					&lt;td&gt;I installed the most secure lock&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Intellectual Property&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;intellectual-property&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#intellectual-property&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Type&lt;/th&gt;
+					&lt;th&gt;Definition&lt;/th&gt;
+					&lt;th&gt;Examples&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Copyright&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Original creative works&lt;/td&gt;
+					&lt;td&gt;Books, CISSP Material, Harry Potter books&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Patent&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Inventions&lt;/td&gt;
+					&lt;td&gt;Invention, Dyson vacuum cleaner&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Trademark&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Source of identifiers&lt;/td&gt;
+					&lt;td&gt;Logo, Google &amp;ldquo;G&amp;rdquo;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Trade Secret&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Secret business information&lt;/td&gt;
+					&lt;td&gt;Coca-Cola recipe&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Criminal vs Civil Law&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;criminal-vs-civil-law&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#criminal-vs-civil-law&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Type&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+					&lt;th&gt;Example&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Criminal&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&amp;ldquo;Someone broke the law → Government goes after them&amp;rdquo;&lt;/td&gt;
+					&lt;td&gt;Hacker steals credit card info → jail&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Civil&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;&amp;ldquo;Two parties have a disagreement → One sues the other&amp;rdquo;&lt;/td&gt;
+					&lt;td&gt;Company A sues Company B for copying their patented invention → pay damages&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Employee Access Lifecycle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;employee-access-lifecycle&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#employee-access-lifecycle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Phase&lt;/th&gt;
+					&lt;th&gt;Action&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Onboarding&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Provide access. When an employee is onboarded, we provide access and necessary training as per organization policy&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Transfer&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Review access. When an employee is transferred to other roles, their access should be reviewed and adjusted to the role&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Terminate&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Revoke access. When terminated, their access should be revoked, organization assets needs to be recovered&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Risk Management Formula&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;risk-management-formula&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#risk-management-formula&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Formula&lt;/th&gt;
+					&lt;th&gt;Meaning&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Risk = Likelihood × Impact&lt;/strong&gt; (or) &lt;strong&gt;Threat × Vuln × Impact&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Basic risk calculation&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;SLE = AV × EF&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Cost of a single incident&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;ALE = SLE × ARO&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Expected yearly loss&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Residual = Total − Controls&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Risk remaining after safeguards&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Risk Terms&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;risk-terms&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#risk-terms&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Term&lt;/th&gt;
+					&lt;th&gt;Definition&lt;/th&gt;
+					&lt;th&gt;Example&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Avoidance&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Not investing in a startup to avoid losing money&lt;/td&gt;
+					&lt;td&gt;Not investing in a startup to avoid losing money&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Mitigation&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Installing antivirus after a malware infection&lt;/td&gt;
+					&lt;td&gt;Installing antivirus after a malware infection&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Transference&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Buying insurance for a product that might fail&lt;/td&gt;
+					&lt;td&gt;Buying insurance for a product that might fail&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Acceptance&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Using outdated components that might be vulnerable to exploits&lt;/td&gt;
+					&lt;td&gt;Using outdated components that might be vulnerable to exploits&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Appetite&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Willingness to invest $ into unknown product with high risk&lt;/td&gt;
+					&lt;td&gt;Willingness to invest $ into unknown product with high risk&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Tolerance&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Feeling comfortable losing some % of profits due to failed services&lt;/td&gt;
+					&lt;td&gt;Feeling comfortable losing some % of profits due to failed services&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Limit&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Capping your bet at $100 in a casino&lt;/td&gt;
+					&lt;td&gt;Capping your bet at $100 in a casino&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Capacity&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Having 6 months of savings so you can cover if you lost your job&lt;/td&gt;
+					&lt;td&gt;Having 6 months of savings so you can cover if you lost your job&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Frameworks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;frameworks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#frameworks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;NIST 800-53 RMF&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NIST CSF&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;NIST 800 SP&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Social Engineering Attacks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;social-engineering-attacks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#social-engineering-attacks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Attack&lt;/th&gt;
+					&lt;th&gt;Description&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Pharming&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Harvesting credentials&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Vishing&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Voice Phishing&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Dumpster Diving&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Accessing physical papers or assets from trash bins&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Pretexting&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;False scenario to trick people&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Risk Mitigations (Technical Controls)&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;risk-mitigations-technical-controls&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#risk-mitigations-technical-controls&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Control&lt;/th&gt;
+					&lt;th&gt;Purpose&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;SRoT&lt;/strong&gt; (Silicon Root of Trust)&lt;/td&gt;
+					&lt;td&gt;Mobile phones verify if it&amp;rsquo;s loading the right OS during boot process&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;TPM&lt;/strong&gt; (Trusted Platform Module)&lt;/td&gt;
+					&lt;td&gt;Windows BitLocker storing device encryption keys in laptop chip&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;HSM&lt;/strong&gt; (Hardware Security Module)&lt;/td&gt;
+					&lt;td&gt;Credit cards use HSM to protect ATM PINs and transactions&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;PUF&lt;/strong&gt; (Physically Unclonable Function)&lt;/td&gt;
+					&lt;td&gt;Usage of silicon fingerprint to identify fake iPhones&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;SBOM&lt;/strong&gt; (Software Bill of Materials)&lt;/td&gt;
+					&lt;td&gt;Identifying which software library is affected by a vulnerability&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2&gt;Security Awareness KPIs&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;security-awareness-kpis&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#security-awareness-kpis&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;KPI&lt;/th&gt;
+					&lt;th&gt;Purpose&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Failed Phishing Attempt&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;You receive a phishing email, but do not fall for it. This KPI can be measured for successful training&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Effectiveness of Program&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Checking if your security awareness training is useful, by measuring KPI of phishing simulations&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Control Assessment&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;Checking if security controls actually work as intended&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;Data Retention&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;How long should I store my data, usually as long as it&amp;rsquo;s legally required&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;&lt;strong&gt;GDPR Notification&lt;/strong&gt;&lt;/td&gt;
+					&lt;td&gt;The legal duty to notify authorities of data breach within 72 hours, typically notify the EU regional bodies&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
 
       </description>
     </item>

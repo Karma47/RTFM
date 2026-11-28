@@ -158,7 +158,10 @@
     height: auto;
 }
 
-.nn-panel button,
+.nn-panel .nn-password-form button,
+.nn-panel .nn-task-form button,
+.nn-panel #nn-retry-walkthrough,
+.nn-panel #nn-retry-report,
 .nn-button {
     display: inline-block;
     background: #2563eb;
@@ -170,7 +173,10 @@
     text-decoration: none;
 }
 
-.nn-panel button:hover,
+.nn-panel .nn-password-form button:hover,
+.nn-panel .nn-task-form button:hover,
+.nn-panel #nn-retry-walkthrough:hover,
+.nn-panel #nn-retry-report:hover,
 .nn-button:hover {
     background: #1d4ed8;
     color: white;
@@ -190,4 +196,573 @@
     height: 40px;
     border-radius: 6px;
     background: #e2e8f0;
+}
+
+#nn-bank-portal,
+#nn-bank-warmup {
+    --nn-ink: #17233b;
+    --nn-muted: #64748b;
+    --nn-line: #dce5f0;
+    --nn-surface: #ffffff;
+    --nn-subtle: #f5f8fc;
+    --nn-accent: #2563eb;
+    --nn-accent-hover: #1d4ed8;
+    --nn-accent-soft: #eff6ff;
+    --nn-success: #15803d;
+    --nn-success-soft: #f0fdf4;
+    max-width: 1040px;
+    margin: clamp(24px, 5vw, 56px) auto;
+    padding: 0 clamp(12px, 3vw, 24px);
+    color: var(--nn-ink);
+}
+
+.nn-header {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    padding: clamp(28px, 5vw, 48px);
+    margin-bottom: 22px;
+    border: 1px solid rgb(148 163 184 / 18%);
+    border-radius: 20px;
+    background:
+        radial-gradient(ellipse at 88% 8%, rgb(59 130 246 / 28%), transparent 34%),
+        linear-gradient(125deg, #0b1425 0%, #142640 58%, #1c3658 100%);
+    box-shadow: 0 18px 42px rgb(15 23 42 / 16%);
+    color: #f8fafc;
+}
+
+.nn-header h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(1.45rem, 3vw, 2rem);
+    font-weight: 750;
+    letter-spacing: 0.045em;
+}
+
+.nn-header p {
+    margin: 8px 0 0;
+    color: #cbd5e1;
+    font-size: 0.98rem;
+}
+
+.nn-panel {
+    padding: clamp(20px, 4vw, 36px);
+    border: 1px solid var(--nn-line);
+    border-radius: 20px;
+    background: var(--nn-surface);
+    box-shadow: 0 14px 36px rgb(15 23 42 / 7%);
+}
+
+.nn-panel > h2 {
+    margin: 4px 0 0;
+    color: var(--nn-ink);
+    font-size: clamp(1.6rem, 3vw, 2.15rem);
+    letter-spacing: -0.035em;
+    line-height: 1.2;
+}
+
+.nn-eyebrow {
+    margin: 0 0 10px;
+    color: var(--nn-muted);
+    font-size: 0.76rem;
+    font-weight: 750;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.nn-tabs {
+    gap: 6px;
+    margin: 28px 0 0;
+    overflow-x: auto;
+    border-bottom: 1px solid var(--nn-line);
+    scrollbar-width: thin;
+}
+
+.nn-panel .nn-tab {
+    flex: 0 0 auto;
+    padding: 13px 17px 12px;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    border-radius: 10px 10px 0 0;
+    background: transparent;
+    color: var(--nn-muted);
+    font-size: 0.94rem;
+    font-weight: 650;
+    transition:
+        color 160ms ease,
+        background-color 160ms ease,
+        border-color 160ms ease;
+}
+
+.nn-panel .nn-tab:hover {
+    background: var(--nn-subtle);
+    color: var(--nn-ink);
+}
+
+.nn-panel .nn-tab[aria-selected="true"] {
+    border-bottom-color: var(--nn-accent);
+    background: var(--nn-accent-soft);
+    color: var(--nn-accent);
+}
+
+.nn-panel .nn-tab:focus-visible,
+.nn-panel button:focus-visible,
+.nn-panel a:focus-visible,
+.nn-panel input:focus-visible {
+    outline: 3px solid rgb(37 99 235 / 38%);
+    outline-offset: 3px;
+}
+
+.nn-tab-panel {
+    min-height: 150px;
+    padding-top: 24px;
+    animation: nn-panel-enter 220ms ease both;
+}
+
+.nn-brief {
+    margin: 0 0 24px;
+    padding: clamp(18px, 3vw, 26px);
+    border: 1px solid var(--nn-line);
+    border-radius: 16px;
+    background: linear-gradient(145deg, #ffffff, var(--nn-subtle));
+}
+
+.nn-brief h3 {
+    margin: 22px 0 7px;
+    color: var(--nn-ink);
+    font-size: 1rem;
+}
+
+.nn-brief h3:first-child {
+    margin-top: 0;
+}
+
+.nn-brief p,
+.nn-task p {
+    line-height: 1.65;
+}
+
+.nn-progress {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    margin: 4px 0 18px;
+    padding: 6px 12px;
+    border: 1px solid #bfdbfe;
+    border-radius: 999px;
+    background: var(--nn-accent-soft);
+    color: #1e40af;
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+
+.nn-task-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.nn-task {
+    min-width: 0;
+    padding: 20px;
+    border: 1px solid var(--nn-line);
+    border-radius: 15px;
+    background: var(--nn-surface);
+    box-shadow: 0 3px 12px rgb(15 23 42 / 3%);
+    transition:
+        border-color 170ms ease,
+        box-shadow 170ms ease,
+        transform 170ms ease;
+}
+
+.nn-task:hover {
+    transform: translateY(-2px);
+    border-color: #b8c9df;
+    box-shadow: 0 10px 24px rgb(15 23 42 / 8%);
+}
+
+.nn-task[data-complete="true"] {
+    border-color: #86efac;
+    background: linear-gradient(145deg, #ffffff, var(--nn-success-soft));
+}
+
+.nn-task h3 {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0 0 10px;
+    color: var(--nn-ink);
+    font-size: 1rem;
+}
+
+.nn-task h3::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--nn-accent);
+    content: "";
+}
+
+.nn-task[data-complete="true"] h3::before {
+    background: var(--nn-success);
+}
+
+.nn-panel label {
+    margin-top: 14px;
+    color: #334155;
+    font-size: 0.77rem;
+    letter-spacing: 0.08em;
+}
+
+.nn-panel input {
+    box-sizing: border-box;
+    min-height: 48px;
+    margin: 8px 0 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background: #ffffff;
+    color: var(--nn-ink);
+    transition:
+        border-color 150ms ease,
+        box-shadow 150ms ease;
+}
+
+.nn-panel input::placeholder {
+    color: #94a3b8;
+}
+
+.nn-panel input:focus {
+    border-color: var(--nn-accent);
+    box-shadow: 0 0 0 4px rgb(37 99 235 / 11%);
+}
+
+.nn-panel .nn-password-form button,
+.nn-panel .nn-task-form button,
+.nn-panel #nn-retry-walkthrough,
+.nn-panel #nn-retry-report,
+.nn-panel #nn-retry-threat-intel,
+.nn-panel #warmup-retry-threat-intel,
+.nn-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 10px 19px;
+    border: 1px solid var(--nn-accent);
+    border-radius: 10px;
+    background: var(--nn-accent);
+    box-shadow: 0 5px 12px rgb(37 99 235 / 18%);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+    transition:
+        background-color 150ms ease,
+        border-color 150ms ease,
+        box-shadow 150ms ease,
+        transform 150ms ease;
+}
+
+.nn-panel .nn-password-form button:hover,
+.nn-panel .nn-task-form button:hover,
+.nn-panel #nn-retry-walkthrough:hover,
+.nn-panel #nn-retry-report:hover,
+.nn-panel #nn-retry-threat-intel:hover,
+.nn-panel #warmup-retry-threat-intel:hover,
+.nn-button:hover {
+    transform: translateY(-1px);
+    border-color: var(--nn-accent-hover);
+    background: var(--nn-accent-hover);
+    box-shadow: 0 8px 16px rgb(37 99 235 / 24%);
+    color: #ffffff;
+}
+
+.nn-panel .nn-password-form button:active,
+.nn-panel .nn-task-form button:active,
+.nn-button:active {
+    transform: translateY(0);
+}
+
+.nn-message {
+    margin: 12px 0;
+    line-height: 1.55;
+}
+
+.nn-message[role="alert"] {
+    padding: 12px 14px;
+    border: 1px solid #fecaca;
+    border-radius: 10px;
+    background: #fef2f2;
+    color: #991b1b;
+}
+
+.nn-next-password {
+    margin: 22px 0;
+    padding: 18px 20px;
+    border: 1px solid #bfdbfe;
+    border-radius: 14px;
+    background: var(--nn-accent-soft);
+}
+
+.nn-next-password p {
+    margin: 0 0 8px;
+}
+
+.nn-next-password canvas {
+    height: 42px;
+    border: 1px solid #dbeafe;
+    background: #ffffff;
+}
+
+.nn-walkthrough-content,
+.nn-static-content {
+    color: #334155;
+    line-height: 1.75;
+}
+
+.nn-walkthrough-content {
+    padding: clamp(18px, 3vw, 28px);
+    border: 1px solid var(--nn-line);
+    border-radius: 16px;
+    background: linear-gradient(145deg, #ffffff, var(--nn-subtle));
+    white-space: normal;
+}
+
+.nn-static-content {
+    overflow-wrap: anywhere;
+}
+
+.nn-static-content h1,
+.nn-static-content h2,
+.nn-static-content h3,
+.nn-static-content h4,
+.nn-walkthrough-content h3 {
+    margin: 1.5em 0 0.55em;
+    color: var(--nn-ink);
+    line-height: 1.3;
+}
+
+.nn-static-content h1:first-child,
+.nn-walkthrough-content h3:first-child {
+    margin-top: 0;
+}
+
+.nn-static-content ul,
+.nn-static-content ol,
+.nn-walkthrough-content ul,
+.nn-walkthrough-content ol {
+    padding-left: 1.5em;
+    margin: 0.85em 0;
+}
+
+.nn-static-content li,
+.nn-walkthrough-content li {
+    margin: 0.35em 0;
+}
+
+.nn-static-content a,
+.nn-walkthrough-content a {
+    color: var(--nn-accent);
+    text-underline-offset: 3px;
+}
+
+.nn-static-content table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.nn-static-content th,
+.nn-static-content td {
+    padding: 10px 13px;
+    border: 1px solid var(--nn-line);
+    text-align: left;
+}
+
+.nn-static-content th {
+    background: var(--nn-subtle);
+    color: var(--nn-ink);
+}
+
+.nn-static-content blockquote {
+    margin: 18px 0;
+    padding: 12px 16px;
+    border-left: 4px solid var(--nn-accent);
+    border-radius: 0 10px 10px 0;
+    background: var(--nn-accent-soft);
+    color: #334155;
+}
+
+.nn-static-content pre {
+    overflow-x: auto;
+    padding: 16px;
+    border: 1px solid #1e293b;
+    border-radius: 12px;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+.nn-static-content :not(pre) > code,
+.nn-walkthrough-content code,
+.nn-brief code,
+.nn-task code {
+    padding: 0.12em 0.38em;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    background: #f1f5f9;
+    color: #334155;
+    font-size: 0.9em;
+    overflow-wrap: anywhere;
+}
+
+.nn-static-content img,
+.nn-evidence-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.nn-evidence-image {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    border: 1px solid var(--nn-line);
+    box-shadow: 0 8px 20px rgb(15 23 42 / 8%);
+}
+
+.dark #nn-bank-portal,
+.dark #nn-bank-warmup {
+    --nn-ink: #e5edf8;
+    --nn-muted: #9aabc2;
+    --nn-line: #314056;
+    --nn-surface: #111c2f;
+    --nn-subtle: #152238;
+    --nn-accent: #60a5fa;
+    --nn-accent-hover: #3b82f6;
+    --nn-accent-soft: #172e50;
+    --nn-success: #4ade80;
+    --nn-success-soft: #122b25;
+}
+
+.dark .nn-panel {
+    background: #0b1220;
+    box-shadow: 0 14px 36px rgb(0 0 0 / 24%);
+}
+
+.dark .nn-brief,
+.dark .nn-walkthrough-content {
+    background: linear-gradient(145deg, #111c2f, #152238);
+}
+
+.dark .nn-progress {
+    border-color: #1e3a8a;
+    color: #bfdbfe;
+}
+
+.dark .nn-task {
+    box-shadow: 0 3px 12px rgb(0 0 0 / 12%);
+}
+
+.dark .nn-task:hover {
+    border-color: #52657f;
+    box-shadow: 0 10px 24px rgb(0 0 0 / 24%);
+}
+
+.dark .nn-task[data-complete="true"] {
+    border-color: #166534;
+    background: linear-gradient(145deg, #111c2f, #122b25);
+}
+
+.dark .nn-panel label {
+    color: #cbd5e1;
+}
+
+.dark .nn-panel input {
+    border-color: #475569;
+    background: #0f172a;
+}
+
+.dark .nn-panel input:focus {
+    border-color: var(--nn-accent);
+}
+
+.dark .nn-next-password {
+    border-color: #1e3a8a;
+}
+
+.dark .nn-message[role="alert"] {
+    border-color: #7f1d1d;
+    background: #450a0a;
+    color: #fecaca;
+}
+
+.dark .nn-static-content th {
+    background: #1e293b;
+}
+
+.dark .nn-static-content td,
+.dark .nn-static-content th {
+    border-color: var(--nn-line);
+}
+
+.dark .nn-static-content blockquote {
+    color: #dbeafe;
+}
+
+.dark .nn-static-content :not(pre) > code,
+.dark .nn-walkthrough-content code,
+.dark .nn-brief code,
+.dark .nn-task code {
+    border-color: #334155;
+    background: #1e293b;
+    color: #dbeafe;
+}
+
+@keyframes nn-panel-enter {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 700px) {
+    .nn-task-list {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .nn-tabs {
+        overflow-x: visible;
+    }
+
+    .nn-panel .nn-tab {
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 8px 2px;
+        font-size: 0.68rem;
+        line-height: 1.25;
+        text-align: center;
+        white-space: normal;
+        word-break: keep-all;
+        overflow-wrap: normal;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .nn-tab-panel {
+        animation: none;
+    }
+
+    .nn-task,
+    .nn-panel .nn-tab,
+    .nn-panel button,
+    .nn-button {
+        transition: none;
+    }
 }

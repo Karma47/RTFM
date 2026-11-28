@@ -1,2 +1,81 @@
-<h1>Phase 4: Lateral Movement Walkthrough</h1><p>Replace this starter with the long-form walkthrough in Markdown. It is rendered
-as a static HTML fragment and loaded in the portal after the password check.</p>
+<h1>Operation CinderLink, Part 4: Investigation Walkthrough</h1><p>Part 4 follows the earlier identity and lateral-movement activity into privileged-access misuse, remote tooling, Kerberos ticket reuse, persistence, defense evasion, and data staging. The collection starts <strong>2025-06-08 14:00Z</strong> and continues for three days; some activity overlaps part 3. Correlate boundaries and preserve the difference between directly observed records and the scenario&rsquo;s summaries.</p>
+<h2>Step-by-step investigation<span class="hx:absolute hx:-mt-20" id="step-by-step-investigation"></span>
+    <a href="#step-by-step-investigation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1. Scope the VPN spray and verify the successful session<span class="hx:absolute hx:-mt-20" id="1-scope-the-vpn-spray-and-verify-the-successful-session"></span>
+    <a href="#1-scope-the-vpn-spray-and-verify-the-successful-session" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/VPN01.nbk.local/ecar.json</code>, <code>syslog.log</code>, Zeek, and ASA records.</p>
+<p>The timeline reports <strong>42 attempts against 9 accounts</strong>, with <code>kavitha.reddy</code> succeeding on attempt 42 after 41 failures. Part 4&rsquo;s source table includes filtered ASA events and out-of-window rows because the spray spans scenario boundaries. Group VPN logons by source, target account, timestamp, outcome, and session ID; compare the success with the user&rsquo;s baseline and follow its next internal connections.</p>
+<p>Do not mark all nine accounts compromised. Separate failed targets from the account with the successful authentication, and correlate the latter with downstream host activity before determining scope.</p>
+<h3>2. Continue the WMI/WinRM execution chain<span class="hx:absolute hx:-mt-20" id="2-continue-the-wmiwinrm-execution-chain"></span>
+    <a href="#2-continue-the-wmiwinrm-execution-chain" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, Sysmon, Windows Security, and <code>syslog.log</code>; pivot to peer systems.</p>
+<p>At <strong>2025-06-09 20:00:18Z</strong>, <code>arjun.menon</code> is associated with a <code>cmd.exe</code> process (PID <code>13072</code>) on MN-APP01. The command begins:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">cmd.exe /c wmic /node:MN-APP01 process call create ...</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>Correlate the process tree, remote-management host process (<code>WsmProvHost.exe</code>), source workstation <code>10.10.10.102</code>, and network logon ID <code>0x6d582f9</code>. Identify the exact remote target and process created from complete EDR/Sysmon records; the summary truncates the command line. WMI/WinRM are legitimate admin tools, so validate the account, source host, target, and change authorization rather than flagging the binary alone.</p>
+<h3>3. Reconstruct the PAM credential path<span class="hx:absolute hx:-mt-20" id="3-reconstruct-the-pam-credential-path"></span>
+    <a href="#3-reconstruct-the-pam-credential-path" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-PAM01.nbk.local/windows_event_security.xml</code>, <code>ecar.json</code>, and <code>syslog.log</code>; review admin endpoint MN-WS-103 as well.</p>
+<p>At <strong>02:00:16Z on June 10</strong>, the ground truth describes a failed direct probe of the PAM vault. The following syslog record says the actor harvested a cached checkout credential for an MN-FS01 admin session from <code>MN-WS-103</code>.</p>
+<p>Separate the failed vault authentication from the reported credential theft. Correlate the PAM failure with the checked-out credential record, endpoint access to the cached item, user/session identity, and later use of that credential on FS01. A failed vault probe does not itself prove a credential was stolen; the cached-checkout evidence and subsequent authentication establish the proposed path.</p>
+<h3>4. Trace ADMIN$ staging and execution of nvdutil<span class="hx:absolute hx:-mt-20" id="4-trace-admin-staging-and-execution-of-nvdutil"></span>
+    <a href="#4-trace-admin-staging-and-execution-of-nvdutil" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-FS01.nbk.local/ecar.json</code>, <code>windows_event_sysmon.xml</code>, <code>windows_event_security.xml</code>, and <code>syslog.log</code>.</p>
+<p>At <strong>06:00Z on June 10</strong>, look for the file-write summary naming:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">\\MN-APP01\ADMIN$\Temp\nvdutil.exe</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>At <strong>06:00:12Z</strong>, Sysmon Event ID 1 and Windows Security Event ID 4688 on FS01 record the binary executing as PID <code>14256</code>, user <code>external-threat-actor</code>, logon ID <code>0x781a563</code>, with command line <code>nvdutil.exe --mode stealth --persist</code>. Sysmon Event ID 11 follows with a file-create event. Compare this with EDR&rsquo;s module-load records, parent process, source address, and SMB/admin-share logons.</p>
+<p>This is stronger than a filename IOC: the UNC path, administrative share, process execution, identity, and <code>--mode stealth --persist</code> command line are correlated. Capture the binary and hash before containment; the telemetry indicates no file hash in the Sysmon record. The summary mentions execution on two servers, so confirm the second host independently rather than inferring it from FS01.</p>
+<h3>5. Validate the Kerberos pass-the-ticket hop chain<span class="hx:absolute hx:-mt-20" id="5-validate-the-kerberos-pass-the-ticket-hop-chain"></span>
+    <a href="#5-validate-the-kerberos-pass-the-ticket-hop-chain" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-FS01.nbk.local/windows_event_security.xml</code>, EDR, Zeek, and corresponding <code>MN-SIEM01</code> records.</p>
+<p>At <strong>09:59:44Z on June 10</strong>, correlate the FS01 network logon for <code>sqlsvc</code> from <code>10.10.10.102</code> (logon ID <code>0x79f8dc7</code>) with the event sequence over the next eight minutes. The ground truth describes a pass-the-ticket hop that includes the SIEM server; a later SIEM01 logon is recorded at <strong>10:08:28Z</strong>.</p>
+<p>Compare ticket/logon identifiers, user and service principals, source/destination hosts, Kerberos activity, and session timing on both systems. Do not infer ticket reuse from the username or successful network logons alone; use the ticket-reuse indicators and log correlation. Since SIEM itself is in the chain, preserve its logs and verify whether its timestamps or telemetry were altered.</p>
+<h3>6. Inspect scheduled-task persistence<span class="hx:absolute hx:-mt-20" id="6-inspect-scheduled-task-persistence"></span>
+    <a href="#6-inspect-scheduled-task-persistence" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/windows_event_security.xml</code> and task XML/endpoint telemetry; search FS01 as well.</p>
+<p>At <strong>13:59:56Z on June 10</strong>, Windows Security Event ID 4698 records task <code>NV-HealthCheck</code> created by <code>external-threat-actor</code>. Its action contains an encoded PowerShell command, targets MN-APP01 and MN-FS01, and is configured for a weekly Sunday 03:10 IST trigger.</p>
+<p>Compare task author, action, trigger, enabled state, creation time, and execution history with the organization&rsquo;s approved maintenance tasks. Decode or inspect payloads only using approved offline procedures; do not execute them. The task&rsquo;s benign-sounding name does not make the action trustworthy. Search for corresponding task creation and execution on both named systems.</p>
+<h3>7. Keep the CI cryptominer separate from the main chain<span class="hx:absolute hx:-mt-20" id="7-keep-the-ci-cryptominer-separate-from-the-main-chain"></span>
+    <a href="#7-keep-the-ci-cryptominer-separate-from-the-main-chain" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/CI-RUNNER.nbk.local/ecar.json</code>, shell history, and syslog.</p>
+<p>At <strong>18:00:10Z on June 10</strong>, <code>xmr-stak --pool randomx-asia</code> runs from <code>/opt/runner/xmr-stak</code> under <code>unknown-internet-actor</code>; the syslog summary notes a CPU-baseline break. This supports unauthorized or unapproved mining on the CI runner. Its host and purpose differ from the Windows lateral-movement and data-staging chain. Treat it as a separate concurrent activity unless evidence links credentials, infrastructure, or process lineage.</p>
+<h3>8. Identify telemetry tampering attempts<span class="hx:absolute hx:-mt-20" id="8-identify-telemetry-tampering-attempts"></span>
+    <a href="#8-identify-telemetry-tampering-attempts" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-DC01.nbk.local/syslog.log</code>.</p>
+<p>At <strong>00:00:26Z and 00:00:58Z on June 11</strong>, records say a Sysmon configuration change on MN-WS-109 and MN-WS-111 was blocked by tamper protection, and MN-DC01 DNS debug retention changed from 14 days to 4 days. Verify the change audit and remaining log coverage. The records support attempted defense evasion and shortened retention, not complete log deletion or successful Sysmon disablement.</p>
+<h3>9. Confirm the file-staging command and assess data access<span class="hx:absolute hx:-mt-20" id="9-confirm-the-file-staging-command-and-assess-data-access"></span>
+    <a href="#9-confirm-the-file-staging-command-and-assess-data-access" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-FS01.nbk.local/windows_event_sysmon.xml</code>, Windows Security, EDR, and file-access auditing.</p>
+<p>At <strong>03:59:44Z on June 11</strong>, inspect the PowerShell process (PID <code>18968</code>) and correlate it with Event ID 4688 and EDR using logon ID <code>0x781a563</code>. The command line requests:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">7z.exe a -v512m -p &#39;C:\Windows\Temp\q3close.7z&#39; &#39;\\MN-FS01\Finance\*&#39; &#39;\\MN-FS01\BoardPapers\*&#39;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>The following EDR event records a temporary-file write; syslog reports mass Event ID 4663 reads under <code>Finance\QuarterClose</code>. The command, file-read volume, identity, and close timing are consistent with preparing sensitive data for transfer. Determine which files were successfully read and whether archive volumes were created; a command invocation and temporary file do not prove archive completion or exfiltration.</p>
+<h2>Assessment and gaps<span class="hx:absolute hx:-mt-20" id="assessment-and-gaps"></span>
+    <a href="#assessment-and-gaps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Part 4 adds several independently actionable pivots: successful VPN authentication, remote execution, cached PAM credential access, administrative-share tooling, Kerberos activity touching the SIEM, scheduled-task persistence, and mass Finance reads/archive preparation. Correlate each across identity, process, file, and network records. Treat the miner as a separate activity and the filtered/out-of-window events as evidence limitations. Before concluding the incident is contained, validate the PAM checkout path, the exact remote targets, SIEM ticket/log integrity, scheduled-task execution, and whether staged archives left the environment.</p>

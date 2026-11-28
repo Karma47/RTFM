@@ -1,2 +1,70 @@
-<h1>Phase 2: Execution and Persistence Walkthrough</h1><p>Replace this starter with the long-form walkthrough in Markdown. It is rendered
-as a static HTML fragment and loaded in the portal after the password check.</p>
+<h1>Operation CinderLink, Part 2: Investigation Walkthrough</h1><p>Part 2 continues the first-stage implant activity, then shifts into internal reconnaissance and social engineering. The collection begins <strong>2025-06-05 00:00Z</strong> and runs through the next three-day window; boundary records overlap adjacent parts. Use the storyline as a hypothesis and validate it against host and network records.</p>
+<h2>Step-by-step investigation<span class="hx:absolute hx:-mt-20" id="step-by-step-investigation"></span>
+    <a href="#step-by-step-investigation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1. Normalize and correlate the continuing C2<span class="hx:absolute hx:-mt-20" id="1-normalize-and-correlate-the-continuing-c2"></span>
+    <a href="#1-normalize-and-correlate-the-continuing-c2" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Use UTC across EDR, syslog, Windows events, DNS, and Zeek. Join on host, process, account, logon ID, and network UID rather than relying on timestamps alone. The opening connections continue the activity from part 1:</p>
+<ul>
+<li>
+<p><code>MN-APP01</code> to <code>103.21.58.19:443</code>, UID <code>CzkSdA1jVir3rolaTd</code>, around <strong>2025-06-05 00:00:24Z</strong>.</p>
+</li>
+<li>
+<p><code>MN-APP01</code> to <code>185.220.101.44:443</code>, UID <code>CIT6Z41E9ScfkLVAZ1</code>, around <strong>2025-06-05 21:59:46Z</strong>.</p>
+</li>
+</ul>
+<p>The syslog indicators describe irregular 48–72-hour beacon jitter, followed by a TLS fingerprint mismatch with the declared Northvale updater. Attribute each flow to its endpoint process and compare its TLS/user-agent properties to approved vendor traffic. A matching vendor user-agent is not proof of a legitimate update.</p>
+<h3>2. Detect the DNS TXT fallback after the egress change<span class="hx:absolute hx:-mt-20" id="2-detect-the-dns-txt-fallback-after-the-egress-change"></span>
+    <a href="#2-detect-the-dns-txt-fallback-after-the-egress-change" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, Windows event files, <code>syslog.log</code>, and <code>data/mn-siem01/dns.json</code>.</p>
+<p>At about <strong>03:59:34Z on June 6</strong>, find the TXT query:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">e5f2.c8ba19aa77d0.nullnationalbank.com</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>Correlate the query with the initiating process, the IDS1 egress-filter change referenced by the storyline, the returned record type/size, and nearby connections. The syslog indicator describes a large TXT record carrying base32-like data. This supports a shift to DNS as a communication channel; validate the actual DNS record and compare the name/volume with normal queries. ASA visibility is marked filtered, so its absence cannot rule out other egress.</p>
+<h3>3. Treat the process-injection claim as a lead with a telemetry gap<span class="hx:absolute hx:-mt-20" id="3-treat-the-process-injection-claim-as-a-lead-with-a-telemetry-gap"></span>
+    <a href="#3-treat-the-process-injection-claim-as-a-lead-with-a-telemetry-gap" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The <strong>08:00:20Z June 6</strong> process-access intent is marked <strong>skipped</strong> because there was no live source process, and the ground-truth timeline explicitly says no process-access evidence was emitted for <code>svchost.exe</code>. A separate syslog summary describes anonymous executable memory in a service host.</p>
+<p>Do not present the skipped event as a direct process-injection observation. Use it as a lead: preserve memory from an available affected host, check EDR memory/process telemetry and service-host lineage, and compare with the syslog assertion. The evidence in this slice supports a ground-truth scenario claim, but direct confirmation requires the missing process/memory evidence.</p>
+<h3>4. Verify the vendor-like persistence service<span class="hx:absolute hx:-mt-20" id="4-verify-the-vendor-like-persistence-service"></span>
+    <a href="#4-verify-the-vendor-like-persistence-service" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-APP01.nbk.local/ecar.json</code>, <code>windows_event_security.xml</code>, <code>windows_event_sysmon.xml</code>, and <code>syslog.log</code>.</p>
+<p>At <strong>11:59:42Z on June 6</strong>, investigate installation of <code>NVAppMonSvc</code>, with binary path:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">C:\ProgramData\Northvale\NVAppMonSvc.exe</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>Check service-install events, registry/service configuration, image hash/signature, start account, and parent process. A vendor-like name is camouflage, not validation. Compare the binary and service configuration with the legitimate Northvale application monitor and the earlier suspect updater chain.</p>
+<h3>5. Reconstruct host and domain reconnaissance on MN-WS-102<span class="hx:absolute hx:-mt-20" id="5-reconstruct-host-and-domain-reconnaissance-on-mn-ws-102"></span>
+    <a href="#5-reconstruct-host-and-domain-reconnaissance-on-mn-ws-102" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-WS-102.nbk.local/ecar.json</code>, Sysmon, Windows Security, and <code>syslog.log</code>.</p>
+<p>At <strong>15:59Z on June 6</strong>, look for <code>net.exe</code> and <code>systeminfo.exe</code> launched by the external actor. The command <code>net group &quot;Domain Admins&quot; /domain</code> queries a privileged group; <code>systeminfo</code> gathers host configuration. Correlate process parent, user/session, and activity on the same workstation. These built-in tools are not malicious by name alone; the sequence and account/session context make them suspicious.</p>
+<p>The ground truth also describes a slow ARP/ICMP sweep of <code>10.10.10.0/24</code>. Review endpoint flow and Zeek records from the same host over a broad enough window to see the low-rate pattern. Compare destinations and cadence with approved inventory/scanning activity before labeling every probe hostile. The sensor-status table shows some filtered network evidence.</p>
+<h3>6. Identify LDAP reconnaissance without overstating Kerberoasting<span class="hx:absolute hx:-mt-20" id="6-identify-ldap-reconnaissance-without-overstating-kerberoasting"></span>
+    <a href="#6-identify-ldap-reconnaissance-without-overstating-kerberoasting" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-WS-102.nbk.local/ecar.json</code>, Windows events, <code>syslog.log</code>, and <code>data/mn-siem01</code> network records.</p>
+<p>At <strong>20:00:20Z on June 6</strong>, pivot to LDAP traffic to <code>MN-DC01</code>. The syslog summary says the query requests <code>sAMAccountName</code>, <code>servicePrincipalName</code>, and <code>memberOf</code> with filter <code>(servicePrincipalName=*)</code>. That is consistent with enumerating service accounts and building a Kerberoast target list.</p>
+<p>This part records target-list discovery, not necessarily the later service-ticket requests or password recovery. Check ticket-request events in the next scenario part; do not claim successful Kerberoasting from the LDAP query alone.</p>
+<h3>7. Scope file-server share enumeration<span class="hx:absolute hx:-mt-20" id="7-scope-file-server-share-enumeration"></span>
+    <a href="#7-scope-file-server-share-enumeration" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-FS01.nbk.local/ecar.json</code>, Windows Security events, and <code>syslog.log</code>.</p>
+<p>At <strong>2025-06-07 00:00:22Z</strong>, correlate the network logon for <code>arjun.menon</code> from <code>10.10.10.102</code> with logon ID <code>0x7bda8d0</code> and the following share activity. The syslog record lists Finance, BoardPapers, and IT paths and describes human-paced directory listings.</p>
+<p>Distinguish enumeration from collection: the summary says directory listings only. Review detailed share/file-access events to confirm whether files were opened or copied; do not infer exfiltration from a successful SMB logon or directory listing.</p>
+<h3>8. Confirm the helpdesk social-engineering event<span class="hx:absolute hx:-mt-20" id="8-confirm-the-helpdesk-social-engineering-event"></span>
+    <a href="#8-confirm-the-helpdesk-social-engineering-event" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Inspect:</strong> <code>data/MN-DC01.nbk.local/syslog.log</code> and Windows Security records.</p>
+<p>At <strong>12:00Z on June 7</strong>, the helpdesk record says a caller impersonating <code>vikram.patel</code> requested password reset and MFA re-registration under ticket <code>HD-2025-11884</code>. The verifier-bypass field says the caller knew employee ID and last-four payroll digits. A second record associates the action with <code>svc-helpdesk</code> and Windows Event ID 4724.</p>
+<p>Correlate the reset event, ticket, operator identity, and subsequent authentication history. This corroborates an account-recovery action, but establish whether the ticket and helpdesk workflow were authorized and who initiated them before asserting that the caller personally took control of the account.</p>
+<h2>Assessment and gaps<span class="hx:absolute hx:-mt-20" id="assessment-and-gaps"></span>
+    <a href="#assessment-and-gaps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>This part advances from changing C2 channels to internal discovery and account manipulation. Strong direct signals include the TXT query characteristics, the installed service record, the recon process commands, the LDAP query fields, share enumeration context, and helpdesk reset audit trail. The injection event is explicitly skipped and must be corroborated independently. Continue the investigation into part 3 for ticket requests, credential access, directory replication, OAuth consent, and identity use.</p>

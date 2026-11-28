@@ -1,0 +1,64 @@
+<h1>Threat Intelligence</h1><h2>Assessment<span class="hx:absolute hx:-mt-20" id="assessment"></span>
+    <a href="#assessment" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li>The organization believes its infrastructure may be compromised.</li>
+<li>There is currently no direct evidence of an initial compromise inside the
+organization. Investigators suspect the ERP vendor may have been compromised
+and that a tampered plugin update provided access.</li>
+<li>Users have reported suspicious DNS queries from client systems.</li>
+</ul>
+<p>Treat the vendor compromise as a hypothesis and corroborate it with build,
+package, endpoint, identity, DNS, and network telemetry.</p>
+<h2>Reported files<span class="hx:absolute hx:-mt-20" id="reported-files"></span>
+    <a href="#reported-files" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><ul>
+<li><code>/usr/local/bin/build-runner</code></li>
+<li><code>C:\Program Files\Northvale\Common\NVUtils.dll</code></li>
+<li><code>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</code></li>
+<li><code>C:\Windows\System32\mshta.exe</code></li>
+<li><code>C:\Windows\System32\msiexec.exe</code></li>
+</ul>
+<p>The Northvale DLL path was listed twice in the source report.</p>
+<h2>Reported command lines<span class="hx:absolute hx:-mt-20" id="reported-command-lines"></span>
+    <a href="#reported-command-lines" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">build-runner --pipeline erp-plugin-release --inject-hook telemetry.toml
+</span></span><span class="line"><span class="cl">mshta.exe javascript:eval(unescape(&#39;%61%74%6f%62&#39;))
+</span></span><span class="line"><span class="cl">msiexec.exe /i NorthvaleERPSync-4.7.2.msi /qn ALLUSERS=1
+</span></span><span class="line"><span class="cl">msiexec.exe /x {A17C44F2-90B3-4E01-NVSN} /qn
+</span></span><span class="line"><span class="cl">powershell.exe -NoProfile -EncodedCommand</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>These are investigation indicators, not commands to run. Preserve the observed
+process records and correlate them with parent process, account, timestamp,
+package, and endpoint telemetry.</p>
+<h2>Reported network indicators<span class="hx:absolute hx:-mt-20" id="reported-network-indicators"></span>
+    <a href="#reported-network-indicators" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>Destinations<span class="hx:absolute hx:-mt-20" id="destinations"></span>
+    <a href="#destinations" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><code>103.21.58.19:443</code> — reported C2 server</li>
+<li><code>185.220.101.44:443</code> — reported C2 server</li>
+<li><code>198.51.100.140:443</code> — reported as an internal external-threat-actor server</li>
+</ul>
+<p><code>198.51.100.140</code> is in the documentation-only TEST-NET-2 range. Treat it as a
+synthetic or sanitized indicator rather than a publicly routable destination.</p>
+<h3>DNS queries<span class="hx:absolute hx:-mt-20" id="dns-queries"></span>
+    <a href="#dns-queries" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><code>4b6e582e7a.update.nullnationalbank.com</code> — reported from host <code>MN-APP01</code></li>
+<li><code>c81af931.cdn.nullnationalbank.com</code></li>
+</ul>
+<h3>Zeek connection UIDs<span class="hx:absolute hx:-mt-20" id="zeek-connection-uids"></span>
+    <a href="#zeek-connection-uids" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><ul>
+<li><code>CKBQJ4kUvLDoKyG74EN</code></li>
+<li><code>CULzlAfbPNyJVa079b</code> — reported for a connection to <code>185.220.101.44:443</code></li>
+<li><code>CtTujUYQDPoWqrd3Qd</code></li>
+</ul>
+<p>Correlate each UID with Zeek connection, DNS, HTTP, and endpoint records before
+associating it with a process or host. Confirm scope and attribution from
+corroborating evidence; an indicator alone does not establish compromise.</p>

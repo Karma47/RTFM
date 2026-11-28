@@ -5,6 +5,12 @@ authors:
   - Prasanna
 description: Null Chennai, Splunk Threat Hunting Labs
 ---
+
+> [!NOTE] New to the platform ?
+> Start with the [5-minute Dinesh warm-up](warm-up/). It lets you practice navigating challenge tabs, submitting flags, and using a completion password before the main investigation. In the actual challenges, the initial password is provided; completing all 10 flags reveals the next password. Progress is saved in your browser.
+
+---
+
 Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.
 
 The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.

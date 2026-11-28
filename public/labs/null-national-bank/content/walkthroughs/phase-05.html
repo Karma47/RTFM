@@ -1,2 +1,230 @@
-<h1>Phase 5: Domain Compromise Walkthrough</h1><p>Replace this starter with the long-form walkthrough in Markdown. It is rendered
-as a static HTML fragment and loaded in the portal after the password check.</p>
+<h1>Operation CinderLink, Part 5: Investigation Walkthrough</h1><p>The final part examines late-stage data staging, web activity, persistence, and possible cleanup. The collection covers <strong>2025-06-10 18:00:00Z through 2025-06-13 18:00:00Z</strong>, with overlap at the boundaries between parts. Treat the ground-truth storyline as a hypothesis, and confirm each claim against the underlying records before taking action.</p>
+<h2>Step-by-step investigation<span class="hx:absolute hx:-mt-20" id="step-by-step-investigation"></span>
+    <a href="#step-by-step-investigation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><h3>1. Establish scope and build a common timeline<span class="hx:absolute hx:-mt-20" id="1-establish-scope-and-build-a-common-timeline"></span>
+    <a href="#1-establish-scope-and-build-a-common-timeline" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The ground truth includes 15 canonical event rows representing 10 storyline steps. The source files contain more records than that summary.</p>
+<ol>
+<li>
+<p>Keep timestamps in UTC and convert epoch-based records before comparing them with XML event timestamps or syslog.</p>
+</li>
+<li>
+<p>Record the source file, timestamp, host, user/principal, process ID, logon ID, and network/session identifier for every candidate event.</p>
+</li>
+<li>
+<p>Search a small interval before and after each event. This part intentionally overlaps adjacent scenario parts at the boundaries.</p>
+</li>
+<li>
+<p>Treat <code>visible</code>, <code>filtered</code>, and other collection statuses carefully. An event that was filtered or absent from one sensor is not evidence that the activity did not happen.</p>
+</li>
+</ol>
+<p>This prevents clock-format differences from splitting related events and helps distinguish a source fact from a later inference.</p>
+<h3>2. Triage the conspicuous cryptominer without letting it dominate<span class="hx:absolute hx:-mt-20" id="2-triage-the-conspicuous-cryptominer-without-letting-it-dominate"></span>
+    <a href="#2-triage-the-conspicuous-cryptominer-without-letting-it-dominate" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong> <code>data/CI-RUNNER.nbk.local/ecar.json</code> and <code>data/CI-RUNNER.nbk.local/bash_history/unknown-internet-actor.bash_history</code>.</p>
+<ol>
+<li>
+<p>Find the process-create record at <strong>2025-06-10 18:00:20Z</strong> on <code>CI-RUNNER</code>.</p>
+</li>
+<li>
+<p>Note the image <code>/opt/runner/xmr-stak</code>, command line <code>xmr-stak --pool randomx-asia</code>, principal <code>unknown-internet-actor</code>, and its parent process.</p>
+</li>
+<li>
+<p>Compare it with the shell history, which contains the same command; check nearby EDR file and terminate records as well.</p>
+</li>
+<li>
+<p>Assess it as likely unauthorized or unapproved cryptomining on the runner.</p>
+</li>
+</ol>
+<p>The miner is conspicuous, but its host and purpose are distinct from the finance-file staging and workstation network activity below. Keep it as a separate concurrent incident or decoy unless shared credentials, infrastructure, or process lineage tie it to the primary intrusion. Do not let the obvious miner distract from quieter activity on other hosts.</p>
+<h3>3. Identify attempted telemetry weakening<span class="hx:absolute hx:-mt-20" id="3-identify-attempted-telemetry-weakening"></span>
+    <a href="#3-identify-attempted-telemetry-weakening" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong> <code>data/MN-DC01.nbk.local/syslog.log</code>.</p>
+<p>Read both records tagged <code>log-tampering-attempts</code> and verify their timestamps and outcomes:</p>
+<ul>
+<li>
+<p>At <strong>23:59:41Z on June 10</strong>, tamper protection blocked a Sysmon configuration change targeting <code>MN-WS-109</code> and <code>MN-WS-111</code>.</p>
+</li>
+<li>
+<p>At <strong>23:59:51Z</strong>, a separate record says DNS debug-log retention on <code>MN-DC01</code> changed from <strong>14 days to 4 days</strong>.</p>
+</li>
+</ul>
+<p>The first record is an attempted configuration change that was blocked; the second reports a reduction in log-retention time. Together they are consistent with an effort to limit visibility. They do <strong>not</strong> establish that Sysmon was disabled or that all DNS evidence was erased. Verify the current setting, configuration-change audit trail, and any remaining DNS records, and preserve the available logs.</p>
+<h3>4. Recognize sensitive-data staging on MN-FS01<span class="hx:absolute hx:-mt-20" id="4-recognize-sensitive-data-staging-on-mn-fs01"></span>
+    <a href="#4-recognize-sensitive-data-staging-on-mn-fs01" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong></p>
+<ul>
+<li>
+<p><code>data/MN-FS01.nbk.local/windows_event_sysmon.xml</code></p>
+</li>
+<li>
+<p><code>data/MN-FS01.nbk.local/windows_event_security.xml</code></p>
+</li>
+<li>
+<p><code>data/MN-FS01.nbk.local/ecar.json</code></p>
+</li>
+</ul>
+<p>At <strong>2025-06-11 03:59:57Z</strong>, compare Sysmon Event ID 1 with Windows Security Event ID 4688. Correlate the command line, PID, user, parent image, and logon ID. Both process records associate the following command line with PID <code>8684</code>, principal <code>external-threat-actor</code>, and logon ID <code>0x6a09ea1</code>:</p>
+<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+
+<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">7z.exe a -v512m -p &#39;C:\Windows\Temp\q3close.7z&#39; &#39;\\MN-FS01\Finance\*&#39; &#39;\\MN-FS01\BoardPapers\*&#39;</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+  <button
+    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+    title="Copy code"
+    aria-label="Copy code"
+    data-copied-label="Copied!"
+  >
+    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
+<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
+  </button>
+</div>
+</div>
+<p>The command requests 512 MB archive volumes (<code>-v512m</code>) and password protection (<code>-p</code>), with Finance and BoardPapers shares as inputs. EDR records a subsequent temporary-file creation. The agreement between endpoint sources and the sensitive input paths makes this strong evidence of attempted data staging.</p>
+<p>Do not overstate what it proves: the temporary file is not proof that every source file was read or that the final archive completed. Check file-access auditing, archive artifacts and volume sizes, and the same logon session before estimating the amount of data prepared.</p>
+<h3>5. Investigate the independent web foothold<span class="hx:absolute hx:-mt-20" id="5-investigate-the-independent-web-foothold"></span>
+    <a href="#5-investigate-the-independent-web-foothold" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong> <code>data/MN-WEB01.nbk.local/syslog.log</code>; pivot to IIS and endpoint records if available.</p>
+<p>The <strong>2025-06-11 08:00:01Z</strong> record identifies <code>/portal/uploads/resource_util.aspx</code> as a webshell and describes POST-heavy URIs with a low-and-slow cadence.</p>
+<ol>
+<li>
+<p>Search IIS access logs for this path and identify the request source, methods, status codes, and timing.</p>
+</li>
+<li>
+<p>Check upload and file-integrity records to confirm whether the file existed and when it appeared.</p>
+</li>
+<li>
+<p>Correlate suspicious requests with web-worker process creation and child processes.</p>
+</li>
+<li>
+<p>Inspect the file safely through your established incident-response process; do not infer its contents from the summary record.</p>
+</li>
+</ol>
+<p>An executable-looking file under an upload path combined with unusual POST behavior is a meaningful foothold lead, separate from the file-server activity. The syslog entry is an indicator summary, not the underlying request or payload. Confirm file presence and execution before claiming what commands were run.</p>
+<h3>6. Correlate workstation egress with the staged data<span class="hx:absolute hx:-mt-20" id="6-correlate-workstation-egress-with-the-staged-data"></span>
+    <a href="#6-correlate-workstation-egress-with-the-staged-data" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong></p>
+<ul>
+<li>
+<p><code>data/MN-WS-102.nbk.local/ecar.json</code></p>
+</li>
+<li>
+<p><code>data/MN-WS-102.nbk.local/windows_event_sysmon.xml</code></p>
+</li>
+<li>
+<p><code>data/mn-siem01/conn.json</code></p>
+</li>
+<li>
+<p><code>data/mn-siem01/dns.json</code></p>
+</li>
+<li>
+<p><code>data/mn-siem01/http.json</code></p>
+</li>
+</ul>
+<p>On <code>MN-WS-102</code>, find the browser process create at about <strong>2025-06-11 17:56:55Z</strong> (PID <code>9796</code>). Its command line opens <code>https://198.51.100.140/</code> under <code>external-threat-actor</code>. Follow that PID and account into EDR <code>FLOW</code> records. One record shows outbound TCP from <code>10.10.10.102:50151</code> to <code>198.51.100.140:443</code>.</p>
+<p>Join the endpoint flow to the Zeek connection using UID <code>CkIF9KbHIHQCX5I0hB</code>. That Zeek record reports approximately <strong>48.6 MB originating bytes</strong>, <strong>2.1 MB responding bytes</strong>, and a <strong>20-second duration</strong>. This links a process and user on the workstation to substantial outbound traffic. Combined with the earlier archive preparation, it supports suspected exfiltration more strongly than an IP-only alert.</p>
+<p>Keep the limitations explicit:</p>
+<ul>
+<li>
+<p>One Zeek UID does not establish a 12-hour cadence or identify the transferred file contents. Review repeated flows, proxy/TLS telemetry, file-access records, and the broader time interval.</p>
+</li>
+<li>
+<p>The storyline names <code>cdn.nullnationalbank.com</code>, but this connection row establishes an IP destination, not a DNS resolution. Verify the domain separately in DNS or proxy records before calling it independently confirmed.</p>
+</li>
+<li>
+<p>Some source rows are marked <code>filtered</code>. Those rows are unavailable evidence, not proof of no traffic.</p>
+</li>
+</ul>
+<h3>7. Keep the payment-script change in its recorded environment<span class="hx:absolute hx:-mt-20" id="7-keep-the-payment-script-change-in-its-recorded-environment"></span>
+    <a href="#7-keep-the-payment-script-change-in-its-recorded-environment" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong> <code>data/MN-WEB01.nbk.local/syslog.log</code>.</p>
+<p>At <strong>2025-06-12 00:00:01Z</strong>, the <code>portal-skimmer-test</code> record reports an integrity-hash change to <code>/var/www/staging/portal/pay/js/vendor-checkout.js</code> and references <code>metricssvc.nullnationalbank-cdn.net</code>.</p>
+<p>Review the file diff, deployment history, and environment inventory. Because the recorded path is in <strong>staging</strong>, this record alone does not establish that a payment skimmer reached production or affected customers. Confirm deployment and production telemetry before making either claim.</p>
+<h3>8. Check persistence on every affected host<span class="hx:absolute hx:-mt-20" id="8-check-persistence-on-every-affected-host"></span>
+    <a href="#8-check-persistence-on-every-affected-host" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong></p>
+<ul>
+<li>
+<p><code>data/MN-APP01.nbk.local/windows_event_security.xml</code></p>
+</li>
+<li>
+<p><code>data/MN-FS01.nbk.local/windows_event_security.xml</code></p>
+</li>
+<li>
+<p><code>data/MN-APP01.nbk.local/ecar.json</code></p>
+</li>
+</ul>
+<p>Compare Windows Security Event ID 4698 task-creation records:</p>
+<ul>
+<li>
+<p><code>MN-APP01</code>: <strong>2025-06-12 08:00:11Z</strong></p>
+</li>
+<li>
+<p><code>MN-FS01</code>: <strong>2025-06-13 00:00:17Z</strong></p>
+</li>
+</ul>
+<p>Both register a task named <code>NV-HealthCheck</code> under <code>external-threat-actor</code>, but their action content differs. The APP01 action mentions a “quarterly re-arm of dormant plug-in config”; the FS01 action contains <code>disabled-but-not-deleted</code>.</p>
+<p>Compare each task’s author, trigger, action XML, enabled state, and execution history. Search all hosts for the task name and for other persistence mechanisms; do not assume matching task names mean identical tasks. This slice directly shows task evidence on APP01 and FS01, but does not itself enumerate four independent persistence channels. Check adjacent scenario parts and other autorun locations before concluding eradication is complete.</p>
+<h3>9. Validate the late service-account logon and apparent cleanup<span class="hx:absolute hx:-mt-20" id="9-validate-the-late-service-account-logon-and-apparent-cleanup"></span>
+    <a href="#9-validate-the-late-service-account-logon-and-apparent-cleanup" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p><strong>Start with:</strong></p>
+<ul>
+<li>
+<p><code>data/MN-DB01.nbk.local/windows_event_security.xml</code></p>
+</li>
+<li>
+<p><code>data/MN-DB01.nbk.local/ecar.json</code></p>
+</li>
+<li>
+<p><code>data/MN-DC01.nbk.local/windows_event_security.xml</code></p>
+</li>
+<li>
+<p>nearby <code>cosmetic-exit</code> records in the host syslog files</p>
+</li>
+</ul>
+<p>At <strong>2025-06-12 23:59:56Z</strong>, MN-DB01 Security Event ID 4624 records a successful type 3 network logon for <code>sqlsvc</code> from <code>139.162.174.124</code>, using NTLM. Correlate logon ID <code>0x9090b4b</code> with the EDR record; the DC credential-validation record also reports success.</p>
+<p>This cross-source join makes the logon suspicious in context, but a service-account name and source address alone do not prove compromise. Compare the source and authentication pattern with normal service-account use. The nearby “cosmetic exit” entries are summary markers; independently verify file restoration and C2 changes. The FS01 task registered seconds after midnight is specific evidence that apparent cleanup does not establish eradication.</p>
+<h3>10. Separate evidence, inference, and unresolved questions<span class="hx:absolute hx:-mt-20" id="10-separate-evidence-inference-and-unresolved-questions"></span>
+    <a href="#10-separate-evidence-inference-and-unresolved-questions" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><table>
+	<thead>
+			<tr>
+					<th>Assessment</th>
+					<th>Evidence basis</th>
+					<th>What remains to verify</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Cryptomining on CI-RUNNER</td>
+					<td>EDR process and matching shell-history command</td>
+					<td>Whether it is related to the primary intrusion</td>
+			</tr>
+			<tr>
+					<td>Attempted telemetry weakening</td>
+					<td>Blocked Sysmon change and reported DNS-retention reduction</td>
+					<td>Full configuration and audit history</td>
+			</tr>
+			<tr>
+					<td>Sensitive-data staging</td>
+					<td>Correlated process records, archive command, and subsequent temporary-file event</td>
+					<td>File reads, archive completion, and total data</td>
+			</tr>
+			<tr>
+					<td>Web foothold</td>
+					<td>Syslog indicator naming upload path and request pattern</td>
+					<td>Actual file, requests, execution, and commands</td>
+			</tr>
+			<tr>
+					<td>Suspected exfiltration</td>
+					<td>Browser process, endpoint flow, Zeek UID, and transfer volume</td>
+					<td>Content, repeated-flow cadence, DNS/domain attribution</td>
+			</tr>
+			<tr>
+					<td>Staging payment-script modification</td>
+					<td>Integrity-change record for a staging file</td>
+					<td>Production deployment and customer impact</td>
+			</tr>
+			<tr>
+					<td>Persistence</td>
+					<td>Task-creation events and different task action content on two hosts</td>
+					<td>Other claimed channels and cleanup results</td>
+			</tr>
+			<tr>
+					<td>Suspicious service-account login</td>
+					<td>Successful logon joined across DB endpoint and DC records</td>
+					<td>Baseline and whether <code>sqlsvc</code> credentials were compromised</td>
+			</tr>
+	</tbody>
+</table>
+<h2>Assessment and gaps<span class="hx:absolute hx:-mt-20" id="assessment-and-gaps"></span>
+    <a href="#assessment-and-gaps" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Build the conclusion from joins among timestamps, host, account, process ID, logon ID, and network/session identifiers. Label each statement as <strong>directly observed</strong>, <strong>corroborated</strong>, <strong>inferred</strong>, or <strong>not yet verified</strong>, and state what evidence would close each gap.</p>
+<p><code>198.51.100.140</code> is the destination recorded in this synthetic dataset; it is not independently validated live threat intelligence. Review adjacent CinderLink parts before expanding scope or taking external blocking action.</p>

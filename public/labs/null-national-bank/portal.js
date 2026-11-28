@@ -13,6 +13,7 @@ async function sha256Hex(value) {
 const verifierBasePath = "/labs/null-national-bank/";
 const passwordMask = 0x5a;
 const reportContentPath = "/labs/null-national-bank/content/threat-report.html";
+const threatIntelContentBasePath = "/labs/null-national-bank/content/threat-intel/";
 
 async function loadStaticContent(path, label) {
     const response = await fetch(path, { cache: "no-cache" });
@@ -354,7 +355,29 @@ async function initializePortal(root, challengeNumber) {
     let walkthroughLoading = false;
     let walkthroughMarkup = "";
     let walkthroughError = "";
+    let threatIntelLoading = false;
+    let threatIntelMarkup = "";
+    let threatIntelError = "";
     let activeTab = "challenge";
+
+    async function loadThreatIntel() {
+        threatIntelLoading = true;
+        threatIntelError = "";
+        render();
+        try {
+            const threatIntelPath =
+                `${threatIntelContentBasePath}challenge-${String(challengeNumber).padStart(2, "0")}.html`;
+            threatIntelMarkup = await loadStaticContent(
+                threatIntelPath,
+                `Challenge ${challengeNumber} Threat Intelligence`
+            );
+        } catch (error) {
+            console.error(`Challenge ${challengeNumber} Threat Intelligence could not be loaded.`, error);
+            threatIntelError = "Threat Intelligence could not be loaded. Check this challenge's Markdown file or retry.";
+        }
+        threatIntelLoading = false;
+        render();
+    }
 
     async function loadWalkthrough() {
         walkthroughLoading = true;
@@ -475,6 +498,32 @@ async function initializePortal(root, challengeNumber) {
                 `
                 : `<section class="nn-walkthrough-content nn-static-content">${walkthroughMarkup}</section>`;
 
+        const threatIntelContent = !previousChallengesComplete
+            ? `
+                <p>This threat intel is locked. Submit all 10 flags in Challenge ${challengeNumber - 1} first.</p>
+                <a class="nn-button" href="../challenge-${String(challengeNumber - 1).padStart(2, "0")}/">
+                    Return to Challenge ${String(challengeNumber - 1).padStart(2, "0")}
+                </a>
+            `
+            : !passwordAccepted
+              ? `
+                    <p>Enter the challenge password to view this threat intel.</p>
+                    <form class="nn-password-form" data-password-purpose="challenge">
+                        <label for="nn-threat-intel-password">CHALLENGE PASSWORD</label>
+                        <input id="nn-threat-intel-password" type="password" autocomplete="off" required>
+                        <button type="submit">Unlock Threat Intel</button>
+                        <p class="nn-message" data-password-message aria-live="polite"></p>
+                    </form>
+                `
+              : threatIntelLoading
+                ? '<p role="status">Loading Threat Intelligence...</p>'
+                : threatIntelError
+                  ? `
+                        <p class="nn-message" role="alert">${threatIntelError}</p>
+                        <button class="nn-button" id="nn-retry-threat-intel" type="button">Retry</button>
+                    `
+                  : `<section class="nn-static-content">${threatIntelMarkup}</section>`;
+
         root.innerHTML = `
             <div class="nn-header">
                 <h2>NULL NATIONAL BANK</h2>
@@ -484,11 +533,18 @@ async function initializePortal(root, challengeNumber) {
                 <p class="nn-eyebrow">CHALLENGE ${challengeNumber} / ${challenges.length}</p>
                 <h2>${challenge.title}</h2>
                 <div class="nn-tabs" role="tablist" aria-label="Challenge sections">
-                    <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "challenge"}" data-portal-tab="challenge">Challenge</button>
+                    <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "threat-intel"}" data-portal-tab="threat-intel">Threat Intel</button>
+                    <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "challenge"}" data-portal-tab="challenge">Hunt Challenge</button>
                     <button class="nn-tab" type="button" role="tab" aria-selected="${activeTab === "walkthrough"}" data-portal-tab="walkthrough">Walkthrough</button>
                 </div>
                 <section class="nn-tab-panel" role="tabpanel">
-                    ${activeTab === "challenge" ? challengeContent : walkthroughContent}
+                    ${
+                        activeTab === "challenge"
+                            ? challengeContent
+                            : activeTab === "threat-intel"
+                              ? threatIntelContent
+                              : walkthroughContent
+                    }
                 </section>
             </div>
         `;
@@ -496,11 +552,23 @@ async function initializePortal(root, challengeNumber) {
         root.querySelectorAll("[data-portal-tab]").forEach((tab) => {
             tab.addEventListener("click", () => {
                 activeTab = tab.dataset.portalTab;
-                render();
+                if (
+                    activeTab === "threat-intel" &&
+                    previousChallengesComplete &&
+                    passwordAccepted &&
+                    !threatIntelLoading &&
+                    !threatIntelMarkup &&
+                    !threatIntelError
+                ) {
+                    loadThreatIntel();
+                } else {
+                    render();
+                }
             });
         });
 
         root.querySelector("#nn-retry-walkthrough")?.addEventListener("click", loadWalkthrough);
+        root.querySelector("#nn-retry-threat-intel")?.addEventListener("click", loadThreatIntel);
 
         const passwordCanvas = root.querySelector("#next-password-display");
         if (passwordCanvas) {
@@ -541,7 +609,11 @@ async function initializePortal(root, challengeNumber) {
                 if (submittedHash === expectedHash) {
                     if (passwordForm.dataset.passwordPurpose === "challenge") {
                         passwordAccepted = true;
-                        render();
+                        if (activeTab === "threat-intel") {
+                            await loadThreatIntel();
+                        } else {
+                            render();
+                        }
                     } else {
                         walkthroughAccepted = true;
                         await loadWalkthrough();

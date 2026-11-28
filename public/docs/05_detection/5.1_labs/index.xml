@@ -24,7 +24,17 @@
       <description>
         
         
-        &lt;p&gt;Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.&lt;/p&gt;
+        &lt;div
+  data-alert=&#34;note&#34; class=&#34;hextra-alert&#34;
+&gt;
+  &lt;p class=&#34;hextra-alert-title&#34;&gt;&lt;svg height=16px class=&#34;hextra-alert-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; fill=&#34;none&#34; viewBox=&#34;0 0 24 24&#34; stroke-width=&#34;2&#34; stroke=&#34;currentColor&#34; aria-hidden=&#34;true&#34;&gt;&lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; d=&#34;M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z&#34;/&gt;&lt;/svg&gt;&lt;span class=&#34;hextra-alert-title-text&#34;&gt;New to the platform ?&lt;/span&gt;
+  &lt;/p&gt;
+
+  &lt;div class=&#34;hextra-alert-content&#34;&gt;&lt;p&gt;Start with the &lt;a
+    href=&#34;warm-up/&#34;&gt;5-minute Dinesh warm-up&lt;/a&gt;. It lets you practice navigating challenge tabs, submitting flags, and using a completion password before the main investigation. In the actual challenges, the initial password is provided; completing all 10 flags reveals the next password. Progress is saved in your browser.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;p&gt;Null National Bank is a regional financial institution headquartered in Chennai, providing retail banking, corporate banking, wealth management, and digital financial services across multiple markets.&lt;/p&gt;
 &lt;p&gt;The bank operates a hybrid technology environment comprising on-premises infrastructure, cloud-hosted services, enterprise applications, and interconnected third-party platforms supporting its banking operations.&lt;/p&gt;
 &lt;p&gt;Its technology environment includes critical business systems responsible for customer authentication, financial transactions, payment processing, customer data management, and internal corporate operations.&lt;/p&gt;
 &lt;p&gt;Given the nature of its business, the availability, confidentiality, and integrity of its technology infrastructure are critical to maintaining customer trust, regulatory obligations, and uninterrupted financial services.&lt;/p&gt;
